@@ -1,11 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morning Intelligence — Archive</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
 
-    <html>
-    <head><title>Market Brief Test — 2026-03-13</title></head>
-    <body>
-    <h1>Market Brief Test</h1>
-    <p>Date: 2026-03-13</p>
-    <p>Headline fetch successful.</p>
-    <pre>['- [The Guardian] Oil price shock likely to ‘push the UK economy into recession’; US growth revised down – as it happened: Surprise lack of growth in January as service sector stagnated, with falls in recruitment activity', '- [The Guardian] UK economy unexpectedly flatlined in January, official figures show: January’s GDP figure comes as higher energy prices look likely to drive up inflation, dashing hopes of interest rate cut', '- [The Guardian] Judge blocks justice department from subpoenaing Fed chair Jerome Powell: Trump DoJ’s investigation was purportedly about the management of the central bank’s renovation', '- [The Guardian] Bleak economic data shows UK plc in trouble well before Middle East crisis: Zero GDP growth in January will not help Rachel Reeves claim she has put UK in position to weather oil price storm', '- [The Guardian] Tell us: has the conflict in the Middle East affected your household or business costs?: We’d like to hear from people in the UK who have seen the cost of goods or services increase or experienced delays, cancellations or other disruptions']</pre>
-    </body>
-    </html>
+  /* ── Masthead ── */
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .masthead-date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .masthead-tagline {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+    margin-top: 6px;
+  }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 64px 64px 96px;
+  }
+
+  /* ── Latest brief featured card ── */
+  .featured-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .featured-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .featured-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    background: var(--ink);
+    padding: 40px 48px;
+    margin-bottom: 64px;
+    position: relative;
+    transition: transform 0.2s ease;
+  }
+  .featured-card:hover { transform: translateY(-2px); }
+  .featured-card:hover .featured-arrow { transform: translateX(4px); }
+  .featured-date-line {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+  }
+  .featured-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: var(--paper);
+    margin-bottom: 12px;
+  }
+  .featured-headline em { font-style: italic; color: #d4af60; }
+  .featured-subhead {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #888;
+    font-weight: 300;
+    max-width: 600px;
+  }
+  .featured-arrow {
+    position: absolute;
+    bottom: 40px;
+    right: 48px;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    transition: transform 0.2s ease;
+  }
+
+  /* ── Archive list ── */
+  .archive-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .archive-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+
+  /* ── Month group ── */
+  .month-group { margin-bottom: 40px; }
+  .month-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 13px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 4px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  /* ── Brief row ── */
+  .brief-row {
+    display: flex;
+    align-items: baseline;
+    gap: 24px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--rule);
+    text-decoration: none;
+    color: inherit;
+    transition: background 0.15s ease;
+  }
+  .brief-row:last-child { border-bottom: none; }
+  .brief-row:hover .brief-row-title { color: var(--gold); }
+  .brief-row:hover .brief-row-arrow { opacity: 1; transform: translateX(3px); }
+  .brief-row-daynum {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--rule);
+    width: 36px;
+    flex-shrink: 0;
+    line-height: 1;
+  }
+  .brief-row-meta {
+    flex: 1;
+    min-width: 0;
+  }
+  .brief-row-weekday {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 3px;
+  }
+  .brief-row-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: var(--ink);
+    transition: color 0.15s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .brief-row-title em { font-style: italic; }
+  .brief-row-arrow {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    opacity: 0;
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  /* ── Empty state ── */
+  .empty-state {
+    padding: 64px 0;
+    text-align: center;
+  }
+  .empty-state-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+  .empty-state-body {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--rule);
+    letter-spacing: 0.05em;
+  }
+
+  /* ── Footer ── */
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="masthead-date">1 EDITION · PERSONAL ARCHIVE</div>
+    <div class="masthead-tagline">Every session. Every close. No noise.</div>
+  </div>
+</header>
+
+<div class="container">
+
+  
+
+  
+  
+  <div class="featured-label">Latest Edition</div>
+  <a href="briefs/2026-03-13.html" class="featured-card">
+    <div class="featured-date-line">FRIDAY · March 13, 2026</div>
+    <div class="featured-headline">Oil shock and growth collapse converge while judicial pressure on the Fed removes a key risk-off hedge.</div>
     
+    <div class="featured-subhead">Markets fell modestly today, but the session's real message is darker: US growth just printed at 0.7% annualized—a stall—while Brent crude jumped to $85/barrel…</div>
+    
+    <div class="featured-arrow">Read Brief →</div>
+  </a>
+
+  
+  
+
+  
+
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">March 15, 2026</div>
+</footer>
+
+</body>
+</html>
