@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — March 23, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">MONDAY · March 23, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-ON SESSION</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">6,581.00</span>
+    <span class="ticker-change up">
+      ▲ 1.15%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">21,947</span>
+    <span class="ticker-change up">
+      ▲ 1.38%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">46,208</span>
+    <span class="ticker-change up">
+      ▲ 1.38%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Markets rally on Iran de-escalation, but oil's reprieve masks deeper structural risks</h1>
+    <p class="lead-body">Stocks jumped <strong>1.15%–1.38%</strong> today on a single catalyst: Trump's announcement of extended talks with Iran and a pause on strikes against power plants. Oil fell sharply as traders priced out the tail risk of regional conflict spiraling into Strait of Hormuz closure. But the rally is a relief bounce on a narrowing window. The underlying problem—<strong>energy prices still elevated enough to choke growth, combined with government attempting to micromanage industrial policy instead of letting prices work</strong>—remains intact.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Iran de-escalation (primary) and growing protectionism impulse (secondary)</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">IRAN TALKS REPRIEVE</div>
+          <div class="cause-headline">Trump extended Iran's deadline for reopening the Strait of Hormuz, signaling talks are moving toward settlement rather than military escalation.</div>
+          <div class="cause-text">For six trading days, oil-shock stagflation fears have dominated. Markets priced in a scenario where conflict pushes Brent above $130/barrel and crushes growth expectations. Today's news isn't that war is over—it's that the <strong>acute tail risk has shifted from "imminent strike" to "extended negotiation window."</strong> Oil pricing reflects that immediately: down sharply intraday, which freed equities to price in "maybe growth doesn't collapse after all." This is not a resolution. It is a deferral with optics.</div>
+          <div class="cause-verdict">This reprieve lasts as long as talks appear credible—likely days to weeks, not months. The real test: does oil stay below $110 through April, or do new headlines (escalation, sanctions, supply disruption) push it back up? Watch for statements from Iran on Hormuz reopening terms by March 31.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">INDUSTRIAL PROTECTIONISM SURGE</div>
+          <div class="cause-headline">Government is stacking bans—routers, drones, now scrutinizing betting platforms and tariffing steel—while the Iran conflict creates the excuse for every restriction.</div>
+          <div class="cause-text">Router import ban, drone ban, sports-betting market restrictions, steel tariff pressure rippling through UK construction, federal employee betting restrictions. These are not unrelated. They represent a structural shift: <strong>policy is moving from price-based coordination to permission-based control.</strong> The Iran war provides political cover ("national security"), but the impulse is deeper—reshoring, domestic champions, restricted capital flows. This is noise individually, but signal collectively.</div>
+          <div class="cause-verdict">This is real and structural, not temporary. The test: does one of these restrictions actually crimp supply chains measurably (via corporate guidance) in Q2 earnings, or do companies route around them? If companies absorb costs silently, the policy succeeds and expands. If visible margin pressure appears, political pressure to reverse builds.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Oil prices remain the transmission mechanism between geopolitical risk and growth expectations, but government is trying to manage supply directly instead of letting prices clear.</h2>
+      <p class="section-body">Think of it like a highway during a storm. Normally, traffic slows, congestion builds, prices (in time cost) rise, and drivers choose different routes or delay trips—the system self-corrects. Now imagine the government locks certain lanes as "strategic" and bans certain cars from the road entirely, while a thunderstorm is still raging overhead. You've removed the price signal that would otherwise allocate scarce road space. <strong>The storm (Iran conflict) is still there; you've just hidden the congestion underneath bureaucratic allocation.</strong> Markets can price oil and geopolitics. Markets cannot easily price what happens when government supersedes price with permission. That's where today's rally runs into friction: the relief is real, but the underlying mechanism—government stepping into supply management during a shortage—is a source of volatility, not stability. This instance is harder than normal recessions because stagflation isn't solved by supply controls; it's worsened by them.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">De-escalation rallies during supply shocks typically hold only if the underlying commodity price stabilizes independently. History favors the bear when government tries to manage scarcity.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1973-1974</div>
+          <div>
+            <div class="comp-text">Yom Kippur War triggered oil embargo. Oil spiked from $3 to $12/barrel. Initial ceasefire brought relief rallies, but oil stayed elevated for 18 months because supply remained genuinely constrained. Stagflation worsened. Government price controls (Nixon-era) locked in shortages. Markets eventually crashed when it became clear controls couldn't engineer supply.</div>
+            <div class="comp-lesson">De-escalation matters only if the supply shock actually reverses; otherwise you're celebrating a pause, not a solution.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1991</div>
+          <div>
+            <div class="comp-text">Gulf War oil shock: prices spiked in August 1990, but markets rallied decisively on news of the ceasefire and the fact that supply resumed immediately post-conflict. Oil fell from $40 back to $20 within months. Growth recovered. No government tried to ban imports or manage supply—price signals worked.</div>
+            <div class="comp-lesson">When geopolitical risk clears and prices are allowed to fall, equities recover durably; when governments layer restrictions on top of supply shocks, relief rallies become head-fakes.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is whether oil can sustainably trade below $110/barrel while talks progress. If it does—and corporate guidance in the next 6 weeks doesn't crater on tariff/supply-chain costs—the rally holds into April. If oil re-spikes on new headlines OR if earnings start flagging tariff headwinds, equities will reprice lower despite the Iran reprieve. Hold this through month-end: de-escalation rallies are real, but they fail when the underlying constraint (oil price, or in this case, the tariff-driven reallocation of supply) doesn't actually ease.</p>
+      <div class="signal-kicker">
+        Scenario A — Durable de-escalation: Iran talks produce a genuine framework for Hormuz reopening by mid-April; oil stabilizes $105–$115; Fed pivots to cuts in May; growth expectations recover and tariff fears prove overblown as companies absorb costs.<br>
+        Scenario B — Policy contradiction unwinds: New escalation headlines re-spike oil above $120 within 2 weeks, or Q1 earnings reveal tariff/supply-chain margin compression that forces guidance cuts and exposes the rally as positioning unwind rather than conviction.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">6,581.00</span>
+            <span class="index-pct up">
+              ▲ 1.15%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">21,947</span>
+            <span class="index-pct up">
+              ▲ 1.38%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">46,208</span>
+            <span class="index-pct up">
+              ▲ 1.38%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,494.23</span>
+            <span class="index-pct up">
+              ▲ 2.29%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">26.15</span>
+            <span class="index-pct down">
+              ▼ 2.35%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil trades above $115/barrel for 3 consecutive days or Iran announces conditions for Hormuz that Trump rejects — </span>De-escalation is stalling; the geopolitical tail risk was not actually diffused, only deferred.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Companies cite tariff or supply-chain cost increases in management guidance during earnings calls (starting late April for Q1 results) — </span>The protectionism impulse is creating real margin pressure; government supply management is the new structural headwind, not one-off friction.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil-to-gold ratio tightens below 35:1 (meaning gold rises relative to oil despite geopolitical de-escalation) — </span>Inflation expectations are decoupling from geopolitical risk; real rates are under pressure from structural cost-pushing, not just shock dynamics.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Fed officials signal no change to rate trajectory despite Iran reprieve (i.e., no May cut material emerges) — </span>The Fed sees through the headline relief and recognizes that supply-side structural inflation (tariffs, reshoring, restricted trade) requires higher rates to offset.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">March 23, 2026</div>
+</footer>
+
+</body>
+</html>
