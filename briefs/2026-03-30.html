@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — March 30, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">MONDAY · March 30, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-OFF SESSION</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">6,343.72</span>
+    <span class="ticker-change down">
+      ▼ 0.39%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">20,795</span>
+    <span class="ticker-change down">
+      ▼ 0.73%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">45,216</span>
+    <span class="ticker-change up">
+      ▲ 0.11%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Oil's war premium is now structural—and Washington is choosing production over rules.</h1>
+    <p class="lead-body">Brent crude hit <strong>$116 a barrel</strong> as Trump openly threatened to seize Iranian oil infrastructure, while the administration began waiving environmental protections to accelerate U.S. output. Markets sold off modestly (Nasdaq -0.73%), but the real signal is not the equity decline—it's the <strong>absence of a panic bottom</strong>. Investors are pricing a scenario where oil stays elevated for months, not weeks, and policymakers choose inflation over diplomacy.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Iran escalation becomes administration policy; supply-side inflation replaces transitory war risk</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">IRAN OIL SEIZURE THREAT</div>
+          <div class="cause-headline">Trump's explicit threat to take Iranian oil reframes the conflict from military contingency to economic policy.</div>
+          <div class="cause-text">Through Friday, markets had been treating the Iran war as a binary: either it ends or it doesn't. Trump's public statements this weekend (wanting to 'blow up' oil wells and 'take the oil') signal the administration views the conflict as a tool for energy dominance, not a liability to be contained. This changes the payoff structure entirely. Iran has no incentive to de-escalate if the stated U.S. goal is seizure, not coexistence.</div>
+          <div class="cause-verdict">This conflict extends 6+ months minimum. The administration has made a military solution—or prolonged blockade—its official policy objective. Oil does not normalize until either Iran capitulates (unlikely) or U.S. doctrine shifts (requires domestic political change or strategic failure).</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">RULE-WAIVING FOR OIL</div>
+          <div class="cause-headline">Federal environmental and wildlife protections are being suspended to accelerate domestic production, hardening inflation expectations.</div>
+          <div class="cause-text">The NPR reporting on 'God Squad' meetings and national security exemptions shows the administration is not just responding to supply shock—it's using it as cover to permanently deregulate energy. This signals the government expects sustained high oil prices and is choosing to monetize that through faster extraction. When policymakers waive rules, markets interpret it as: 'We expect this to last long enough to be worth the regulatory cost.'</div>
+          <div class="cause-verdict">Watch if these exemptions become permanent. If they do, the market reprices oil from 'shock' to 'structural new floor' and inflation expectations stop falling. Confirmation comes via Fed pushback or Q2 earnings revisions downward.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Stagflation risk is no longer a tail event—it's the base case policymakers are openly building for.</h2>
+      <p class="section-body">Think of it like a homeowner who, after a pipe bursts, doesn't just repair it—they start planning renovations around permanent water damage. The Trump administration is not fighting the oil shock; it's reorganizing the economy to profit from it. <strong>The mechanism is simple: high energy costs reduce growth, but waiving environmental rules and explicitly threatening Iranian assets keeps oil elevated.</strong> This creates a feedback loop where inflation persists even as growth slows. Historically, policymakers move to contain this immediately. This time, they're weaponizing it. This instance is harder to resolve than typical stagflation because the government is a willing participant, not a reluctant observer.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">When governments choose production over price stability, equity markets compress and volatility stays elevated until policy reverses.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1979-1981</div>
+          <div>
+            <div class="comp-text">Iranian Revolution cut global oil supply by 5% (2.5M barrels/day). OPEC capped production; prices hit $120+ real terms. Federal government deregulated energy immediately (creation of DOE, windfall profits tax, then phase-out). S&P 500 was range-bound for 24 months while inflation ran 10-15%. Resolution came only when Volcker crushed demand via 20% rates.</div>
+            <div class="comp-lesson">When governments amplify scarcity for policy reasons, the cost is paid in real economic growth, not just asset prices.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2003-2008</div>
+          <div>
+            <div class="comp-text">Iraq War disrupted 1.5M barrels/day. U.S. continued offshore drilling expansion and tar sands development. Oil averaged $60-90 for 5 years. Equities rose despite high energy because production growth and credit expansion offset inflation drag. Market crashed when credit seized, not when oil peaked.</div>
+            <div class="comp-lesson">Stagflation becomes dangerous only when central banks can't offset growth loss with credit. If the Fed holds rates, equities can compress but not collapse.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is whether the Fed cuts rates before Q3 2026 or holds them higher for longer. If the Fed cuts into rising oil and inflation expectations, equities rally hard (liquidity overshoots). If the Fed holds or raises, equities compress sideways and volatility remains elevated as investors price a 'slow stagflation' where growth declines but inflation doesn't break. <strong>Watch the May PCE print and Fed meeting guidance—that will determine the direction for the next 6 months.</strong></p>
+      <div class="signal-kicker">
+        Scenario A — Fed backs away from inflation hawkishness: If May PCE comes in at 2.4% or lower and Fed Chair signals rate cuts by July, oil's inflation transmission breaks and equities re-rate higher as growth trade returns—look for Nasdaq and small-caps to outperform.<br>
+        Scenario B — Oil structural, growth stalling: If oil stays above $110, Q2 earnings miss consensus, and Fed keeps rates steady through September, equities move lower as investors price persistent margin compression and no policy relief—expect continued Nasdaq underperformance and multiple contraction.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">6,343.72</span>
+            <span class="index-pct down">
+              ▼ 0.39%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">20,795</span>
+            <span class="index-pct down">
+              ▼ 0.73%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">45,216</span>
+            <span class="index-pct up">
+              ▲ 0.11%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,414.01</span>
+            <span class="index-pct down">
+              ▼ 1.46%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">30.61</span>
+            <span class="index-pct down">
+              ▼ 1.42%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Brent crude closes above $120 for 5 consecutive trading days — </span>Market is pricing a structural multi-month conflict, not a supply shock; expect equities to re-test March lows and volatility to exceed 20 realized.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Fed Chair makes public statement cautioning against energy deregulation or signaling rate cuts by Q3 — </span>Central bank is breaking ranks with administration on inflation tolerance; this is the highest-confidence signal that stagflation is being taken seriously and policy will eventually pivot.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Q2 earnings guidance from energy, industrials, and transportation sectors shows beat vs. miss ratio below 55% — </span>Operating leverage is breaking under oil costs faster than the market priced; expect downward revisions to full-year EPS and a 5-10% equity drawdown.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">U.S. military action in Iran (strikes on infrastructure, blockade escalation) occurs without Israeli involvement — </span>This moves oil from $115 toward $130-140 instantly and signals the conflict is entering kinetic phase; equities would sell off 3-5% intraday and stay under pressure for weeks.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">March 30, 2026</div>
+</footer>
+
+</body>
+</html>
