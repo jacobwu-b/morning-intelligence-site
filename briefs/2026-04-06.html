@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — April 06, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">MONDAY · April 06, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">6,611.83</span>
+    <span class="ticker-change up">
+      ▲ 0.44%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">21,996</span>
+    <span class="ticker-change up">
+      ▲ 0.54%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">46,670</span>
+    <span class="ticker-change up">
+      ▲ 0.36%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Markets price a war that's about to get worse before any deal gets real.</h1>
+    <p class="lead-body">Equities eked out gains today as investors parsed conflicting signals: Trump's Tuesday deadline for Iran negotiations suggests an off-ramp, but simultaneous threats of "major strikes" and intensified missile exchanges suggest the conflict is accelerating, not winding down. The real tell is oil—it's staying above $110 despite deal talk because traders know the Strait of Hormuz remains functionally closed and the geopolitical risk premium is now structural. <strong>JPMorgan just told clients not to count on Fed rate cuts this year</strong>, which means stagflation—high inflation from war-driven energy costs, no relief from monetary policy—is becoming the base case.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Primary: War escalation contradicting peace signals. Secondary: Fed rate-cut expectations collapsing.</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">GEOPOLITICAL ESCALATION</div>
+          <div class="cause-headline">Trump's Tuesday deadline is creating a false choice between negotiated settlement and major strikes—and markets are pricing the likelihood that both happen simultaneously.</div>
+          <div class="cause-text">The sequence matters: Trump sets a Tuesday deadline for a deal, then publicly promises 'major strikes' and says Iran could be 'taken out' on Tuesday. Saudi Arabia is intercepting missiles. The UN resolution is being 'watered down.' This is not the pattern of a negotiation leading to de-escalation. It is the pattern of an administration signaling to allies and adversaries that strikes are coming with or without a deal. The Strait of Hormuz stays closed because market participants understand the actual risk: Tuesday is not an endpoint but a trigger event.</div>
+          <div class="cause-verdict">This does not resolve until either (a) a binding agreement with verifiable Iranian compliance emerges by midweek, or (b) strikes occur and markets reprice risk in real time. The Tuesday deadline is a pressure point, not a resolution mechanism.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">FED PIVOT EVAPORATING</div>
+          <div class="cause-headline">JPMorgan's public statement that rate cuts are off the table this year signals institutional surrender to the stagflation trade.</div>
+          <div class="cause-text">This is not a data surprise—inflation has been sticky for months. But JPMorgan saying it out loud to clients is a signal event. It marks the moment when major institutions stop hedging expectations and openly tell clients the Fed is trapped: cut rates and risk wage-price spiral acceleration, hold rates and watch servicing costs crush corporations and consumers. The Iran war handed the Fed an inflation alibi, and the Fed is using it. Watch whether other major banks echo this in the next 48 hours.</div>
+          <div class="cause-verdict">If 2+ additional major banks (Goldman, Morgan Stanley, BofA) publish similar guidance this week, the rate-cut narrative is dead and equity volatility expands. If it remains a JPMorgan outlier, it's tactical positioning for a particular client base. The Fed will signal its actual stance at Jackson Hole or the next meeting—not through bank advisories.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The market faces a collision between two incompatible futures: a negotiated Iran deal and sustained high oil prices.</h2>
+      <p class="section-body">Think of it like a household discovering it has both a gas leak and a financial windfall arriving Friday. The leak is bad now, the windfall seems good, but if the leak isn't fixed before Friday, the windfall becomes meaningless because you're spending it on emergency repairs. Right now, oil traders are priced for the leak (closed Hormuz = sustained $110+ crude) and also priced for the windfall (Trump's Tuesday deal talk). <strong>The mechanism breaking this: a credible deal announcement would normally crash oil by $15-20 per barrel. But the Fed is now telling the market it won't cut rates even if oil falls, because inflation damage is done.</strong> This means equity upside from a deal is capped by the stagflation thesis—you get lower energy costs but no monetary stimulus to offset it. This is harder than typical war-premium cycles because the Fed's hands are tied, not free.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Wars with hard geopolitical deadlines tend to overshoot on both the threat and the relief.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1973</div>
+          <div>
+            <div class="comp-text">Yom Kippur War oil embargo: OPEC announced a 5% monthly production cut. Markets priced catastrophe. Oil went from $3 to $12 in weeks. War ended in days. Oil stayed elevated for 18 months because the embargo became a political statement, not a military tactic. Equities crashed 50% not when fighting stopped but when it became clear inflation was here to stay.</div>
+            <div class="comp-lesson">Wars end fast; war-driven inflation ends slow—and the stock market cares about the inflation timeline, not the military timeline.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1990</div>
+          <div>
+            <div class="comp-text">Gulf War: Iraq invaded Kuwait on August 2. Oil spiked 130% in 2 weeks. Experts said the war would last months. It lasted 42 days. But because it ended so fast and the resolution was clean (military victory, production restored), oil crashed 40% in the month after the ceasefire. Equities rallied 25% in the Q1 after fighting stopped.</div>
+            <div class="comp-lesson">A fast, decisive resolution crashes both oil and risk premiums simultaneously—but requires actual military victory or ironclad diplomatic settlement, not just a deadline.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is whether Trump's Tuesday deadline results in a binding deal announcement or in strike authorization. If a deal is announced, oil falls $15-20 immediately but Fed policy stays tight, limiting upside. If strikes are announced or occur, oil spikes another $10-15 and volatility expands. Either way, the stagflation floor holds—high prices, low growth, no Fed relief. The question is whether you're stagflating with de-escalation risk priced out (bullish for equities into the deal) or with escalation risk still live (bearish for equities into the strikes).</p>
+      <div class="signal-kicker">
+        Scenario A — Deal + De-escalation: Trump announces a verifiable Iranian agreement by Tuesday EOD, oil falls to $95-100, and equities rally 2-3% on geopolitical risk relief, accepting that rates stay tight—because investors would rather have certainty and stagflation than uncertainty and volatility.<br>
+        Scenario B — Escalation + Strikes: Tuesday passes with strikes announced or underway, oil breaks $125, equities sell off 2-3% on stagflation confirmation, and the Iran conflict becomes protracted rather than resolved.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">6,611.83</span>
+            <span class="index-pct up">
+              ▲ 0.44%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">21,996</span>
+            <span class="index-pct up">
+              ▲ 0.54%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">46,670</span>
+            <span class="index-pct up">
+              ▲ 0.36%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,540.64</span>
+            <span class="index-pct up">
+              ▲ 0.42%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">24.17</span>
+            <span class="index-pct up">
+              ▲ 1.26%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Trump or his officials announce strike authorization or strike commencement on or before Tuesday midday — </span>Oil breaks $125, volatility expands, equities sell off into the close; the conflict enters a new kinetic phase with no clear exit.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil falls below $105 and stays there through Wednesday — </span>Markets have priced in a genuine de-escalation or deal; equities rally on lower energy costs, but rate-cut hopes remain dead and rally is capped around 2%.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">JPMorgan's rate-cut call is echoed by Goldman Sachs or Morgan Stanley within 48 hours — </span>The Fed pivot narrative is officially dead across institutional consensus; stagflation is the consensus case and equity multiple compression accelerates.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Hormuz Strait shipping reports restart (first commercial vessel transit) within one week — </span>Physical de-escalation is real, not just rhetorical; oil supply can normalize and the war-premium collapses within 2-3 weeks.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">April 06, 2026</div>
+</footer>
+
+</body>
+</html>
