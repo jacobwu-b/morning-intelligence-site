@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — April 07, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">TUESDAY · April 07, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">6,616.85</span>
+    <span class="ticker-change up">
+      ▲ 0.08%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">22,018</span>
+    <span class="ticker-change up">
+      ▲ 0.1%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">46,584</span>
+    <span class="ticker-change down">
+      ▼ 0.18%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Markets tread water as Trump's Iran ceasefire holds but cybersecurity cuts reveal a deeper vulnerability.</h1>
+    <p class="lead-body">Equities barely moved today (S&P +0.08%) as investors processed competing signals: a two-week ceasefire with Iran that theoretically de-escalates oil risk, against planned <strong>$700M cuts to CISA</strong> that materially weaken U.S. critical infrastructure defense at a moment when <strong>Iranian hackers are actively targeting energy and water systems</strong>. The market is pricing the ceasefire as real but fragile—oil at $110+ is now structural, not tactical—and the budget cuts as a dangerous bet that the Iran pause holds long enough for them not to matter. This is a bet on hope meeting policy incompetence.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Iran ceasefire (primary) vs. infrastructure vulnerability (secondary)</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">IRAN CEASEFIRE</div>
+          <div class="cause-headline">Trump has agreed to a two-week pause, removing imminent escalation risk and capping the immediate oil shock.</div>
+          <div class="cause-text">This is the third major Iran signal in five trading days, each successively more credible. Yesterday's market priced a deteriorating conflict. Today's ceasefire removes the near-term tail risk of a full supply disruption or direct Iranian retaliation. Oil is holding $110+ (not collapsing to $90s), which tells us the market still prices structural geopolitical risk, not panic. The two-week window is a negotiation runway, not a resolution.</div>
+          <div class="cause-verdict">The ceasefire is real and holds unless Trump breaks it—which is possible but not base case for the next 10 days. Oil stays $105–$115 until day 10 approaches. If ceasefire extends into a longer pause, oil drifts toward $100. If it breaks, we re-test $120+.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">INFRASTRUCTURE CUTS</div>
+          <div class="cause-headline">CISA funding cuts of $700M while Iranian hackers actively exploit energy and water vulnerabilities is policy-level negligence meeting active threat.</div>
+          <div class="cause-text">This is not noise. CISA warned today of live targeting. The cuts are planned, not conditional. Markets have historically ignored cybersecurity as priced risk until damage becomes physical (power outages, water failures). The signal here is that the Trump administration is betting the Iran ceasefire holds so completely that they can defund the very agencies managing the fallback scenario. If the ceasefire breaks and a cyberattack follows infrastructure cuts, this becomes a crisis multiplier.</div>
+          <div class="cause-verdict">Watch for any CISA warning escalation or confirmation of successful intrusions in the next 48 hours. If the ceasefire holds through week two, these cuts are forgotten. If it breaks, they become evidence of criminal negligence.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The market is pricing a war that is now too expensive to fight but too politically expensive to lose.</h2>
+      <p class="section-body">Oil at $110 is not a crisis price—it's a price that strangles growth slowly rather than breaking it fast. The U.S. can function at $110 oil for months. What it cannot function with is a failed ceasefire plus active cyberattacks on infrastructure plus capital markets pricing both as likely simultaneously. Think of it like a household with enough income to pay the bills but not enough to absorb a car repair and medical emergency at the same time. <strong>The real risk is not the Iran war itself but the policy bandwidth to manage it while also defending the economy from its secondary effects.</strong> A ceasefire that holds removes that pressure entirely. A ceasefire that breaks with compromised infrastructure defense becomes exponentially harder to manage. This situation is harder than 2022's energy shock because it now has an active kinetic AND cyber component, and the policy response is to cut the cyber team.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">This mirrors 1979–1980 (oil embargo meets policy confusion) more than 2022 (commodity shock in a liquid market).</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1979</div>
+          <div>
+            <div class="comp-text">Iranian Revolution cut global oil supply 5% overnight. Oil spiked to $120+ in today's dollars. Markets crashed 20% over 18 months not because of the oil price but because policymakers oscillated between military posture and negotiation, leaving investors uncertain which regime was in charge. Once Volcker killed demand (1981–1982), oil collapsed and recovery followed.</div>
+            <div class="comp-lesson">Markets don't crash on supply shocks—they crash on policy confusion about whether you're going to war or negotiating. Clarity, even if it's 'we will pay any price for oil,' is tradeable.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2022</div>
+          <div>
+            <div class="comp-text">Russia-Ukraine cut 3% of global oil, spiked prices to $120+, but advanced economies had capital to absorb it. Oil fell to $80 within 18 months as markets recognized the shock was temporary and supply-side (replaceable). No cyberattacks on infrastructure. No policy cuts to grid defense. Markets recovered.</div>
+            <div class="comp-lesson">Commodity shocks resolve when the market believes supply will stabilize or demand will adjust. Geopolitical shocks with infrastructure vulnerability components don't resolve—they metastasize.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is whether the ceasefire extends past day 14 or collapses into renewed escalation. If it extends, we get a slow grind toward normalized oil ($95–$105 by Q3) and the infrastructure cuts become historical embarrassment. If it collapses, oil spikes immediately to $125+, equity indices correct 8–12%, and the cuts become a national security scandal. The signal that matters most: oil's behavior on the day the ceasefire deadline approaches. If it drifts down in day 12–13, the market is pricing extension. If it spikes in day 12–13, the market is pricing conflict.</p>
+      <div class="signal-kicker">
+        Scenario A — Ceasefire extends into lasting negotiation: By mid-April, Trump announces a 60-day extension; oil settles to $100–$105; equity indices break through 6,700 on the view that energy costs are now managed and the policy error (CISA cuts) can be reversed before damage accrues.<br>
+        Scenario B — Ceasefire breaks, cyberattacks follow: By April 15, ceasefire collapses; Iranian proxies or IRGC exploit known vulnerabilities in U.S. energy or water systems; emergency government response floods Congress with CISA funding reversal and emergency spending; markets reprrice on stagflation: oil at $125, inflation expectations up 75bps, rate-cut hopes vanish, S&P breaks to 6,300 by May.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">6,616.85</span>
+            <span class="index-pct up">
+              ▲ 0.08%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">22,018</span>
+            <span class="index-pct up">
+              ▲ 0.1%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">46,584</span>
+            <span class="index-pct down">
+              ▼ 0.18%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,544.95</span>
+            <span class="index-pct up">
+              ▲ 0.17%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">25.78</span>
+            <span class="index-pct up">
+              ▲ 6.66%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil price on April 18–21 (days 12–15 of ceasefire): trading below $105 or above $115 — </span>Below $105 signals the market is pricing extension and de-escalation; above $115 signals doubt about ceasefire holding and renewed military risk.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Any CISA or critical infrastructure alert regarding confirmed breach or successful intrusion at energy or water facility — </span>This becomes the trigger for immediate congressional action, emergency CISA funding reversal, and 4–8% equity correction as the 'policy negligence' scenario becomes active.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Trump statement or White House signaling on day 12–13 of ceasefire regarding extension or next phase negotiations — </span>Silence or delaying language signals uncertainty and will spike oil immediately; explicit extension language will hold $105–$110 and support equity stability.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Hedge fund deleveraging or sudden credit spread widening (HY OAS above 500bps) in the next 5 trading days — </span>Would suggest sophisticated investors are front-running a ceasefire failure scenario; would be the earliest warning signal before oil or equity capitulation.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">April 07, 2026</div>
+</footer>
+
+</body>
+</html>
