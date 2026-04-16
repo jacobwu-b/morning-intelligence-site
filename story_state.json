@@ -1,0 +1,76 @@
+{
+  "active_themes": [
+    {
+      "id": "fed-leadership-transition",
+      "label": "Fed Leadership Flux",
+      "first_seen": "2026-04-15",
+      "age_days": 0,
+      "summary": "Trump has publicly threatened to fire Powell before his May term end and signaled his preferred successor (Warsh) carries major tech/crypto financial interests, creating a high-probability regime change in central bank philosophy. Markets are pricing this as a shift from rate-defense to rate-cuts and tech-friendly deregulation. The core open question: will Powell voluntarily exit to preserve institutional credibility, or will Trump follow through on a firing threat that would shatter Fed independence norms?"
+    },
+    {
+      "id": "iran-geopolitical-risk",
+      "label": "Iran Escalation and Negotiation",
+      "first_seen": "2026-04-15",
+      "age_days": 0,
+      "summary": "Trump announced a U.S. naval blockade of all Iranian ports and simultaneously signaled peace talks could resume within days in Pakistan. This is a high-stakes bluff structure: maximum military pressure paired with negotiation door-opening. Markets are pricing reduced war risk (rallying oil, helping banks), but the volatility embedded in this outcome\u2014a negotiated settlement, an accidental clash, or a prolonged standoff\u2014remains substantial and unresolved."
+    },
+    {
+      "id": "institutional-erosion",
+      "label": "Norm-Breaking Escalation",
+      "first_seen": "2026-04-15",
+      "age_days": 0,
+      "summary": "Trump fired threats at Powell, the DOJ attempted an unannounced visit to Fed premises (ruled politically motivated by a judge), and DOJ moved to overturn Jan. 6 seditious conspiracy convictions. These are not isolated actions\u2014they form a pattern of executive pressure on independent institutions. Markets have not yet priced in the tail risk of sustained institutional breakdown."
+    }
+  ],
+  "historical_comps_used": [
+    {
+      "year": "1972",
+      "context": "Nixon pressured Fed Chair Arthur Burns to keep rates low ahead of the 1972 elect",
+      "date_used": "2026-04-15"
+    },
+    {
+      "year": "1997-98",
+      "context": "When pressure on central banks mounted globally (Russia, Asia), markets initiall",
+      "date_used": "2026-04-15"
+    },
+    {
+      "year": "2016-17",
+      "context": "Trump repeatedly attacked the Fed before taking office. Markets rallied on dereg",
+      "date_used": "2026-04-15"
+    }
+  ],
+  "open_watchlist": [
+    {
+      "id": "w-2026-04-15-0",
+      "date_added": "2026-04-15",
+      "condition": "Powell makes a public statement acknowledging Trump's timeline or suggesting readiness to step down",
+      "meaning": "This would signal a voluntary exit and mark the beginning of an orderly transition that limits institutional damage.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-15-1",
+      "date_added": "2026-04-15",
+      "condition": "Iran announces official delegation for Pakistan talks within 48 hours",
+      "meaning": "Confirms the blockade/negotiation gambit is real and not theater; de-risks a war scenario and supports continued oil decline and bank rally.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-15-2",
+      "date_added": "2026-04-15",
+      "condition": "10-year Treasury yield drops below 3.8% or rises above 4.2%",
+      "meaning": "A drop would confirm Fed-dovish pricing is sticky; a rise would signal bond markets are pricing inflation risk from the policy regime change.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-15-3",
+      "date_added": "2026-04-15",
+      "condition": "Warsh publicly distances himself from his crypto holdings or faces Senate confirmation questions that highlight conflicts",
+      "meaning": "Would signal institutional guardrails are still constraining the transition; lack of distance would indicate a more radical deregulation agenda is coming.",
+      "status": "open",
+      "outcome": ""
+    }
+  ]
+}

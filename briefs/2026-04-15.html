@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — April 15, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">WEDNESDAY · April 15, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">7,022.95</span>
+    <span class="ticker-change up">
+      ▲ 0.8%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">24,016</span>
+    <span class="ticker-change up">
+      ▲ 1.59%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">48,464</span>
+    <span class="ticker-change down">
+      ▼ 0.15%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Tech Surges on Fed Leadership Uncertainty While Trump Escalates Iran Standoff and Powell Threats</h1>
+    <p class="lead-body">The Nasdaq jumped 1.6% today on a structural shift in Fed leadership optics: Trump's Fed chair nominee Kevin Warsh holds <strong>$130M in tech and crypto positions</strong>, signaling a pivot toward looser monetary policy and deregulation that markets are pricing as bullish for growth stocks. Simultaneously, Trump escalated threats to fire Powell if he doesn't leave in May, and announced imminent Iran peace talks backed by a naval blockade—two power moves that reduce near-term conflict risk but create profound uncertainty about institutional independence and geopolitical stability. The Dow's slight decline reflects this split: cyclicals and financials are hedging against policy whipsaw, while growth and tech are betting on a Fed that will not tighten.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Fed Leadership Regime Change (Primary) and Iran Military Brinkmanship (Secondary)</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">FED LEADERSHIP SHIFT</div>
+          <div class="cause-headline">Kevin Warsh's $130M tech portfolio and Trump's public Powell-firing threats are rewriting expectations for monetary policy direction.</div>
+          <div class="cause-text">Warsh represents a fundamentally different Fed philosophy: pro-tech, crypto-adjacent, and hawkish on regulation but dovish on rates. His financial disclosures make it plain he has skin in the game for deregulation and accommodative policy. Trump's escalating threats to fire Powell (moving from 'held back' language to explicit ultimatum) signal this is not a bluff. The market is interpreting this as a <strong>near-certain shift to a more dovish Fed starting in May/June</strong>, regardless of Powell's personal preference to stay.</div>
+          <div class="cause-verdict">Powell will likely exit voluntarily within weeks to preserve Fed autonomy, or Trump will fire him. Either way, a dovish successor is 80%+ probable. The inflation risk embedded in this transition is substantial but priced as secondary to growth upside today.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">IRAN BLOCKADE + TALKS</div>
+          <div class="cause-headline">Trump is applying maximum military pressure while opening a negotiation door—a tactic that reduces war probability but creates binary risk outcomes.</div>
+          <div class="cause-text">A naval blockade of Iranian ports is an act of economic warfare that typically precedes either capitulation or escalation. The announcement of peace talks within days suggests Trump believes he has enough leverage to force concessions. Oil markets rallied on reduced conflict duration expectations, and bank earnings jumped on the prospect of stable geopolitical risk. However, this is a high-wire act: any miscalculation (Iranian retaliation, U.S. military response, failed talks) flips the scenario instantly.</div>
+          <div class="cause-verdict">If talks begin and progress within two weeks, war risk drops sharply and oil normalizes lower. If talks collapse or don't materialize, oil spikes and cyclicals reverse. Watch for Iranian official statements by Friday as the first signal.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Markets are suddenly pricing two competing visions of America's next two years, and they're betting on the growth side while hedging the policy-stability side.</h2>
+      <p class="section-body">None</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Three historical analogues show why Fed independence attacks end badly, and why market splits between growth and value are early warning signals.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1972</div>
+          <div>
+            <div class="comp-text">Nixon pressured Fed Chair Arthur Burns to keep rates low ahead of the 1972 election. Burns complied. Inflation rose from 3% to 12% by 1974, and the market collapse from 1973-75 erased 48% of S&P 500 value. The lag between policy capture and market pain was 18-24 months.</div>
+            <div class="comp-lesson">Fed independence under threat produces short-term asset rallies in rate-sensitive sectors, but the inflation tax eventually dominates and destroys real purchasing power across all assets.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1997-98</div>
+          <div>
+            <div class="comp-text">When pressure on central banks mounted globally (Russia, Asia), markets initially rallied on the assumption of looser policy. When independence cracked and inflation fears rose, spreads blew out and emerging markets collapsed. Recovery took 2+ years.</div>
+            <div class="comp-lesson">The market rewards policy accommodation for 6-12 months, then punishes it when inflation expectations unanchor.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2016-17</div>
+          <div>
+            <div class="comp-text">Trump repeatedly attacked the Fed before taking office. Markets rallied on deregulation expectations. But once the campaign threats turned into post-election institutional respect (Powell was appointed by Trump and operated independently), the market found equilibrium. Attacks that don't result in firing are noise.</div>
+            <div class="comp-lesson">What matters is whether the threat is credible AND whether the institution capitulates. If Powell voluntarily leaves to preserve the institution, the damage is contained. If he's fired, it's a regime change with inflation consequences.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is <strong>whether Powell exits voluntarily or gets fired</strong>. If voluntary, markets consolidate gains in tech and stabilize in bonds—the regime change happens cleanly. If Trump fires him, the message to every independent regulator is clear: serve the president or lose your job. That triggers a long-term repricing of inflation risk and institutional trust. Watch Fed messaging and Powell's public statements over the next 10 days for signals of capitulation or defiance.</p>
+      <div class="signal-kicker">
+        Scenario A — Clean Succession / Rate-Cut Cycle Begins: Powell announces voluntary departure in late April; Warsh is confirmed by June; Fed cuts 100+ basis points through 2027 on growth expectations; tech and crypto rally 20%+ as regulation eases.<br>
+        Scenario B — Institutional Crisis / Inflation Reawakening: Trump fires Powell in May after public ultimatum; markets interpret this as end of Fed independence; inflation expectations un-anchor as fiscal spending accelerates unchecked; long-duration bonds and tech crash while commodities and gold rally 30%+.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">7,022.95</span>
+            <span class="index-pct up">
+              ▲ 0.8%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">24,016</span>
+            <span class="index-pct up">
+              ▲ 1.59%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">48,464</span>
+            <span class="index-pct down">
+              ▼ 0.15%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,713.66</span>
+            <span class="index-pct up">
+              ▲ 0.3%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">18.17</span>
+            <span class="index-pct down">
+              ▼ 1.03%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Powell makes a public statement acknowledging Trump's timeline or suggesting readiness to step down — </span>This would signal a voluntary exit and mark the beginning of an orderly transition that limits institutional damage.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Iran announces official delegation for Pakistan talks within 48 hours — </span>Confirms the blockade/negotiation gambit is real and not theater; de-risks a war scenario and supports continued oil decline and bank rally.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">10-year Treasury yield drops below 3.8% or rises above 4.2% — </span>A drop would confirm Fed-dovish pricing is sticky; a rise would signal bond markets are pricing inflation risk from the policy regime change.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Warsh publicly distances himself from his crypto holdings or faces Senate confirmation questions that highlight conflicts — </span>Would signal institutional guardrails are still constraining the transition; lack of distance would indicate a more radical deregulation agenda is coming.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">April 15, 2026</div>
+</footer>
+
+</body>
+</html>
