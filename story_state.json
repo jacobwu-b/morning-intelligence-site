@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Fed Leadership Flux",
+      "label": "Powell vs. Trump Timeline",
       "first_seen": "2026-04-15",
-      "age_days": 0,
-      "summary": "Trump has publicly threatened to fire Powell before his May term end and signaled his preferred successor (Warsh) carries major tech/crypto financial interests, creating a high-probability regime change in central bank philosophy. Markets are pricing this as a shift from rate-defense to rate-cuts and tech-friendly deregulation. The core open question: will Powell voluntarily exit to preserve institutional credibility, or will Trump follow through on a firing threat that would shatter Fed independence norms?"
+      "age_days": 1,
+      "summary": "Senate Democrats are formally moving to stall Warsh confirmation hearings, creating a procedural delay but not a blocking mechanism. No new public signal from Powell today on stepping down voluntarily. The institutional pressure on the Fed remains high-stakes and unresolved: Trump's firing threats are public, the DOJ visited Fed premises, and Warsh's crypto holdings will become a confirmation flashpoint. The market is pricing this as a probabilistic regime change (higher chance of rate cuts post-Powell) but has not yet repriced if the conflict becomes truly disruptive to Fed credibility or operational independence."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Escalation and Negotiation",
+      "label": "Iran War Supply Shock",
       "first_seen": "2026-04-15",
-      "age_days": 0,
-      "summary": "Trump announced a U.S. naval blockade of all Iranian ports and simultaneously signaled peace talks could resume within days in Pakistan. This is a high-stakes bluff structure: maximum military pressure paired with negotiation door-opening. Markets are pricing reduced war risk (rallying oil, helping banks), but the volatility embedded in this outcome\u2014a negotiated settlement, an accidental clash, or a prolonged standoff\u2014remains substantial and unresolved."
+      "age_days": 1,
+      "summary": "The blockade is now producing real economic damage on the ground: Spirit Airlines facing liquidation, EasyJet profit warnings, UK contingency planning for CO2 shortages, European fuel inventories at critical lows (6 weeks supply). These are not speculative headlines\u2014they are supply-chain breakdowns in real time. The market remains calm because oil prices have not spiked above previous highs, indicating traders still believe either (1) talks resume and pressure is released, or (2) the blockade produces limited economic impact. The open question: does actual supply destruction (not threatened destruction) force the market to price in a longer duration crisis?"
     },
     {
       "id": "institutional-erosion",
-      "label": "Norm-Breaking Escalation",
+      "label": "Pattern of Institutional Pressure",
       "first_seen": "2026-04-15",
-      "age_days": 0,
-      "summary": "Trump fired threats at Powell, the DOJ attempted an unannounced visit to Fed premises (ruled politically motivated by a judge), and DOJ moved to overturn Jan. 6 seditious conspiracy convictions. These are not isolated actions\u2014they form a pattern of executive pressure on independent institutions. Markets have not yet priced in the tail risk of sustained institutional breakdown."
+      "age_days": 1,
+      "summary": "Today's headlines expand the pattern: NPR received $80M from Ballmer with 'strings attached,' Trump faces accusations of being 'fed' memes by administration figures, DOJ figures linked to Jan. 6 conviction overturn, DOGE operatives are now tracked in permanent government positions. These are not isolated incidents\u2014they show a consistent pattern of informal pressure and norm-breaking baked into the administration's operating model. Markets have not yet priced the risk that sustained institutional pressure produces a breakdown (e.g., a Fed rate decision that is politically motivated rather than economically sound, or a supply-chain crisis where response is delayed by internal conflict)."
     }
   ],
   "historical_comps_used": [
@@ -69,6 +69,38 @@
       "date_added": "2026-04-15",
       "condition": "Warsh publicly distances himself from his crypto holdings or faces Senate confirmation questions that highlight conflicts",
       "meaning": "Would signal institutional guardrails are still constraining the transition; lack of distance would indicate a more radical deregulation agenda is coming.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-16-0",
+      "date_added": "2026-04-16",
+      "condition": "Oil (WTI) closes above $95/barrel for two consecutive days",
+      "meaning": "Supply destruction is real and market reprices Fed's reaction function; equities likely down 2-4% as inflation expectations rise and rate-cut bets shrink.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-16-1",
+      "date_added": "2026-04-16",
+      "condition": "Iran announces official negotiating delegation for Pakistan talks (within 48-72 hours)",
+      "meaning": "Blockade is functioning as a negotiating tool, not a permanent rupture; risk premium should compress and oil should retreat 5-8%.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-16-2",
+      "date_added": "2026-04-16",
+      "condition": "Powell makes any public statement acknowledging Trump's May timeline or hinting at stepping down",
+      "meaning": "Fed independence has cracked publicly; market reprices regime change risk and Warsh's confirmation odds spike sharply upward.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-16-3",
+      "date_added": "2026-04-16",
+      "condition": "10-year Treasury yield rises above 4.2% while S&P stays flat or down",
+      "meaning": "Fed expectations are decoupling from equity valuations\u2014bond market is pricing stagflation faster than stocks; sell signal for duration and growth.",
       "status": "open",
       "outcome": ""
     }

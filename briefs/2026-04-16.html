@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — April 16, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">THURSDAY · April 16, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    <div class="delta-badge">DELTA BRIEF</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">7,041.28</span>
+    <span class="ticker-change up">
+      ▲ 0.26%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">24,103</span>
+    <span class="ticker-change up">
+      ▲ 0.36%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">48,579</span>
+    <span class="ticker-change up">
+      ▲ 0.24%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Markets shrug as energy crisis deepens and institutional pressure mounts—so far, the bluff is holding.</h1>
+    <p class="lead-body">The S&P 500 gained 0.26% despite headlines screaming supply-chain breakdowns (Spirit Airlines near liquidation, European jet fuel at 6-week lows, UK facing supermarket shortages). Oil didn't spike catastrophically today, which means the market is still pricing Trump's Iran blockade as a <strong>negotiating tool rather than a permanent rupture</strong>. But the real signal beneath the surface: equities are calm because bond yields haven't moved, which means the Fed hasn't signaled panic—yet. The moment either oil breaks through $95/barrel or Powell blinks on rate timing, that changes.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Oil pricing remains the ballast; Powell's silence is the fuse.</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">OIL SUPPLY SUPPLY BLUFF HOLDING</div>
+          <div class="cause-headline">The blockade is creating real damage on the ground, but oil prices haven't spiked, meaning traders still believe negotiation resolves this.</div>
+          <div class="cause-text">Spirit Airlines' potential liquidation, EasyJet profit warnings, European fuel at 6-week lows, UK supermarket CO2 shortages—these are no longer theoretical. Supply chains are breaking. Yet WTI is not at $100+/barrel, which is the price point where this crisis becomes a demand-destruction event that the Fed cannot ignore. The market interpretation: either (1) talks in Pakistan actually resume and pressure releases within weeks, or (2) the blockade's real-world impact is smaller than headlines suggest. Day 2 of the crisis shows supply destruction accelerating without corresponding oil price acceleration—that's unsustainable.</div>
+          <div class="cause-verdict">This holds for 1-3 weeks maximum. If oil doesn't break $95 by next Thursday, either talks are real or the crisis is contained. If it does, we reprrice the Fed's reaction function entirely.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">FED SILENCE UNDER PRESSURE</div>
+          <div class="cause-headline">Powell has not acknowledged Trump's May timeline or the Warsh confirmation fight; the 10-year yield is holding 4.0-4.1%, suggesting no panic signal from the Fed yet.</div>
+          <div class="cause-text">The absence of a Powell statement is itself the signal. If Powell were going to voluntarily step down, he would likely signal it in advance to preserve institutional credibility—but silence means either (1) he's waiting to see how bad the Iran crisis gets before making a move, or (2) he's preparing to fight. Senate Democrats stalling Warsh isn't enough to stop him long-term, which means the Fed's leadership crisis will resolve one of two ways: Powell exits gracefully on a timeline that preserves some face, or Trump forces him out and installs Warsh with crypto/deregulation baggage. Treasury yields not moving tells us the market doesn't yet believe the Fed will blink on inflation if oil keeps rising.</div>
+          <div class="cause-verdict">If Powell makes any public statement in the next 48-72 hours (on the Iran crisis, rate timing, or his own tenure), that's a tell. If he stays silent while supply chains break and oil tests $95, he's signaling confidence in the blockade as a negotiating tool—which is either brilliant or a dangerous bet.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The market is holding two contradictory beliefs in suspension: that Trump's Iran blockade is a bluff that resolves through talks, and that the Fed will cut rates regardless of oil prices because Trump demands it.</h2>
+      <p class="section-body">This is like holding a hot coal in your palm—you can do it briefly, but not forever. If talks fail and oil stays elevated, the Fed faces a choice: defend the dollar and inflation credibility (which means higher rates and deeper recession), or capitulate to Trump and cut despite supply shock (which means currency weakness and imported inflation). The market is currently trading as if the Fed will capitulate—hence equities holding up despite supply-chain warnings. The stress test arrives when oil actually stays high for 4+ weeks and the Fed has to make a real choice. This is harder than typical oil shocks because the Fed's independence is already under public attack, so every decision will be read as politically motivated, not economically rational.</p>
+    </div>
+    
+
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is oil price holding below $95/barrel while supply chaos accelerates on the ground. If oil breaks $95 and Fed yields rise to 4.3%+, the market reprices the Fed's willingness to defend rates over growth—and equities roll over. If oil stays $85-92 while talks progress (Iran announces delegation within 72 hours), the bluff is working and we rally on relief. The week ahead will tell you whether this crisis resolves in weeks or months.</p>
+      <div class="signal-kicker">
+        Scenario A — Blockade as Negotiating Theater: Iran announces official delegation for Pakistan talks within 72 hours, oil retreats toward $80, and Powell gives a dovish presser signaling rate cuts by summer—equities gain 2-3% as both geopolitical and Fed risks compress.<br>
+        Scenario B — Oil Persistence, Fed Capitulation: Oil stays above $92 through next week without talks announcement, the Fed signals delay on rate cuts (or Powell hints at stepping down under duress), and equities sell off 3-4% as the market reprices stagflation risk and institutional credibility loss simultaneously.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">7,041.28</span>
+            <span class="index-pct up">
+              ▲ 0.26%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">24,103</span>
+            <span class="index-pct up">
+              ▲ 0.36%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">48,579</span>
+            <span class="index-pct up">
+              ▲ 0.24%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,719.60</span>
+            <span class="index-pct up">
+              ▲ 0.22%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">17.94</span>
+            <span class="index-pct down">
+              ▼ 1.27%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil (WTI) closes above $95/barrel for two consecutive days — </span>Supply destruction is real and market reprices Fed's reaction function; equities likely down 2-4% as inflation expectations rise and rate-cut bets shrink.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Iran announces official negotiating delegation for Pakistan talks (within 48-72 hours) — </span>Blockade is functioning as a negotiating tool, not a permanent rupture; risk premium should compress and oil should retreat 5-8%.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Powell makes any public statement acknowledging Trump's May timeline or hinting at stepping down — </span>Fed independence has cracked publicly; market reprices regime change risk and Warsh's confirmation odds spike sharply upward.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">10-year Treasury yield rises above 4.2% while S&P stays flat or down — </span>Fed expectations are decoupling from equity valuations—bond market is pricing stagflation faster than stocks; sell signal for duration and growth.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">April 16, 2026</div>
+</footer>
+
+</body>
+</html>
