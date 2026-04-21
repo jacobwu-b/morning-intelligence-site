@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Powell vs. Trump Timeline",
+      "label": "Warsh Confirmation Spotlight",
       "first_seen": "2026-04-15",
-      "age_days": 1,
-      "summary": "Senate Democrats are formally moving to stall Warsh confirmation hearings, creating a procedural delay but not a blocking mechanism. No new public signal from Powell today on stepping down voluntarily. The institutional pressure on the Fed remains high-stakes and unresolved: Trump's firing threats are public, the DOJ visited Fed premises, and Warsh's crypto holdings will become a confirmation flashpoint. The market is pricing this as a probabilistic regime change (higher chance of rate cuts post-Powell) but has not yet repriced if the conflict becomes truly disruptive to Fed credibility or operational independence."
+      "age_days": 5,
+      "summary": "Warsh faces Senate hearing with crypto holdings and rate-cut bias now on public record. Democrats are using procedural delay tactics, not blocking mechanisms. The market has priced in a regime shift toward easier policy post-Powell, but has not yet accounted for the risk that confirmation becomes a flashpoint that weakens Fed credibility during an active geopolitical crisis."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran War Supply Shock",
+      "label": "Iran War: Bet on Talks",
       "first_seen": "2026-04-15",
-      "age_days": 1,
-      "summary": "The blockade is now producing real economic damage on the ground: Spirit Airlines facing liquidation, EasyJet profit warnings, UK contingency planning for CO2 shortages, European fuel inventories at critical lows (6 weeks supply). These are not speculative headlines\u2014they are supply-chain breakdowns in real time. The market remains calm because oil prices have not spiked above previous highs, indicating traders still believe either (1) talks resume and pressure is released, or (2) the blockade produces limited economic impact. The open question: does actual supply destruction (not threatened destruction) force the market to price in a longer duration crisis?"
+      "age_days": 5,
+      "summary": "Real economic damage is now visible\u2014Spirit Airlines heading for liquidation, EasyJet cutting guidance, UK contingency planning for CO2 shortages. Yet markets are calm because oil traders are betting talks restart before supply destruction becomes irreversible. The open question remains whether actual supply losses (not threatened ones) force the market to reprice the blockade as a 3-6 month problem rather than a 3-week one."
     },
     {
       "id": "institutional-erosion",
-      "label": "Pattern of Institutional Pressure",
+      "label": "Norm-Breaking as Operating Model",
       "first_seen": "2026-04-15",
-      "age_days": 1,
-      "summary": "Today's headlines expand the pattern: NPR received $80M from Ballmer with 'strings attached,' Trump faces accusations of being 'fed' memes by administration figures, DOJ figures linked to Jan. 6 conviction overturn, DOGE operatives are now tracked in permanent government positions. These are not isolated incidents\u2014they show a consistent pattern of informal pressure and norm-breaking baked into the administration's operating model. Markets have not yet priced the risk that sustained institutional pressure produces a breakdown (e.g., a Fed rate decision that is politically motivated rather than economically sound, or a supply-chain crisis where response is delayed by internal conflict)."
+      "age_days": 5,
+      "summary": "Pattern continues: Trump administration figures being tracked in permanent government, DOJ linked to Jan. 6 overturn, informal pressure baked into institutional routine. Markets have not yet priced the tail risk that a major policy decision (Fed rate move, supply-chain response) becomes politically motivated rather than economically sound during a crisis."
     }
   ],
   "historical_comps_used": [
@@ -37,6 +37,16 @@
       "year": "2016-17",
       "context": "Trump repeatedly attacked the Fed before taking office. Markets rallied on dereg",
       "date_used": "2026-04-15"
+    },
+    {
+      "year": "1973",
+      "context": "OPEC oil embargo: October 1973 embargo announced. Markets initially tried to pri",
+      "date_used": "2026-04-20"
+    },
+    {
+      "year": "1979",
+      "context": "Iranian Revolution and second oil crisis: February 1979, Shah fell. Markets init",
+      "date_used": "2026-04-20"
     }
   ],
   "open_watchlist": [
@@ -101,6 +111,14 @@
       "date_added": "2026-04-16",
       "condition": "10-year Treasury yield rises above 4.2% while S&P stays flat or down",
       "meaning": "Fed expectations are decoupling from equity valuations\u2014bond market is pricing stagflation faster than stocks; sell signal for duration and growth.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-20-3",
+      "date_added": "2026-04-20",
+      "condition": "Warsh faces Senate hearing and crypto holdings dominate questioning",
+      "meaning": "Signals that Fed leadership transition will be politically contentious; weakens messaging on central bank independence.",
       "status": "open",
       "outcome": ""
     }
