@@ -4,22 +4,22 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Confirmation Spotlight",
       "first_seen": "2026-04-15",
-      "age_days": 5,
-      "summary": "Warsh faces Senate hearing with crypto holdings and rate-cut bias now on public record. Democrats are using procedural delay tactics, not blocking mechanisms. The market has priced in a regime shift toward easier policy post-Powell, but has not yet accounted for the risk that confirmation becomes a flashpoint that weakens Fed credibility during an active geopolitical crisis."
+      "age_days": 6,
+      "summary": "Warsh testified before Congress on April 21. He maintained stated commitment to Fed independence, fielded crypto-holdings questions without conceding conflict, and has not faced hard blocking votes. The confirmation path remains open but not accelerated. What remains unresolved: whether his eventual confirmation\u2014or Powell's forced exit\u2014will be perceived by markets as a normal succession or as political capture of the institution during an active geopolitical crisis. If confirmation happens while Iran tensions spike and oil rises, markets may reprice the entire Fed credibility regime."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran War: Bet on Talks",
+      "label": "Iran War: Bet on Talks Holding",
       "first_seen": "2026-04-15",
-      "age_days": 5,
-      "summary": "Real economic damage is now visible\u2014Spirit Airlines heading for liquidation, EasyJet cutting guidance, UK contingency planning for CO2 shortages. Yet markets are calm because oil traders are betting talks restart before supply destruction becomes irreversible. The open question remains whether actual supply losses (not threatened ones) force the market to reprice the blockade as a 3-6 month problem rather than a 3-week one."
+      "age_days": 6,
+      "summary": "US announced ceasefire extension today. Oil traders continue pricing assumption that talks restart in meaningful form before supply destruction becomes irreversible. Real economic damage is visible (Spirit Airlines liquidation, EasyJet guidance cut, UK CO2 contingency planning) but remains contained. The open question is still whether actual supply losses force the market to reprice the blockade duration from 3 weeks to 3-6 months. Ceasefire extension bought time but didn't resolve the underlying tension."
     },
     {
       "id": "institutional-erosion",
       "label": "Norm-Breaking as Operating Model",
       "first_seen": "2026-04-15",
-      "age_days": 5,
-      "summary": "Pattern continues: Trump administration figures being tracked in permanent government, DOJ linked to Jan. 6 overturn, informal pressure baked into institutional routine. Markets have not yet priced the tail risk that a major policy decision (Fed rate move, supply-chain response) becomes politically motivated rather than economically sound during a crisis."
+      "age_days": 6,
+      "summary": "Pattern deepens today: Warsh confirmation hearings occur while Powell is simultaneously under investigation (likely Trump-linked pressure); DOJ investigating SPLC; NASA investigating scientist deaths with tech ties; Sullivan & Cromwell apologizing for AI hallucinations in legal filings. This is not isolated scandal\u2014it is a system where institutional decisions are increasingly made under informal pressure or threat of political/legal consequence. Markets have not yet priced the cost of decisions being made for political rather than economic reasons during a dual crisis (Fed succession + geopolitical risk)."
     }
   ],
   "historical_comps_used": [
@@ -51,14 +51,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-04-15-0",
-      "date_added": "2026-04-15",
-      "condition": "Powell makes a public statement acknowledging Trump's timeline or suggesting readiness to step down",
-      "meaning": "This would signal a voluntary exit and mark the beginning of an orderly transition that limits institutional damage.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-04-15-1",
       "date_added": "2026-04-15",
       "condition": "Iran announces official delegation for Pakistan talks within 48 hours",
@@ -71,14 +63,6 @@
       "date_added": "2026-04-15",
       "condition": "10-year Treasury yield drops below 3.8% or rises above 4.2%",
       "meaning": "A drop would confirm Fed-dovish pricing is sticky; a rise would signal bond markets are pricing inflation risk from the policy regime change.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-15-3",
-      "date_added": "2026-04-15",
-      "condition": "Warsh publicly distances himself from his crypto holdings or faces Senate confirmation questions that highlight conflicts",
-      "meaning": "Would signal institutional guardrails are still constraining the transition; lack of distance would indicate a more radical deregulation agenda is coming.",
       "status": "open",
       "outcome": ""
     },
@@ -115,10 +99,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-04-20-3",
-      "date_added": "2026-04-20",
-      "condition": "Warsh faces Senate hearing and crypto holdings dominate questioning",
-      "meaning": "Signals that Fed leadership transition will be politically contentious; weakens messaging on central bank independence.",
+      "id": "w-2026-04-21-0",
+      "date_added": "2026-04-21",
+      "condition": "Iran announces official negotiating delegation within 48 hours",
+      "meaning": "Confirms oil traders' bet that talks restart before supply destruction becomes irreversible; keeps oil below $95 and reduces tail risk of 3-6 month blockade.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-21-1",
+      "date_added": "2026-04-21",
+      "condition": "WTI oil closes above $95 for two consecutive trading sessions",
+      "meaning": "Signals market repricing of Iran supply crisis duration or severity; forces simultaneous reassessment of Fed independence risk if Warsh confirms at same time oil is spiking.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-21-2",
+      "date_added": "2026-04-21",
+      "condition": "Fed official (Powell, governor, or staff) makes public statement on rates that sounds politically motivated rather than data-driven",
+      "meaning": "First explicit signal that institutional capture has moved from theory to practice; would likely trigger equities sell-off and 10-year yield spike.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-21-3",
+      "date_added": "2026-04-21",
+      "condition": "Senate Democrats signal willingness to vote against Warsh confirmation (not delay, but actual opposition votes above 10 senators)",
+      "meaning": "Would slow timeline and force Warsh to make explicit commitments on Fed independence; could delay confirmation into June and create window where market reprices the regime shift risk.",
       "status": "open",
       "outcome": ""
     }
