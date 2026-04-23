@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Confirmation Spotlight",
+      "label": "Warsh Confirmation: Independence Rhetoric Meets Pressure Reality",
       "first_seen": "2026-04-15",
-      "age_days": 6,
-      "summary": "Warsh testified before Congress on April 21. He maintained stated commitment to Fed independence, fielded crypto-holdings questions without conceding conflict, and has not faced hard blocking votes. The confirmation path remains open but not accelerated. What remains unresolved: whether his eventual confirmation\u2014or Powell's forced exit\u2014will be perceived by markets as a normal succession or as political capture of the institution during an active geopolitical crisis. If confirmation happens while Iran tensions spike and oil rises, markets may reprice the entire Fed credibility regime."
+      "age_days": 7,
+      "summary": "Warsh testified April 21 maintaining Fed independence commitment while refusing to commit to current rate-cut stance. No hard blocking votes yet. What changed today: the emerging picture is that Warsh's eventual confirmation\u2014likely to proceed\u2014will be interpreted by markets as a capitulation point, not a leadership transition. If confirmed while Powell simultaneously faces Trump pressure, the market reprices not just monetary policy but Fed credibility itself. The timing of Warsh's confirmation against the Iran crisis backdrop makes this a dual-legitimacy test the Fed may fail."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran War: Bet on Talks Holding",
+      "label": "Iran Ceasefire: Breathing Room, Not Resolution",
       "first_seen": "2026-04-15",
-      "age_days": 6,
-      "summary": "US announced ceasefire extension today. Oil traders continue pricing assumption that talks restart in meaningful form before supply destruction becomes irreversible. Real economic damage is visible (Spirit Airlines liquidation, EasyJet guidance cut, UK CO2 contingency planning) but remains contained. The open question is still whether actual supply losses force the market to reprice the blockade duration from 3 weeks to 3-6 months. Ceasefire extension bought time but didn't resolve the underlying tension."
+      "age_days": 7,
+      "summary": "US announced ceasefire extension today; oil traders continue pricing assumption that talks restart before supply destruction becomes irreversible. Real economic damage visible (airline guidance cuts, CO2 contingency planning in UK) but contained. The open question remains unchanged: whether actual supply losses force the market to reprice blockade duration from 3 weeks to 3-6 months. Ceasefire extension bought time but did not resolve the underlying tension or explain Iran's incentive to extend talks rather than escalate."
     },
     {
       "id": "institutional-erosion",
-      "label": "Norm-Breaking as Operating Model",
+      "label": "Norm-Breaking as Structural Feature",
       "first_seen": "2026-04-15",
-      "age_days": 6,
-      "summary": "Pattern deepens today: Warsh confirmation hearings occur while Powell is simultaneously under investigation (likely Trump-linked pressure); DOJ investigating SPLC; NASA investigating scientist deaths with tech ties; Sullivan & Cromwell apologizing for AI hallucinations in legal filings. This is not isolated scandal\u2014it is a system where institutional decisions are increasingly made under informal pressure or threat of political/legal consequence. Markets have not yet priced the cost of decisions being made for political rather than economic reasons during a dual crisis (Fed succession + geopolitical risk)."
+      "age_days": 7,
+      "summary": "Pattern deepens: Warsh confirmation occurs while Powell faces investigation-by-pressure; DOJ investigating SPLC; Navy Secretary Phelan fired today; Sullivan & Cromwell apologizing for AI hallucinations in legal filings. This is not isolated scandal\u2014it is an operating model where institutional decisions are made under informal threat of consequence. Markets have not yet priced the cost of decisions being made for political rather than economic reasons during dual crisis (Fed succession + geopolitical risk). The rally today masks the fact that institutional decay is accelerating at precisely the moment when institutional credibility is most needed."
     }
   ],
   "historical_comps_used": [
@@ -50,38 +50,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-04-15-1",
-      "date_added": "2026-04-15",
-      "condition": "Iran announces official delegation for Pakistan talks within 48 hours",
-      "meaning": "Confirms the blockade/negotiation gambit is real and not theater; de-risks a war scenario and supports continued oil decline and bank rally.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-15-2",
-      "date_added": "2026-04-15",
-      "condition": "10-year Treasury yield drops below 3.8% or rises above 4.2%",
-      "meaning": "A drop would confirm Fed-dovish pricing is sticky; a rise would signal bond markets are pricing inflation risk from the policy regime change.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-16-0",
-      "date_added": "2026-04-16",
-      "condition": "Oil (WTI) closes above $95/barrel for two consecutive days",
-      "meaning": "Supply destruction is real and market reprices Fed's reaction function; equities likely down 2-4% as inflation expectations rise and rate-cut bets shrink.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-16-1",
-      "date_added": "2026-04-16",
-      "condition": "Iran announces official negotiating delegation for Pakistan talks (within 48-72 hours)",
-      "meaning": "Blockade is functioning as a negotiating tool, not a permanent rupture; risk premium should compress and oil should retreat 5-8%.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-04-16-2",
       "date_added": "2026-04-16",
@@ -127,6 +95,38 @@
       "date_added": "2026-04-21",
       "condition": "Senate Democrats signal willingness to vote against Warsh confirmation (not delay, but actual opposition votes above 10 senators)",
       "meaning": "Would slow timeline and force Warsh to make explicit commitments on Fed independence; could delay confirmation into June and create window where market reprices the regime shift risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-22-0",
+      "date_added": "2026-04-22",
+      "condition": "Iran announces official negotiating delegation with specific names and mandate statement within 48 hours",
+      "meaning": "Confirms talks are moving from ceasefire extension to actual negotiation; opens door to 3-6 week resolution timeline instead of indefinite blockade.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-22-1",
+      "date_added": "2026-04-22",
+      "condition": "WTI oil closes above $100 for two consecutive trading days",
+      "meaning": "Signals market no longer believes Iran talks will hold; reprices blockade duration from temporary to structural; forces stagflation repricing in equities.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-22-2",
+      "date_added": "2026-04-22",
+      "condition": "Powell makes public statement acknowledging Trump's May timeline or hinting at stepping down",
+      "meaning": "Confirms Fed leadership is being rewritten under political pressure during active crisis; market reprices institutional credibility and Fed independence premium disappears.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-22-3",
+      "date_added": "2026-04-22",
+      "condition": "10-year Treasury yield rises above 4.2% while S&P 500 stays flat or declines",
+      "meaning": "Signals market is pricing inflation or institutional risk premium (not growth), indicating dual crisis is being repriced as stagflation rather than contained geopolitical shock.",
       "status": "open",
       "outcome": ""
     }
