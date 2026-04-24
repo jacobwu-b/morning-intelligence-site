@@ -2,24 +2,31 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Confirmation: Independence Rhetoric Meets Pressure Reality",
+      "label": "Confirmation Under Duress",
       "first_seen": "2026-04-15",
-      "age_days": 7,
-      "summary": "Warsh testified April 21 maintaining Fed independence commitment while refusing to commit to current rate-cut stance. No hard blocking votes yet. What changed today: the emerging picture is that Warsh's eventual confirmation\u2014likely to proceed\u2014will be interpreted by markets as a capitulation point, not a leadership transition. If confirmed while Powell simultaneously faces Trump pressure, the market reprices not just monetary policy but Fed credibility itself. The timing of Warsh's confirmation against the Iran crisis backdrop makes this a dual-legitimacy test the Fed may fail."
+      "age_days": 8,
+      "summary": "Warsh confirmation proceeding as expected, but the frame has shifted from leadership transition to capitulation signal. If confirmed while Powell simultaneously faces Trump-adjacent pressure and the Iran crisis deepens, markets will interpret the outcome as evidence that Fed independence is conditional\u2014not absolute. This is not a personnel change; it is a legitimacy test."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Ceasefire: Breathing Room, Not Resolution",
+      "label": "Iran Escalation Test",
       "first_seen": "2026-04-15",
-      "age_days": 7,
-      "summary": "US announced ceasefire extension today; oil traders continue pricing assumption that talks restart before supply destruction becomes irreversible. Real economic damage visible (airline guidance cuts, CO2 contingency planning in UK) but contained. The open question remains unchanged: whether actual supply losses force the market to reprice blockade duration from 3 weeks to 3-6 months. Ceasefire extension bought time but did not resolve the underlying tension or explain Iran's incentive to extend talks rather than escalate."
+      "age_days": 8,
+      "summary": "Iran seized a vessel in the Strait of Hormuz today, the most direct challenge to US naval authority since ceasefire extension was announced. Oil traders have not repriced blockade duration risk\u2014WTI remains below $95\u2014suggesting market confidence in negotiated resolution remains intact. This is the decisive test: does Iran's escalation force markets to abandon the 3-week assumption and reprice to 3-6 months, or does it remain theatrical pressure within negotiation bounds?"
     },
     {
       "id": "institutional-erosion",
-      "label": "Norm-Breaking as Structural Feature",
+      "label": "Decisions Made Under Threat",
       "first_seen": "2026-04-15",
-      "age_days": 7,
-      "summary": "Pattern deepens: Warsh confirmation occurs while Powell faces investigation-by-pressure; DOJ investigating SPLC; Navy Secretary Phelan fired today; Sullivan & Cromwell apologizing for AI hallucinations in legal filings. This is not isolated scandal\u2014it is an operating model where institutional decisions are made under informal threat of consequence. Markets have not yet priced the cost of decisions being made for political rather than economic reasons during dual crisis (Fed succession + geopolitical risk). The rally today masks the fact that institutional decay is accelerating at precisely the moment when institutional credibility is most needed."
+      "age_days": 8,
+      "summary": "Pattern accelerated: Navy Secretary Phelan fired, SPLC under DOJ investigation, Apple cutting savings rates, student loan programs collapsing, Sullivan & Cromwell apologizing for AI errors in filings. None are scandals in isolation. Collectively they show decisions increasingly made for political rather than economic reasons\u2014at precisely the moment when policy credibility is most needed. Markets have not priced the cost of this operating model yet."
+    },
+    {
+      "id": "consumer-credit-tightening",
+      "label": "Credit Access Narrowing",
+      "first_seen": "2026-04-23",
+      "age_days": 0,
+      "summary": "Apple Card savings rate cut (15 basis points) and collapse of federal Grad PLUS loan access are isolated decisions but same underlying cause: lenders reducing exposure and rates. Student loan borrowers are forced into private alternatives (College Ave), which carry higher cost and shorter term flexibility. This is not a demand shock yet, but it is the setup for one if employment weakens."
     }
   ],
   "historical_comps_used": [
@@ -50,22 +57,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-04-16-2",
-      "date_added": "2026-04-16",
-      "condition": "Powell makes any public statement acknowledging Trump's May timeline or hinting at stepping down",
-      "meaning": "Fed independence has cracked publicly; market reprices regime change risk and Warsh's confirmation odds spike sharply upward.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-16-3",
-      "date_added": "2026-04-16",
-      "condition": "10-year Treasury yield rises above 4.2% while S&P stays flat or down",
-      "meaning": "Fed expectations are decoupling from equity valuations\u2014bond market is pricing stagflation faster than stocks; sell signal for duration and growth.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-04-21-0",
       "date_added": "2026-04-21",
@@ -127,6 +118,22 @@
       "date_added": "2026-04-22",
       "condition": "10-year Treasury yield rises above 4.2% while S&P 500 stays flat or declines",
       "meaning": "Signals market is pricing inflation or institutional risk premium (not growth), indicating dual crisis is being repriced as stagflation rather than contained geopolitical shock.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-23-2",
+      "date_added": "2026-04-23",
+      "condition": "Apple Card savings account or other non-bank lender cuts rates again within one week",
+      "meaning": "Credit tightening is broadening beyond Apple; signals beginning of supply-side credit crunch affecting consumer spending within 6\u20138 weeks.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-04-23-3",
+      "date_added": "2026-04-23",
+      "condition": "Fed official makes public statement on rates that references Trump, politics, or May timeline",
+      "meaning": "Confirms that Fed independence is now conditional on political acceptance; investors begin reducing duration exposure and repricing long-end yields on credibility discount.",
       "status": "open",
       "outcome": ""
     }
