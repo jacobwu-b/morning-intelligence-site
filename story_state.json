@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Confirmation Under Duress",
+      "label": "Confirmation Backdrop Unchanged",
       "first_seen": "2026-04-15",
-      "age_days": 20,
-      "summary": "Warsh confirmation remains on track procedurally, but today's headlines about Fed rate-hike odds jumping expose the real issue: markets are now openly pricing the possibility that the Fed will be pushed toward tighter policy by political pressure rather than data. This is not about Warsh as a person. It is about what his confirmation signals if it happens while Powell faces Trump pressure and the Iran crisis deepens\u2014a capitulation that destroys Fed independence as a credible institution."
+      "age_days": 21,
+      "summary": "No direct news on Warsh confirmation today, but the geopolitical relief (Iran deal signal) reduces the acute pressure on Powell's May timeline. Warsh confirmation remains on track procedurally. The underlying issue persists: markets are watching whether the Fed will make policy decisions under political duress rather than data independence."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Escalation Test",
+      "label": "Iran Deal Hopes Surface",
       "first_seen": "2026-04-15",
-      "age_days": 20,
-      "summary": "Iran seized a vessel in the Strait of Hormuz, the most direct challenge to US authority since the ceasefire extension. Oil traders remain oddly unmoved (WTI below $95), suggesting markets still expect negotiated resolution. But the cost is showing up elsewhere: UK 30-year gilt yields hit 28-year highs, Australian inflation expectations are rising, and BofA explicitly warns the war threatens the two pillars of US growth (AI capex and consumer spending). The test is whether the next escalation breaks the market's 3-week negotiation assumption and reprices to months of supply disruption."
+      "age_days": 21,
+      "summary": "Today's headlines show Iran signaling willingness to reopen the Strait of Hormuz, following the ceasefire extension precedent. Oil dropped sharply and the dollar weakened\u2014textbook risk-off-to-risk-on reversal. This validates the market's 3-week assumption that escalation risk is real but not yet inevitable. The test remains unchanged: whether the next escalation (vessel seizure, drone strike, or blockade attempt) breaks the negotiation framework and reprices to sustained disruption."
     },
     {
       "id": "institutional-erosion",
@@ -23,10 +23,10 @@
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Credit Access Narrowing",
+      "label": "Lender De-risking Accelerates",
       "first_seen": "2026-04-23",
-      "age_days": 12,
-      "summary": "Apple Card savings rate cut and federal student loan program collapse are now confirmed data points showing lenders retreating. Student loan borrowers are forced into private alternatives at higher cost and shorter terms. This is the setup mechanism for a consumer spending shock\u2014not happening yet, but positioned to happen if employment weakens or if inflation expectations stay elevated long enough to force real wage compression."
+      "age_days": 13,
+      "summary": "Apple's 15bp savings rate cut is the second major data point (after federal student loan collapse) confirming lenders are retreating before a consumer shock hits. This is not panic\u2014it is rational de-risking. Institutions see energy-shock inflation expectations and are lowering consumer credit exposure in advance. The setup is complete: if employment stays strong and inflation drops, credit tightening is a non-event; if either weakens, the reduced credit availability becomes a multiplier on consumer spending weakness."
     }
   ],
   "historical_comps_used": [
@@ -57,30 +57,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-04-21-2",
-      "date_added": "2026-04-21",
-      "condition": "Fed official (Powell, governor, or staff) makes public statement on rates that sounds politically motivated rather than data-driven",
-      "meaning": "First explicit signal that institutional capture has moved from theory to practice; would likely trigger equities sell-off and 10-year yield spike.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-21-3",
-      "date_added": "2026-04-21",
-      "condition": "Senate Democrats signal willingness to vote against Warsh confirmation (not delay, but actual opposition votes above 10 senators)",
-      "meaning": "Would slow timeline and force Warsh to make explicit commitments on Fed independence; could delay confirmation into June and create window where market reprices the regime shift risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-22-0",
-      "date_added": "2026-04-22",
-      "condition": "Iran announces official negotiating delegation with specific names and mandate statement within 48 hours",
-      "meaning": "Confirms talks are moving from ceasefire extension to actual negotiation; opens door to 3-6 week resolution timeline instead of indefinite blockade.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-04-22-1",
       "date_added": "2026-04-22",
@@ -122,18 +98,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-05-05-2",
-      "date_added": "2026-05-05",
-      "condition": "Another major non-bank lender (Capital One, Discover, American Express savings product) cuts savings rates within 7 days",
-      "meaning": "This confirms the credit-pullback pattern is institutional, not idiosyncratic, and signals lenders expect material wage compression from inflation within 6-9 months.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-05-05-3",
       "date_added": "2026-05-05",
       "condition": "10-year Treasury yield breaks 4.3% while S&P 500 remains flat or declines",
       "meaning": "This signals real inflation expectations are rising and equities are repricing higher discount rates; the AI/tech narrative cannot overcome inflation-shock fundamentals.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-06-0",
+      "date_added": "2026-05-06",
+      "condition": "Iran announces escalatory action (vessel seizure, drone activity, strait blockade threat) within 7 days",
+      "meaning": "Negotiation signal fails; oil reprices to $100+; Treasury yields spike; equity rally reverses within 48 hours and credit tightening becomes systemic multiplier.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-06-1",
+      "date_added": "2026-05-06",
+      "condition": "Second major non-bank lender (Capital One, Discover, American Express savings product) cuts rates within 7 days",
+      "meaning": "Lender de-risking is cascading, not isolated; signals institutions expect energy inflation to compress consumer borrowing capacity; becomes recession warning if paired with employment weakness.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-06-2",
+      "date_added": "2026-05-06",
+      "condition": "10-year Treasury yield breaks 4.3% while S&P 500 remains flat or declines on elevated volume",
+      "meaning": "Inflation expectations are re-anchoring higher despite geopolitical relief; real yields are rising; Fed pressure intensifies and Warsh confirmation becomes flash point for Fed independence narrative.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-06-3",
+      "date_added": "2026-05-06",
+      "condition": "Fed official (any governor, Powell, or regional president) makes public statement on rate path that references Trump, May timeline, or political considerations",
+      "meaning": "Institutional erosion signal confirms: Fed is capitulating to pressure rather than committing to data independence; Warsh confirmation becomes proxy war for market confidence in central bank credibility.",
       "status": "open",
       "outcome": ""
     }
