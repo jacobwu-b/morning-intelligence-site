@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Confirmation Backdrop Unchanged",
+      "label": "Powell Timeline Pressure Stable",
       "first_seen": "2026-04-15",
-      "age_days": 21,
-      "summary": "No direct news on Warsh confirmation today, but the geopolitical relief (Iran deal signal) reduces the acute pressure on Powell's May timeline. Warsh confirmation remains on track procedurally. The underlying issue persists: markets are watching whether the Fed will make policy decisions under political duress rather than data independence."
+      "age_days": 22,
+      "summary": "No direct news on Warsh confirmation today, but geopolitical relief (Iran ceasefire signal) has reduced acute pressure on Powell's May timeline. The procedural path remains on track. The underlying issue persists: markets will watch whether Fed policy decisions are made under political duress rather than data independence\u2014and today's lender behavior suggests institutions are already assuming duress."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Deal Hopes Surface",
+      "label": "Iran Ceasefire Holding",
       "first_seen": "2026-04-15",
-      "age_days": 21,
-      "summary": "Today's headlines show Iran signaling willingness to reopen the Strait of Hormuz, following the ceasefire extension precedent. Oil dropped sharply and the dollar weakened\u2014textbook risk-off-to-risk-on reversal. This validates the market's 3-week assumption that escalation risk is real but not yet inevitable. The test remains unchanged: whether the next escalation (vessel seizure, drone strike, or blockade attempt) breaks the negotiation framework and reprices to sustained disruption."
+      "age_days": 22,
+      "summary": "Oil retreated from $100+ today following renewed ceasefire signals, validating the 3-week assumption that escalation risk is real but not yet inevitable. The structural test remains: whether the next escalatory event (vessel seizure, drone strike, strait blockade) breaks the negotiation framework. Markets are pricing ceasefire-with-elevated-oil as the base case, but the cost to households and corporate margins is already being priced in via credit tightening."
     },
     {
       "id": "institutional-erosion",
@@ -25,8 +25,8 @@
       "id": "consumer-credit-tightening",
       "label": "Lender De-risking Accelerates",
       "first_seen": "2026-04-23",
-      "age_days": 13,
-      "summary": "Apple's 15bp savings rate cut is the second major data point (after federal student loan collapse) confirming lenders are retreating before a consumer shock hits. This is not panic\u2014it is rational de-risking. Institutions see energy-shock inflation expectations and are lowering consumer credit exposure in advance. The setup is complete: if employment stays strong and inflation drops, credit tightening is a non-event; if either weakens, the reduced credit availability becomes a multiplier on consumer spending weakness."
+      "age_days": 14,
+      "summary": "Apple's 15bp savings rate cut is now the second major institutional move (after federal student loan collapse) confirming lenders are retreating before a consumer shock hits. This is rational de-risking: institutions are pricing energy-shock inflation expectations and reducing consumer credit exposure in advance of potential employment weakness. The mechanism is clear: if inflation holds and employment stays strong, credit tightening is a non-event; if either weakens, reduced credit availability becomes a spending multiplier."
     }
   ],
   "historical_comps_used": [
@@ -57,22 +57,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-04-22-1",
-      "date_added": "2026-04-22",
-      "condition": "WTI oil closes above $100 for two consecutive trading days",
-      "meaning": "Signals market no longer believes Iran talks will hold; reprices blockade duration from temporary to structural; forces stagflation repricing in equities.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-04-22-2",
-      "date_added": "2026-04-22",
-      "condition": "Powell makes public statement acknowledging Trump's May timeline or hinting at stepping down",
-      "meaning": "Confirms Fed leadership is being rewritten under political pressure during active crisis; market reprices institutional credibility and Fed independence premium disappears.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-04-22-3",
       "date_added": "2026-04-22",
@@ -114,14 +98,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-05-06-1",
-      "date_added": "2026-05-06",
-      "condition": "Second major non-bank lender (Capital One, Discover, American Express savings product) cuts rates within 7 days",
-      "meaning": "Lender de-risking is cascading, not isolated; signals institutions expect energy inflation to compress consumer borrowing capacity; becomes recession warning if paired with employment weakness.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-05-06-2",
       "date_added": "2026-05-06",
       "condition": "10-year Treasury yield breaks 4.3% while S&P 500 remains flat or declines on elevated volume",
@@ -134,6 +110,30 @@
       "date_added": "2026-05-06",
       "condition": "Fed official (any governor, Powell, or regional president) makes public statement on rate path that references Trump, May timeline, or political considerations",
       "meaning": "Institutional erosion signal confirms: Fed is capitulating to pressure rather than committing to data independence; Warsh confirmation becomes proxy war for market confidence in central bank credibility.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-07-0",
+      "date_added": "2026-05-07",
+      "condition": "A third major non-bank lender (Capital One, Discover, American Express savings product) cuts rates within 7 days",
+      "meaning": "Credit contraction is becoming systemic, not isolated\u2014spending weakness will follow within 30 days and force Fed's hand on May timeline.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-07-1",
+      "date_added": "2026-05-07",
+      "condition": "Oil closes above $100 for two consecutive trading days on Iran escalation headlines",
+      "meaning": "Geopolitical ceasefire is breaking down; energy-shock inflation becomes structural rather than transitory, and lender de-risking accelerates exponentially.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-07-2",
+      "date_added": "2026-05-07",
+      "condition": "April consumer spending data (release May 29) shows month-over-month decline",
+      "meaning": "The credit tightening + energy shock mechanism is now visible in real spending; recession probability spikes, and Powell's May timeline becomes untenable.",
       "status": "open",
       "outcome": ""
     }
