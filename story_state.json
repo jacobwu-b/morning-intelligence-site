@@ -4,29 +4,29 @@
       "id": "fed-leadership-transition",
       "label": "Powell Timeline Pressure",
       "first_seen": "2026-04-15",
-      "age_days": 23,
-      "summary": "Warsh confirmation still on procedural track; no direct news today. Geopolitical relief (Iran ceasefire signals, oil retreat from $100+) has reduced acute May deadline pressure on Powell. The underlying structural issue persists: markets will test whether Fed policy decisions\u2014particularly on rate cuts and timing\u2014are made under political duress rather than data independence. Today's jobs beat (115K, double expectations) removes one near-term pressure valve, but lender de-risking suggests institutions are already assuming institutional erosion."
+      "age_days": 26,
+      "summary": "Kevin Warsh confirmation is on procedural track with no direct news today. Geopolitical relief has reduced acute May deadline pressure on Powell, but the underlying structural issue remains: whether Fed policy decisions are made under political duress rather than data independence. Jobs beat (115K) removes one near-term pressure valve, but lender de-risking suggests institutions are already assuming the Fed will prioritize political considerations over institutional independence. The May timeline pressure shifts from 'will the Fed cut' to 'will the Fed explain its decisions as independent.'"
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Iran Ceasefire Holding",
       "first_seen": "2026-04-15",
-      "age_days": 23,
-      "summary": "Oil retreated from $100+ on renewed ceasefire signals, validating the 3-week assumption that escalation risk is real but negotiable. The structural test remains: whether the next escalatory event (vessel seizure, drone strike, strait blockade) breaks the framework or holds within bounds. Markets are pricing ceasefire-with-elevated-oil ($85\u201395 range) as base case. The cost to households and corporate margins is already embedded in credit markets through lender behavior, not yet in employment data."
+      "age_days": 26,
+      "summary": "Oil has retreated further from $100+ on renewed ceasefire signals, validating the 3-week assumption that escalation risk is real but negotiable. Trump's dismissal of Iran's peace overture as 'totally unacceptable' and reports of UAE secret attacks suggest the framework is fragile\u2014the next escalatory event (vessel seizure, drone strike, strait blockade) could break it. Markets are pricing ceasefire-with-elevated-oil ($85\u201395 range) as base case, but that base case depends on no new triggering events."
     },
     {
       "id": "institutional-erosion",
       "label": "Decisions Made Under Threat",
       "first_seen": "2026-04-15",
-      "age_days": 23,
-      "summary": "Apple's 15bp savings rate cut (today) is the second major institutional move in 14 days confirming lenders are retreating before a consumer shock hits. These moves are rational de-risking: institutions are pricing energy-shock inflation expectations and reducing consumer credit exposure in advance of potential employment weakness. When credit tightens before employment falls, spending multipliers amplify the downturn. The mechanism is observable and repeating."
+      "age_days": 26,
+      "summary": "The broader pattern is now visible: institutions (lenders, credit markets, and soon policy institutions) are making defensive moves based on expected scenarios, not current data. Lenders are de-risking on inflation and energy prices. The Fed is under explicit political pressure to cut rates before data warrants it. The convergence of these signals suggests markets are mispricing downside risk by treating employment strength as sufficient evidence of stability, when the actual transmission mechanism (credit availability) is already beginning to fail."
     },
     {
       "id": "consumer-credit-tightening",
       "label": "Lender De-risking Accelerates",
       "first_seen": "2026-04-23",
-      "age_days": 15,
-      "summary": "Apple rate cut today, federal student loan collapse last week\u2014two separate institutions, same signal. Lenders are de-risking in advance of a consumer shock they expect but do not yet see in employment data. If inflation holds and employment stays strong, credit tightening is a non-event. If either weakens, reduced credit availability becomes a spending multiplier that turns a moderate downturn into a sharper one."
+      "age_days": 18,
+      "summary": "Apple's savings rate cut today confirms the pattern: lenders are retreating from consumer credit in advance of a shock they expect but employment data does not yet show. This is the second major move (Apple + federal student loan collapse) in 14 days. The structural mechanism is clear: credit tightening before employment falls amplifies spending multipliers. If inflation holds and unemployment rises, reduced credit availability becomes the transmission mechanism for a sharper downturn. The market is not pricing this risk yet because employment remains strong."
     }
   ],
   "historical_comps_used": [
@@ -62,22 +62,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-05-3",
-      "date_added": "2026-05-05",
-      "condition": "10-year Treasury yield breaks 4.3% while S&P 500 remains flat or declines",
-      "meaning": "This signals real inflation expectations are rising and equities are repricing higher discount rates; the AI/tech narrative cannot overcome inflation-shock fundamentals.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-06-0",
-      "date_added": "2026-05-06",
-      "condition": "Iran announces escalatory action (vessel seizure, drone activity, strait blockade threat) within 7 days",
-      "meaning": "Negotiation signal fails; oil reprices to $100+; Treasury yields spike; equity rally reverses within 48 hours and credit tightening becomes systemic multiplier.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-06-2",
       "date_added": "2026-05-06",
@@ -119,14 +103,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-05-08-1",
-      "date_added": "2026-05-08",
-      "condition": "A third major lender (Capital One, Discover, American Express) cuts deposit rates or restricts consumer credit access within 7 days",
-      "meaning": "De-risking is a coordinated cascade, not isolated decisions; institutions are aligned on pricing a consumer shock within 60\u201390 days.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-05-08-2",
       "date_added": "2026-05-08",
       "condition": "April consumer spending data (release May 29) shows month-over-month decline or flat growth",
@@ -139,6 +115,30 @@
       "date_added": "2026-05-08",
       "condition": "Fed official makes public statement on rate cuts that references Trump, May timeline, or political considerations",
       "meaning": "Powell's political independence is officially compromised; markets will immediately reprice both the inflation outlook (assuming politicized rate cuts) and the equity risk premium (assuming compromised policy).",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-11-0",
+      "date_added": "2026-05-11",
+      "condition": "Third major lender (Discover, Capital One, American Express) cuts deposit rates or restricts consumer credit within 7 days",
+      "meaning": "Confirms systemic lender de-risking and validates that institutional consensus on consumer weakness is shifting; markets are mispricing downside risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-11-1",
+      "date_added": "2026-05-11",
+      "condition": "Iran announces or executes escalatory action (vessel seizure, drone strike, strait blockade threat) within 7 days",
+      "meaning": "Ceasefire framework breaks; oil spikes above $95 for consecutive days and energy-shock inflation scenario becomes acute; cost to households and corporate margins accelerates.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-11-3",
+      "date_added": "2026-05-11",
+      "condition": "10-year Treasury yield breaks below 4.2% on risk-off positioning",
+      "meaning": "Markets are repricing recession probability; credit spreads are likely widening simultaneously; equity volatility regime shifts from complacent to reactive.",
       "status": "open",
       "outcome": ""
     }
