@@ -2,31 +2,31 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Powell Timeline Pressure",
+      "label": "Warsh Confirmation Done",
       "first_seen": "2026-04-15",
-      "age_days": 26,
-      "summary": "Kevin Warsh confirmation is on procedural track with no direct news today. Geopolitical relief has reduced acute May deadline pressure on Powell, but the underlying structural issue remains: whether Fed policy decisions are made under political duress rather than data independence. Jobs beat (115K) removes one near-term pressure valve, but lender de-risking suggests institutions are already assuming the Fed will prioritize political considerations over institutional independence. The May timeline pressure shifts from 'will the Fed cut' to 'will the Fed explain its decisions as independent.'"
+      "age_days": 27,
+      "summary": "Kevin Warsh confirmed to the Fed board (67-32, bipartisan vote including Senator Fetterman), removing the acute procedural pressure on Powell's May decisions. But the political question has evolved: Warsh is a Trump ally (2017-2018 Fed liaison), and his confirmation signals that Trump-friendly monetary policy has durability across both chambers. Powell no longer faces a deadline\u2014he faces an expectation. The market's assumption of pre-emptive rate cuts is now baked into positioning, not speculation."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Ceasefire Holding",
+      "label": "Iran Escalation Pricing",
       "first_seen": "2026-04-15",
-      "age_days": 26,
-      "summary": "Oil has retreated further from $100+ on renewed ceasefire signals, validating the 3-week assumption that escalation risk is real but negotiable. Trump's dismissal of Iran's peace overture as 'totally unacceptable' and reports of UAE secret attacks suggest the framework is fragile\u2014the next escalatory event (vessel seizure, drone strike, strait blockade) could break it. Markets are pricing ceasefire-with-elevated-oil ($85\u201395 range) as base case, but that base case depends on no new triggering events."
+      "age_days": 27,
+      "summary": "Oil backed off $100 last week on ceasefire signals, but today's inflation data confirms the 30% YoY oil surge is real and sustained. The Tehran earthquake (4.6M, no reported escalation) did not trigger new conflict. The base case remains ceasefire-with-elevated-oil ($85\u201395), but inflation already in the print means the market can no longer treat this as a near-term risk that will fade. If oil stays elevated through summer, the Fed faces a choice: tolerate inflation or cut rates into a persistently hot economy."
     },
     {
       "id": "institutional-erosion",
-      "label": "Decisions Made Under Threat",
+      "label": "Institutions Already Moving",
       "first_seen": "2026-04-15",
-      "age_days": 26,
-      "summary": "The broader pattern is now visible: institutions (lenders, credit markets, and soon policy institutions) are making defensive moves based on expected scenarios, not current data. Lenders are de-risking on inflation and energy prices. The Fed is under explicit political pressure to cut rates before data warrants it. The convergence of these signals suggests markets are mispricing downside risk by treating employment strength as sufficient evidence of stability, when the actual transmission mechanism (credit availability) is already beginning to fail."
+      "age_days": 27,
+      "summary": "Today's inflation print should be deflationary for equities (higher rates longer). Instead, the sell-off was muted. This is because the market is now pricing not 'Fed stays tight' but 'Fed cuts anyway.' Lender retreat (Apple, student loans) is the real signal: credit institutions are front-running a scenario where employment holds but purchasing power collapses. If inflation persists while credit contracts, the multiplier effect compounds\u2014not in 2027, but in Q3 2026."
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Lender De-risking Accelerates",
+      "label": "Second Lender Move Confirms Pattern",
       "first_seen": "2026-04-23",
-      "age_days": 18,
-      "summary": "Apple's savings rate cut today confirms the pattern: lenders are retreating from consumer credit in advance of a shock they expect but employment data does not yet show. This is the second major move (Apple + federal student loan collapse) in 14 days. The structural mechanism is clear: credit tightening before employment falls amplifies spending multipliers. If inflation holds and unemployment rises, reduced credit availability becomes the transmission mechanism for a sharper downturn. The market is not pricing this risk yet because employment remains strong."
+      "age_days": 19,
+      "summary": "No new major lender announcement today, but the April household debt print ($18.8T all-time high) combined with lender rate cuts and credit restrictions suggests the process is accelerating. The critical date is May 29 (April consumer spending data). If April spending shows weakness despite 115K jobs added in May, the narrative flips from 'soft landing' to 'soft landing requires credit availability that lenders are already removing.'"
     }
   ],
   "historical_comps_used": [
@@ -62,22 +62,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-06-2",
-      "date_added": "2026-05-06",
-      "condition": "10-year Treasury yield breaks 4.3% while S&P 500 remains flat or declines on elevated volume",
-      "meaning": "Inflation expectations are re-anchoring higher despite geopolitical relief; real yields are rising; Fed pressure intensifies and Warsh confirmation becomes flash point for Fed independence narrative.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-06-3",
-      "date_added": "2026-05-06",
-      "condition": "Fed official (any governor, Powell, or regional president) makes public statement on rate path that references Trump, May timeline, or political considerations",
-      "meaning": "Institutional erosion signal confirms: Fed is capitulating to pressure rather than committing to data independence; Warsh confirmation becomes proxy war for market confidence in central bank credibility.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-07-1",
       "date_added": "2026-05-07",
@@ -139,6 +123,22 @@
       "date_added": "2026-05-11",
       "condition": "10-year Treasury yield breaks below 4.2% on risk-off positioning",
       "meaning": "Markets are repricing recession probability; credit spreads are likely widening simultaneously; equity volatility regime shifts from complacent to reactive.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-12-0",
+      "date_added": "2026-05-12",
+      "condition": "Oil closes above $95 for three consecutive trading days",
+      "meaning": "Ceasefire framework is breaking; inflation expectations reset higher and the Fed's rate-cut narrative becomes untenable.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-12-3",
+      "date_added": "2026-05-12",
+      "condition": "Fed official (Powell, regional president, or board member) makes public statement on rate cuts referencing external supply shocks rather than domestic labor market weakness",
+      "meaning": "The Fed is explicitly abandoning the independence narrative and pivoting to a supply-shock justification for cuts\u2014a legal cover for political accommodation.",
       "status": "open",
       "outcome": ""
     }
