@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Confirmation Done",
+      "label": "Warsh Takes the Chair",
       "first_seen": "2026-04-15",
-      "age_days": 27,
-      "summary": "Kevin Warsh confirmed to the Fed board (67-32, bipartisan vote including Senator Fetterman), removing the acute procedural pressure on Powell's May decisions. But the political question has evolved: Warsh is a Trump ally (2017-2018 Fed liaison), and his confirmation signals that Trump-friendly monetary policy has durability across both chambers. Powell no longer faces a deadline\u2014he faces an expectation. The market's assumption of pre-emptive rate cuts is now baked into positioning, not speculation."
+      "age_days": 28,
+      "summary": "Warsh's confirmation (67-32) removes the acute procedural pressure on Powell and signals that Trump-friendly monetary policy has durable bipartisan support. But this is not a 'everything stays the same' moment\u2014it is a 'expectations have shifted' moment. Warsh's role as 2017-2018 Fed liaison to Trump, combined with today's inflation data, means the market is now pricing rate cuts despite persistently hot inflation. The open question: does Warsh cut because inflation is transient, or because political pressure on rate-sensitive assets (real estate, equities, Trump-branded ventures) overrides the inflation signal?"
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Escalation Pricing",
+      "label": "Oil Stays Sticky Above $90",
       "first_seen": "2026-04-15",
-      "age_days": 27,
-      "summary": "Oil backed off $100 last week on ceasefire signals, but today's inflation data confirms the 30% YoY oil surge is real and sustained. The Tehran earthquake (4.6M, no reported escalation) did not trigger new conflict. The base case remains ceasefire-with-elevated-oil ($85\u201395), but inflation already in the print means the market can no longer treat this as a near-term risk that will fade. If oil stays elevated through summer, the Fed faces a choice: tolerate inflation or cut rates into a persistently hot economy."
+      "age_days": 28,
+      "summary": "Today's IEA warning\u2014oil inventories falling at record pace, mounting supply losses from Strait of Hormuz\u2014confirms that the 30% YoY oil surge is structural, not cyclical. The Tehran earthquake (4.6M) did not escalate the conflict, but it also did not de-escalate it. The base case remains elevated oil ($85\u201395) through summer. The problem: elevated oil + elevated inflation + lender credit tightening = a scenario where the Fed cannot cut rates without risking currency weakness, yet the political pressure to cut has just increased with Warsh's confirmation."
     },
     {
       "id": "institutional-erosion",
-      "label": "Institutions Already Moving",
+      "label": "Credit Withdrawal Accelerating",
       "first_seen": "2026-04-15",
-      "age_days": 27,
-      "summary": "Today's inflation print should be deflationary for equities (higher rates longer). Instead, the sell-off was muted. This is because the market is now pricing not 'Fed stays tight' but 'Fed cuts anyway.' Lender retreat (Apple, student loans) is the real signal: credit institutions are front-running a scenario where employment holds but purchasing power collapses. If inflation persists while credit contracts, the multiplier effect compounds\u2014not in 2027, but in Q3 2026."
+      "age_days": 28,
+      "summary": "The April household debt print ($18.8T all-time high) combined with lender deposit-rate cuts and credit restrictions creates a perverse dynamic: institutions are pricing in future weakness (and cutting rates to retain deposits) while simultaneously tightening credit availability. This is the hallmark of a credit contraction cycle. Warsh's confirmation does not change this\u2014it may accelerate it. If lenders believe the Fed will cut despite inflation (a reasonable inference from today's confirmation + inflation data combination), they will front-run that scenario by restricting consumer credit now."
     },
     {
       "id": "consumer-credit-tightening",
@@ -62,38 +62,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-07-1",
-      "date_added": "2026-05-07",
-      "condition": "Oil closes above $100 for two consecutive trading days on Iran escalation headlines",
-      "meaning": "Geopolitical ceasefire is breaking down; energy-shock inflation becomes structural rather than transitory, and lender de-risking accelerates exponentially.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-07-2",
-      "date_added": "2026-05-07",
-      "condition": "April consumer spending data (release May 29) shows month-over-month decline",
-      "meaning": "The credit tightening + energy shock mechanism is now visible in real spending; recession probability spikes, and Powell's May timeline becomes untenable.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-08-0",
-      "date_added": "2026-05-08",
-      "condition": "Oil closes above $95 for three consecutive trading days on Iran escalation headlines",
-      "meaning": "The geopolitical ceasefire is breaking down and energy shock remains the structural driver of lender de-risking; consumer shock is coming on schedule.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-08-2",
-      "date_added": "2026-05-08",
-      "condition": "April consumer spending data (release May 29) shows month-over-month decline or flat growth",
-      "meaning": "Lender de-risking was prescient; household purchasing power is already falling despite strong employment, confirming the energy-shock gap is real and widening.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-08-3",
       "date_added": "2026-05-08",
@@ -139,6 +107,38 @@
       "date_added": "2026-05-12",
       "condition": "Fed official (Powell, regional president, or board member) makes public statement on rate cuts referencing external supply shocks rather than domestic labor market weakness",
       "meaning": "The Fed is explicitly abandoning the independence narrative and pivoting to a supply-shock justification for cuts\u2014a legal cover for political accommodation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-13-0",
+      "date_added": "2026-05-13",
+      "condition": "April consumer spending data (May 29 release) shows MoM change of 0% or negative",
+      "meaning": "Confirms that credit tightening is already hitting household purchasing power, justifying Fed cuts and triggering a bear-case scenario of inflation + weakening demand.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-13-1",
+      "date_added": "2026-05-13",
+      "condition": "Third major lender (Discover, Capital One, American Express) cuts deposit rates or tightens credit within 7 days",
+      "meaning": "Accelerates the institutional signal that credit contraction is coordinated, not random, and creates a feedback loop where lenders frontrun Fed cuts and consumers lose purchasing power before unemployment rises.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-13-2",
+      "date_added": "2026-05-13",
+      "condition": "Oil closes above $95 for three consecutive trading days on any news (Iran escalation, inventory data, or Warsh statement)",
+      "meaning": "Locks in elevated oil as the baseline expectation, forcing Warsh to choose between cutting into inflation or defending the dollar\u2014a choice that has not been faced by a Fed chair under Trump pressure since Burns.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-13-3",
+      "date_added": "2026-05-13",
+      "condition": "Dollar index (DXY) closes below 100 for five consecutive trading days",
+      "meaning": "Signals market pricing of Warsh-era rate cuts and oil persistence simultaneously; typically precedes a 12-18 month period of dollar weakness and imported inflation.",
       "status": "open",
       "outcome": ""
     }
