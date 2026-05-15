@@ -4,22 +4,22 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Takes the Chair",
       "first_seen": "2026-04-15",
-      "age_days": 28,
-      "summary": "Warsh's confirmation (67-32) removes the acute procedural pressure on Powell and signals that Trump-friendly monetary policy has durable bipartisan support. But this is not a 'everything stays the same' moment\u2014it is a 'expectations have shifted' moment. Warsh's role as 2017-2018 Fed liaison to Trump, combined with today's inflation data, means the market is now pricing rate cuts despite persistently hot inflation. The open question: does Warsh cut because inflation is transient, or because political pressure on rate-sensitive assets (real estate, equities, Trump-branded ventures) overrides the inflation signal?"
+      "age_days": 29,
+      "summary": "Kevin Warsh confirmed 67-32 on May 14. Market interpretation: Warsh will cut rates despite elevated inflation (CPI still running hot) because his historical role as Trump liaison prioritizes financial conditions over inflation signals. The open question is no longer 'will the Fed have cover to cut' but 'how far will Warsh cut into a $90+ oil environment.' Rate-cut pricing is now durable, bipartisan, and priced into equities."
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Oil Stays Sticky Above $90",
       "first_seen": "2026-04-15",
-      "age_days": 28,
-      "summary": "Today's IEA warning\u2014oil inventories falling at record pace, mounting supply losses from Strait of Hormuz\u2014confirms that the 30% YoY oil surge is structural, not cyclical. The Tehran earthquake (4.6M) did not escalate the conflict, but it also did not de-escalate it. The base case remains elevated oil ($85\u201395) through summer. The problem: elevated oil + elevated inflation + lender credit tightening = a scenario where the Fed cannot cut rates without risking currency weakness, yet the political pressure to cut has just increased with Warsh's confirmation."
+      "age_days": 29,
+      "summary": "No new escalation today, but the 30% YoY oil surge remains structural given inventory losses and Strait of Hormuz supply risk. With Warsh confirmed and rate cuts now front-loaded into markets, the critical question shifts: does Warsh cut into this oil environment, and if so, does that trigger currency weakness that pushes oil higher? The base case remains $85\u201395 oil through summer, but Warsh's willingness to cut could extend that to $100+ if markets interpret cuts as a signal of Fed weakness on inflation."
     },
     {
       "id": "institutional-erosion",
       "label": "Credit Withdrawal Accelerating",
       "first_seen": "2026-04-15",
-      "age_days": 28,
-      "summary": "The April household debt print ($18.8T all-time high) combined with lender deposit-rate cuts and credit restrictions creates a perverse dynamic: institutions are pricing in future weakness (and cutting rates to retain deposits) while simultaneously tightening credit availability. This is the hallmark of a credit contraction cycle. Warsh's confirmation does not change this\u2014it may accelerate it. If lenders believe the Fed will cut despite inflation (a reasonable inference from today's confirmation + inflation data combination), they will front-run that scenario by restricting consumer credit now."
+      "age_days": 29,
+      "summary": "Warsh's confirmation likely accelerates lender front-running: if lenders believe the Fed will cut despite inflation (a sound inference from today's confirmation + April household debt data), they will restrict consumer credit now and price deposits for a lower-rate future. This dynamic\u2014institutions pulling credit while equity markets rally on rate-cut hopes\u2014is the defining feature of a credit contraction disguised as a soft landing. The May 29 consumer spending print will be the test of whether lenders' pessimism is prophetic or premature."
     },
     {
       "id": "consumer-credit-tightening",
@@ -30,21 +30,6 @@
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1972",
-      "context": "Nixon pressured Fed Chair Arthur Burns to keep rates low ahead of the 1972 elect",
-      "date_used": "2026-04-15"
-    },
-    {
-      "year": "1997-98",
-      "context": "When pressure on central banks mounted globally (Russia, Asia), markets initiall",
-      "date_used": "2026-04-15"
-    },
-    {
-      "year": "2016-17",
-      "context": "Trump repeatedly attacked the Fed before taking office. Markets rallied on dereg",
-      "date_used": "2026-04-15"
-    },
     {
       "year": "1973",
       "context": "OPEC oil embargo: October 1973 embargo announced. Markets initially tried to pri",
@@ -62,22 +47,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-08-3",
-      "date_added": "2026-05-08",
-      "condition": "Fed official makes public statement on rate cuts that references Trump, May timeline, or political considerations",
-      "meaning": "Powell's political independence is officially compromised; markets will immediately reprice both the inflation outlook (assuming politicized rate cuts) and the equity risk premium (assuming compromised policy).",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-11-0",
-      "date_added": "2026-05-11",
-      "condition": "Third major lender (Discover, Capital One, American Express) cuts deposit rates or restricts consumer credit within 7 days",
-      "meaning": "Confirms systemic lender de-risking and validates that institutional consensus on consumer weakness is shifting; markets are mispricing downside risk.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-11-1",
       "date_added": "2026-05-11",
@@ -139,6 +108,22 @@
       "date_added": "2026-05-13",
       "condition": "Dollar index (DXY) closes below 100 for five consecutive trading days",
       "meaning": "Signals market pricing of Warsh-era rate cuts and oil persistence simultaneously; typically precedes a 12-18 month period of dollar weakness and imported inflation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-14-0",
+      "date_added": "2026-05-14",
+      "condition": "Oil closes above $95 for three consecutive trading days (any cause: Iran escalation, inventory data, Warsh hawkish signal, or geopolitical escalation)",
+      "meaning": "Warsh's first rate-cut decision becomes a test of whether he is data-dependent (hold on oil risk) or politically driven (cut anyway); a break confirms structural inflation is the binding constraint.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-14-2",
+      "date_added": "2026-05-14",
+      "condition": "Third major lender (Discover, Capital One, American Express) cuts deposit rates or tightens consumer credit within 7 days",
+      "meaning": "Confirms credit contraction is not a two-lender anomaly but a systemic dynamic; validates that institutions are front-running Fed rate cuts by restricting credit now.",
       "status": "open",
       "outcome": ""
     }
