@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — May 15, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">FRIDAY · May 15, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-OFF SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&P 500</span>
+    <span class="ticker-value">7,408.50</span>
+    <span class="ticker-change down">
+      ▼ 1.24%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,225</span>
+    <span class="ticker-change down">
+      ▼ 1.54%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">49,526</span>
+    <span class="ticker-change down">
+      ▼ 1.07%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Powell's Exit Meets Warsh's Confirmation: Markets Price the Fed's Inflation Surrender—But Treasury Yields Say It Won't Be Painless</h1>
+    <p class="lead-body"><strong>The Fed just handed the chair to Kevin Warsh on the same day Jerome Powell left office, and markets sold off sharply despite getting exactly what they wanted: rate-cut confirmation.</strong> The contradiction is the story. Equities fell 1.2–1.5% because 30-year Treasury yields hit their highest level since June 2007—a signal that bond markets are pricing either (a) structural inflation that rate cuts won't fix, or (b) currency weakness ahead of cuts that will push yields higher, not lower. <strong>Warsh's confirmation was always going to accelerate lender credit withdrawal</strong>, but today's bond move reveals the real constraint: the Fed can cut rates, but it cannot cut away an oil shock, and if it tries, the dollar breaks and oil goes higher.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Treasury Yield Shock + Warsh Confirmation: The Market Prices Rate Cuts, Then Realizes Cuts Into Oil Don't Lower Yields</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">LONG-END YIELD REVERSAL</div>
+          <div class="cause-headline">30-year Treasury yields hit 2007 highs despite Fed rate cuts being priced in—a direct signal that bond markets expect currency weakness and higher oil ahead of any rate-cut benefit.</div>
+          <div class="cause-text">Long-end yields typically fall when rate cuts are expected because (a) the entire curve should compress downward, and (b) lower rates reduce long-term real returns, pushing capital into duration. Today the opposite happened: Warsh confirmed, equities initially rallied on rate-cut pricing, then reversed sharply while 30-year yields climbed to their highest level since June 2007. This inversion occurs when bond markets price a scenario where Fed cuts weaken the dollar, push oil higher, and regenerate inflation expectations—negating the yield benefit of lower rates. The 30-year is the clearest signal of long-run inflation expectations and currency sustainability; it is saying: 'I believe the Fed will cut, but I also believe cutting into $90+ oil without resolving the supply shock will backfire.'</div>
+          <div class="cause-verdict">This is signal, not noise. The 30-year yield is the bond market's way of imposing a constraint on the Warsh narrative. Warsh can cut, but he cannot cut away oil, and if he cuts without resolving supply, yields stay elevated and the dollar weakens further. The market is pricing a path where rate cuts are initiated, oil tests $95–100, inflation reprices higher, and yields spike again in June–July 2026. This is a 6–12 week duration scenario.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">LENDER ANTICIPATION CASCADE</div>
+          <div class="cause-headline">Warsh's confirmation removes the last institutional barrier to cuts, accelerating lender front-running and credit withdrawal into the summer.</div>
+          <div class="cause-text">Lenders have now received their clearest possible signal: the Fed will prioritize financial conditions (rate cuts, lower yields, higher asset prices) over inflation signals (oil, wages, supply constraints). Rational lenders will front-run this by withdrawing consumer credit now—before competition intensifies and before deposit rates compress. We have already seen two major lenders cut deposit rates and tighten credit standards in April–May. Expect a third announcement within 7–10 days, followed by a visible slowdown in credit card originations and auto lending. The question is whether this credit withdrawal is prophetic (consumer spending weakens in April, as lenders expect) or premature (spending holds, credit was withdrawn too early).</div>
+          <div class="cause-verdict">This is signal masquerading as noise. Lender behavior is far more reliable than consumer surveys or Fed forward guidance. When lenders withdraw credit, recessions follow within 6–12 months, even if equities continue to rally for a few more weeks. The May 29 consumer spending print will either confirm lenders are correct or prove them early. Either way, expect a third major lender announcement this week or next, and position for a capitulation sell-off in equities if April spending shows surprise weakness.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The Fed can cut rates, but it cannot cut away an oil shock—and if it tries, it breaks the dollar and makes oil worse.</h2>
+      <p class="section-body">Imagine you're a homeowner with a mortgage at 6% and heating oil at $4 per gallon. The Fed cuts rates to 5.5%, and your mortgage gets cheaper—great. But heating oil stays at $4, or goes to $4.50, because the Fed's rate cuts weaken the dollar and make crude (priced in dollars) cheaper for foreign buyers, so they buy more. Your mortgage payment went down, but your heating bill went up. The net effect on your budget depends on the relative magnitudes. <strong>Right now, oil at $90+ is a structural constraint that rate cuts cannot solve; and if rate cuts weaken the dollar, oil goes higher and nullifies the rate-cut benefit</strong>. The bond market is pricing this exact dynamic. The 30-year yield is saying: 'I see the rate cut coming, but I also see it backfiring.' This scenario is harder than the typical 'soft landing' because it requires the Fed to cut rates while accepting that those cuts might push oil higher, and then either (a) accept higher inflation and live with higher yields, or (b) reverse course and hike again, destroying the very financial conditions Warsh is trying to engineer. There is no clean exit.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">When central banks cut rates into oil shocks, they either accept higher inflation or face a second shock.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1979</div>
+          <div>
+            <div class="comp-text">Federal Reserve under Paul Volcker inherited 13% inflation in August 1979 (second oil shock, Iranian Revolution). Market expected rate cuts; instead, Volcker hiked aggressively to 20% by June 1981. Markets crashed 25% from March 1980 to August 1982. The lesson: when a central bank is perceived to be soft on inflation in the face of an oil shock, bond markets force their hand by making the cost of inaction (higher yields, weaker currency, second oil surge) visible immediately.</div>
+            <div class="comp-lesson">A central bank's willingness to cut rates into an oil shock is immediately repriced as inflation risk; the market extracts a yield premium until the bank proves it will remain hawkish.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2007</div>
+          <div>
+            <div class="comp-text">Federal Reserve cut rates from 5.25% to 2% between September 2007 and April 2008 as credit markets froze. Simultaneously, oil surged from $70 to $147 (June 2008) because (a) the Fed's cuts weakened the dollar, and (b) China was still growing, driving demand. Equities fell 50% from October 2007 to March 2009. The 10-year yield spiked twice (November 2007, June 2008) before collapsing only after the Fed declared unlimited liquidity support and accepted that rate cuts alone were insufficient.</div>
+            <div class="comp-lesson">Rate cuts into a commodity shock extend the shock and delay relief until the central bank moves from price support (rate cuts) to quantity support (liquidity and fiscal intervention); pure rate cuts backfire.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text"><strong>The primary variable is the 30-year Treasury yield.</strong> If it stays above 4.5%, the market is telling Warsh: 'I don't believe rate cuts solve the oil problem, so I'm demanding compensation for the inflation and currency risk you're about to create.' If it falls below 4.2%, the market is saying: 'I believe the Fed will cut hard enough and fast enough that demand destruction will pull oil down and justify lower long-term yields.' The week ahead will test whether Warsh's first communication as Fed chair acknowledges the oil constraint or tries to paper over it. If Warsh makes a dovish statement without addressing oil or supply risk, expect 30-year yields to spike above 4.6% and equities to capitulate into May 29 (the consumer spending data). Hold that through next week.</p>
+      <div class="signal-kicker">
+        Scenario A — Warsh Cuts, Demand Destruction Wins: Warsh's first meeting produces a 25bp cut with dovish forward guidance; oil falls below $90 as growth expectations drop and the dollar stabilizes; 30-year yields compress to 4.2% by mid-June; equities rally 3–5% as the 'soft landing + rate cuts' narrative re-establishes. Requires: Warsh accepts near-term demand destruction to break the oil shock.<br>
+        Scenario B — Cuts Into Oil, Inflation Reprices: Warsh cuts into sticky $90+ oil; May 29 consumer spending shows April weakness; lender credit withdrawal accelerates; markets price a scenario where Fed cuts backfire, oil tests $95+, yields spike to 4.7%+, and equities fall 5–8% into June. Requires: Lenders were right, and Fed cuts destroy demand without breaking the supply shock.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&P 500</span>
+          <div>
+            <span class="index-price">7,408.50</span>
+            <span class="index-pct down">
+              ▼ 1.24%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,225</span>
+            <span class="index-pct down">
+              ▼ 1.54%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">49,526</span>
+            <span class="index-pct down">
+              ▼ 1.07%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,793.30</span>
+            <span class="index-pct down">
+              ▼ 2.44%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">18.43</span>
+            <span class="index-pct up">
+              ▲ 6.78%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Oil closes above $95 for three consecutive trading days on any news (Iran escalation, inventory data, or Warsh statement) </span>
+          <span>Superseded by w-2026-05-14-0 (same condition, later open date).</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">30-year Treasury yield closes above 4.6% for two consecutive trading days — </span>Bond markets are explicitly rejecting the idea that Warsh's rate cuts will lower long-term yields; this signals preparation for a capitulation selloff in equities once consumer data arrives.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil closes above $95 for three consecutive trading days — </span>The dollar has weakened enough that crude buyers are stepping in despite lower expected Fed rates; this confirms the 'cuts into oil' scenario and suggests inflation repricing is imminent.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">April consumer spending (released May 29) shows MoM change of 0% or negative — </span>Lenders' credit withdrawal is prophetic; demand is already softening despite job gains in May; Warsh must choose between cutting into weakness (capitulation scenario) or pausing to protect the dollar.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Third major lender (Discover, Capital One, American Express) cuts deposit rates or tightens credit within 7 days — </span>The credit cascade is accelerating; lenders are now moving in lockstep, signaling high confidence that lower rates are coming and duration risk is rising.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Warsh's first public statement as Fed chair does not explicitly reference oil or supply constraints as a reason for gradualism — </span>Warsh is either ignoring the constraint or confident it will self-resolve; if he ignores it, bond markets will extract a yield premium immediately, forcing a sharp correction in equities within 1–2 weeks.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">May 15, 2026</div>
+</footer>
+
+</body>
+</html>
