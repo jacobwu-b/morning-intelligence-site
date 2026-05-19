@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Takes the Chair",
+      "label": "Warsh Chair Confirmed",
       "first_seen": "2026-04-15",
-      "age_days": 30,
-      "summary": "Kevin Warsh confirmed May 14 by 67\u201332 margin. The market interpretation (Warsh will prioritize financial conditions over inflation) is now locked in. Powell's exit today is ceremonial\u2014the real pivot happened three weeks ago. The open question shifts from 'will the Fed cut' to 'will cuts into $90+ oil push the dollar lower and oil higher, creating a second wave of inflation that forces policy reversal.' Today's 30-year Treasury yield spike (highest since June 2007) suggests bond markets are already pricing that reversal scenario."
+      "age_days": 33,
+      "summary": "Kevin Warsh was confirmed May 14 and takes office this week. The market's interpretation\u2014that Warsh prioritizes financial conditions over inflation and will cut rates\u2014is now institutional fact. Powell's ceremonial exit today completes the transition. The open question is no longer 'will the Fed cut,' but rather 'will cuts into $90+ oil and hawkish bond yields create a second wave of inflation that forces the Fed to reverse course before cuts even reach full effect.' Today's 30-year Treasury yield spike to 2007 highs answers that question: bond markets are now pricing that reversal scenario as the base case."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Stays Sticky Above $90",
+      "label": "Oil Holds $90+ Floor",
       "first_seen": "2026-04-15",
-      "age_days": 30,
-      "summary": "No new Iran escalation today, but oil remains the binding constraint on the entire rate-cut narrative. Warsh's confirmation removes the last institutional barrier to cuts, which normally would weaken the dollar and push oil higher. The critical path is now: (1) Warsh signals rate cuts as inflation normalizes, (2) dollar weakens, (3) oil tests $95\u2013100, (4) bond markets reprice inflation expectations upward, (5) yields spike. Today's Treasury move is the market front-running step (5). Oil closed unchanged today, but the 30-year yield move signals the market is now pricing the entire sequence."
+      "age_days": 33,
+      "summary": "Trump delayed Iran strikes today, and oil prices initially fell more than 1% before recovering to close unchanged around $91. The reprieve is temporary. Oil's resistance to falling below $90 despite the strike pause signals that geopolitical risk is now priced into the supply-demand structure, not just headline events. With Warsh confirmed and rate cuts now inevitable, the market is positioning for the dollar to weaken, which would push oil higher regardless of Iran developments. The critical signal is that oil did not fall hard on Trump's dovish statement\u2014it held its ground, suggesting the market no longer believes transitory geopolitical relief can break the $90+ ceiling."
     },
     {
       "id": "institutional-erosion",
-      "label": "Credit Withdrawal Accelerating",
+      "label": "Lenders Front-Running Cuts",
       "first_seen": "2026-04-15",
-      "age_days": 30,
-      "summary": "Warsh's confirmation accelerates the lender front-running process. Banks and credit card issuers now have the clearest possible signal: the Fed will cut rates despite inflation because Warsh prioritizes financial conditions. Rational lenders will withdraw credit now (before competition for lower-yield lending intensifies) and price deposits for a lower-rate future. Equities rallied into the confirmation on this logic, but today's sell-off reveals the hidden cost: if lenders are pulling credit while oil remains sticky, consumer spending will weaken even as the Fed cuts. That's a configuration that typically leads to capitulation selling once the data arrives."
+      "age_days": 33,
+      "summary": "Warsh's confirmation removed the last uncertainty around Fed policy direction. Rational lenders now have the clearest possible signal to withdraw credit before the competitive race for lower-yield lending intensifies. No major lender announcement today, but the institutional incentive structure shifted decisively. Banks and credit card issuers are now pulling deposits and tightening consumer credit ahead of May 29 consumer spending data. The risk is that credit withdrawal creates a self-fulfilling demand destruction loop\u2014spending weakens, lenders' pessimism proves correct, and equities face capitulation selling on the realization that Warsh's rate cuts arrive into a weakening consumer and sticky oil, not a healing cycle."
     },
     {
       "id": "consumer-credit-tightening",
@@ -30,10 +30,10 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Long Yields Hit 2007 Highs",
+      "label": "30-Year Yield at 2007 Highs",
       "first_seen": "2026-05-15",
-      "age_days": 0,
-      "summary": "30-year Treasury yields are at their highest since June 2007. This is the single most important signal today and receives no headline coverage. It means bond markets are pricing either structural inflation or currency weakness ahead of Fed cuts. The 30-year is the clearest signal of inflation expectations and currency sustainability. A 30-year yield at 2007 highs while the Fed is about to cut rates is the market saying: 'Rate cuts are coming, but they will weaken the dollar, push oil higher, and force yields to rise further before stabilizing.' This is the script that played out in 1979\u201380 (second oil shock) and early 2022 (inflation surprise followed by policy reversal)."
+      "age_days": 3,
+      "summary": "The 30-year Treasury yield closed at its highest level since June 2007, receiving almost no headline coverage despite being the market's clearest signal of what bond traders expect to happen. This is not a monetary policy surprise\u2014it is a currency and inflation surprise. The 30-year reflects the market's conviction that Warsh-era rate cuts will weaken the dollar, push oil toward $95\u2013100, and force long-duration yields to reprice higher as inflation expectations reset upward. The yield spike is the market front-running steps (2) through (5) of the sequence: cuts \u2192 dollar weakness \u2192 oil higher \u2192 inflation repricing \u2192 yields spike. Equities sold off despite this confirmation arriving as expected because the implication is clear: the Fed will cut into a deteriorating trade-off, and the first casualty will be the dollar and long-duration assets."
     }
   ],
   "historical_comps_used": [
@@ -51,17 +51,14 @@
       "year": "2007",
       "context": "Credit tightening accelerated in August 2007 (Bear Stearns hedge funds collapsed",
       "date_used": "2026-05-08"
+    },
+    {
+      "year": "2021",
+      "context": "Fed cut rates and maintained emergency QE as inflation spiked from transitory to",
+      "date_used": "2026-05-18"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-12-0",
-      "date_added": "2026-05-12",
-      "condition": "Oil closes above $95 for three consecutive trading days",
-      "meaning": "Ceasefire framework is breaking; inflation expectations reset higher and the Fed's rate-cut narrative becomes untenable.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-12-3",
       "date_added": "2026-05-12",
@@ -111,14 +108,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-05-15-0",
-      "date_added": "2026-05-15",
-      "condition": "30-year Treasury yield closes above 4.6% for two consecutive trading days",
-      "meaning": "Bond markets are explicitly rejecting the idea that Warsh's rate cuts will lower long-term yields; this signals preparation for a capitulation selloff in equities once consumer data arrives.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-05-15-2",
       "date_added": "2026-05-15",
       "condition": "April consumer spending (released May 29) shows MoM change of 0% or negative",
@@ -131,6 +120,22 @@
       "date_added": "2026-05-15",
       "condition": "Warsh's first public statement as Fed chair does not explicitly reference oil or supply constraints as a reason for gradualism",
       "meaning": "Warsh is either ignoring the constraint or confident it will self-resolve; if he ignores it, bond markets will extract a yield premium immediately, forcing a sharp correction in equities within 1\u20132 weeks.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-18-0",
+      "date_added": "2026-05-18",
+      "condition": "Oil closes below $88 and holds below that level for three consecutive trading days",
+      "meaning": "Demand destruction is real and severe; oil's geopolitical risk premium is collapsing; the deflationary signal is strong enough to let Warsh cut safely; bond yields will reprice lower; equities get a reprieve from capitulation selling.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-18-1",
+      "date_added": "2026-05-18",
+      "condition": "A major lender (Discover, Capital One, or American Express) cuts deposit rates or tightens consumer credit within 7 days",
+      "meaning": "The institutional credit front-running is accelerating; the entire system expects demand destruction ahead; the pessimistic market narrative has become consensus; watch for immediate equity capitulation selling as the bear case shifts from tail risk to base case.",
       "status": "open",
       "outcome": ""
     }
