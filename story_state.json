@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Chair Confirmed",
+      "label": "Warsh Arrival Now Priced",
       "first_seen": "2026-04-15",
-      "age_days": 34,
-      "summary": "Kevin Warsh takes office this week. Powell's exit is ceremonial. The market's working assumption\u2014that Warsh prioritizes financial conditions over inflation and will cut rates\u2014is now locked in. The open question shifts: not whether cuts happen, but whether cuts arriving into $90+ oil, weak dollar fundamentals, and tightening consumer credit will trigger a second inflation wave that forces reversal before full effect."
+      "age_days": 35,
+      "summary": "Kevin Warsh takes office this week with market consensus locked in: he will cut rates. The debate has shifted from whether to when and how fast. The open question is whether cuts arriving into $90+ oil, tightening credit, and a weakening dollar trigger the exact inflation reacceleration that causes him to reverse course mid-cycle, leaving equity holders facing both margin compression and multiple contraction."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Holds $90+ Floor",
+      "label": "Oil's $90 Floor Validated",
       "first_seen": "2026-04-15",
-      "age_days": 34,
-      "summary": "Trump delayed Iran strikes today. Oil initially fell over 1% before recovering to close unchanged at $91. The reprieve is temporary. Oil's refusal to fall hard on dovish news signals that $90+ is now priced into supply-demand structure, not just geopolitical headlines. With Warsh confirmed and the dollar primed to weaken into rate cuts, the market expects oil to hold or move higher regardless of Iran developments."
+      "age_days": 35,
+      "summary": "Trump delayed strikes; oil fell briefly then recovered. This confirms that $90+ is now embedded in supply-demand, not just geopolitical risk premium. Lenders are pulling credit before Warsh cuts. Rate cuts into $90 oil and a weakening dollar create the conditions for a second inflation wave that forces policy reversal before the stimulus effect reaches Main Street."
     },
     {
       "id": "institutional-erosion",
@@ -23,10 +23,10 @@
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Lenders Front-Running Cuts",
+      "label": "Credit Withdrawal in Motion",
       "first_seen": "2026-04-23",
-      "age_days": 26,
-      "summary": "Credit withdrawal is now in motion, though no headline announcements arrived today. Banks and credit card issuers have zero ambiguity about Fed direction and clear incentive to tighten before the competitive race for lower-yield lending intensifies. Household debt sits at $18.8T all-time high. The May 29 consumer spending print will signal whether lenders' pessimism is prophetic or premature\u2014and whether credit withdrawal creates self-fulfilling demand destruction."
+      "age_days": 27,
+      "summary": "No headline announcements today, but the institutional logic is now inevitable: lenders have zero ambiguity about Warsh's dovish direction and clear incentive to tighten credit before the race for lower-yield lending intensifies. Banks are pulling deposits and tightening consumer card limits ahead of May 29 consumer spending data. If spending rolls over on May 29, lenders' front-running becomes self-fulfilling demand destruction."
     },
     {
       "id": "treasury-yield-shock",
@@ -49,22 +49,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-13-3",
-      "date_added": "2026-05-13",
-      "condition": "Dollar index (DXY) closes below 100 for five consecutive trading days",
-      "meaning": "Signals market pricing of Warsh-era rate cuts and oil persistence simultaneously; typically precedes a 12-18 month period of dollar weakness and imported inflation.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-14-0",
-      "date_added": "2026-05-14",
-      "condition": "Oil closes above $95 for three consecutive trading days (any cause: Iran escalation, inventory data, Warsh hawkish signal, or geopolitical escalation)",
-      "meaning": "Warsh's first rate-cut decision becomes a test of whether he is data-dependent (hold on oil risk) or politically driven (cut anyway); a break confirms structural inflation is the binding constraint.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-14-2",
       "date_added": "2026-05-14",
@@ -126,6 +110,22 @@
       "date_added": "2026-05-19",
       "condition": "Oil closes above $95 for three consecutive trading days (any cause: Iran escalation, inventory, or dollar weakness)",
       "meaning": "The $90+ floor is breaking upward; inflation expectations are no longer stable and the long-duration repricing accelerates, forcing Warsh to signal hawkish gradualism or risk currency crisis.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-20-0",
+      "date_added": "2026-05-20",
+      "condition": "Oil closes above $95 for three consecutive trading days",
+      "meaning": "Confirms dollar weakness into rate cuts is now the dominant dynamic; forces Warsh to signal caution on cutting pace within his first month, creating immediate pressure on equities if he sounds hawkish.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-20-1",
+      "date_added": "2026-05-20",
+      "condition": "A second major lender (Discover, Capital One, or American Express) announces deposit rate cuts or credit tightening within 7 days",
+      "meaning": "Signals that credit front-running is now systemic, not isolated; raises the probability that May 29 consumer spending rolls over and demand destruction becomes self-fulfilling.",
       "status": "open",
       "outcome": ""
     }
