@@ -4,15 +4,15 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Arrival Now Priced",
       "first_seen": "2026-04-15",
-      "age_days": 35,
-      "summary": "Kevin Warsh takes office this week with market consensus locked in: he will cut rates. The debate has shifted from whether to when and how fast. The open question is whether cuts arriving into $90+ oil, tightening credit, and a weakening dollar trigger the exact inflation reacceleration that causes him to reverse course mid-cycle, leaving equity holders facing both margin compression and multiple contraction."
+      "age_days": 36,
+      "summary": "Warsh takes office this week; consensus rate cuts are priced in and no longer debated. The market has moved past 'when' to 'what happens when cuts arrive into $90+ oil and tightening credit.' Today's flat close reflects institutional patience\u2014lenders are front-running cuts by pulling credit ahead of May 29 consumer spending data, and equities are waiting for that data to confirm whether the consumer has already weakened. The open question remains: does Warsh's first public statement acknowledge oil/supply constraints as a reason for gradualism, or does he signal a faster cut pace that validates lenders' front-running?"
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Oil's $90 Floor Validated",
       "first_seen": "2026-04-15",
-      "age_days": 35,
-      "summary": "Trump delayed strikes; oil fell briefly then recovered. This confirms that $90+ is now embedded in supply-demand, not just geopolitical risk premium. Lenders are pulling credit before Warsh cuts. Rate cuts into $90 oil and a weakening dollar create the conditions for a second inflation wave that forces policy reversal before the stimulus effect reaches Main Street."
+      "age_days": 36,
+      "summary": "$90+ oil is now structural, not risk-premium. No headline moves today, but the absence of a break below $88 over three consecutive days confirms the floor is holding. This validates the institutional thesis driving credit tightening: Warsh's cuts arrive into sticky inflation inputs, not healing supply. The watchlist condition for three consecutive closes below $88 remains unmet; the condition for $95+ for three consecutive days is now the key signal to watch."
     },
     {
       "id": "institutional-erosion",
@@ -25,8 +25,8 @@
       "id": "consumer-credit-tightening",
       "label": "Credit Withdrawal in Motion",
       "first_seen": "2026-04-23",
-      "age_days": 27,
-      "summary": "No headline announcements today, but the institutional logic is now inevitable: lenders have zero ambiguity about Warsh's dovish direction and clear incentive to tighten credit before the race for lower-yield lending intensifies. Banks are pulling deposits and tightening consumer card limits ahead of May 29 consumer spending data. If spending rolls over on May 29, lenders' front-running becomes self-fulfilling demand destruction."
+      "age_days": 28,
+      "summary": "No new lender announcements today, but the institutional logic driving credit withdrawal is now undeniable. Banks have zero ambiguity about Warsh's direction and rational incentive to tighten before the yield compression race intensifies. The mechanism is now clear: credit withdrawal \u2192 spending rolls over on May 29 \u2192 lenders' pessimism becomes self-fulfilling \u2192 equities face a realization cascade. Today's flat close masks the underlying stress: the market is waiting for May 29 consumer spending data to either validate lenders' front-running or expose it as premature."
     },
     {
       "id": "treasury-yield-shock",
@@ -49,22 +49,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-14-2",
-      "date_added": "2026-05-14",
-      "condition": "Third major lender (Discover, Capital One, American Express) cuts deposit rates or tightens consumer credit within 7 days",
-      "meaning": "Confirms credit contraction is not a two-lender anomaly but a systemic dynamic; validates that institutions are front-running Fed rate cuts by restricting credit now.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-15-2",
-      "date_added": "2026-05-15",
-      "condition": "April consumer spending (released May 29) shows MoM change of 0% or negative",
-      "meaning": "Lenders' credit withdrawal is prophetic; demand is already softening despite job gains in May; Warsh must choose between cutting into weakness (capitulation scenario) or pausing to protect the dollar.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-15-4",
       "date_added": "2026-05-15",
@@ -126,6 +110,22 @@
       "date_added": "2026-05-20",
       "condition": "A second major lender (Discover, Capital One, or American Express) announces deposit rate cuts or credit tightening within 7 days",
       "meaning": "Signals that credit front-running is now systemic, not isolated; raises the probability that May 29 consumer spending rolls over and demand destruction becomes self-fulfilling.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-21-0",
+      "date_added": "2026-05-21",
+      "condition": "April consumer spending (May 29 release) posts MoM change of 0% or negative",
+      "meaning": "Validates lender credit tightening, triggers equity capitulation, and forces Warsh into an immediate policy dilemma.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-21-3",
+      "date_added": "2026-05-21",
+      "condition": "Warsh's first public statement as Fed chair explicitly mentions oil, energy prices, or supply constraints as a reason for measured rate cuts",
+      "meaning": "Signals he is aware of the stagflationary scenario and plans gradualism; markets price slower cuts and higher oil risk premium.",
       "status": "open",
       "outcome": ""
     }
