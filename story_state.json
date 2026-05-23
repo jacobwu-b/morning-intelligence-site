@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Arrival Now Priced",
+      "label": "Warsh Era Begins",
       "first_seen": "2026-04-15",
-      "age_days": 36,
-      "summary": "Warsh takes office this week; consensus rate cuts are priced in and no longer debated. The market has moved past 'when' to 'what happens when cuts arrive into $90+ oil and tightening credit.' Today's flat close reflects institutional patience\u2014lenders are front-running cuts by pulling credit ahead of May 29 consumer spending data, and equities are waiting for that data to confirm whether the consumer has already weakened. The open question remains: does Warsh's first public statement acknowledge oil/supply constraints as a reason for gradualism, or does he signal a faster cut pace that validates lenders' front-running?"
+      "age_days": 37,
+      "summary": "Warsh takes office this week with rate cuts already priced and no longer debated. The market's question has shifted from 'when' to 'what happens when cuts arrive into $90+ oil and tightening credit.' Today's flat close reflects the market's acknowledgment that the real test is not Warsh's first statement\u2014it is whether consumer spending weakens enough on May 29 to validate lenders' front-running as rational or expose it as premature."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil's $90 Floor Validated",
+      "label": "Oil Holds $90 Floor",
       "first_seen": "2026-04-15",
-      "age_days": 36,
-      "summary": "$90+ oil is now structural, not risk-premium. No headline moves today, but the absence of a break below $88 over three consecutive days confirms the floor is holding. This validates the institutional thesis driving credit tightening: Warsh's cuts arrive into sticky inflation inputs, not healing supply. The watchlist condition for three consecutive closes below $88 remains unmet; the condition for $95+ for three consecutive days is now the key signal to watch."
+      "age_days": 37,
+      "summary": "$90+ oil remains structural. Three consecutive days above $88 has confirmed the floor is holding, validating the institutional thesis that Warsh's cuts arrive into sticky inflation inputs. The next meaningful signal is $95+ for three consecutive days, which would confirm that oil is moving into a higher structural regime, not bouncing within a range."
     },
     {
       "id": "institutional-erosion",
@@ -23,17 +23,17 @@
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Credit Withdrawal in Motion",
+      "label": "Credit Withdrawal Waiting on Data",
       "first_seen": "2026-04-23",
-      "age_days": 28,
-      "summary": "No new lender announcements today, but the institutional logic driving credit withdrawal is now undeniable. Banks have zero ambiguity about Warsh's direction and rational incentive to tighten before the yield compression race intensifies. The mechanism is now clear: credit withdrawal \u2192 spending rolls over on May 29 \u2192 lenders' pessimism becomes self-fulfilling \u2192 equities face a realization cascade. Today's flat close masks the underlying stress: the market is waiting for May 29 consumer spending data to either validate lenders' front-running or expose it as premature."
+      "age_days": 29,
+      "summary": "Lenders have rational incentive to tighten before yield compression intensifies. No announcements today, but the mechanism is clear: credit withdrawal \u2192 spending rolls over May 29 \u2192 lenders' pessimism becomes self-fulfilling \u2192 equities face realization selling. Today's institutional patience masks underlying stress\u2014the market is waiting for consumer spending data to validate or invalidate the front-running thesis."
     },
     {
       "id": "treasury-yield-shock",
-      "label": "30Y Yield at 2007 Highs",
+      "label": "Long Duration Repricing Locked In",
       "first_seen": "2026-05-15",
-      "age_days": 4,
-      "summary": "The 30-year yield closed at its highest level since June 2007. This reflects bond market conviction that Warsh cuts will weaken the dollar and push oil higher, forcing long-duration yields to reprice upward as inflation expectations reset. Equities are now pricing the same scenario: cuts into deteriorating trade-offs, not healing. The implication is no longer debated\u2014it is institutional consensus."
+      "age_days": 7,
+      "summary": "The 30-year yield at 2007 highs reflects bond market consensus that Warsh cuts weaken the dollar and push oil higher, forcing long-duration repricing as inflation expectations reset. This is no longer debated\u2014it is institutional consensus. The implication is that equities are now pricing the same scenario: cuts into deteriorating trade-offs, not healing."
     }
   ],
   "historical_comps_used": [
