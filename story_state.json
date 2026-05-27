@@ -2,38 +2,38 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Era Begins",
+      "label": "Warsh Takes Office",
       "first_seen": "2026-04-15",
-      "age_days": 37,
-      "summary": "Warsh takes office this week with rate cuts already priced and no longer debated. The market's question has shifted from 'when' to 'what happens when cuts arrive into $90+ oil and tightening credit.' Today's flat close reflects the market's acknowledgment that the real test is not Warsh's first statement\u2014it is whether consumer spending weakens enough on May 29 to validate lenders' front-running as rational or expose it as premature."
+      "age_days": 41,
+      "summary": "Warsh's confirmation removed all uncertainty about rate cuts; the market's focus has shifted entirely to whether cuts land into a weakening consumer and sticky $90+ oil. Today's mixed market action (Nasdaq relief vs. Dow weakness) reflects the split thesis: tech believes AI upside offsets macro headwinds; broad market is skeptical. The deciding factor is May 29 consumer spending data\u2014if spending shows weakness, lenders' early tightening will be validated, and Warsh's cuts arrive into a self-reinforcing demand destruction loop."
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Oil Holds $90 Floor",
       "first_seen": "2026-04-15",
-      "age_days": 37,
-      "summary": "$90+ oil remains structural. Three consecutive days above $88 has confirmed the floor is holding, validating the institutional thesis that Warsh's cuts arrive into sticky inflation inputs. The next meaningful signal is $95+ for three consecutive days, which would confirm that oil is moving into a higher structural regime, not bouncing within a range."
+      "age_days": 41,
+      "summary": "$90+ oil confirmed as structural after three consecutive days above $88. Today brought fresh Iran escalation risk (attack on UAE nuclear plant condemned by UN Security Council, Israeli ground operations expanding in Lebanon, tanker explosion off Oman) but oil did not spike materially\u2014suggesting the market is already pricing this risk. The next signal is $95+ for three consecutive days, which would confirm a regime shift higher rather than a range bounce. Until that trigger, oil is holding its floor but not breaking out on headlines alone."
     },
     {
       "id": "institutional-erosion",
       "label": "Lenders Front-Running Cuts",
       "first_seen": "2026-04-15",
-      "age_days": 33,
-      "summary": "Warsh's confirmation removed the last uncertainty around Fed policy direction. Rational lenders now have the clearest possible signal to withdraw credit before the competitive race for lower-yield lending intensifies. No major lender announcement today, but the institutional incentive structure shifted decisively. Banks and credit card issuers are now pulling deposits and tightening consumer credit ahead of May 29 consumer spending data. The risk is that credit withdrawal creates a self-fulfilling demand destruction loop\u2014spending weakens, lenders' pessimism proves correct, and equities face capitulation selling on the realization that Warsh's rate cuts arrive into a weakening consumer and sticky oil, not a healing cycle."
+      "age_days": 41,
+      "summary": "The incentive structure for early credit withdrawal is now clear to all institutional lenders: Warsh's cuts are coming, yield compression is inevitable, and depositors will flee to money markets. No major lender announcement today, but this silence is itself the signal\u2014banks are quietly tightening before competing on yield rates intensifies. The mechanism is locked in. What matters now is whether May 29 spending data validates their pessimism (spending weak \u2192 lenders were right to pull early \u2192 equities capitulate) or proves them premature (spending holds \u2192 over-tightening was unnecessary \u2192 credit reverses and equities rally)."
     },
     {
       "id": "consumer-credit-tightening",
       "label": "Credit Withdrawal Waiting on Data",
       "first_seen": "2026-04-23",
-      "age_days": 29,
-      "summary": "Lenders have rational incentive to tighten before yield compression intensifies. No announcements today, but the mechanism is clear: credit withdrawal \u2192 spending rolls over May 29 \u2192 lenders' pessimism becomes self-fulfilling \u2192 equities face realization selling. Today's institutional patience masks underlying stress\u2014the market is waiting for consumer spending data to validate or invalidate the front-running thesis."
+      "age_days": 33,
+      "summary": "Lenders are rationally front-running but have not yet announced material tightening publicly. The mechanism is invisible until May 29, when consumer spending data will reveal whether credit destruction is already underway. Today's divergence (Nasdaq +1.19% vs. Dow -0.23%) reflects the market's uncertainty: tech believes consumers are resilient; broad indices are pricing in credit-driven weakness. This is the highest-stakes data point on the calendar for the next 72 hours."
     },
     {
       "id": "treasury-yield-shock",
       "label": "Long Duration Repricing Locked In",
       "first_seen": "2026-05-15",
-      "age_days": 7,
-      "summary": "The 30-year yield at 2007 highs reflects bond market consensus that Warsh cuts weaken the dollar and push oil higher, forcing long-duration repricing as inflation expectations reset. This is no longer debated\u2014it is institutional consensus. The implication is that equities are now pricing the same scenario: cuts into deteriorating trade-offs, not healing."
+      "age_days": 11,
+      "summary": "The 30-year yield is at 2007 highs; institutional consensus is already priced that Warsh's cuts weaken the dollar, push oil higher, and force long-duration repricing as inflation expectations reset. No new development today, but today's mixed equity action confirms the consensus is holding: the bond market and the broad equity market agree that cuts into $90+ oil and tightening credit is a negative trade-off, not a healing scenario. Today's Nasdaq relief on AI is a tactical relief, not a reframe of that structural view."
     }
   ],
   "historical_comps_used": [
@@ -49,22 +49,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-15-4",
-      "date_added": "2026-05-15",
-      "condition": "Warsh's first public statement as Fed chair does not explicitly reference oil or supply constraints as a reason for gradualism",
-      "meaning": "Warsh is either ignoring the constraint or confident it will self-resolve; if he ignores it, bond markets will extract a yield premium immediately, forcing a sharp correction in equities within 1\u20132 weeks.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-18-0",
-      "date_added": "2026-05-18",
-      "condition": "Oil closes below $88 and holds below that level for three consecutive trading days",
-      "meaning": "Demand destruction is real and severe; oil's geopolitical risk premium is collapsing; the deflationary signal is strong enough to let Warsh cut safely; bond yields will reprice lower; equities get a reprieve from capitulation selling.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-18-1",
       "date_added": "2026-05-18",
@@ -126,6 +110,22 @@
       "date_added": "2026-05-21",
       "condition": "Warsh's first public statement as Fed chair explicitly mentions oil, energy prices, or supply constraints as a reason for measured rate cuts",
       "meaning": "Signals he is aware of the stagflationary scenario and plans gradualism; markets price slower cuts and higher oil risk premium.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-26-2",
+      "date_added": "2026-05-26",
+      "condition": "A major lender (Discover, Capital One, or American Express) publicly announces deposit rate cuts or consumer credit tightening",
+      "meaning": "Front-running is no longer silent; institutional stress becomes visible and equities begin pricing the feedback loop before May 29 data arrives.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-26-3",
+      "date_added": "2026-05-26",
+      "condition": "Warsh's first public statement as Fed chair explicitly references oil, energy prices, or supply constraints as a reason for measured rate cuts",
+      "meaning": "Signals the Fed recognizes the oil floor problem and is preparing the market for gradualism despite lenders' front-running; could stabilize equities or confirm macro caution is justified.",
       "status": "open",
       "outcome": ""
     }
