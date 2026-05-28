@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Takes Office",
+      "label": "Warsh Cuts Into Uncertainty",
       "first_seen": "2026-04-15",
-      "age_days": 41,
-      "summary": "Warsh's confirmation removed all uncertainty about rate cuts; the market's focus has shifted entirely to whether cuts land into a weakening consumer and sticky $90+ oil. Today's mixed market action (Nasdaq relief vs. Dow weakness) reflects the split thesis: tech believes AI upside offsets macro headwinds; broad market is skeptical. The deciding factor is May 29 consumer spending data\u2014if spending shows weakness, lenders' early tightening will be validated, and Warsh's cuts arrive into a self-reinforcing demand destruction loop."
+      "age_days": 42,
+      "summary": "Warsh remains committed to measured cuts, but the market's confidence in whether those cuts help or hurt depends entirely on what happens to spending and oil. Today's mixed equity action (tech relief, broad weakness) reflects the unresolved tension: if oil stays elevated and spending softens, Warsh's cuts arrive into an already-tightening credit environment and become demand destruction. If oil falls and spending holds, cuts are healing. The setup is binary."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Holds $90 Floor",
+      "label": "Oil Peace Talk Relief\u2014Not Breakout",
       "first_seen": "2026-04-15",
-      "age_days": 41,
-      "summary": "$90+ oil confirmed as structural after three consecutive days above $88. Today brought fresh Iran escalation risk (attack on UAE nuclear plant condemned by UN Security Council, Israeli ground operations expanding in Lebanon, tanker explosion off Oman) but oil did not spike materially\u2014suggesting the market is already pricing this risk. The next signal is $95+ for three consecutive days, which would confirm a regime shift higher rather than a range bounce. Until that trigger, oil is holding its floor but not breaking out on headlines alone."
+      "age_days": 42,
+      "summary": "Oil fell sharply on Iran state TV reports of a draft deal that would reopen Hormuz shipping and end naval blockade. This is the first material de-escalation signal in weeks, yet oil remains above $88\u2014confirming the market never fully believed $90+ was pure geopolitical premium. The critical question: is this genuine progress toward a deal, or just media positioning? If the deal collapses in the next 48-72 hours, oil rebounds immediately. If talks hold, the $90 floor is broken and the structural energy cost headwind for Warsh's cuts weakens materially."
     },
     {
       "id": "institutional-erosion",
@@ -23,10 +23,10 @@
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Credit Withdrawal Waiting on Data",
+      "label": "May 29: The Decider",
       "first_seen": "2026-04-23",
-      "age_days": 33,
-      "summary": "Lenders are rationally front-running but have not yet announced material tightening publicly. The mechanism is invisible until May 29, when consumer spending data will reveal whether credit destruction is already underway. Today's divergence (Nasdaq +1.19% vs. Dow -0.23%) reflects the market's uncertainty: tech believes consumers are resilient; broad indices are pricing in credit-driven weakness. This is the highest-stakes data point on the calendar for the next 72 hours."
+      "age_days": 34,
+      "summary": "Nasdaq rallied (+0.07%) on the assumption that peace deal rumors ease inflation concerns and validate tech's resilience thesis; Dow was flat to negative (-0.36%), suggesting broad market skepticism that consumers are actually holding up. No lender has publicly announced tightening yet, but the mechanism is locked in: if May 29 spending is weak, lenders' early withdrawal was rational and equities capitulate; if spending holds, lenders over-tightened and credit reverses. This is the highest-stakes calendar event for the next 72 hours."
     },
     {
       "id": "treasury-yield-shock",
@@ -49,22 +49,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-18-1",
-      "date_added": "2026-05-18",
-      "condition": "A major lender (Discover, Capital One, or American Express) cuts deposit rates or tightens consumer credit within 7 days",
-      "meaning": "The institutional credit front-running is accelerating; the entire system expects demand destruction ahead; the pessimistic market narrative has become consensus; watch for immediate equity capitulation selling as the bear case shifts from tail risk to base case.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-19-0",
-      "date_added": "2026-05-19",
-      "condition": "A second major lender (Discover, Capital One, or American Express) announces deposit rate cuts or consumer credit tightening within 7 days",
-      "meaning": "Credit withdrawal is in full swing and lenders are confident in demand destruction; paired with weak May 29 spending data, this triggers capitulation selling in equities.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-19-1",
       "date_added": "2026-05-19",
@@ -126,6 +110,22 @@
       "date_added": "2026-05-26",
       "condition": "Warsh's first public statement as Fed chair explicitly references oil, energy prices, or supply constraints as a reason for measured rate cuts",
       "meaning": "Signals the Fed recognizes the oil floor problem and is preparing the market for gradualism despite lenders' front-running; could stabilize equities or confirm macro caution is justified.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-27-1",
+      "date_added": "2026-05-27",
+      "condition": "Oil closes below $87 for two consecutive trading days",
+      "meaning": "Confirms the Iran peace deal momentum is real and structural $90+ pricing is broken; removes energy headwind for consumer and credit healing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-27-2",
+      "date_added": "2026-05-27",
+      "condition": "Iran-US deal negotiations collapse or US walks away within 48 hours",
+      "meaning": "Oil rebounds above $92 immediately; geopolitical risk premium returns and weighs on equities regardless of spending data.",
       "status": "open",
       "outcome": ""
     }
