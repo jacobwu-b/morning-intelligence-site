@@ -2,31 +2,31 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Cuts Into Uncertainty",
+      "label": "Warsh Into the Headwind",
       "first_seen": "2026-04-15",
-      "age_days": 42,
-      "summary": "Warsh remains committed to measured cuts, but the market's confidence in whether those cuts help or hurt depends entirely on what happens to spending and oil. Today's mixed equity action (tech relief, broad weakness) reflects the unresolved tension: if oil stays elevated and spending softens, Warsh's cuts arrive into an already-tightening credit environment and become demand destruction. If oil falls and spending holds, cuts are healing. The setup is binary."
+      "age_days": 43,
+      "summary": "Warsh's measured-cuts narrative relied on a falling oil trajectory and stable consumer spending. Today's 3.4% inflation print broke the first assumption: oil has already driven inflation to three-year highs despite de-escalation talk. The second assumption\u2014stable spending\u2014is untested until May 29. Warsh has not yet publicly acknowledged that energy inflation, not transitory demand, is the constraint, and that's a strategic silence that will not survive another week. If May 29 spending is weak, Warsh will have cut into demand destruction and will face immediate market pressure to pause. If spending holds, he keeps the narrative intact\u2014for now."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Peace Talk Relief\u2014Not Breakout",
+      "label": "Iran Deal Credibility Test",
       "first_seen": "2026-04-15",
-      "age_days": 42,
-      "summary": "Oil fell sharply on Iran state TV reports of a draft deal that would reopen Hormuz shipping and end naval blockade. This is the first material de-escalation signal in weeks, yet oil remains above $88\u2014confirming the market never fully believed $90+ was pure geopolitical premium. The critical question: is this genuine progress toward a deal, or just media positioning? If the deal collapses in the next 48-72 hours, oil rebounds immediately. If talks hold, the $90 floor is broken and the structural energy cost headwind for Warsh's cuts weakens materially."
+      "age_days": 43,
+      "summary": "Iran state TV reports of a draft deal that would reopen Hormuz and end naval blockade drove oil down from $92+ to near $88, the first de-escalation signal in weeks. But today's inflation print\u20143.4% PCE, a three-year high\u2014reveals the market's core assumption was wrong: even with deal rumors, oil stayed elevated long enough to push headline inflation to crisis levels. The question is no longer whether a deal happens; it's whether the oil spike has already done enough damage to consumer balance sheets that the deal, even if it closes, arrives too late to prevent credit tightening cascades. Watch for deal collapse signals (next 48 hours) or concrete Hormuz reopening timelines (next week). If talks collapse, oil re-spikes above $95 and forces Warsh into a policy bind: cut into 4%+ inflation or hold into tightening credit."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lenders Front-Running Cuts",
+      "label": "Lenders' Early Exit Confirmed",
       "first_seen": "2026-04-15",
-      "age_days": 41,
-      "summary": "The incentive structure for early credit withdrawal is now clear to all institutional lenders: Warsh's cuts are coming, yield compression is inevitable, and depositors will flee to money markets. No major lender announcement today, but this silence is itself the signal\u2014banks are quietly tightening before competing on yield rates intensifies. The mechanism is locked in. What matters now is whether May 29 spending data validates their pessimism (spending weak \u2192 lenders were right to pull early \u2192 equities capitulate) or proves them premature (spending holds \u2192 over-tightening was unnecessary \u2192 credit reverses and equities rally)."
+      "age_days": 43,
+      "summary": "No major lender announcement today, but the silence is deafening. Banks have already begun quietly withdrawing from the deposit and consumer credit markets before Warsh's rate cuts compress yields and trigger depositor flight. The mechanism is locked in. Today's inflation print\u2014a three-year high\u2014validates their thesis: spending must weaken soon, and pulling early is rational. May 29 spending data will either confirm their pessimism (weak spending validates early withdrawal, equities capitulate) or expose it as over-tightening (spending holds, credit reverses, equities rally hard). This is the highest-stakes binary for the next 72 hours."
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "May 29: The Decider",
+      "label": "May 29: The System Test",
       "first_seen": "2026-04-23",
-      "age_days": 34,
-      "summary": "Nasdaq rallied (+0.07%) on the assumption that peace deal rumors ease inflation concerns and validate tech's resilience thesis; Dow was flat to negative (-0.36%), suggesting broad market skepticism that consumers are actually holding up. No lender has publicly announced tightening yet, but the mechanism is locked in: if May 29 spending is weak, lenders' early withdrawal was rational and equities capitulate; if spending holds, lenders over-tightened and credit reverses. This is the highest-stakes calendar event for the next 72 hours."
+      "age_days": 35,
+      "summary": "Nasdaq +0.91% reflects relief on the (still-fragile) assumption that an Iran deal will ease energy inflation and allow Warsh to cut without demand destruction. Dow +0.05% reflects the market's actual belief: broad equities are skeptical consumers can hold up. May 29 April spending data (released Friday morning) will test which thesis is right. If spending shows MoM decline or 0% change, lenders' pre-emptive tightening was rational, institutional withdrawal accelerates, and equities face a 3-5% correction. If spending posts +0.4% or higher, lenders over-tightened, credit reverses, and equities gap up 2-3% on the realization that soft landing is still possible."
     },
     {
       "id": "treasury-yield-shock",
@@ -49,38 +49,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-19-1",
-      "date_added": "2026-05-19",
-      "condition": "April consumer spending (May 29 release) shows MoM change of 0% or negative",
-      "meaning": "Credit tightening is already working; demand is weakening into Warsh's confirmed rate cut cycle, setting up the scenario where cuts arrive too late and too weak to prevent recession.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-19-2",
-      "date_added": "2026-05-19",
-      "condition": "Oil closes above $95 for three consecutive trading days (any cause: Iran escalation, inventory, or dollar weakness)",
-      "meaning": "The $90+ floor is breaking upward; inflation expectations are no longer stable and the long-duration repricing accelerates, forcing Warsh to signal hawkish gradualism or risk currency crisis.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-20-0",
-      "date_added": "2026-05-20",
-      "condition": "Oil closes above $95 for three consecutive trading days",
-      "meaning": "Confirms dollar weakness into rate cuts is now the dominant dynamic; forces Warsh to signal caution on cutting pace within his first month, creating immediate pressure on equities if he sounds hawkish.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-20-1",
-      "date_added": "2026-05-20",
-      "condition": "A second major lender (Discover, Capital One, or American Express) announces deposit rate cuts or credit tightening within 7 days",
-      "meaning": "Signals that credit front-running is now systemic, not isolated; raises the probability that May 29 consumer spending rolls over and demand destruction becomes self-fulfilling.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-21-0",
       "date_added": "2026-05-21",
@@ -126,6 +94,38 @@
       "date_added": "2026-05-27",
       "condition": "Iran-US deal negotiations collapse or US walks away within 48 hours",
       "meaning": "Oil rebounds above $92 immediately; geopolitical risk premium returns and weighs on equities regardless of spending data.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-28-0",
+      "date_added": "2026-05-28",
+      "condition": "April consumer spending (May 29, 8:30 AM release) posts MoM change of 0% or negative",
+      "meaning": "Lenders' pre-emptive credit withdrawal was rational; institutional tightening cascades visibly; equities correct 3-5% by May 31.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-28-1",
+      "date_added": "2026-05-28",
+      "condition": "April consumer spending (May 29) posts MoM change of +0.4% or higher",
+      "meaning": "Lenders over-tightened; credit conditions ease immediately; equities rally 2-3% as soft-landing narrative is restored.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-28-2",
+      "date_added": "2026-05-28",
+      "condition": "Iran-US deal negotiations collapse or US publicly walks away (next 48 hours)",
+      "meaning": "Oil re-spikes above $95; inflation expectations re-anchor higher; Warsh faces immediate pressure to pause cuts and risk credit tightening.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-05-28-3",
+      "date_added": "2026-05-28",
+      "condition": "Oil closes below $82 for two consecutive trading days before May 29",
+      "meaning": "Inflation path becomes sustainably lower; Warsh's cuts receive structural validation independent of spending data; equities rally on the realization that energy headwind is broken.",
       "status": "open",
       "outcome": ""
     }
