@@ -2,38 +2,38 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh's Narrative Breaks",
+      "label": "Warsh's Impossible Choice",
       "first_seen": "2026-04-15",
-      "age_days": 44,
-      "summary": "Warsh entered his role betting that measured rate cuts would land safely between falling oil and stable consumer demand. May 29 spending data (released 8:30 AM) showed MoM change at 0%\u2014effectively flat. This triggers the scenario Warsh hoped to avoid: he has already cut once into elevated inflation (3.4% PCE), spending is now showing the strain of prior tightening, and oil remains elevated ($88+ on deal hopes, not confirmed). Warsh must now choose between pausing cuts (signaling he was wrong about the inflation trajectory) or continuing cuts into weakening demand (risking a credit event). The Fed chair has no clean choice, and the market will force clarity within two weeks."
+      "age_days": 47,
+      "summary": "Flat April spending (0% MoM, released May 29) confirms demand is weakening under prior tightening, while PCE inflation holds at 3.4%\u2014the exact stagflation setup Warsh hoped to avoid. He must choose between pausing cuts (admitting his inflation narrative was wrong) or continuing cuts into weakening demand (risking a credit cascade). The bond market has already priced this as negative; the Fed will have clarity forced upon it within two weeks as lenders begin announcing tightening."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Deal Remains Fragile",
+      "label": "Deal Remains Decision-Critical",
       "first_seen": "2026-04-15",
-      "age_days": 44,
-      "summary": "Oil slipped below $88 on draft deal reports, but today's weak spending data exposed the core problem: even if a deal closes, the prior weeks of $90+ oil have already damaged consumer balance sheets and credit supply. The question has shifted from 'will a deal happen' to 'even if it does, is the damage already irreversible.' If negotiations collapse in the next 48 hours, oil re-spikes above $95 and forces the Warsh Fed into immediate policy crisis. If a deal closes, Warsh gets breathing room\u2014but only if spending stabilizes within the next monthly print (June data, released July). The next 72 hours remain decision-critical for deal trajectory."
+      "age_days": 47,
+      "summary": "Today's Iran deal relief rally briefly lifted oil sentiment, but the underlying damage is done: $88-90+ oil over the past week has already compressed consumer balance sheets. Even if a deal closes, Warsh gets only tactical breathing room\u2014the key test is whether June spending (released July) stabilizes or deteriorates further. Negotiations remain fragile; collapse within 48 hours would re-spike oil to $95+ and trigger immediate policy crisis. The next 72 hours remain outcome-determinant."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lenders' Thesis Validated",
+      "label": "Credit Cascade Imminent",
       "first_seen": "2026-04-15",
-      "age_days": 44,
-      "summary": "Banks' early withdrawal from consumer credit and deposit markets was pre-positioned on the assumption that spending would crack under prior tightening. Today's flat April spending print validates that thesis with precision. Major lenders now have cover to accelerate withdrawal, and the silence on deposit rate cuts that has persisted for three weeks is likely to break\u2014in the next 5-10 days, expect announced cuts or tightening from Discover, Capital One, or Amex. If they move, it confirms the credit cascade is underway. If they remain silent through next week, it signals they believe the May 29 weakness was a one-month fluke and June will rebound."
+      "age_days": 47,
+      "summary": "Today's flat spending print provides lenders with explicit cover to accelerate withdrawal. The three-week silence on deposit rate cuts from major players (Discover, Capital One, Amex) is likely to break within 5-10 days. If they announce tightening, the credit feedback loop accelerates and equities face 3-5 day reset downward. If silence persists through next week, it signals they believe today's weakness is transitory\u2014but data does not support that bet."
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Binary Resolved\u2014Wrong Direction",
+      "label": "Binary Resolved, Wrong Direction",
       "first_seen": "2026-04-23",
-      "age_days": 36,
-      "summary": "The May 29 test was binary: spending +0.4% or higher meant lenders over-tightened and soft landing was still alive; spending at 0% or negative meant institutional withdrawal was justified and equities faced a correction. Flat spending (0% MoM) confirms the second scenario. The market has not yet repriced this fully\u2014today's modest gains reflect intraday relief on Iran deal hopes and AI strength, not conviction about the macro backdrop. Expect equities to reset downward over the next 3-5 trading days as lenders announce tightening and the credit feedback loop accelerates."
+      "age_days": 39,
+      "summary": "The May 29 spending print (0% MoM) confirmed the second scenario: institutional withdrawal was justified and soft landing is no longer the base case. Today's modest market gains reflect intraday tactical relief on Iran and AI, not conviction about macro. Equities have not yet repriced this fully and face a reset over the next 3-5 days as the credit tightening becomes explicit."
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Long-Duration Pain Accelerating",
+      "label": "Stagflation Pricing In",
       "first_seen": "2026-05-15",
-      "age_days": 14,
-      "summary": "The 30-year yield at 2007 highs reflected market expectation of Warsh's cuts weakening the dollar and pushing oil higher. Today's flat spending + 3.4% inflation validates that scenario: Warsh is now cutting into a demand-weakening environment while inflation remains elevated, a classic stagflation setup. The bond market and equities have already agreed that this is negative\u2014today's Nasdaq relief on AI is tactical, not structural. Expect 10-year yields to stabilize in the 3.9-4.1% range and 30-year yields to hold at 2007 highs as long-duration investors price in extended elevated rates."
+      "age_days": 17,
+      "summary": "Today's flat spending + 3.4% inflation validates the stagflation scenario: Warsh is cutting rates into a demand-weakening environment while inflation remains elevated. The 30-year yield at 2007 highs reflects this and is unlikely to move lower absent a hard demand shock. Long-duration investors are positioned for extended elevated rates; expect 10-year yields to hold 3.9-4.1% range through next data cycle."
     }
   ],
   "historical_comps_used": [
@@ -59,38 +59,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-05-26-3",
-      "date_added": "2026-05-26",
-      "condition": "Warsh's first public statement as Fed chair explicitly references oil, energy prices, or supply constraints as a reason for measured rate cuts",
-      "meaning": "Signals the Fed recognizes the oil floor problem and is preparing the market for gradualism despite lenders' front-running; could stabilize equities or confirm macro caution is justified.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-27-1",
-      "date_added": "2026-05-27",
-      "condition": "Oil closes below $87 for two consecutive trading days",
-      "meaning": "Confirms the Iran peace deal momentum is real and structural $90+ pricing is broken; removes energy headwind for consumer and credit healing.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-27-2",
-      "date_added": "2026-05-27",
-      "condition": "Iran-US deal negotiations collapse or US walks away within 48 hours",
-      "meaning": "Oil rebounds above $92 immediately; geopolitical risk premium returns and weighs on equities regardless of spending data.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-05-28-1",
-      "date_added": "2026-05-28",
-      "condition": "April consumer spending (May 29) posts MoM change of +0.4% or higher",
-      "meaning": "Lenders over-tightened; credit conditions ease immediately; equities rally 2-3% as soft-landing narrative is restored.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-05-28-2",
       "date_added": "2026-05-28",
@@ -136,6 +104,38 @@
       "date_added": "2026-05-29",
       "condition": "Warsh's first public statement explicitly references oil, energy prices, or supply constraints as a reason for rate cuts",
       "meaning": "Fed leadership has publicly accepted that energy inflation, not demand, is the constraint\u2014a major concession that will reset market expectations for future cuts and likely accelerate institutional repositioning.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-01-0",
+      "date_added": "2026-06-01",
+      "condition": "Discover, Capital One, or Amex publicly announces deposit rate cuts or consumer credit tightening",
+      "meaning": "Confirms lenders are executing the withdrawal trade and credit feedback loop is live; equities reset lower within 3-5 days.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-01-1",
+      "date_added": "2026-06-01",
+      "condition": "Iran-US deal officially announced OR negotiations collapse/US walks away",
+      "meaning": "Deal close = tactical breathing room for Warsh but not structural relief; deal collapse = oil re-spikes to $95+, forces immediate policy crisis and equities lower.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-01-2",
+      "date_added": "2026-06-01",
+      "condition": "June consumer spending data (released early July) posts MoM change of +0.4% or higher",
+      "meaning": "Signals flat April was anomaly and demand is stabilizing; validates Warsh's cutting narrative and allows risk rally to resume.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-01-3",
+      "date_added": "2026-06-01",
+      "condition": "Oil closes above $94 for two consecutive trading days",
+      "meaning": "Signals deal negotiations have collapsed or geopolitical risk has re-escalated; forces Fed into immediate policy crisis and accelerates downside.",
       "status": "open",
       "outcome": ""
     }
