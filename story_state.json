@@ -2,24 +2,24 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh's Cut Dilemma",
+      "label": "Warsh's Credibility Collapse",
       "first_seen": "2026-04-15",
-      "age_days": 50,
-      "summary": "Hammack's hike warning remains uncontested and is now the dominant policy narrative. Warsh's credibility for cutting into 3.4% inflation with flat demand growth has collapsed. The Fed is publicly fractured. When Discover, Capital One, or Amex announce tightening (expected within 3-7 days), markets will reprice the cost of rate cuts and equity valuations will reset down 3-5 days after that announcement."
+      "age_days": 51,
+      "summary": "Hammack's 'rate hikes, not cuts' warning is now validated by real-time macro data: 3.4% inflation with zero spending growth cannot accommodate policy loosening. Warsh's intellectual case for cutting into stagflation has no remaining empirical support. The Fed is fractured because there is no good answer. Today's 172K jobs + flat wages confirm the bind: the labor market has not broken enough to justify cuts, but cutting anyway (as Warsh implied) would worsen inflation dynamics. Warsh's only path to credibility now is public capitulation\u2014a statement that rate hikes remain on the table. Until that happens, markets will assume policy error and reprice accordingly."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Ceasefire Holds Near-Term",
+      "label": "Iran Escalation Resumes",
       "first_seen": "2026-04-15",
-      "age_days": 50,
-      "summary": "Israel-Lebanon ceasefire announced today provides tactical breathing room. Iran-US hostilities remain unresolved. Oil closed modestly up but nowhere near spike. If Iran-US negotiations collapse in the next 72 hours, oil targets $95+. If a formal deal materializes, Warsh gets a 2-3 week reprieve but does not escape the core problem: rate cuts into stagflation."
+      "age_days": 51,
+      "summary": "After the Israel-Lebanon ceasefire announcement (June 2), Iran has launched drone attacks toward the Strait of Hormuz and the US has struck Iranian radar sites. This is a clear signal that the ceasefire does not resolve the US-Iran dimension of the conflict. Oil remains modestly elevated but has not spiked, suggesting markets are pricing a contained escalation rather than full disruption. The 72-hour window for either a formal US-Iran deal or a collapse in negotiations is now active. A deal would give Warsh a brief reprieve but does not solve the core stagflation problem. A collapse pushes oil toward $95 and forces equities down further."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lender Silence Narrows Window",
+      "label": "Lenders Silent Through Jobs Report",
       "first_seen": "2026-04-15",
-      "age_days": 50,
-      "summary": "Discover, Capital One, and Amex had clear cover to announce tightening today (flat spending, stagflationary pressures) and stayed silent. The window for this silence to hold is now 3-7 days, narrowing daily. When the first major lender announces, equity repricing accelerates. Their continued silence through Friday would signal belief that weakness is transitory\u2014a bet contradicted by the macro data."
+      "age_days": 51,
+      "summary": "Discover, Capital One, and Amex had maximum cover today to announce deposit rate cuts or consumer credit tightening\u2014flat May spending, stagflationary backdrop, Hammack's dominance over Fed policy. They remained silent, which on its surface is surprising. This silence will not hold beyond 3-7 days. The institutional delay is now the narrowest open window in the repricing chain. When the first major lender moves, it will be a cascading signal: credit is tightening, demand is weakening, and equities are mispriced for that reality."
     },
     {
       "id": "consumer-credit-tightening",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Bond Market Ahead of Equities",
+      "label": "Bond Market Vindicated",
       "first_seen": "2026-06-02",
-      "age_days": 2,
-      "summary": "Bonds have correctly priced Warsh's policy error (rate cuts into 3.4% inflation, flat demand). Equities have not. The Nasdaq's 0.09% decline today is insufficient repricing. The reset comes when credit tightening is announced and becomes undeniable."
+      "age_days": 3,
+      "summary": "The bond market has correctly priced stagflation since May 15 (10-year stuck at 3.9\u20134.1%, 30-year at 2007 highs). Today's sell-off confirms bonds were leading: equities are now repricing the same scenario. A <strong>4.18% Nasdaq decline</strong> is the beginning of the reset, not the end. The repricing accelerates when credit tightening is announced and becomes undeniable\u20143\u20135 more percent downside in equities is built into the base case over the next 2-3 weeks."
     }
   ],
   "historical_comps_used": [
@@ -73,33 +73,14 @@
       "year": "2022-2023",
       "context": "The Fed cut from 4.25-4.5% in September 2023 after inflation stayed at 3.7% and ",
       "date_used": "2026-06-04"
+    },
+    {
+      "year": "2007-2008",
+      "context": "The Fed held rates steady at 5.25% through mid-2007 as inflation remained elevat",
+      "date_used": "2026-06-05"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-01-2",
-      "date_added": "2026-06-01",
-      "condition": "June consumer spending data (released early July) posts MoM change of +0.4% or higher",
-      "meaning": "Signals flat April was anomaly and demand is stabilizing; validates Warsh's cutting narrative and allows risk rally to resume.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-01-3",
-      "date_added": "2026-06-01",
-      "condition": "Oil closes above $94 for two consecutive trading days",
-      "meaning": "Signals deal negotiations have collapsed or geopolitical risk has re-escalated; forces Fed into immediate policy crisis and accelerates downside.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-02-2",
-      "date_added": "2026-06-02",
-      "condition": "Iran-US deal officially announced",
-      "meaning": "Oil retreats, Warsh gets tactical breathing room to pause cuts, and equity repricing is delayed by one week.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-02-3",
       "date_added": "2026-06-02",
@@ -153,6 +134,30 @@
       "date_added": "2026-06-04",
       "condition": "Warsh or another Fed official publicly states rate hikes are off the table through 2027",
       "meaning": "Bond market reprices upward (longer-duration pain); equities interpret as capitulation and reprice downward as stagflation becomes permanent policy framework.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-05-0",
+      "date_added": "2026-06-05",
+      "condition": "Capital One, Discover, or American Express publicly announces deposit rate cuts or consumer credit tightening",
+      "meaning": "This is the signal that institutional credit is tightening in response to stagflation. Equities will reprice down 3\u20135% over the following 2\u20133 weeks once this happens.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-05-1",
+      "date_added": "2026-06-05",
+      "condition": "US-Iran nuclear deal officially announced or US officially walks away from negotiations",
+      "meaning": "If a deal materializes, Warsh gets 2-3 weeks of breathing room and oil rolls back, reducing near-term energy inflation pressure. If negotiations collapse, oil targets $95 and Warsh loses his final policy escape valve.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-05-3",
+      "date_added": "2026-06-05",
+      "condition": "Warsh or another Fed official publicly states that rate hikes remain on the table through 2027",
+      "meaning": "This would be a public reversal from the implied message of May and would restore some credibility to the Fed's stagflation management. Without this statement, markets will assume policy error and keep repricing equities downward.",
       "status": "open",
       "outcome": ""
     }
