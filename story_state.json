@@ -11,8 +11,8 @@
       "id": "iran-geopolitical-risk",
       "label": "Iran Escalation Resumes",
       "first_seen": "2026-04-15",
-      "age_days": 51,
-      "summary": "After the Israel-Lebanon ceasefire announcement (June 2), Iran has launched drone attacks toward the Strait of Hormuz and the US has struck Iranian radar sites. This is a clear signal that the ceasefire does not resolve the US-Iran dimension of the conflict. Oil remains modestly elevated but has not spiked, suggesting markets are pricing a contained escalation rather than full disruption. The 72-hour window for either a formal US-Iran deal or a collapse in negotiations is now active. A deal would give Warsh a brief reprieve but does not solve the core stagflation problem. A collapse pushes oil toward $95 and forces equities down further."
+      "age_days": 54,
+      "summary": "After drone strikes toward the Strait and US counterstrikes on Iranian radar, Iran has now signaled an 'end to military operations,' giving markets a 72-hour window to price a possible US-Iran deal or formal de-escalation. Oil retreated sharply on the announcement. This is the weakest form of resolution\u2014a rhetorical pause, not a structural agreement\u2014and the 3-7 day window for either a formal deal or negotiation collapse remains the binding constraint on market repricing. A true deal gives Warsh tactical air but solves nothing on stagflation; a collapse pushes oil toward $95 and forces another leg down in equities."
     },
     {
       "id": "institutional-erosion",
@@ -39,16 +39,18 @@
       "id": "stagflation-pricing",
       "label": "Bond Market Vindicated",
       "first_seen": "2026-06-02",
-      "age_days": 3,
-      "summary": "The bond market has correctly priced stagflation since May 15 (10-year stuck at 3.9\u20134.1%, 30-year at 2007 highs). Today's sell-off confirms bonds were leading: equities are now repricing the same scenario. A <strong>4.18% Nasdaq decline</strong> is the beginning of the reset, not the end. The repricing accelerates when credit tightening is announced and becomes undeniable\u20143\u20135 more percent downside in equities is built into the base case over the next 2-3 weeks."
+      "age_days": 6,
+      "summary": "The bond market correctly priced stagflation since May 15 (10-year stuck 3.9-4.1%, 30-year at 2007 highs). Friday's Nasdaq decline was the beginning of equities repricing the same scenario, not the end. Today's jobs data and Iran relief created a tactical bounce, but they do not change the structural fact: inflation will not roll over, spending is flat, and tightening lenders will force demand destruction into a stagflationary backdrop. The repricing accelerates when credit tightening is announced within 3-7 days."
+    },
+    {
+      "id": "lenders-silent-through-jobs-report",
+      "label": "Institutional Silence Narrowing",
+      "first_seen": "2026-06-08",
+      "age_days": 0,
+      "summary": "Today's strong jobs report (172K), flat spending, and 3.4% inflation created the perfect cover for major lenders (Discover, Capital One, Amex) to announce deposit rate cuts or consumer credit tightening without appearing reactive to bad news. All three remained silent. This silence is the narrowest open window in the repricing chain and will not hold beyond 3-7 days. When the first major lender moves, it will cascade: credit is tightening, demand is weakening, equities are mispriced for that reality, and the 4.18% Nasdaq decline Friday becomes the first of 3-5% more."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2007",
-      "context": "Credit tightening accelerated in August 2007 (Bear Stearns hedge funds collapsed",
-      "date_used": "2026-05-08"
-    },
     {
       "year": "2021",
       "context": "Fed cut rates and maintained emergency QE as inflation spiked from transitory to",
@@ -81,22 +83,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-02-3",
-      "date_added": "2026-06-02",
-      "condition": "Warsh or another Fed official publicly responds to Hammack's hike warning by stating rate hikes are off the table",
-      "meaning": "The Fed closes ranks and the split is contained; the narrative remains under control for another 48 hours.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-03-0",
-      "date_added": "2026-06-03",
-      "condition": "Major lender (Discover, Capital One, Amex) publicly announces deposit rate cuts or consumer credit tightening",
-      "meaning": "Triggers 3-5 day equity reset downward as feedback loop between rate cuts and credit tightening becomes explicit; repricing window opens immediately.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-03-2",
       "date_added": "2026-06-03",
@@ -158,6 +144,22 @@
       "date_added": "2026-06-05",
       "condition": "Warsh or another Fed official publicly states that rate hikes remain on the table through 2027",
       "meaning": "This would be a public reversal from the implied message of May and would restore some credibility to the Fed's stagflation management. Without this statement, markets will assume policy error and keep repricing equities downward.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-08-1",
+      "date_added": "2026-06-08",
+      "condition": "US-Iran nuclear deal officially announced or US publicly walks away from negotiations",
+      "meaning": "If deal: oil stays under $80, repricing pauses briefly, Warsh gets tactical air but stagflation remains unsolved. If collapse: oil spikes toward $95, equities fall another 2-3%.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-08-3",
+      "date_added": "2026-06-08",
+      "condition": "10-year Treasury yield breaks above 4.1% or 30-year breaks below 2007 highs",
+      "meaning": "The bond market is signaling either inflation acceleration or a demand shock; either way, equities face structural headwinds.",
       "status": "open",
       "outcome": ""
     }
