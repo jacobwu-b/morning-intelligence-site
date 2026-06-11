@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Credibility Trap Tightens",
+      "label": "Warsh's Credibility Trap Tightens",
       "first_seen": "2026-04-15",
-      "age_days": 55,
-      "summary": "Today's data\u2014172K jobs but zero wage growth, 3.4% inflation, zero spending growth\u2014confirms Hammack's 'hikes not cuts' thesis empirically. Warsh has no intellectual cover left for rate cuts into stagflation. His only path to credibility is public capitulation: a statement that rate hikes remain on the table. Until then, the market will assume policy error."
+      "age_days": 56,
+      "summary": "Warsh has now lost all intellectual cover for rate cuts. The data is stagflationary: 4.2% inflation, zero wage growth, zero spending growth. His only path to market credibility is a public statement that rate hikes remain on the table. Until then, the market will correctly assume policy error\u2014a Fed chairman cutting rates into inflation."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Escalation Pauses",
+      "label": "Iran Escalation Pauses\u2014Window Closing",
       "first_seen": "2026-04-15",
-      "age_days": 55,
-      "summary": "Iran signaled an 'end to military operations' after the US launched new strikes in response to a downed Apache helicopter. Oil retreated sharply, giving markets a 72-hour window to price either a formal US-Iran de-escalation deal or negotiation collapse. This is rhetorical relief, not structural resolution. The window closes in 3-7 days\u2014either a deal emerges or tensions resume."
+      "age_days": 56,
+      "summary": "Iran signaled an 'end to military operations' after the US launched strikes, giving markets a 72-hour window for either de-escalation deal or negotiation collapse. Oil has retreated, providing temporary relief. The window closes in 3-7 days. Until then, energy prices remain the binding constraint on inflation expectations and Fed policy."
     },
     {
       "id": "institutional-erosion",
@@ -25,8 +25,8 @@
       "id": "consumer-credit-tightening",
       "label": "Soft Landing Dead\u2014Repricing Pending",
       "first_seen": "2026-04-23",
-      "age_days": 47,
-      "summary": "May's 0% MoM spending combined with today's institutional silence and stagnant wages removes all remaining soft-landing credibility. Equities have not repriced this yet. The repricing begins when the first lender announces tightening, expected within 3-7 days."
+      "age_days": 48,
+      "summary": "May's 0% MoM spending combined with 4.2% inflation and stagnant wages removes all remaining soft-landing credibility. Equities have not repriced into a stagflation scenario where the Fed cannot cut aggressively without validating higher inflation expectations. The repricing begins when the first major lender (Discover, Capital One, Amex) announces credit tightening, expected within 3-7 days."
     },
     {
       "id": "treasury-yield-shock",
@@ -37,17 +37,17 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Bond Market Vindication Accelerating",
+      "label": "Bond Market Vindication Accelerates",
       "first_seen": "2026-06-02",
-      "age_days": 7,
-      "summary": "The bond market correctly priced stagflation since May 15 (10-year 3.9-4.1%, 30-year at 2007 highs). Friday's Nasdaq decline and today's mixed close confirm equities are beginning the repricing cycle. The acceleration depends on one trigger: a major lender announcing credit tightening within 3-7 days."
+      "age_days": 8,
+      "summary": "The bond market correctly priced stagflation since May 15 (10-year 3.9-4.1%, 30-year at 2007 highs). Today's 4.2% CPI confirms the thesis empirically. Equities have been slow to reprice\u2014the S&P is still trading at levels that assume either a soft landing (now dead) or imminent rate cuts (inconsistent with 4.2% inflation and Warsh's public caution). The repricing acceleration depends on institutional credit action within 3-7 days."
     },
     {
       "id": "lenders-silent-through-jobs-report",
       "label": "Institutional Silence at Inflection",
       "first_seen": "2026-06-08",
-      "age_days": 1,
-      "summary": "Today's 172K jobs and flat spending created the ideal moment for major lenders to cut deposit rates or tighten credit without appearing reactive to weakness. All three (Discover, Capital One, Amex) remained silent. This is the narrowest open window in the repricing chain. Silence will break in 3-7 days, and the cascade will reset equities into stagflation pricing."
+      "age_days": 2,
+      "summary": "Major lenders had perfect cover today to cut deposit rates or announce credit tightening\u2014stagflationary backdrop, flat spending, Warsh's policy error. All three remained silent. This silence will break in 3-7 days as credit tightening becomes unavoidable. When it does, it will cascade: equities will reprice into demand destruction and margin compression."
     }
   ],
   "historical_comps_used": [
@@ -85,25 +85,14 @@
       "year": "1981-1982",
       "context": "The Fed (Volcker) held rates at 20% to crush inflation. Unemployment spiked to 1",
       "date_used": "2026-06-09"
+    },
+    {
+      "year": "1970-1975",
+      "context": "The Fed cut rates from 9% to 7% in 1974-1975 while inflation stayed above 9%. Eq",
+      "date_used": "2026-06-10"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-03-2",
-      "date_added": "2026-06-03",
-      "condition": "Iran-US nuclear deal officially announced or US publicly walks away from negotiations",
-      "meaning": "If deal announced: oil retreats, Warsh gets tactical breathing room (3-5 day relief). If US walks away: oil spikes to $95+, stagflation narrative dominates, repricing accelerates.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-03-3",
-      "date_added": "2026-06-03",
-      "condition": "Warsh or another Fed official publicly states rate hikes are definitively off the table through 2027",
-      "meaning": "Eliminates remaining policy flexibility narrative; markets reprice as having only downside surprise risk (harder landing than current stagflation scenario, or harder credit tightening than expected).",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-04-0",
       "date_added": "2026-06-04",
@@ -165,6 +154,22 @@
       "date_added": "2026-06-09",
       "condition": "Warsh or another Fed official publicly states rate hikes remain on the table through 2027",
       "meaning": "This is policy capitulation and confirms Hammack's dominance. It removes the assumption of policy error and stabilizes bond yields, but it also confirms stagflation is the base case.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-10-0",
+      "date_added": "2026-06-10",
+      "condition": "Major lender (Discover, Capital One, Amex) publicly announces deposit rate cuts or tightens consumer credit standards",
+      "meaning": "This is the cascade trigger: the market will read it as confirmation that demand is rolling over and the Fed is wrong to cut, forcing a 3-5% equity repricing downward.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-10-2",
+      "date_added": "2026-06-10",
+      "condition": "US and Iran announce a formal nuclear deal or US officially walks away from negotiations",
+      "meaning": "A deal brings energy relief (equities rally 2-3%), a collapse keeps inflation elevated (equities fall 2-3% on stagflation extension).",
       "status": "open",
       "outcome": ""
     }
