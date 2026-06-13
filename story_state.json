@@ -4,29 +4,29 @@
       "id": "fed-leadership-transition",
       "label": "Warsh's Credibility Trap",
       "first_seen": "2026-04-15",
-      "age_days": 57,
-      "summary": "Warsh remains intellectually trapped: 4.2% inflation and stagnant demand make rate cuts look like policy error. His only path to credibility is a public statement that rate hikes remain on the table. Silence or dovish communication will confirm the market's correct assumption that the Fed is cutting into inflation."
+      "age_days": 58,
+      "summary": "Warsh remains trapped between two facts: 4.2% inflation and 0% spending growth make rate cuts look like policy error. His only path to credibility is public confirmation that rate hikes remain on the table. Continued silence confirms the market's correct assumption that the Fed will cut into stagflation."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran Escalation Pauses",
+      "label": "Iran De-escalation Window",
       "first_seen": "2026-04-15",
-      "age_days": 57,
-      "summary": "Trump canceled strikes scheduled for today after Iran signaled an end to military operations. Oil retreated sharply, providing immediate relief. The de-escalation window remains open for 3-7 days, but without a formal nuclear deal, the cycle risk persists. Energy prices are no longer the binding constraint on inflation expectations\u2014for now."
+      "age_days": 58,
+      "summary": "Trump's public claim of being 'close to a US-Iran deal' crushed oil sharply today and created a 3-7 day de-escalation window. Without a formal nuclear agreement, cycle risk persists and the window can close rapidly. Energy prices are no longer the binding constraint on inflation expectations\u2014for now."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lenders Silent at Inflection",
+      "label": "Lender Silence Continues",
       "first_seen": "2026-04-15",
-      "age_days": 57,
-      "summary": "Discover, Capital One, and Amex had maximum cover today to announce deposit rate cuts or credit tightening\u2014stagflationary backdrop, flat spending, institutional stress visible in credit card delinquencies. All three remained silent. This silence will break within 3-7 days. When it does, it cascades: equities reprice into margin compression and demand destruction."
+      "age_days": 58,
+      "summary": "Discover, Capital One, and Amex had maximum cover today (stagflationary backdrop, flat spending, policy error from Warsh) to announce deposit rate cuts or credit tightening. All three remained silent. This silence will break within 3-7 days as credit market stress forces lenders to move. When it does, it cascades: equities reprice into margin compression and demand destruction."
     },
     {
       "id": "consumer-credit-tightening",
       "label": "Soft Landing Dead",
       "first_seen": "2026-04-23",
-      "age_days": 49,
-      "summary": "May's 0% spending growth + 4.2% inflation + stagnant wages + today's +1.75% rally confirm that equities have not repriced into stagflation. The repricing trigger is lender action, not geopolitical relief. Today's Iran news is a distraction."
+      "age_days": 50,
+      "summary": "May's 0% spending growth + 4.2% inflation + stagnant wages + today's rally confirm equities have not repriced into stagflation. The repricing trigger is lender action (credit tightening or deposit rate cuts), not geopolitical relief. Today's Iran news is a 1-week distraction."
     },
     {
       "id": "treasury-yield-shock",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Bond Market Vindication",
+      "label": "Bond Market Correct on Yields",
       "first_seen": "2026-06-02",
-      "age_days": 9,
-      "summary": "Bonds correctly priced 3.9-4.1% on 10-year and 2007 highs on 30-year since May 15. Today's data confirms stagflation. Equities still assume either soft landing (dead) or imminent cuts (inconsistent with 4.2% inflation). The repricing acceleration is now purely a matter of timing\u2014when lenders move, equities follow."
+      "age_days": 10,
+      "summary": "10-year at 3.9-4.1% and 30-year at 2007 highs since May 15 correctly price stagflation. Equities still assume either soft landing (contradicted by May spending and Warsh's error) or imminent rate cuts (contradicted by 4.2% inflation). The repricing is purely a matter of timing\u2014when lenders move, equities follow into lower prices."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -90,33 +90,14 @@
       "year": "1970-1975",
       "context": "The Fed cut rates from 9% to 7% in 1974-1975 while inflation stayed above 9%. Eq",
       "date_used": "2026-06-10"
+    },
+    {
+      "year": "1974",
+      "context": "The Fed held rates steady at 13% through mid-1974 as inflation stayed above 12% ",
+      "date_used": "2026-06-12"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-05-3",
-      "date_added": "2026-06-05",
-      "condition": "Warsh or another Fed official publicly states that rate hikes remain on the table through 2027",
-      "meaning": "This would be a public reversal from the implied message of May and would restore some credibility to the Fed's stagflation management. Without this statement, markets will assume policy error and keep repricing equities downward.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-08-1",
-      "date_added": "2026-06-08",
-      "condition": "US-Iran nuclear deal officially announced or US publicly walks away from negotiations",
-      "meaning": "If deal: oil stays under $80, repricing pauses briefly, Warsh gets tactical air but stagflation remains unsolved. If collapse: oil spikes toward $95, equities fall another 2-3%.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-08-3",
-      "date_added": "2026-06-08",
-      "condition": "10-year Treasury yield breaks above 4.1% or 30-year breaks below 2007 highs",
-      "meaning": "The bond market is signaling either inflation acceleration or a demand shock; either way, equities face structural headwinds.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-09-2",
       "date_added": "2026-06-09",
@@ -170,6 +151,30 @@
       "date_added": "2026-06-11",
       "condition": "10-year Treasury yield breaks above 4.1% or 30-year stays at/exceeds 2007 highs for more than 3 consecutive trading days",
       "meaning": "Stagflation expectations are hardening; equities will compress into margin compression and demand destruction risks, regardless of geopolitical relief.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-12-0",
+      "date_added": "2026-06-12",
+      "condition": "Capital One, Discover, or American Express announces deposit rate cuts and/or tightens consumer credit standards",
+      "meaning": "Lender paralysis has broken and equities will reprice 8-15% lower into demand destruction and margin compression within one week.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-12-1",
+      "date_added": "2026-06-12",
+      "condition": "US and Iran announce a formal nuclear deal or joint statement with concrete sanctions relief timeline",
+      "meaning": "The de-escalation window closes and oil returns to near-term headline risk; geopolitical premium returns to inflation expectations and 10-year yields move above 4.1%.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-12-3",
+      "date_added": "2026-06-12",
+      "condition": "10-year Treasury yield breaks above 4.1% and stays there for 3+ consecutive trading days",
+      "meaning": "Bond market is rejecting the de-escalation relief narrative and repricing stagflation risk; equities follow with 5-8% selloff as multiple compression accelerates.",
       "status": "open",
       "outcome": ""
     }
