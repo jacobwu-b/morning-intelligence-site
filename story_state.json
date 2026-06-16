@@ -4,15 +4,15 @@
       "id": "fed-leadership-transition",
       "label": "Warsh's Credibility Trap",
       "first_seen": "2026-04-15",
-      "age_days": 58,
-      "summary": "Warsh remains trapped between two facts: 4.2% inflation and 0% spending growth make rate cuts look like policy error. His only path to credibility is public confirmation that rate hikes remain on the table. Continued silence confirms the market's correct assumption that the Fed will cut into stagflation."
+      "age_days": 61,
+      "summary": "Warsh's first Fed meeting arrives this week as the Iran deal creates political cover for easier policy. This is his trap. With 4.2% inflation, 0% spending growth, and markets expecting cuts, Warsh will face immediate pressure to cut or re-confirm his own credibility disaster by signaling rate hikes remain on the table. Public silence = market assumption of cuts into stagflation."
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Iran De-escalation Window",
       "first_seen": "2026-04-15",
-      "age_days": 58,
-      "summary": "Trump's public claim of being 'close to a US-Iran deal' crushed oil sharply today and created a 3-7 day de-escalation window. Without a formal nuclear agreement, cycle risk persists and the window can close rapidly. Energy prices are no longer the binding constraint on inflation expectations\u2014for now."
+      "age_days": 61,
+      "summary": "Trump announced a deal framework today, collapsing oil to three-month lows and creating genuine 3-7 day relief rally. This is real but temporary: without a formal nuclear agreement and sanctions relief pathway, the window closes as fast as it opened. The market's error is treating oil relief as inflation relief\u2014energy is no longer the binding constraint on the Fed, spending is."
     },
     {
       "id": "institutional-erosion",
@@ -39,15 +39,22 @@
       "id": "stagflation-pricing",
       "label": "Bond Market Correct on Yields",
       "first_seen": "2026-06-02",
-      "age_days": 10,
-      "summary": "10-year at 3.9-4.1% and 30-year at 2007 highs since May 15 correctly price stagflation. Equities still assume either soft landing (contradicted by May spending and Warsh's error) or imminent rate cuts (contradicted by 4.2% inflation). The repricing is purely a matter of timing\u2014when lenders move, equities follow into lower prices."
+      "age_days": 13,
+      "summary": "Yields held firm today (10-year stays at 3.9-4.1%, 30-year near 2007 highs) despite oil collapse and equity rally. Bonds are correctly pricing stagflation\u2014the scenario where the Fed cuts into persistent inflation and demand destruction follows. Today's equity rally into bond flatness confirms the bond market is right and equities are wrong about the path ahead."
     },
     {
       "id": "lenders-silent-through-jobs-report",
       "label": "Institutional Silence at Inflection",
       "first_seen": "2026-06-08",
-      "age_days": 2,
-      "summary": "Major lenders had perfect cover today to cut deposit rates or announce credit tightening\u2014stagflationary backdrop, flat spending, Warsh's policy error. All three remained silent. This silence will break in 3-7 days as credit tightening becomes unavoidable. When it does, it will cascade: equities will reprice into demand destruction and margin compression."
+      "age_days": 7,
+      "summary": "Today's geopolitical relief gave all three major lenders (Discover, Capital One, Amex) cover to delay announcing deposit rate cuts or credit tightening. The silence holds for now. But Iran euphoria fades in 3-7 days, spending remains flat, and lenders will face margin pressure they cannot ignore. This silence breaks under credit stress, not headline relief."
+    },
+    {
+      "id": "soft-landing-dead",
+      "label": "Soft Landing Dead",
+      "first_seen": "2026-06-15",
+      "age_days": 0,
+      "summary": "Today's rally proves equities have not repriced into stagflation\u2014they rallied on a temporary oil relief story instead of repricing into demand destruction. This is the last repricing window before lenders force the issue. May's 0% spending growth + 4.2% inflation + today's rally + Warsh's policy error = equities are wrong, and will correct when credit tightens, not when oil rises again."
     }
   ],
   "historical_comps_used": [
@@ -95,17 +102,14 @@
       "year": "1974",
       "context": "The Fed held rates steady at 13% through mid-1974 as inflation stayed above 12% ",
       "date_used": "2026-06-12"
+    },
+    {
+      "year": "1974-1975",
+      "context": "The Fed cut from 9% to 7% in 1974-1975 while inflation stayed above 9%. Unemploy",
+      "date_used": "2026-06-15"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-09-2",
-      "date_added": "2026-06-09",
-      "condition": "Warsh or another Fed official publicly states rate hikes remain on the table through 2027",
-      "meaning": "This is policy capitulation and confirms Hammack's dominance. It removes the assumption of policy error and stabilizes bond yields, but it also confirms stagflation is the base case.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-10-0",
       "date_added": "2026-06-10",
@@ -115,26 +119,10 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-06-10-2",
-      "date_added": "2026-06-10",
-      "condition": "US and Iran announce a formal nuclear deal or US officially walks away from negotiations",
-      "meaning": "A deal brings energy relief (equities rally 2-3%), a collapse keeps inflation elevated (equities fall 2-3% on stagflation extension).",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-06-11-0",
       "date_added": "2026-06-11",
       "condition": "Capital One, Discover, or American Express publicly announces deposit rate cuts or tightens consumer credit standards",
       "meaning": "The institutional repricing cascade begins\u2014equities compress 8-15% as demand destruction becomes visible and margin compression accelerates.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-11-1",
-      "date_added": "2026-06-11",
-      "condition": "US and Iran announce a formal nuclear deal or joint statement indicating sanctions relief negotiations are advancing",
-      "meaning": "Oil stabilizes lower, removing the inflation tail risk and potentially extending the 3-7 day de-escalation window; Fed policy becomes the only constraint on equities.",
       "status": "open",
       "outcome": ""
     },
@@ -163,18 +151,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-06-12-1",
-      "date_added": "2026-06-12",
-      "condition": "US and Iran announce a formal nuclear deal or joint statement with concrete sanctions relief timeline",
-      "meaning": "The de-escalation window closes and oil returns to near-term headline risk; geopolitical premium returns to inflation expectations and 10-year yields move above 4.1%.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-06-12-3",
       "date_added": "2026-06-12",
       "condition": "10-year Treasury yield breaks above 4.1% and stays there for 3+ consecutive trading days",
       "meaning": "Bond market is rejecting the de-escalation relief narrative and repricing stagflation risk; equities follow with 5-8% selloff as multiple compression accelerates.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-15-0",
+      "date_added": "2026-06-15",
+      "condition": "Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards",
+      "meaning": "This is the repricing trigger. When lenders move, equities will recognize that the Fed is cutting into stagflation, not into a recoverable economy.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-15-1",
+      "date_added": "2026-06-15",
+      "condition": "Warsh or another Fed official publicly states that rate hikes remain on the table through 2027",
+      "meaning": "This would break Warsh's credibility trap and signal the Fed sees inflation persistence. It would validate bond yields at 3.9-4.1% and invalidate the market's soft-landing assumption.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-15-2",
+      "date_added": "2026-06-15",
+      "condition": "US and Iran announce a formal nuclear deal and concrete sanctions relief timeline beyond June 22",
+      "meaning": "This would extend the de-escalation window from 3-7 days to several weeks, delaying the repricing trigger until oil stabilizes and lenders face clearer pressure.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-15-3",
+      "date_added": "2026-06-15",
+      "condition": "May and June spending data both confirm 0-1% growth with inflation staying at 4%+",
+      "meaning": "This closes off any remaining soft-landing narrative and validates that the repricing is not a matter of if, but when and how deep. Lender action becomes unavoidable.",
       "status": "open",
       "outcome": ""
     }
