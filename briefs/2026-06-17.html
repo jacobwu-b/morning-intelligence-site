@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — June 17, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">WEDNESDAY · June 17, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-OFF SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,420.10</span>
+    <span class="ticker-change down">
+      ▼ 1.21%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,022</span>
+    <span class="ticker-change down">
+      ▼ 1.34%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">51,493</span>
+    <span class="ticker-change down">
+      ▼ 0.98%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Warsh Held Rates Steady and Signaled Hikes Ahead—Equities Rallied on Iran Relief Instead of Processing the Warning</h1>
+    <p class="lead-body"><strong>Kevin Warsh&#x27;s first FOMC decision held rates at 3.5-3.75% and explicitly signaled possible rate hikes before year-end</strong>—a directional shock that should have repriced equities downward. Instead, the S&amp;P fell only 1.21% because the market is entirely fixated on Trump&#x27;s Iran deal announcement and oil collapsing below $80, treating geopolitical relief as inflation relief. This is the error: energy prices have stopped being the constraint on Fed policy. <strong>Persistent 4.2% inflation, zero spending growth, and Warsh&#x27;s own hawkish signal</strong> are the constraints now. The market has one week before lender silence breaks and forces a revaluation.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Warsh&#39;s Hawkish Signal Buried by Iran Rally—Lender Action Will Resurface It</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">WARSH&#39;S HIKE SIGNAL</div>
+          <div class="cause-headline">Warsh signaled rate hikes remain on the table before year-end, telegraphing he will tighten into stagflation rather than cut.</div>
+          <div class="cause-text">This is the fundamental repricing event. A new Fed chair rejecting market expectations for cuts and explicitly warning of hikes is not noise—it is a statement of credibility and direction. Warsh is signaling he understands the economy is in the stagflation trap: 4.2% inflation, 0% spending growth, flat wages, and a yield curve that will not invert fast enough to prevent demand destruction. By holding and hinting at hikes, Warsh is telling the market he will not be a political Fed. The market heard this and... ignored it because oil collapsed $2 in one day.</div>
+          <div class="cause-verdict">This signal will be repriced upward in severity within 7-10 days as lenders announce tightening and credit stress becomes visible. Warsh just committed the Fed to tightening into demand destruction. That is a 8-12% equity repricing event.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">IRAN OIL RELIEF—TEMPORARY</div>
+          <div class="cause-headline">Trump announced an Iran deal framework, collapsing oil below $80 and triggering a geopolitical relief rally that masked the Fed&#39;s hawkish signal.</div>
+          <div class="cause-text">Oil down $2 to sub-$80 is real relief, but it is also exactly the wrong signal to focus on. Energy prices have decoupled from Fed policy constraint—4.2% inflation is now sticky wage inflation and consumption dynamics, not energy shock. Without formal nuclear agreement terms and concrete sanctions relief, this deal announcement has a 3-7 day half-life. Oil will retest $82+ by next week. More critically: the geopolitical rally gave lenders cover to stay silent for another 48-72 hours. Once oil stabilizes, that silence breaks.</div>
+          <div class="cause-verdict">Oil below $80 is noise masking signal. Watch for Iran escalation or deal delays after June 22. Oil back above $82 + lender announcements + Warsh&#39;s hike signal = 12% downside from here within two weeks.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">&lt;strong&gt;The Fed is tightening into demand destruction while markets are distracted by a temporary oil relief story.&lt;/strong&gt;</h2>
+      <p class="section-body">Imagine you own a home and your mortgage rate is fixed at 3.5%. Your income is flat, your costs are rising 4.2% per year, and your lender (the Fed) just told you they might raise rates further. Most people would immediately cut spending and save. That is what Warsh just signaled: further tightening into an economy spending at 0% growth with inflation at 4.2%. Historically, this scenario (Fed tightens into demand destruction) has ended two ways: either the Fed blinks and cuts hard (2008, 2020), or demand collapses first (1974-1975, 2007-2008). Warsh&#x27;s signal suggests he will not blink. That means demand destruction comes first, which is a 8-12% equity repricing into margin compression. Equities today treated Iran relief as inflation relief. They were wrong. Oil relief does not change spending growth or wage dynamics. <strong>When lenders announce tightening in the next 3-7 days, equities will reprice into the demand destruction scenario Warsh just signaled.</strong></p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">When the Fed signals hikes into zero spending growth and sticky inflation, equities reprice sharply downward—usually within days of lender action, not headlines.</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1974-1975</div>
+          <div>
+            <div class="comp-text">The Fed held rates at 13% through mid-1974 as inflation stayed above 12% and unemployment was 4.9%. Equities fell 45% from peak to trough as lenders tightened credit. The Fed did not cut rates until December 1974, after equity losses were severe and visible unemployment was 7%+. Spending collapsed first; rate cuts followed.</div>
+            <div class="comp-lesson">When the Fed signals tightening into stagflation, equities do not reprice on the Fed&#39;s words—they reprice when credit stress forces lenders to tighten, which cascades into visible margin compression.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2007-2008</div>
+          <div>
+            <div class="comp-text">The Fed held rates at 5.25% through mid-2007 as inflation remained elevated at 2.8-3.2% and housing demand collapsed. Markets initially treated this as a hold. Only when lenders tightened credit standards and announced losses (September-December 2007) did equities begin pricing demand destruction. By March 2008, equities had fallen 20% from peak.</div>
+            <div class="comp-lesson">Fed signals matter far less than lender actions. Equities reprice when credit actually tightens, not when the Fed warns of it.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2023</div>
+          <div>
+            <div class="comp-text">The Fed held rates at 5.25-5.5% from June through September 2023 despite warnings of demand destruction. Markets initially rallied on &#39;higher for longer&#39; narrative. Only when regional bank failures materialized (March 2023) and lenders tightened credit standards did equities reprice downward 15-20% from prior peaks into the Q3-Q4 decline.</div>
+            <div class="comp-lesson">Geopolitical relief and Fed communications matter far less than the observable tightening of credit. When lenders move, equities follow within days.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable is lender action over the next 7 days. Discover, Capital One, and Amex are silent today because Iran euphoria gives them cover. Once oil stabilizes above $82 (expected by June 23-24), lenders will announce deposit rate cuts or credit tightening—and that announcement cascades directly into equity repricing. If lenders announce tightening, equities reprice downward 8-12% into margin compression and demand destruction. If lenders stay silent through next week, Iran deal talks make concrete progress, and oil stays below $80, equities might hold—but this path becomes less likely each day as spending remains flat and inflation stays sticky. Hold Warsh&#39;s signal and lender silence as your north star: when either breaks, the repricing is sharp and fast.</p>
+      <div class="signal-kicker">
+        Scenario A — Deal Holds, Lenders Silent: Iran sanctions relief becomes concrete, oil stays below $78, and lenders remain silent through month-end—allowing geopolitical relief to override stagflation concerns and carry equities 3-5% higher before margin compression becomes visible in July.<br>
+        Scenario B — Lender Tightening Cascades: Within 7-10 days, Capital One or Discover announces deposit rate cuts or tighter credit standards; oil retest $82+; and equities reprice downward 8-12% as the market finally internalizes Warsh&#39;s signal to tighten into demand destruction.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,420.10</span>
+            <span class="index-pct down">
+              ▼ 1.21%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,022</span>
+            <span class="index-pct down">
+              ▼ 1.34%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">51,493</span>
+            <span class="index-pct down">
+              ▼ 0.98%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,917.98</span>
+            <span class="index-pct down">
+              ▼ 0.72%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">18.44</span>
+            <span class="index-pct up">
+              ▲ 12.37%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">Warsh or another Fed official publicly states that rate hikes remain on the table through 2027 or beyond </span>
+          <span>Warsh&#39;s FOMC statement today signaled possible rate hikes before year-end, confirming Fed readiness to hike if inflation persists—a clear signal that hikes remain on the table through 2027 if conditions warrant.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">Warsh or another Fed official publicly states that rate hikes remain on the table through 2027 </span>
+          <span>Warsh&#39;s statement today explicitly signaled rate hikes remain possible through the remainder of 2026, confirming his willingness to tighten if inflation persists.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">Warsh&#39;s FOMC statement this week contains language about inflation persistence, &#39;data-dependent&#39; hiking potential, or Fed responsibility for demand management </span>
+          <span>Warsh&#39;s FOMC statement contained explicit language about &#39;further rate hikes&#39; being &#39;appropriate&#39; if inflation does not moderate, directly addressing Fed responsibility for demand management in a stagflationary environment.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards — </span>This is the trigger for cascade repricing. Lender tightening forces visible margin compression within 2-3 days and reprices equities 8-12% downward into demand destruction.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Oil moves back above $82 or Iran deal talks stall before June 25 — </span>This signals Iran relief is temporary and geopolitical risk is returning. Combined with lender tightening, this confirms demand destruction is the base case and equities reprice sharply.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">10-year Treasury yield breaks above 4.1% and holds for 3+ consecutive trading days despite Warsh&#39;s hold — </span>This would signal the bond market is repricing upward into higher-for-longer rates (not cuts), confirming equities have misread Warsh&#39;s signal and stagflation is the correct scenario.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Another Fed official (Barkin, Powell, etc.) publicly reinforces Warsh&#39;s hike signal or warns of stagflation risks — </span>This would confirm Warsh is not an outlier and the entire Fed is ready to tighten into demand destruction, accelerating equity repricing and lender action.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">June 17, 2026</div>
+</footer>
+
+</body>
+</html>
