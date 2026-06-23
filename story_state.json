@@ -2,38 +2,38 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh's Hawkish Pivot",
+      "label": "Warsh's Hawkish Hold",
       "first_seen": "2026-04-15",
-      "age_days": 64,
-      "summary": "Kevin Warsh chose credibility over political cover by explicitly signaling rate hikes before year-end while holding steady today. This directly contradicts the market's soft-landing assumption and confirms the Fed understands that 4.2% inflation cannot be cut without demand destruction. Equities have not repriced into this signal because Iran relief dominated the narrative. The repricing will arrive when credit stress forces lenders to tighten, not when headlines relieve geopolitical risk."
+      "age_days": 68,
+      "summary": "Warsh held rates steady today but explicitly signaled hikes are on the table before year-end. This directly contradicts the soft-landing narrative that carried equities higher through May. Equities have not repriced into this signal because Iran oil relief dominated the two-day news cycle. The critical question: will lenders move first to compress margins, or will another Fed official's public warning force equities to recalibrate before that happens?"
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Relief\u20143-Day Window",
+      "label": "Oil Relief Window Closing",
       "first_seen": "2026-04-15",
-      "age_days": 64,
-      "summary": "Trump announced an Iran deal framework today, collapsing oil to below $80 on genuine but temporary relief. Deal details remain vague; sanctions relief and nuclear agreement terms are unresolved. The market's critical error: treating oil relief as inflation relief when 4.2% inflation is now decoupled from energy and rooted in sticky wages and consumption dynamics. Oil will retest $82+ within days as deal details stall or Iran escalates. Equities rallied on this false inflation narrative."
+      "age_days": 68,
+      "summary": "Oil collapsed below $80 on an Iran deal framework announcement, but deal details remain vague\u2014sanctions relief terms and nuclear verification are unresolved. Markets treated this as inflation relief when the real inflation (4.2% core, sticky wages) is decoupled from energy. Oil will retest $82+ within days as talks stall or Iran escalates. The repricing trigger is not geopolitical\u2014it's lender action."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lenders Silent\u2014Timing the Move",
+      "label": "Lenders Waiting\u2014Margin Compression Next",
       "first_seen": "2026-04-15",
-      "age_days": 64,
-      "summary": "Discover, Capital One, and American Express had maximum cover today (stagflation backdrop, Iran relief, Warsh's hawkish signal) to announce deposit rate cuts or credit tightening. All remained silent\u2014a deliberate choice. Lenders are waiting for geopolitical euphoria to fade before triggering margin-compression announcements. Within 3-7 days, when oil stabilizes back above $82 and Iran talks stall, lenders will move. That announcement cascades directly into equity repricing."
+      "age_days": 68,
+      "summary": "Discover, Capital One, and American Express had cover today to announce deposit rate cuts or tighten credit standards. All stayed silent. They are deliberately waiting for geopolitical euphoria to fade before moving. Within 3-7 days, when oil stabilizes above $82, lenders will break silence. That announcement cascades directly into equity repricing."
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Soft Landing Dead\u2014Confirmed",
+      "label": "Soft Landing Dead\u2014Lender Action Pending",
       "first_seen": "2026-04-23",
-      "age_days": 55,
-      "summary": "Today's 1.21% equity decline on a hawkish Fed signal masked by Iran relief proves equities have not repriced into stagflation. The repricing trigger is lender action (credit tightening or deposit rate cuts), not geopolitical headlines. Warsh's signal to hike before year-end + zero spending growth + 4.2% inflation = the Fed is cutting rates into demand destruction. Equities are wrong by approximately 8-12% based on historical stagflation scenarios."
+      "age_days": 60,
+      "summary": "Today's 1.21% equity decline (masked by oil relief and Greenspan's death coverage) proves equities have not repriced into stagflation. Warsh's explicit hike signal + zero spending growth in May + 4.2% sticky inflation = Fed will cut into demand destruction. Equities are wrong by 8-12% based on historical stagflation scenarios. The repricing depends entirely on lender action, not geopolitical headlines."
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Yields Correct\u2014Holding the Stagflation Price",
+      "label": "Bonds Pricing Stagflation Correctly",
       "first_seen": "2026-05-15",
-      "age_days": 33,
-      "summary": "The 10-year remained flat at 3.9-4.1% despite the Iran rally and Warsh's hawkish hold. This is exactly correct: the bond market is pricing stagflation (Fed cuts into inflation, demand collapses). Equities rallied on geopolitical relief; bonds understood that the spending path and inflation trajectory have not changed. Yields will not move lower without hard evidence of demand destruction, which credit tightening will provide."
+      "age_days": 38,
+      "summary": "The 10-year remained flat at 3.9-4.1% despite Iran relief and Warsh's hawkish hold. Bonds are pricing the scenario accurately: Fed cuts or holds higher for longer into inflation that remains sticky because demand won't collapse fast enough. Equities rallied on temporary oil relief; bonds understood the policy signal. Yields will not move lower without hard evidence of demand destruction via credit tightening."
     },
     {
       "id": "stagflation-pricing",
@@ -113,30 +113,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-06-15-0",
-      "date_added": "2026-06-15",
-      "condition": "Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards",
-      "meaning": "This is the repricing trigger. When lenders move, equities will recognize that the Fed is cutting into stagflation, not into a recoverable economy.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-16-1",
-      "date_added": "2026-06-16",
-      "condition": "Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards within 7 days",
-      "meaning": "This is the cascade trigger: lender action forces margin compression and demand destruction into a flat-spending backdrop, confirming stagflation scenario and equities repricing lower.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-16-2",
-      "date_added": "2026-06-16",
-      "condition": "Iran talks stall or Iran escalates rhetoric beyond June 22; oil moves back above $82",
-      "meaning": "Geopolitical relief narrative collapses, equities lose their cover story, and the focus returns immediately to Warsh's decision and lender credit tightening.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-06-16-3",
       "date_added": "2026-06-16",
       "condition": "10-year Treasury yield breaks above 4.1% and holds there for 3+ consecutive trading days despite Warsh's decision",
@@ -189,6 +165,30 @@
       "date_added": "2026-06-18",
       "condition": "Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh's hike signal or explicitly warns of stagflation risks",
       "meaning": "This would accelerate equity repricing by confirming Warsh is not an outlier and the entire Fed is committed to demand destruction over soft-landing optics.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-22-0",
+      "date_added": "2026-06-22",
+      "condition": "Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards on or before June 27",
+      "meaning": "Lender action confirms credit stress is real and forces immediate equity repricing from -1.21% into -8% to -12% as demand destruction becomes unavoidable.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-22-1",
+      "date_added": "2026-06-22",
+      "condition": "Oil moves back above $82 or Iran deal talks publicly stall before June 25",
+      "meaning": "Geopolitical relief narrative collapses, removing the cover that allowed lenders to stay silent; lenders move within 48 hours of oil stabilizing above $82.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-06-22-3",
+      "date_added": "2026-06-22",
+      "condition": "Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh's hike signal or warns of stagflation risks before June 27",
+      "meaning": "Fed consensus on hawkish policy becomes explicit; equities reprice earlier and sharper because credibility of Warsh's signal is corroborated; lenders move faster to match Fed expectations.",
       "status": "open",
       "outcome": ""
     }
