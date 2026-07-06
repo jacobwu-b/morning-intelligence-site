@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — June 26, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">FRIDAY · June 26, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,354.02</span>
+    <span class="ticker-change down">
+      ▼ 0.05%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">25,298</span>
+    <span class="ticker-change down">
+      ▼ 0.24%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">51,876</span>
+    <span class="ticker-change down">
+      ▼ 0.09%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The AI Trade Now Has a Second Problem That Money Can&#x27;t Solve</h1>
+    <p class="lead-body">Markets closed essentially flat today — <strong>S&amp;P 500 down 0.05%, Nasdaq down 0.24%</strong> — but flat is the wrong description for a week this clarifying. The Nasdaq completed its <strong>fifth consecutive session of underperforming the Dow</strong>, the exact threshold we set as confirmation that a real rotation is underway, not noise. More importantly, today introduced a genuinely new risk to the AI story: the Trump administration has turned its attention to AI companies directly, targeting Anthropic by name, while data centers — the physical infrastructure that makes every AI model possible — were officially the week&#x27;s biggest political losers, with pro-AI candidates losing primary races in Utah and New Jersey advancing active data center construction bans. The AI trade is no longer fighting only the financial math of expensive valuations in a rising-rate world. It is now fighting politics.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Primary: AI regulatory and infrastructure resistance turns political; Secondary: oil at a four-month low makes structural inflation harder to deny</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">AI MEETS WASHINGTON</div>
+          <div class="cause-headline">The Trump administration is targeting AI companies by name, and data center bans are spreading — the AI trade&#x27;s headwind has shifted from financial to political</div>
+          <div class="cause-text">Today brought two concrete developments that go beyond valuation math. First, the Trump administration announced direct scrutiny of Anthropic — not a vague inquiry into &#x27;AI policy&#x27; but a named investigation of one of the two leading AI labs in the country. Second, data centers — the enormous warehouses of computing power and electricity that physically run every AI model in existence — were described as the week&#x27;s biggest political losers, with pro-AI candidates losing primary races in Utah and New Jersey advancing active construction bans. These are not the same risk as &#x27;stocks are expensive.&#x27; Regulatory and infrastructure risk cannot be solved by generating better earnings. A legislative ban does not care about your revenue growth rate, and you cannot charm a building permit out of a hostile city council by projecting better future profits.</div>
+          <div class="cause-verdict">Watch the next two weeks for whether the Anthropic scrutiny produces a formal legal filing, subpoena, or operational restriction. Political investigations that materialize into legal actions drive institutional exits regardless of underlying fundamentals — professional investors cannot hold assets whose legal status is actively disputed. If the scrutiny stays at the level of rhetoric and press releases, the AI trade&#x27;s primary problem reverts to the cleaner valuation question, which is at least modelable.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">OIL FALLS WRONG</div>
+          <div class="cause-headline">Oil returning to pre-war levels should feel like relief — instead it confirms that the inflation the Fed is fighting has nothing to do with the war</div>
+          <div class="cause-text">When oil falls, input costs drop, consumers have more purchasing power, and the pressure on the Fed to act should ease. In normal times, cheap oil is unambiguously good news. Today it is the opposite. Oil at a four-month low eliminates the single most convenient narrative for elevated inflation: the US-Iran conflict. If oil is back where it was before the war started and inflation is still near a three-year high, the cause is not geopolitical — it is structural. Wages are up. Rents are up. Services are up. None of those come down because crude oil is cheaper. Volkswagen&#x27;s reported plan to cut up to 100,000 jobs under pressure from Chinese auto competition illustrates the split precisely: Chinese manufacturing is exporting goods deflation to the world, while domestic US services inflation runs independently, leaving the Fed with a problem it cannot wait for oil markets to solve.</div>
+          <div class="cause-verdict">The test is whether any Fed official states publicly next week that falling oil prices have not changed their inflation calculus. If one does, the July FOMC meeting — where the Fed sets short-term interest rates — becomes a live rate-hike discussion rather than a hold, and bond markets will begin moving before the meeting itself.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The AI trade is caught in a pincer that no earnings beat can escape</h2>
+      <p class="section-body">Think of the AI trade as a skyscraper development. Rising rates are the bank reconsidering the construction loan — uncomfortable, but manageable if the building&#x27;s future revenues look convincing enough. Political and regulatory opposition is the city council blocking the building permit — and you cannot charm a permit out of a hostile council by projecting better future revenues. <strong>A company can respond to valuation pressure by proving earlier cash flows; it cannot respond to a legislative ban by generating earlier cash flows.</strong> What makes this version harder than a typical tech selloff is that the data center backlash is bipartisan — conservative communities objecting to electricity and water consumption, progressive communities objecting to corporate land use — which means the AI industry lacks a natural political coalition to organize against the opposition and no obvious legislative path to clear the obstruction quickly.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Two templates: regulatory risk compounding financial pressure, and what cheap oil has never fixed</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">2021</div>
+          <div>
+            <div class="comp-text">As crypto valuations peaked in late 2021, SEC Chairman Gary Gensler began targeting crypto exchanges by name — Coinbase, Kraken, Binance — for operating without proper securities registration (the legal requirement to disclose financial structure to regulators before selling investment products to the public). Crypto was already facing valuation headwinds from rising rate expectations. The regulatory layer did not just add pressure; it drove institutional capital out of the sector entirely while the legal picture was unresolved. Institutions cannot hold assets whose legal status is actively disputed. Bitcoin fell from roughly $69,000 to under $16,000 over the following thirteen months. The individual legal cases took years to resolve.</div>
+            <div class="comp-lesson">When regulators enter a financially pressured sector with named targets, institutions exit first and ask questions later — the selling compounds faster than the fundamentals alone would justify, because legal uncertainty is unmodelable.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1981</div>
+          <div>
+            <div class="comp-text">Crude oil prices began falling sharply in 1981 after the second oil shock, and many economists expected Federal Reserve Chairman Paul Volcker to ease his historic tightening campaign. He held the federal funds rate — the short-term borrowing rate the Fed sets directly — above 19% into 1982. His reasoning: core inflation, meaning wages and services prices stripped of energy, was still running hot, and cheaper oil did not change that. The result was the deepest recession since the 1930s. But inflation was permanently broken and did not return for two decades.</div>
+            <div class="comp-lesson">The Fed does not declare victory when oil gets cheaper — it declares victory when the prices that cannot be explained by oil get cheaper, and those are exactly the prices still rising today.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">Next week is a two-variable test. Variable one: does the government&#x27;s AI scrutiny produce a concrete legal action, or prove to be political theater without follow-through? Variable two: do Fed officials signal publicly that falling oil prices have not softened their resolve on inflation? Either variable going the wrong way is manageable on its own. Both going wrong simultaneously — AI faces active legal uncertainty AND rate hikes move onto the table — produces a scenario where the AI trade&#x27;s already-stretched valuation math gets recalculated under genuinely worse assumptions with no visible catalyst for relief. The most consequential sentences you read next week may not come from any company&#x27;s earnings release.</p>
+      <div class="signal-kicker">
+        Scenario A — Politics Proves Toothless: If the Anthropic scrutiny produces no legal filing and data center opposition stalls at the state level without spreading, the AI trade&#x27;s problem reverts to a pure valuation question — which is manageable if the Fed signals any softening — and the Nasdaq stabilizes.<br>
+        Scenario B — Pincer Closes: If the government formalizes legal action against Anthropic and a second major state advances data center restrictions, AI faces a legal ceiling and an infrastructure floor simultaneously, and the &#x27;blow-off top before the bubble pops&#x27; narrative already circulating in market commentary becomes a self-fulfilling acceleration.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,354.02</span>
+            <span class="index-pct down">
+              ▼ 0.05%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">25,298</span>
+            <span class="index-pct down">
+              ▼ 0.24%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">51,876</span>
+            <span class="index-pct down">
+              ▼ 0.09%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">3,010.08</span>
+            <span class="index-pct up">
+              ▲ 0.07%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">18.41</span>
+            <span class="index-pct down">
+              ▼ 2.54%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">Nasdaq underperforms the Dow for five or more consecutive trading sessions </span>
+          <span>The Nasdaq completed its fifth consecutive session of underperforming the Dow today, confirming this is a sustained institutional rotation out of AI-heavy growth stocks — the exit is already happening, not being debated.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">A US or Iranian official publicly signals ceasefire talks or a formal pause in military operations </span>
+          <span>Oil at a four-month low means the market has already priced in no significant escalation — the price itself has delivered the de-escalation signal we were waiting for an official ceasefire announcement to provide.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The Trump administration files a formal legal action — a lawsuit, subpoena, or regulatory enforcement notice — against Anthropic or another named AI company within the next two weeks — </span>Regulatory risk on the AI trade becomes concrete and legally binding rather than political posturing, triggering institutional exits across the AI sector regardless of any individual company&#x27;s earnings or revenue performance.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A second major US state beyond New Jersey passes or advances to a floor vote legislation restricting or banning new data center construction — </span>The physical infrastructure backlash has reached political critical mass in multiple jurisdictions simultaneously, creating a structural cap on AI buildout that no single lobbying campaign can quickly reverse.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A Federal Reserve official, in a scheduled public appearance next week, explicitly states that falling oil prices have not reduced pressure on services and wage inflation and have not altered the case for raising rates — </span>The July FOMC meeting becomes a live rate-hike event rather than a hold, and the bond market — which sets the borrowing costs that ripple through every stock valuation — begins pricing that in before the meeting itself.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A major AI chip supplier — Nvidia, AMD, or Broadcom — issues forward revenue guidance (official forecasts of future sales that investors use to set their expectations) that explicitly names regulatory uncertainty or data center permitting delays as a risk factor — </span>The political opposition to AI infrastructure has migrated from local ordinances to the financial forecasts of the companies supplying AI hardware, forcing a sector-wide revaluation from the supply side that compounds the demand-side pressure already underway.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">June 26, 2026</div>
+</footer>
+
+</body>
+</html>

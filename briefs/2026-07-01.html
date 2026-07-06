@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 01, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">WEDNESDAY · July 01, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,483.23</span>
+    <span class="ticker-change down">
+      ▼ 0.22%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,040</span>
+    <span class="ticker-change down">
+      ▼ 0.66%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,305</span>
+    <span class="ticker-change down">
+      ▼ 0.03%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The Fed Says It Still Has Work to Do — Thursday Will Show How Much</h1>
+    <p class="lead-body">The <strong>Nasdaq fell 0.66%</strong> today while the <strong>Dow barely moved at -0.03%</strong> — that gap between tech and everything else is the whole story. Fed Chair Kevin Warsh said inflation risks <strong>&quot;have come down,&quot;</strong> then immediately added the Fed still has <strong>&quot;more work to do.&quot;</strong> In plain terms: no rate cuts coming soon. Tech stocks lose value when rates stay elevated because they are priced on earnings expected years into the future — the higher the interest rate, the less those distant profits are worth in today&#x27;s dollars, so the stocks fall even if the underlying business hasn&#x27;t changed. Meanwhile, <strong>oil slid more than 1%</strong> after Trump said the US is &quot;getting along very well&quot; with Iran and technical talks opened in Doha — a genuine positive for inflation that the jobs-report countdown completely overshadowed.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Pre-jobs-report tech positioning drives the session; Iran diplomatic signal is the quiet second story</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">PRE-JOBS POSITIONING</div>
+          <div class="cause-headline">Warsh confirmed the Fed isn&#x27;t done — and tech stocks, priced on years of future earnings, absorbed the hit</div>
+          <div class="cause-text">When a Fed chair says inflation is improving but the work is unfinished, the message to markets is: don&#x27;t price in rate cuts yet. Warsh&#x27;s exact language today — risks have &#x27;come down&#x27; but &#x27;more work to do&#x27; — is the textbook holding-pattern statement. Tech stocks are most exposed because their valuations rest on profits expected years into the future; when interest rates stay elevated, those future earnings are discounted more heavily — meaning investors assign them less value today, even if nothing in the underlying business has changed. With Thursday&#x27;s June jobs report as the next event that could force the Fed&#x27;s hand, traders are pulling back from the highest-valued tech names heading into an uncertain print.</div>
+          <div class="cause-verdict">If Thursday shows 180,000 or more net new jobs with unemployment steady or falling, the Nasdaq faces a second leg lower — the Fed has no data cover to move. If the number comes in soft — below 130,000 or with unemployment ticking higher — tech rebounds because the rate-cut conversation reopens. The number drops Thursday morning.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">IRAN DIPLOMATIC SIGNAL</div>
+          <div class="cause-headline">Trump says the US is &#x27;getting along very well&#x27; with Iran — the first concrete de-escalation move since the conflict began</div>
+          <div class="cause-text">Technical talks are reportedly under way in Doha with Qatar and Pakistan as mediators — a genuine step forward from the &#x27;contained but ongoing&#x27; baseline we have been running for a week. Oil fell more than 1% on the news, and that matters directly to the inflation story: energy prices feed into gasoline, transportation costs, and manufacturing inputs, so sustained lower oil pulls inflation numbers down without requiring the Fed to act at all. The market isn&#x27;t rewarding this today — the jobs report is consuming all the oxygen — but the signal is real and the implication for rates is constructive.</div>
+          <div class="cause-verdict">Watch for any announcement from Doha of a formal ceasefire or framework agreement. A confirmed breakthrough would likely push oil down another 3-5% on a sustained basis, showing up in the next Consumer Price Index (the government&#x27;s monthly measure of how much consumer prices have risen) reading and giving the Fed a meaningful new data argument for beginning to cut.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The Fed Has Outsourced Its Decisions to the Data — Which Makes Every Major Report a Market Event</h2>
+      <p class="section-body">Think of it like a contractor who won&#x27;t give you a finish date and instead says &#x27;it depends on how the inspection goes.&#x27; You can&#x27;t plan around that. Warsh will move when the numbers tell him to — not before. <strong>When the central bank outsources its decisions to the data, every major economic release gets the power to reprice the entire stock market in a single morning.</strong> Thursday&#x27;s jobs number is the next inspection. This version is harder than typical data-dependency periods for one specific reason: the S&amp;P is sitting at an all-time high near 7,483, a price level that already assumes something close to a soft landing — when the economy cools just enough to tame inflation without causing a recession — with rate cuts arriving roughly on schedule. A surprise in either direction from a high-expectations baseline lands harder than it would from neutral ground, which means Thursday&#x27;s print could move this market more than a comparable jobs report would have in a calmer year.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Data-Dependent Feds Turn Every Jobs Report Into a Binary Swing — Here Is How These Periods Resolve</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">2023</div>
+          <div>
+            <div class="comp-text">After its fastest rate-hiking cycle in four decades, the Fed declared it would be &#x27;data-dependent&#x27; — meaning it would act based on incoming numbers, not a preset calendar. Every monthly jobs report and inflation reading became a 1-2% swing event for the S&amp;P 500. The year still ended up 24% because the data gradually cooperated: inflation fell steadily, the economy held its footing, and the Fed eventually cut. But the path required sitting through eight separate sessions where the S&amp;P moved more than 1% on a single data print — patience was the entire job.</div>
+            <div class="comp-lesson">Data-dependency periods are volatile month to month but ultimately reward investors who stay positioned if the underlying economy is genuinely healthy — and the word &#x27;genuinely&#x27; is doing real work in that sentence.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2015</div>
+          <div>
+            <div class="comp-text">In the twelve months before the Fed&#x27;s first rate hike since 2008, markets were in the same &#x27;will they or won&#x27;t they&#x27; limbo. Strong economic data dragged stocks lower because it confirmed hikes were coming; weak data sent them higher because it bought more time — the normal relationship between good economic news and rising stocks inverted entirely. The Fed finally moved in December 2015, and markets bounced. The clarity of a decision proved more welcome than the limbo it replaced.</div>
+            <div class="comp-lesson">The market hates the waiting room more than it hates the decision itself — clarity, in either direction, almost always arrives as relief.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">Thursday&#x27;s jobs report is the single variable that determines the market&#x27;s direction over the next two weeks. A strong number confirms economic heat and pushes the Nasdaq lower as the rate-cut timeline recedes further; a soft number reopens the cut conversation and gives tech a relief bounce. One sentence to carry into the long weekend: the market&#x27;s next move is being decided by data that neither the Fed nor Wall Street fully controls.</p>
+      <div class="signal-kicker">
+        Scenario A — Soft Jobs Opens the Door: If Thursday shows below 130,000 new jobs or unemployment ticking higher, the Fed&#x27;s &#x27;more work to do&#x27; language softens quickly, rate cuts come back onto the near-term agenda, and the Nasdaq retests the 26,200 Q2 highs.<br>
+        Scenario B — Hot Jobs Locks the Fed In: If Thursday shows 190,000-plus new jobs with unemployment steady or falling, the Fed holds through the summer, tech stocks priced at many times their current earnings face a second leg of selling, and the Nasdaq tests 25,500.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,483.23</span>
+            <span class="index-pct down">
+              ▼ 0.22%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,040</span>
+            <span class="index-pct down">
+              ▼ 0.66%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,305</span>
+            <span class="index-pct down">
+              ▼ 0.03%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">3,012.59</span>
+            <span class="index-pct down">
+              ▼ 0.39%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">16.59</span>
+            <span class="index-pct up">
+              ▲ 0.85%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">A Federal Reserve official, in a scheduled public appearance next week, explicitly states that falling oil prices have not reduced pressure on services and wage inflation and have not altered the case for raising rates </span>
+          <span>Warsh said today that inflation risks have &#x27;come down&#x27; — the exact opposite of this condition&#x27;s feared scenario. The risk of the Fed explicitly dismissing oil&#x27;s inflation relief has been superseded by the Fed Chair publicly acknowledging easier inflation conditions.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Thursday&#x27;s June jobs report shows more than 190,000 net new positions added with unemployment steady or falling — </span>The economy is running too hot for the Fed to consider cuts — Warsh&#x27;s &#x27;more work to do&#x27; language hardens from a holding pattern into an active constraint, and high-valuation tech faces sustained pressure through the summer.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Doha diplomatic talks between the US and Iran produce a publicly announced formal ceasefire or framework agreement within the next two weeks — </span>Oil reprices lower on a sustained basis, directly reducing the energy-driven inflation components the Fed is tracking, and giving Warsh the first clean data argument for beginning rate cuts earlier than the market currently expects.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Warsh gives a formal speech or congressional testimony addressing the timeline for slowing or halting quantitative tightening — the Fed&#x27;s ongoing program of selling bonds to shrink its balance sheet and drain money from the financial system — with language suggesting a change could arrive before year-end 2026 — </span>Slowing or stopping those bond sales would inject liquidity back into the financial system, acting as a meaningful economic stimulus even without a rate cut, and would be broadly positive for stock valuations across the board.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The late-July PCE — the Federal Reserve&#x27;s preferred inflation gauge, which measures price changes across a broad basket of actual consumer purchases — comes in at or above 3.0% year-over-year — </span>The inflation improvement Warsh acknowledged today is not materializing in the hardest data, the rate-cut timeline extends well into 2027, and the S&amp;P&#x27;s all-time-high valuation loses its single most important support.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 01, 2026</div>
+</footer>
+
+</body>
+</html>

@@ -3,3 +3,9 @@
 {"timestamp": "2026-06-23T16:18:09Z", "market_date": "2026-06-22", "success": true, "elapsed_s": 36, "tokens_in": 5487, "tokens_out": 2515, "retried": false, "brief_format": "delta"}
 {"timestamp": "2026-06-24T16:05:49Z", "market_date": "2026-06-23", "success": true, "elapsed_s": 34, "tokens_in": 5421, "tokens_out": 3137, "retried": false, "brief_format": "full"}
 {"timestamp": "2026-07-06T00:51:26Z", "market_date": "2026-07-02", "success": true, "elapsed_s": 488, "tokens_in": 6386, "tokens_out": 25866, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T03:49:43Z", "market_date": "2026-06-24", "success": true, "elapsed_s": 331, "tokens_in": 4052, "tokens_out": 16266, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T03:57:16Z", "market_date": "2026-06-25", "success": true, "elapsed_s": 453, "tokens_in": 4445, "tokens_out": 24138, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T04:04:03Z", "market_date": "2026-06-26", "success": true, "elapsed_s": 406, "tokens_in": 5081, "tokens_out": 20765, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T04:11:04Z", "market_date": "2026-06-29", "success": true, "elapsed_s": 420, "tokens_in": 5288, "tokens_out": 20814, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T04:19:47Z", "market_date": "2026-06-30", "success": true, "elapsed_s": 522, "tokens_in": 5364, "tokens_out": 26759, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T04:27:53Z", "market_date": "2026-07-01", "success": true, "elapsed_s": 486, "tokens_in": 5800, "tokens_out": 26260, "retried": false, "brief_format": "full"}

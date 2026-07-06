@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — June 30, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">TUESDAY · June 30, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-ON SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,499.36</span>
+    <span class="ticker-change up">
+      ▲ 0.79%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,214</span>
+    <span class="ticker-change up">
+      ▲ 1.52%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,319</span>
+    <span class="ticker-change up">
+      ▲ 0.26%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The Best Quarter Since 2020 Is in the Books. The Hard Part Starts Tomorrow.</h1>
+    <p class="lead-body">The S&amp;P 500 and Nasdaq closed Q2 2026 with their <strong>best quarterly performance since 2020</strong> — the year stocks bounced back from the COVID collapse — finishing today at <strong>7,499</strong> and <strong>26,214</strong> respectively. What actually happened across Q2 was the market pricing every major open question toward its optimistic resolution at the same time: AI hardware demand is genuine, the Iran war is contained and not disrupting oil supply, and a more permissive regulatory environment means higher corporate profits. Today the Supreme Court added one more brick to that structure by <strong>rolling back all remaining federal campaign spending limits</strong>, its second consecutive governance-reshaping ruling in two days. The quarter looks like a victory lap — the more accurate description is a very large, very coherent bet that has not yet been graded. <strong>Q3 earnings season, arriving in mid-July, is the first test.</strong></p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">A historically strong quarter-end close and a second consecutive Supreme Court governance ruling define the session</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">QUARTER-END RECORD</div>
+          <div class="cause-headline">Q2 2026 closes as the best quarter for stocks since 2020 — a six-year high-water mark reached during an active war</div>
+          <div class="cause-text">Today is the final session of Q2 2026, and the tally is historically significant: the S&amp;P 500 and Nasdaq posted their strongest quarter since Q2 2020 — the pandemic bounce-back — while a military conflict was active in the Middle East. The quarter&#x27;s performance is grounded in a coherent thesis: AI hardware demand is documented with chipmakers reportedly tripling in H1 2026, corporate earnings are growing, the Iran conflict has not disrupted oil supply, and the regulatory environment is shifting toward permissiveness. Today&#x27;s modest session gain also carries one mechanical factor worth noting: <strong>quarter-end window dressing</strong> — the standard practice where professional fund managers buy the period&#x27;s winning stocks in the final days of the quarter so their reports show they held them — provides a small artificial lift that typically fades in the first few sessions of the new quarter.</div>
+          <div class="cause-verdict">The record is real and grounded in measurable demand data — this was not a speculative bubble quarter. But the bar for Q3 is now set at a record high: if mid-July earnings from major AI platform companies don&#x27;t show AI product revenues growing in proportion to AI infrastructure spending, markets will begin repricing a thesis that has already been fully endorsed at these levels.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">CAMPAIGN FINANCE RULING</div>
+          <div class="cause-headline">The Supreme Court eliminated all remaining federal caps on political campaign spending — its second major governance ruling in two consecutive days</div>
+          <div class="cause-text">In a ruling separate from yesterday&#x27;s agency-independence decision, the Court held that federal limits on campaign spending violate the First Amendment&#x27;s guarantee of free speech. The practical consequence: there is now no legally enforceable federal ceiling on how much money — including corporate money — can flow into political campaigns. This extends the Court&#x27;s 2010 Citizens United decision, which first opened the door to unlimited outside political spending through so-called super PACs (independent political action committees that can raise and spend without legal caps) and removes additional constraints that had survived that earlier ruling. For markets, the immediate read is pro-business continuity: the political coalition currently controlling the regulatory agenda just received a stronger financial infrastructure to maintain that control.</div>
+          <div class="cause-verdict">The ruling moves no stock today, which is the correct market reaction. Watch whether any major technology, financial, or energy company announces a new political spending program within the next 30 days — that would be the first concrete signal of which industries intend to immediately use the new legal environment to shape their regulatory futures.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Q2 was the vote. Q3 is when the market finds out whether it voted correctly.</h2>
+      <p class="section-body">Warren Buffett&#x27;s mentor Benjamin Graham wrote that in the short run, the market is a <strong>voting machine</strong> — it reflects what investors believe and want to be true. In the long run, it is a weighing machine — it reflects what companies actually earn. Q2 2026 was a quarter of aggressive, internally consistent voting: for AI, against inflation risk, against geopolitical disruption, for deregulation. Every open question was resolved toward the optimistic outcome, and the scoreboard reflects it. <strong>The danger is not that any of those bets were wrong — they may well prove correct — it is that the market has already been paid for being right, leaving no buffer for the scenarios that remain genuinely open.</strong> This moment is specifically harder than a typical record-close scenario because the outstanding questions — AI revenue materialization, Fed independence, the Iran war&#x27;s slow-burn economic effects — are all converging in the same narrow summer window, and a miss on any single one of them lands against a market that has priced them all as wins simultaneously.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Record quarters during active conflicts follow a specific pattern — what happens next depends entirely on whether the underlying thesis holds</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">2003</div>
+          <div>
+            <div class="comp-text">After the U.S. declared &#x27;Mission Accomplished&#x27; in Iraq in May 2003, the Nasdaq gained roughly 21% in Q2 2003 — one of the strongest quarters for technology stocks in years, achieved while an active military conflict continued. The market was correct: the war did not disrupt domestic economic growth, earnings expanded, oil stayed manageable, and the S&amp;P 500 went on to gain roughly 25% over the following 18 months. The ongoing insurgency that followed the initial invasion never altered the economic thesis because the oil market confirmed the good scenario — supply stayed intact and there was nothing concrete to reprice.</div>
+            <div class="comp-lesson">Markets can be right to price out a war&#x27;s economic impact while the conflict continues — if oil doesn&#x27;t spike, the rally isn&#x27;t wishful thinking, it&#x27;s tracking the right variable.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2010</div>
+          <div>
+            <div class="comp-text">In January 2010, the Supreme Court&#x27;s Citizens United decision removed limits on corporate outside political spending for the first time — a structural governance change comparable in scope to today&#x27;s ruling. Markets barely moved on the day of the decision itself, and the S&amp;P 500 finished 2010 up roughly 13%. But over the following decade, industries that moved fastest to deploy their new political spending power — financial services, energy, telecommunications — navigated the regulatory environment measurably better than those that did not. The consequences took three to five years to show up clearly at the sector level, not the index level.</div>
+            <div class="comp-lesson">Supreme Court rulings that expand corporate political power are market-neutral on day one and sector-reshaping over a decade — the race to capitalize starts immediately, but the investor payoff arrives slowly and unevenly across industries.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The single variable that determines whether Q2&#x27;s record is a launchpad or a ceiling is mid-July earnings — specifically whether Microsoft, Google, Meta, and Amazon report AI product revenues growing faster than their <strong>capital expenditures</strong> (the money companies spend to build AI infrastructure: data centers, chips, and compute capacity). If AI revenues are outpacing AI spending, the Q2 thesis gets validated and Q3 extends the gains. If companies are spending aggressively on AI build-out while AI-specific product revenues lag, the market faces a question it has been successfully avoiding: how long is it willing to pay for potential that keeps being pushed forward? The answer to that question is what Q3 is actually about.</p>
+      <div class="signal-kicker">
+        Scenario A — AI revenue confirms: At least two of the four major AI platform companies report in mid-July that AI-specific product revenue grew faster than AI infrastructure spending in Q2 — the monetization gap closes on the scoreboard and Nasdaq tests 27,500 by Labor Day.<br>
+        Scenario B — Spend without revenue: Major tech companies report another quarter of heavy AI capital expenditure with no proportionate AI product revenue breakout — Nasdaq gives back 8-10% through August as the gap between what was priced and what was earned becomes impossible to rationalize.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,499.36</span>
+            <span class="index-pct up">
+              ▲ 0.79%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,214</span>
+            <span class="index-pct up">
+              ▲ 1.52%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,319</span>
+            <span class="index-pct up">
+              ▲ 0.26%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">3,024.37</span>
+            <span class="index-pct up">
+              ▲ 0.46%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">16.45</span>
+            <span class="index-pct down">
+              ▼ 6.8%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">The Nasdaq closes below 25,000 on any session this week following today&#x27;s rally </span>
+          <span>With Nasdaq closing at 26,214 today — 4.6% above the 25,000 threshold — reaching that level in the two remaining full sessions of this week would require a major external shock, not a retracement; this item was designed to detect a near-term pullback signal, and that specific window has functionally closed.</span>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The S&amp;P 500 falls more than 2% in any single session during the first five trading days of July (July 1-8) — </span>A sharp opening-week decline would signal that some of Q2&#x27;s final gains were mechanically inflated by quarter-end window dressing and that Q3 is starting from a lower real baseline — the first read on whether the record close was genuine conviction or partly cosmetic.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A major technology, financial, or energy company announces a new political spending initiative or dedicated lobbying program within 30 days of today&#x27;s campaign finance ruling, explicitly citing the new legal environment as enabling the activity — </span>This would be the first concrete signal that specific industries are immediately capitalizing on the ruling, beginning the sector-level winner/loser dynamic that took years to emerge after Citizens United.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Microsoft, Google, Meta, or Amazon provides specific AI product revenue figures in mid-July earnings showing that AI revenues grew faster than AI infrastructure spending in Q2 2026 — </span>This is the first hard data point on AI monetization — the single most important open question in markets — and it either validates everything the Q2 rally priced in or seriously challenges it.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The June jobs report, expected around July 3 ahead of the July 4th holiday weekend, shows fewer than 100,000 net new positions added or the unemployment rate rising relative to May — </span>Weak hiring data would be the first Q3 signal that the current higher-for-longer rate environment is cooling the real economy faster than Q2&#x27;s record close assumed — putting the Federal Reserve in the worst possible position: fighting inflation while job growth stalls at the same time.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">June 30, 2026</div>
+</footer>
+
+</body>
+</html>

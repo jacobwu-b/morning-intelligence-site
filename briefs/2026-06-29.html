@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — June 29, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">MONDAY · June 29, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-ON SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,440.43</span>
+    <span class="ticker-change up">
+      ▲ 1.18%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">25,820</span>
+    <span class="ticker-change up">
+      ▲ 2.07%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,183</span>
+    <span class="ticker-change up">
+      ▲ 0.59%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The Court Gave Trump Everything But the Interest Rate</h1>
+    <p class="lead-body">Markets jumped today — <strong>Nasdaq +2.07%, S&amp;P 500 +1.18%</strong> — after the Supreme Court handed down two decisions that together drew the new map of American economic governance. The Court ruled 6-3 in Slaughter v. Trump that the president has the authority to fire the heads of independent federal agencies, including the FTC (the Federal Trade Commission, the body that polices monopolies and market competition), putting them firmly under White House control for the first time in generations. But in a separate order, the same Court temporarily blocked Trump from firing Lisa Cook, a member of the Federal Reserve Board of Governors — the seven-person body whose votes determine your interest rates. <strong>Markets cheered the combination: regulatory friction for business was reduced across the board, and the institution that controls the cost of borrowing throughout the entire economy was protected — at least for now.</strong></p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Supreme Court defers the Fed independence threat and removes regulatory friction for business; AI chipmakers snap the Nasdaq&#x27;s losing streak against the Dow</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">FED INDEPENDENCE REPRIEVE</div>
+          <div class="cause-headline">The Court drew a temporary line around the Fed — and markets treated a pause as a victory</div>
+          <div class="cause-text">The ruling today had two legally distinct parts, and the market is treating them as one clean story — which is the risk. The 6-3 decision in Slaughter v. Trump is settled law: presidents can fire independent agency heads. The block on Lisa Cook&#x27;s firing is not settled law; it is a temporary stay — a judicial pause — while lower courts decide whether the Federal Reserve&#x27;s specific legal structure as a creation of Congress gives it protections that the FTC and others do not have. Markets are pricing in that the Fed stays independent, but what they are really pricing is a stay of execution, not an acquittal. Those are very different things.</div>
+          <div class="cause-verdict">This protection is temporary and hinges entirely on what the lower federal courts decide. Watch the D.C. Circuit Court — its ruling is the next discrete event that can force markets to reprice the entire Fed independence question in a single session, with no warning.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">AI CHIP MOMENTUM</div>
+          <div class="cause-headline">Chipmakers that have tripled in 2026 snapped the AI trade&#x27;s recent losing streak against the broader market</div>
+          <div class="cause-text">Semiconductor companies — the manufacturers of the physical chips that power AI data centers — have tripled in value in the first half of 2026, with today confirming that momentum is intact. The Nasdaq&#x27;s 2.07% gain versus the Dow&#x27;s 0.59% is the sharpest single-session reversal of the AI underperformance trend we&#x27;ve tracked all week. This is signal, not noise: the hardware demand for AI is not imaginary, not projected, and not dependent on software revenues that haven&#x27;t materialized yet. The open question is whether today&#x27;s move is a genuine reassessment of the AI trade&#x27;s value or a one-session relief bounce driven by the Supreme Court news that fades when the monetization concern reasserts itself.</div>
+          <div class="cause-verdict">Three consecutive sessions of Nasdaq outperformance versus the Dow will confirm the foundation is genuinely rebuilding from hardware up; a close below 25,000 on any day this week will tell you this was a one-day trade, not a trend.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Political control over every regulator except the one that sets the price of money — for now</h2>
+      <p class="section-body">Imagine a city government that can now replace every building inspector, zoning board, and fire marshal at will — faster permits, friendlier approvals, business accelerates. That is what today&#x27;s ruling did for corporate America across most of its regulatory environment. But one inspector cannot be replaced yet: the one who sets the interest rate on every mortgage, business loan, and bond in the city — the one whose credibility is the reason those rates are as low as they are rather than much higher. That is the Federal Reserve. <strong>The specific danger of politicizing the Fed is not visible damage on day one; it is invisible rot — the slow erosion of the institutional credibility that keeps inflation expectations anchored without any single dramatic event to point to, until suddenly the anchor slips.</strong> Today&#x27;s ruling deferred that risk rather than eliminating it, which is exactly why markets rallied instead of selling off — deferral looks like safety until the lower courts rule. This instance is harder than past episodes of presidential Fed pressure because for the first time, the legal architecture is being actively constructed to eventually reach the Fed, not just the rhetoric.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Presidential pressure on the Fed has two historical endings — a sharp scare that resolves, and a slow burn that takes a decade to extinguish</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">2019</div>
+          <div>
+            <div class="comp-text">Throughout 2018 and into 2019, Trump publicly attacked Fed Chair Powell, called him an &#x27;enemy,&#x27; and implied he might fire him. The S&amp;P 500 fell close to 20% in Q4 2018 — one of the worst Decembers since the Great Depression — partly on the fear that the Fed would be politically directed to stop raising rates. Legal counsel eventually confirmed Trump lacked the authority to fire Powell, the pressure receded, and markets fully recovered by mid-2019. The episode from peak fear to full recovery took roughly six months.</div>
+            <div class="comp-lesson">When presidential pressure on the Fed is credible but ultimately legally blocked, the recovery is fast — but you have to endure the fear, and the fear is violent.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1971</div>
+          <div>
+            <div class="comp-text">President Nixon pressured Fed Chair Arthur Burns to keep interest rates low ahead of the 1972 election. Burns complied. Stocks loved easy money — Nixon won in a landslide, and markets kept climbing through 1972. The bill arrived later: inflation hit 14% by the late 1970s, stocks spent a decade essentially flat in inflation-adjusted terms (meaning the purchasing power of a stock portfolio went nowhere for ten years despite nominal gains), and it took the brutal rate increases of Paul Volcker in the early 1980s to finally wring out the price pressures Burns&#x27;s compliance had planted.</div>
+            <div class="comp-lesson">When the Fed actually loses its independence and follows political direction, markets cheer for a year or two — but the inflation bill arrives later, compounded, and takes a decade to pay.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The single variable that determines how the next several weeks resolve is what the lower courts signal about Lisa Cook&#x27;s case — and whether Trump moves against any other Fed governor before that ruling arrives. If the legal firewall holds, today&#x27;s rally has a foundation: rate policy stays independent, the AI chip momentum has room to continue, and the market has genuinely repriced upward on reduced regulatory risk. If the firewall shows cracks — an adverse lower-court ruling, a new White House action against a Fed official — the paradox of the Nixon playbook kicks in: markets may initially rally on rate-cut hopes before the slower, worse inflation repricing follows. The one sentence to hold all week: <em>today&#x27;s gain is a relief trade, not a resolution, and relief trades are only as durable as the thing they are relieved about.</em></p>
+      <div class="signal-kicker">
+        Scenario A — Legal Firewall Holds: Lower courts uphold Cook&#x27;s right to her Fed seat and establish a clear legal precedent protecting all Fed governors from political removal — inflation expectations stay anchored, rate policy remains data-driven, and the AI hardware momentum extends Nasdaq gains into the summer.<br>
+        Scenario B — The Dam Begins to Leak: Lower courts rule against Cook or Trump signals he will move against another Fed governor — markets initially rally on rate-cut hopes, but long-term government bond yields (the interest rate the U.S. government pays to borrow money for decades, which reflects what investors expect inflation to do over that period) begin rising as investors quietly demand extra compensation for the risk of a politically directed Fed.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,440.43</span>
+            <span class="index-pct up">
+              ▲ 1.18%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">25,820</span>
+            <span class="index-pct up">
+              ▲ 2.07%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,183</span>
+            <span class="index-pct up">
+              ▲ 0.59%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">3,010.42</span>
+            <span class="index-pct up">
+              ▲ 0.01%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">17.65</span>
+            <span class="index-pct down">
+              ▼ 4.13%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">The Trump administration files a formal legal action — a lawsuit, subpoena, or regulatory enforcement notice — against Anthropic or another named AI company within the next two weeks </span>
+          <span>The FTC is now under direct presidential control following today&#x27;s ruling; an administration that controls the FTC is structurally unlikely to deploy it against industries it favors, which removes the independent regulatory mechanism that made this item meaningful — the condition can no longer trigger in the way it was designed to measure.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The D.C. Circuit Court rules against Lisa Cook in her lawsuit to retain her Fed seat, or the Supreme Court lifts its temporary protective order before the lower court issues a ruling — </span>This is the single highest-stakes trigger on the board — if it fires, Trump can immediately remove a sitting Federal Reserve governor, and the institutional credibility that keeps inflation expectations anchored goes into open question, likely triggering a sharp and fast market repricing.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Trump publicly names or advocates for a specific individual to fill any Federal Reserve Board vacancy where that individual has a documented record of publicly arguing for lower interest rates regardless of inflation data — </span>Even without an actual firing, this signals the politicization playbook is executing — bond markets will begin pricing in higher inflation before a single new vote is cast at the Fed, pushing long-term borrowing costs up across the economy.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The FTC, under its new leadership now accountable to the White House, announces within the next 30 days that it is dropping or suspending any pending antitrust (anti-monopoly) investigation into a major technology or AI platform company — </span>This is the first concrete market signal of what agency deregulation actually delivers in practice — and it would likely trigger another significant leg up in AI and big tech stocks as competitive moats widen and pricing power increases without regulatory check.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The Nasdaq closes below 25,000 on any session this week following today&#x27;s rally — </span>A reversal this fast would confirm that today&#x27;s gains were a single-session Supreme Court relief trade rather than a genuine shift in the AI monetization narrative, and the underperformance trend against the Dow would resume with renewed conviction.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">June 29, 2026</div>
+</footer>
+
+</body>
+</html>
