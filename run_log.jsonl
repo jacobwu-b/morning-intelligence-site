@@ -2,3 +2,4 @@
 {"timestamp": "2026-06-19T16:26:39Z", "market_date": "2026-06-18", "success": true, "elapsed_s": 31, "tokens_in": 5494, "tokens_out": 3095, "retried": false, "brief_format": "full"}
 {"timestamp": "2026-06-23T16:18:09Z", "market_date": "2026-06-22", "success": true, "elapsed_s": 36, "tokens_in": 5487, "tokens_out": 2515, "retried": false, "brief_format": "delta"}
 {"timestamp": "2026-06-24T16:05:49Z", "market_date": "2026-06-23", "success": true, "elapsed_s": 34, "tokens_in": 5421, "tokens_out": 3137, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-06T00:51:26Z", "market_date": "2026-07-02", "success": true, "elapsed_s": 488, "tokens_in": 6386, "tokens_out": 25866, "retried": false, "brief_format": "full"}

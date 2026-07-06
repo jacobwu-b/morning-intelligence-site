@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 02, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">THURSDAY · July 02, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,483.24</span>
+    <span class="ticker-change up">
+      ▲ 0.0%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">25,833</span>
+    <span class="ticker-change down">
+      ▼ 0.8%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,900</span>
+    <span class="ticker-change up">
+      ▲ 1.14%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">57,000 Jobs: Stagflation Is No Longer a Warning — It&#x27;s the Report</h1>
+    <p class="lead-body">June&#x27;s jobs report came in at <strong>57,000 new positions</strong> — roughly a third of what economists expected, and the weakest monthly number since the early pandemic. Labor force participation — the share of working-age Americans who are employed or actively looking for work — dropped to <strong>61.5%</strong>, its lowest since March 2021. The unemployment rate paradoxically fell to 4.2%, not because people found jobs, but because workers stopped looking and exited the count entirely. That detail is the tell: this is a labor market showing discouragement, not recovery. <strong>Stagflation</strong> — the toxic pairing of slowing economic growth with inflation that refuses to cool — is no longer a forecast. It is in the data. And the market&#x27;s split verdict — Dow up 1.1%, Nasdaq down 0.8% on the same day — is the first visible rotation into what survives that environment and away from what doesn&#x27;t.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Primary: 57,000 jobs confirms stagflation in hard data, not just theory. Secondary: Dow/Nasdaq divergence is the market&#x27;s first visible stagflation rotation bet.</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">JOBS REPORT SHOCK</div>
+          <div class="cause-headline">57,000 new jobs in June is the data point the bond market was already pricing — and the Fed was dreading</div>
+          <div class="cause-text">Economists expected roughly 160,000 new jobs. They got 57,000. The unemployment rate actually fell to 4.2% — not because people found work, but because workers who stopped looking dropped out of the count entirely, which is why labor force participation fell to 61.5%, the lowest since lockdown-era March 2021. A falling unemployment rate paired with 57,000 new jobs and shrinking participation is the worst kind of report: weakness masked by discouragement. The Iran War is explicitly named as the inflation driver suppressing hiring, and hospitality shed jobs despite the World Cup — a sector that was supposed to be the demand tailwind of the summer.</div>
+          <div class="cause-verdict">This print does not give the Fed permission to cut. Warsh cannot cut into 4.2% core inflation without abandoning the credibility he has built his tenure on. Watch the July CPI report due mid-month: if inflation holds at or above 4.2% despite this weak jobs print, the stagflation trap is officially locked and an equity repricing is a matter of timing, not probability.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">STAGFLATION ROTATION</div>
+          <div class="cause-headline">Dow up 1.1%, Nasdaq down 0.8% on the same day — the market placed its first visible stagflation bet</div>
+          <div class="cause-text">A nearly two-percentage-point gap between the Dow and Nasdaq on identical data, in the same session, is not noise. Tech and growth stocks depend on two conditions simultaneously: low interest rates to justify high valuations built on distant future earnings, and a growing economy to grow into those valuations. Today&#x27;s report threatened both. Dow-heavy sectors — energy companies, defense contractors, healthcare, and financial firms that earn more when rates stay elevated — are comparatively more durable when growth slows into inflation. The chipmaker selloff is the clearest example: ARM, up 194% this year on AI-spend expectations, sold off sharply as rate-hike fears called into question the financial math that justified the entire move.</div>
+          <div class="cause-verdict">Watch whether the Dow/Nasdaq gap persists for three or more consecutive trading sessions. If it does, institutional money is repositioning and growth names have further to fall. If the Nasdaq recovers quickly, markets are back to betting that weak jobs will force the Fed to cut — a bet that only pays off if Warsh blinks first.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The Fed&#x27;s two medicines now both make the patient worse</h2>
+      <p class="section-body">Picture a doctor with exactly two drugs: one lowers fever, one restores energy. Today the patient has both conditions at once — <strong>a 4.2% inflation fever that won&#x27;t break and a 57,000-jobs pulse that is dangerously slow</strong>. The fever medicine (rate hikes) weakens the patient further. The energy medicine (rate cuts) spikes the fever. This is stagflation&#x27;s cruelest feature: the policy toolkit is not just limited, it is self-defeating. What makes this instance harder than most is that Warsh has already publicly committed, on the record, to treating the fever first — which means the economy has to get visibly sicker before the prescription can change, and by then more damage will have compounded.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">Every time the labor market cracked while inflation held firm, the Fed&#x27;s choice had a cost — and the same kinds of stocks lost twice</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1979–1980</div>
+          <div>
+            <div class="comp-text">Volcker&#x27;s Fed watched employment deteriorate through late 1979 as inflation ran above 10%. Political pressure to cut was enormous. Volcker held — then hiked — causing GDP to fall nearly 8% annualized in Q1 1980. The labor market continued worsening. Inflation did not break until 1982, roughly three years after the first cracks appeared in the jobs data.</div>
+            <div class="comp-lesson">A collapsing jobs print is not a Fed permission slip when inflation is the primary threat — you treat the fever first, even if the patient gets weaker while you do it.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">1990–1991</div>
+          <div>
+            <div class="comp-text">Greenspan&#x27;s Fed navigated a Middle East war, oil-driven inflation, and a deteriorating labor market simultaneously — a structural parallel to today&#x27;s Iran War backdrop. The Fed hesitated on cuts as unemployment climbed; the recession lasted eight months and the S&amp;P fell roughly 20% peak-to-trough. Growth and tech names lagged the recovery by months. Defense, energy, and healthcare names recovered first.</div>
+            <div class="comp-lesson">In a war-driven inflation with a cracking labor market, growth stocks recover last — and the Fed&#x27;s timing error always makes the downturn longer than it had to be.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The single variable that resolves this week is Warsh&#x27;s response to the jobs print. If he frames 57,000 as a reason to soften the hike signal, the Nasdaq gets a relief rally and the rotation reverses. If he holds the hike signal despite weak employment, the Dow/Nasdaq divergence widens into something structural and growth names face a multi-week repricing. Every public Fed comment through the July 4 holiday weekend is either validating the hike path or beginning a retreat from it — hold that framing until the next Fed speaker steps to the microphone.</p>
+      <div class="signal-kicker">
+        Scenario A — Fed Acknowledges the Damage: Warsh explicitly frames 57,000 jobs as evidence the labor market needs support, softens his hike signal, the dollar stabilizes, and the Nasdaq erases its losses as markets price a more accommodating Fed path through summer.<br>
+        Scenario B — Warsh Holds His Line: Warsh maintains the hike signal despite weak jobs, consumer lenders begin tightening credit in response to rising default risk, and the Dow/Nasdaq divergence widens into a full stagflation rotation that drives growth stocks down 10-15% over the next 6-8 weeks.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,483.24</span>
+            <span class="index-pct up">
+              ▲ 0.0%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">25,833</span>
+            <span class="index-pct down">
+              ▼ 0.8%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,900</span>
+            <span class="index-pct up">
+              ▲ 1.14%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,996.11</span>
+            <span class="index-pct down">
+              ▼ 0.55%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">16.15</span>
+            <span class="index-pct down">
+              ▼ 2.65%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Oil moves back above $82 or Iran deal talks stall before June 25 </span>
+          <span>June 25 deadline passed; the oil-as-repricing-trigger is superseded — today&#x27;s jobs report confirmed demand deterioration through the labor channel directly, making the oil catalyst redundant to the thesis.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Oil moves back above $82 (or Iran deal details stall/Iran escalates) before June 25 </span>
+          <span>June 25 deadline passed; retired as an exact duplicate of w-2026-06-17-1.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">10-year Treasury yield breaks above 4.1% and holds for 3+ consecutive trading days </span>
+          <span>Retired as an exact duplicate of the ongoing 10-year yield condition tracked under w-2026-06-17-2.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh&#x27;s hike signal or explicitly warns of stagflation risks </span>
+          <span>June 27 deadline passed; retired as a duplicate of the ongoing Fed-official condition tracked under w-2026-06-17-3.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards on or before June 27 </span>
+          <span>June 27 deadline passed with no announcement from any consumer lender; the underlying risk is now tracked under a fresh watchlist condition with no hard deadline, reflecting that the trigger window is July, not June.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Oil moves back above $82 or Iran deal talks publicly stall before June 25 </span>
+          <span>June 25 deadline passed; retired as a duplicate of expired oil and Iran conditions.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh&#x27;s hike signal or warns of stagflation risks before June 27 </span>
+          <span>June 27 deadline passed; retired as a duplicate of the ongoing Fed-official condition.</span>
+        </div>
+      </div>
+      
+      
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh&#x27;s hike signal or explicitly warns of stagflation risks before June 27 </span>
+          <span>June 27 deadline passed with no qualifying Fed statement; condition expired.</span>
+        </div>
+      </div>
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Warsh or a senior Fed official gives a public statement on the June jobs report — specifically whether they describe it as &#x27;a sign of demand deterioration requiring attention&#x27; versus &#x27;consistent with gradual labor market rebalancing&#x27; — </span>The first framing signals a potential softening of the hike path and gives tech a relief rally; the second confirms the hike signal survives weak jobs and the Nasdaq selloff has significantly further to run.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Dow outperforms Nasdaq by one percentage point or more for three or more consecutive trading sessions — </span>Confirms institutional money has begun rotating into stagflation positioning — the signal that growth stock repricing is a multi-week event rather than a single-session data reaction.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Capital One, Discover, or American Express announces tighter consumer credit standards or reduced credit limits at any point in July — </span>This is the trigger that forces full equity repricing into stagflation — the moment the theoretical credit squeeze becomes a real one and equities can no longer hold out for a Fed rescue.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">July CPI report (due mid-month) shows core inflation — the underlying price trend excluding food and energy — at or above 4.2% despite the 57,000-job employment print — </span>Locks the stagflation trap permanently: slowing growth and stubborn inflation confirmed simultaneously, no Fed tool helps both conditions, and the 8-12% equity repricing becomes a question of timing rather than probability.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 02, 2026</div>
+</footer>
+
+</body>
+</html>

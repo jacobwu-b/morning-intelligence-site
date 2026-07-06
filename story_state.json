@@ -2,86 +2,83 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh's Hawkish Signal",
+      "label": "Warsh's Impossible Choice",
       "first_seen": "2026-04-15",
-      "age_days": 69,
-      "summary": "Warsh held rates steady but explicitly signaled hikes before year-end\u2014a direct contradiction of the soft-landing narrative that carried equities through May. Markets have not yet repriced into this signal because Iran oil relief dominated the two-day news cycle. The repricing trigger is not geopolitical. It is lender action on deposit rates and credit standards, which will cascade equities from today's modest 1.44% loss into the 8-12% stagflation repricing that bonds are already pricing."
+      "age_days": 78,
+      "summary": "Warsh publicly committed to rate hikes before year-end to establish inflation-fighting credibility. July 2's 57,000 jobs print now puts that commitment in direct conflict with a visibly cracking labor market. Markets are pricing a Fed pivot toward cuts \u2014 the dollar slid after the report. But cutting into 4.2% core inflation would sacrifice the credibility play Warsh has built his tenure on. His next public comment on the labor market data is the most important signal in the market. Until it comes, the hike signal stands."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Relief Window Closing",
+      "label": "Iran War: Inside the Numbers",
       "first_seen": "2026-04-15",
-      "age_days": 69,
-      "summary": "Oil collapsed below $80 on deal framework, but sanctions relief terms remain vague. Markets treated this as inflation relief when real inflation (4.2% core, sticky wages) is decoupled from energy. Oil will retest $82+ within days as talks stall or Iran escalates. The repricing trigger is not when oil moves\u2014it is when lenders break silence on margin compression within 3-7 days."
+      "age_days": 78,
+      "summary": "June's jobs report explicitly cited the Iran War as the elevated-inflation backdrop suppressing hiring. Hospitality shed jobs despite World Cup demand \u2014 evidence that the war's price effects were real even where demand showed up. Oil above $80 and Iran war uncertainty are now confirmed structural inflation channels embedded inside the monthly labor data, not just macro overlays. The geopolitical risk is no longer a separate story layered onto the economy \u2014 it is inside every data print."
     },
     {
       "id": "institutional-erosion",
-      "label": "Lenders Ready to Move",
+      "label": "Merged: See Lender-Margin-Compression",
       "first_seen": "2026-04-15",
-      "age_days": 69,
-      "summary": "Discover, Capital One, and American Express had cover today to announce deposit rate cuts or tighten credit standards. All stayed silent. They are deliberately waiting for geopolitical euphoria to fade before moving. Within 3-7 days, when oil stabilizes above $82 and Iran deal details remain vague, lenders will announce margin compression. That announcement cascades directly into equity repricing."
+      "age_days": 78,
+      "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed."
     },
     {
       "id": "consumer-credit-tightening",
-      "label": "Soft Landing Dead\u2014Lender Action Pending",
+      "label": "Merged: See Lender-Margin-Compression",
       "first_seen": "2026-04-23",
-      "age_days": 61,
-      "summary": "Today's 1.44% equity decline (masked by oil relief and Warsh's hold coverage) proves equities have not repriced into stagflation. Warsh's explicit hike signal + zero spending growth in May + 4.2% sticky inflation = Fed will cut into demand destruction, not ahead of it. Equities are wrong by 8-12% based on historical stagflation scenarios. Repricing depends entirely on lender action, which will arrive this week."
+      "age_days": 70,
+      "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed."
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Bonds Pricing Stagflation Correctly",
+      "label": "Yields: The Next Decisive Move",
       "first_seen": "2026-05-15",
-      "age_days": 38,
-      "summary": "The 10-year remained flat at 3.9-4.1% despite Iran relief and Warsh's hawkish hold. Bonds are pricing the scenario accurately: Fed cuts or holds higher for longer into inflation that remains sticky because demand won't collapse fast enough. Equities rallied on temporary oil relief; bonds understood the policy signal. Yields will not move lower without hard evidence of demand destruction via credit tightening."
+      "age_days": 48,
+      "summary": "The dollar slid after the July 2 jobs report, signaling markets are pricing a higher eventual probability of Fed cuts. The 10-year Treasury yield \u2014 the interest rate the U.S. government pays to borrow money for a decade, and the benchmark for the cost of money across the economy \u2014 had been ranging 3.9-4.1%; weak economic data typically pushes yields lower as investors seek safety in government bonds. July's CPI report is the decisive data: if core inflation holds at or above 4.2% despite weak jobs, any yield decline will be short-lived and the Fed's stagflation trap is officially confirmed."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Bonds Understand\u2014Equities Don't",
+      "label": "Rotation Has Begun",
       "first_seen": "2026-06-02",
-      "age_days": 21,
-      "summary": "The 10-year Treasury remained flat at 3.9-4.1% despite Iran relief and Warsh's hawkish hold\u2014bonds are pricing the scenario accurately. Equities rallied on temporary oil relief and missed the policy signal. Yields will not move lower without hard evidence of demand destruction via credit tightening. This divergence confirms equities are wrong by 8-12% based on historical stagflation scenarios, and the repricing window opens when lenders move."
+      "age_days": 30,
+      "summary": "The Dow/Nasdaq divergence on July 2 (+1.14% vs -0.8%) is the first market-structure signal of stagflation rotation. Energy, defense, healthcare, and financial stocks \u2014 which dominate the Dow \u2014 held up because their earnings are relatively less dependent on low rates and GDP growth. High-multiple tech names \u2014 which dominate the Nasdaq \u2014 sold off because they need both low rates to justify valuations and a growing economy to grow into those valuations. If this divergence persists for three or more consecutive trading days, the 8-12% repricing of growth stocks is underway rather than a one-session data reaction."
     },
     {
       "id": "lenders-silent-through-jobs-report",
-      "label": "Lender Silence\u2014Timing the Announcement",
+      "label": "Merged: See Lender-Margin-Compression",
       "first_seen": "2026-06-08",
-      "age_days": 9,
-      "summary": "Today's geopolitical relief gave lenders the cover they needed to delay announcing margin pressure. They will break that silence within 3-7 days when Iran euphoria fades and oil stabilizes back above $82. That announcement (deposit rate cuts or credit tightening) is the trigger that reprices equities from the 1.21% loss they should have taken today into the 8-12% repricing the stagflation scenario demands."
+      "age_days": 24,
+      "summary": "The lender silence observation has been absorbed into lender-margin-compression with July 2 context. This thread is subsumed."
     },
     {
       "id": "soft-landing-dead",
-      "label": "Soft Landing Dead",
+      "label": "Confirmed: No Soft Landing",
       "first_seen": "2026-06-15",
-      "age_days": 0,
-      "summary": "Today's rally proves equities have not repriced into stagflation\u2014they rallied on a temporary oil relief story instead of repricing into demand destruction. This is the last repricing window before lenders force the issue. May's 0% spending growth + 4.2% inflation + today's rally + Warsh's policy error = equities are wrong, and will correct when credit tightens, not when oil rises again."
+      "age_days": 17,
+      "summary": "57,000 jobs and 61.5% labor force participation officially closed the soft landing thesis. The scenario required inflation to cool while employment held \u2014 instead, employment is deteriorating while core inflation remains at 4.2%. This theme is resolved as confirmed; future briefs should track stagflation-confirmed and stagflation-pricing rather than this framing."
     },
     {
       "id": "warsh-hawkish-pivot",
-      "label": "Warsh Chose Credibility Over Politics",
+      "label": "Merged: See Fed-Leadership-Transition",
       "first_seen": "2026-06-17",
-      "age_days": 0,
-      "summary": "The new Fed chair rejected the assumption that he would cut or hold silently. He explicitly signaled hikes before year-end, telegraphing that he understands 4.2% inflation cannot be cut away without demand destruction. This is a credibility play\u2014Warsh is signaling he will not be a political Fed. The market has not yet priced the implications of a hawkish Fed in a 0% spending growth environment."
+      "age_days": 15,
+      "summary": "Warsh's hawkish stance and its conflict with weakening labor data are now tracked under fed-leadership-transition. This thread is subsumed."
     },
     {
       "id": "lender-margin-compression",
-      "label": "The Trigger Nobody's Watching",
+      "label": "Lenders: Bigger Shock Coming",
       "first_seen": "2026-06-23",
+      "age_days": 9,
+      "summary": "57,000 jobs and rising consumer default risk give Discover, Capital One, and AmEx every structural reason to tighten credit standards \u2014 not just for margin protection but for balance sheet protection. No announcements came through on July 2. The consumer credit tightening announcement remains the single most powerful catalyst to force full equity repricing into stagflation. With each passing week it doesn't arrive, the eventual market shock grows larger. This theme subsumes the prior institutional-erosion, lenders-silent-through-jobs-report, and consumer-credit-tightening threads."
+    },
+    {
+      "id": "stagflation-confirmed",
+      "label": "Stagflation: In the Data",
+      "first_seen": "2026-07-02",
       "age_days": 0,
-      "summary": "Today's geopolitical relief gave lenders the cover they needed to delay announcing margin pressure. They will break that silence within 3-7 days when Iran euphoria fades and oil stabilizes back above $82. That announcement (deposit rate cuts or credit tightening) is the trigger that reprices equities from the 1.44% loss they should have taken today into the 8-12% repricing stagflation demands."
+      "summary": "June's 57,000 jobs print \u2014 against roughly 160,000 expected \u2014 and 61.5% labor force participation (the lowest since March 2021) confirmed stagflation as a present data reality, not a forward-looking risk. Core inflation \u2014 the underlying price trend excluding volatile food and energy \u2014 remains at 4.2% while the labor market visibly deteriorates. The debate about whether stagflation is happening is over. What remains open is how the Fed responds when both its available tools \u2014 cutting rates to stimulate growth, hiking to fight inflation \u2014 make the situation worse."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2008",
-      "context": "The Fed cut 325 bps from September 2007 to March 2008 while inflation stayed abo",
-      "date_used": "2026-05-29"
-    },
-    {
-      "year": "2023",
-      "context": "The Fed held rates at 5.25-5.5% from June through September 2023 despite warning",
-      "date_used": "2026-05-29"
-    },
     {
       "year": "2001-2003",
       "context": "The Fed cut from 6.5% to 1% (2001-2003) as inflation lingered at 2-3% and demand",
@@ -116,17 +113,19 @@
       "year": "1974-1975",
       "context": "The Fed cut from 9% to 7% in 1974-1975 while inflation stayed above 9%. Unemploy",
       "date_used": "2026-06-15"
+    },
+    {
+      "year": "1979\u20131980",
+      "context": "Volcker's Fed watched employment deteriorate through late 1979 as inflation ran ",
+      "date_used": "2026-07-02"
+    },
+    {
+      "year": "1990\u20131991",
+      "context": "Greenspan's Fed navigated a Middle East war, oil-driven inflation, and a deterio",
+      "date_used": "2026-07-02"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-06-17-1",
-      "date_added": "2026-06-17",
-      "condition": "Oil moves back above $82 or Iran deal talks stall before June 25",
-      "meaning": "This signals Iran relief is temporary and geopolitical risk is returning. Combined with lender tightening, this confirms demand destruction is the base case and equities reprice sharply.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-06-17-2",
       "date_added": "2026-06-17",
@@ -144,58 +143,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-06-18-1",
-      "date_added": "2026-06-18",
-      "condition": "Oil moves back above $82 (or Iran deal details stall/Iran escalates) before June 25",
-      "meaning": "This collapses the geopolitical cover that let equities avoid repricing today and synchronizes with lender announcements to force the repricing lower.",
+      "id": "w-2026-07-02-0",
+      "date_added": "2026-07-02",
+      "condition": "Warsh or a senior Fed official gives a public statement on the June jobs report \u2014 specifically whether they describe it as 'a sign of demand deterioration requiring attention' versus 'consistent with gradual labor market rebalancing'",
+      "meaning": "The first framing signals a potential softening of the hike path and gives tech a relief rally; the second confirms the hike signal survives weak jobs and the Nasdaq selloff has significantly further to run.",
       "status": "open",
       "outcome": ""
     },
     {
-      "id": "w-2026-06-18-2",
-      "date_added": "2026-06-18",
-      "condition": "10-year Treasury yield breaks above 4.1% and holds for 3+ consecutive trading days",
-      "meaning": "Bonds would be abandoning stagflation pricing, signaling either demand destruction fears (bullish for equities lower) or inflation re-acceleration (bearish for bonds and equities alike); current flat hold is correct.",
+      "id": "w-2026-07-02-1",
+      "date_added": "2026-07-02",
+      "condition": "Dow outperforms Nasdaq by one percentage point or more for three or more consecutive trading sessions",
+      "meaning": "Confirms institutional money has begun rotating into stagflation positioning \u2014 the signal that growth stock repricing is a multi-week event rather than a single-session data reaction.",
       "status": "open",
       "outcome": ""
     },
     {
-      "id": "w-2026-06-18-3",
-      "date_added": "2026-06-18",
-      "condition": "Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh's hike signal or explicitly warns of stagflation risks",
-      "meaning": "This would accelerate equity repricing by confirming Warsh is not an outlier and the entire Fed is committed to demand destruction over soft-landing optics.",
+      "id": "w-2026-07-02-2",
+      "date_added": "2026-07-02",
+      "condition": "Capital One, Discover, or American Express announces tighter consumer credit standards or reduced credit limits at any point in July",
+      "meaning": "This is the trigger that forces full equity repricing into stagflation \u2014 the moment the theoretical credit squeeze becomes a real one and equities can no longer hold out for a Fed rescue.",
       "status": "open",
       "outcome": ""
     },
     {
-      "id": "w-2026-06-22-0",
-      "date_added": "2026-06-22",
-      "condition": "Capital One, Discover, or American Express announces deposit rate cuts or tightens consumer credit standards on or before June 27",
-      "meaning": "Lender action confirms credit stress is real and forces immediate equity repricing from -1.21% into -8% to -12% as demand destruction becomes unavoidable.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-22-1",
-      "date_added": "2026-06-22",
-      "condition": "Oil moves back above $82 or Iran deal talks publicly stall before June 25",
-      "meaning": "Geopolitical relief narrative collapses, removing the cover that allowed lenders to stay silent; lenders move within 48 hours of oil stabilizing above $82.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-22-3",
-      "date_added": "2026-06-22",
-      "condition": "Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh's hike signal or warns of stagflation risks before June 27",
-      "meaning": "Fed consensus on hawkish policy becomes explicit; equities reprice earlier and sharper because credibility of Warsh's signal is corroborated; lenders move faster to match Fed expectations.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-06-23-2",
-      "date_added": "2026-06-23",
-      "condition": "Another Fed official (Barkin, Powell, Cook) publicly reinforces Warsh's hike signal or explicitly warns of stagflation risks before June 27",
-      "meaning": "This confirms the Fed is coordinating a hawkish message and removes any remaining soft-landing hopes; equities begin repricing immediately.",
+      "id": "w-2026-07-02-3",
+      "date_added": "2026-07-02",
+      "condition": "July CPI report (due mid-month) shows core inflation \u2014 the underlying price trend excluding food and energy \u2014 at or above 4.2% despite the 57,000-job employment print",
+      "meaning": "Locks the stagflation trap permanently: slowing growth and stubborn inflation confirmed simultaneously, no Fed tool helps both conditions, and the 8-12% equity repricing becomes a question of timing rather than probability.",
       "status": "open",
       "outcome": ""
     }
