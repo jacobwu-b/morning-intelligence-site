@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh's Impossible Choice",
+      "label": "Warsh Still Silent Post-Jobs",
       "first_seen": "2026-04-15",
-      "age_days": 78,
-      "summary": "Warsh publicly committed to rate hikes before year-end to establish inflation-fighting credibility. July 2's 57,000 jobs print now puts that commitment in direct conflict with a visibly cracking labor market. Markets are pricing a Fed pivot toward cuts \u2014 the dollar slid after the report. But cutting into 4.2% core inflation would sacrifice the credibility play Warsh has built his tenure on. His next public comment on the labor market data is the most important signal in the market. Until it comes, the hike signal stands."
+      "age_days": 82,
+      "summary": "Kevin Warsh has made no public statement on the June jobs report through the holiday weekend. The conflict between his pre-committed hike signal and a visibly cracking labor market \u2014 57,000 jobs, 61.5% labor force participation \u2014 remains fully unresolved. Today's OPEC+ news adds a new dimension: if oil eases materially, Warsh gains a partial argument that the inflation picture is improving, which could soften his hawkish posture without formally abandoning it. His next public comment is the most important single signal in the market and will likely arrive before the next major data release."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Iran War: Inside the Numbers",
+      "label": "OPEC+ Supply Pledge",
       "first_seen": "2026-04-15",
-      "age_days": 78,
-      "summary": "June's jobs report explicitly cited the Iran War as the elevated-inflation backdrop suppressing hiring. Hospitality shed jobs despite World Cup demand \u2014 evidence that the war's price effects were real even where demand showed up. Oil above $80 and Iran war uncertainty are now confirmed structural inflation channels embedded inside the monthly labor data, not just macro overlays. The geopolitical risk is no longer a separate story layered onto the economy \u2014 it is inside every data print."
+      "age_days": 82,
+      "summary": "OPEC+ announced plans to boost crude oil output, easing prices and serving as the primary catalyst for today's risk-on session. The announcement directly addresses the Iran war's primary inflation transmission channel \u2014 energy prices. However, the critical question flagged immediately by Reuters \u2014 whether OPEC+ can actually deliver on the output and find buyers at lower prices \u2014 captures the central risk: cartel members have budget-driven incentives that historically undermine collective pledges when prices fall. The ongoing Iran conflict means other OPEC+ members compensate on paper but cannot fully substitute for disrupted Iranian supply. This development requires confirmation through actual production data over the next several weeks before it changes the structural picture."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Has Begun",
+      "label": "Rotation Stalled at Day One",
       "first_seen": "2026-06-02",
-      "age_days": 30,
-      "summary": "The Dow/Nasdaq divergence on July 2 (+1.14% vs -0.8%) is the first market-structure signal of stagflation rotation. Energy, defense, healthcare, and financial stocks \u2014 which dominate the Dow \u2014 held up because their earnings are relatively less dependent on low rates and GDP growth. High-multiple tech names \u2014 which dominate the Nasdaq \u2014 sold off because they need both low rates to justify valuations and a growing economy to grow into those valuations. If this divergence persists for three or more consecutive trading days, the 8-12% repricing of growth stocks is underway rather than a one-session data reaction."
+      "age_days": 34,
+      "summary": "The Dow/Nasdaq divergence that appeared on July 2 \u2014 the first market-structure signal of a stagflation rotation into defensive sectors and away from high-multiple tech stocks (companies valued at many times their current earnings) \u2014 reversed sharply today, with the Nasdaq outperforming the Dow by 0.83 percentage points. The three-consecutive-day confirmation signal has reset to zero. The structural thesis remains sound: stagflation historically favors energy, defense, and financial stocks over growth tech. But the OPEC+ news temporarily removed the oil-driven inflation catalyst. Whether this is a durable reversal or a one-day relief bounce depends entirely on whether OPEC+ output actually materializes in production data."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,10 +65,10 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Lenders: Bigger Shock Coming",
+      "label": "Lenders Still Silent",
       "first_seen": "2026-06-23",
-      "age_days": 9,
-      "summary": "57,000 jobs and rising consumer default risk give Discover, Capital One, and AmEx every structural reason to tighten credit standards \u2014 not just for margin protection but for balance sheet protection. No announcements came through on July 2. The consumer credit tightening announcement remains the single most powerful catalyst to force full equity repricing into stagflation. With each passing week it doesn't arrive, the eventual market shock grows larger. This theme subsumes the prior institutional-erosion, lenders-silent-through-jobs-report, and consumer-credit-tightening threads."
+      "age_days": 13,
+      "summary": "No credit tightening announcements emerged from Discover, Capital One, or American Express through the July 4 holiday weekend. The structural forces pushing toward tighter credit standards remain unchanged: 57,000 jobs, rising consumer default risk, and 4.2% core inflation. Today's oil-driven equity rally provides no relief for this dynamic \u2014 consumer credit risk is driven by employment and income, not energy prices. Each week without an announcement simply enlarges the eventual market shock when one arrives. This remains the single most powerful unannounced catalyst for a forced equity repricing."
     },
     {
       "id": "stagflation-confirmed",
@@ -79,21 +79,6 @@
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2001-2003",
-      "context": "The Fed cut from 6.5% to 1% (2001-2003) as inflation lingered at 2-3% and demand",
-      "date_used": "2026-06-04"
-    },
-    {
-      "year": "2022-2023",
-      "context": "The Fed cut from 4.25-4.5% in September 2023 after inflation stayed at 3.7% and ",
-      "date_used": "2026-06-04"
-    },
-    {
-      "year": "2007-2008",
-      "context": "The Fed held rates steady at 5.25% through mid-2007 as inflation remained elevat",
-      "date_used": "2026-06-05"
-    },
     {
       "year": "1981-1982",
       "context": "The Fed (Volcker) held rates at 20% to crush inflation. Unemployment spiked to 1",
@@ -123,6 +108,16 @@
       "year": "1990\u20131991",
       "context": "Greenspan's Fed navigated a Middle East war, oil-driven inflation, and a deterio",
       "date_used": "2026-07-02"
+    },
+    {
+      "year": "2011",
+      "context": "When Libya's civil war knocked roughly 1.6 million barrels per day off the globa",
+      "date_used": "2026-07-06"
+    },
+    {
+      "year": "2022",
+      "context": "President Biden made a high-profile trip to Saudi Arabia in July 2022, pressing ",
+      "date_used": "2026-07-06"
     }
   ],
   "open_watchlist": [
@@ -171,6 +166,38 @@
       "date_added": "2026-07-02",
       "condition": "July CPI report (due mid-month) shows core inflation \u2014 the underlying price trend excluding food and energy \u2014 at or above 4.2% despite the 57,000-job employment print",
       "meaning": "Locks the stagflation trap permanently: slowing growth and stubborn inflation confirmed simultaneously, no Fed tool helps both conditions, and the 8-12% equity repricing becomes a question of timing rather than probability.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-06-0",
+      "date_added": "2026-07-06",
+      "condition": "Brent crude \u2014 the international oil price benchmark \u2014 closes below $80 per barrel and holds there for three or more consecutive trading sessions",
+      "meaning": "OPEC+ is delivering on its pledge and the Iran war's primary inflation channel is materially weakening, giving the Fed incrementally more room to respond to the deteriorating labor market without immediately worsening inflation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-06-1",
+      "date_added": "2026-07-06",
+      "condition": "Brent crude recovers above its July 2 closing price within the next five trading sessions despite the OPEC+ announcement",
+      "meaning": "The OPEC+ pledge is being discounted by actual oil buyers, the relief rally was sentiment-driven rather than supply-driven, and the worst-case stagflation scenario remains fully intact \u2014 expect the July 2 market dynamics to reassert.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-06-2",
+      "date_added": "2026-07-06",
+      "condition": "Any major OPEC+ member \u2014 Saudi Arabia, UAE, or Iraq \u2014 publicly signals a compliance concern, production shortfall, or output target adjustment over the next 30 days",
+      "meaning": "The supply pledge is already fraying; oil will reverse sharply on the news and the market will reprice today's session as a head-fake, restoring the full stagflation pressure in a single session.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-06-3",
+      "date_added": "2026-07-06",
+      "condition": "A major semiconductor company \u2014 Nvidia, AMD, or Qualcomm \u2014 issues positive forward guidance or an upside earnings preannouncement for the second half of 2026",
+      "meaning": "Today's chip bounce has actual earnings support behind it rather than just relief-rally mechanics, giving the Nasdaq's outperformance staying power beyond a single post-holiday session.",
       "status": "open",
       "outcome": ""
     }

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 06, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">MONDAY · July 06, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-ON SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,537.43</span>
+    <span class="ticker-change up">
+      ▲ 0.72%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,121</span>
+    <span class="ticker-change up">
+      ▲ 1.12%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">53,056</span>
+    <span class="ticker-change up">
+      ▲ 0.29%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">OPEC+ Promised More Oil. The Market Believed It — For Now.</h1>
+    <p class="lead-body">Markets came back from the July 4 holiday in a broad risk-on session: the <strong>Nasdaq jumped 1.12%</strong> while the Dow gained a more modest <strong>0.29%</strong>, led by a bounce in chip stocks. The catalyst was an <strong>OPEC+</strong> — the coalition of roughly two dozen oil-producing nations led by Saudi Arabia and Russia — announcement that member countries will boost crude output, which eased oil prices and temporarily removed the market&#x27;s most acute fear: the Iran war keeping inflation elevated while the Fed sits unable to help a cracking labor market. But none of the underlying stagflation data changed today. Jobs are still 57,000. Core inflation — the underlying price trend excluding food and energy — is still 4.2%. Kevin Warsh has still said nothing publicly. Today&#x27;s rally was the market buying a promise, not a delivery.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">OPEC+ output pledge eased oil prices; chip stocks bounced and stalled the stagflation rotation signal at day one</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">OPEC+ OUTPUT PLEDGE</div>
+          <div class="cause-headline">OPEC+ announced a production increase, and the market took it at face value — sending oil lower and tech higher for one session</div>
+          <div class="cause-text">OPEC+ announced plans to boost crude production. Oil prices eased on the news, and that single development unlocked today&#x27;s session: if oil falls, the most acute version of the Fed&#x27;s stagflation trap — the Iran war keeping inflation high while jobs crack — gets slightly less severe. That specific fear is what repriced high-multiple tech stocks (companies whose share prices are many times their current earnings, meaning investors are paying for future growth that needs both low inflation and a healthy economy to materialize) sharply lower on July 2. Today&#x27;s oil ease partially reversed that fear. Reuters captured the right skepticism immediately: the question is not whether OPEC+ made the announcement — they did — but whether the actual barrels arrive.</div>
+          <div class="cause-verdict">This is a one-day relief rally until production data confirms delivery. Markets historically buy the pledge and reprice when reality disappoints. If oil fails to hold its decline over the next five trading sessions, the July 2 stagflation dynamics reassert fully — and today will look like exactly what the historical record suggests: the market buying a promise that didn&#x27;t keep.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">CHIP SECTOR BOUNCE</div>
+          <div class="cause-headline">Semiconductor stocks bounced back, reversing the first day of the stagflation rotation signal we have been tracking</div>
+          <div class="cause-text">Chip stocks — Nvidia, AMD, and the broader semiconductor sector, which together make up a substantial portion of the Nasdaq&#x27;s composition — rebounded from Thursday&#x27;s selloff. The July 2 decline in chip names was stagflation repricing: if the economy slows while inflation stays high, the future earnings that justify elevated chip valuations become less certain and investors pay less for them today. Today&#x27;s recovery is most cleanly explained by oil easing removing that exact fear, at least for this session. A technical bounce — where stocks recover simply because prior selling went too far and too fast, rather than because anything fundamental changed — is also plausible given the low-volume nature of a post-holiday Monday.</div>
+          <div class="cause-verdict">Watch whether chip stocks hold these levels Tuesday and Wednesday as oil price action develops. A fade in oil back toward last week&#x27;s levels will pull chips lower with it and the rotation signal will re-engage.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">OPEC+ supply pledges and actual OPEC+ oil output are two very different things</h2>
+      <p class="section-body">Think of OPEC+ like a homeowners&#x27; association where every member agrees to limit short-term rentals to keep neighborhood prices stable — except each homeowner also has a mortgage to cover. <strong>The moment shared prices fall even slightly below what each member needs to pay their own bills, the collective commitment quietly unravels.</strong> Saudi Arabia needs oil above roughly $80 per barrel to balance its national budget without borrowing. Russia needs energy revenue for ongoing military costs. The UAE is already producing near its practical limits. When oil prices approach the level each country needs to cover its own spending, individual self-interest overrides the group pledge and output quietly gets reduced. Today&#x27;s rally prices in the promise. Actual production data — reported with a three-to-four week lag — will price in the reality. This version of the dynamic is harder than a typical OPEC+ cycle because the underlying supply disruption from the Iran conflict is not something other members can fully substitute for even when they genuinely try.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">OPEC+ output pledges during active geopolitical disruptions have a weak delivery record</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">2011</div>
+          <div>
+            <div class="comp-text">When Libya&#x27;s civil war knocked roughly 1.6 million barrels per day off the global oil market, Saudi Arabia publicly pledged to boost output to fill the gap. They largely delivered on volume — Saudi production rose meaningfully. But Brent crude, the international oil price benchmark, stayed above $100 per barrel for most of 2011 and into 2012. The reason was quality, not quantity: Libya produces a light, sweet crude that European refineries are built to process efficiently. Saudi Arabia&#x27;s heavier output could replace the volume on paper but could not substitute at the refinery level, so price relief never fully materialized despite the pledge being technically honored.</div>
+            <div class="comp-lesson">When a conflict disrupts a specific type of oil, OPEC+ can pledge volume but cannot always deliver quality — and refineries care about both, which is why even a good-faith output increase may not bring prices down.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2022</div>
+          <div>
+            <div class="comp-text">President Biden made a high-profile trip to Saudi Arabia in July 2022, pressing publicly for more production. Oil prices declined meaningfully over the following months — falling roughly 25% from June peaks by late summer. But by October 2022, OPEC+ reversed course with a 2-million-barrel-per-day production cut, sending prices back up sharply. Subsequent analysis showed most of the summer decline came from global recession fears crushing demand, not from Saudi supply additions. When prices fell toward levels that threatened Saudi budget needs, the geopolitical goodwill evaporated and the pledge reversed entirely.</div>
+            <div class="comp-lesson">Diplomatically-motivated OPEC+ output pledges last exactly as long as they serve each member&#x27;s budget — when prices fall toward the level they need to cover their own spending, the pledge gets reversed.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The deciding variable this week is whether oil actually holds its decline or fades back toward last week&#x27;s levels. If Brent crude — the international oil price benchmark — breaks below $80 and holds there, the Iran war&#x27;s primary inflation channel weakens materially and the Fed incrementally gains room to think about labor market support without immediately reigniting inflation. If oil drifts back above $85 within five sessions, today&#x27;s rally was a relief trade that the data does not support, and the July 2 dynamics — defensive sectors leading growth stocks — resume with fresh momentum. Hold your conclusion about the stagflation rotation for now: this week&#x27;s oil price action will tell you more than any other signal about whether that rotation is delayed or still on schedule.</p>
+      <div class="signal-kicker">
+        Scenario A — OPEC+ Delivers: Brent crude closes below $80 and holds for three or more consecutive sessions, OPEC+ delivery appears credible, inflation expectations ease modestly, and the stagflation rotation is delayed by weeks or months rather than confirmed this week.<br>
+        Scenario B — Pledge Fades: Oil recovers above its July 2 close within five sessions, OPEC+ skepticism reasserts, chip stocks give back today&#x27;s gains, and the Dow/Nasdaq divergence resumes — potentially locking in the three consecutive days of defensive leadership that would trigger the full stagflation rotation signal.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,537.43</span>
+            <span class="index-pct up">
+              ▲ 0.72%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,121</span>
+            <span class="index-pct up">
+              ▲ 1.12%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">53,056</span>
+            <span class="index-pct up">
+              ▲ 0.29%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">3,009.54</span>
+            <span class="index-pct up">
+              ▲ 0.45%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">15.57</span>
+            <span class="index-pct down">
+              ▼ 3.59%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Brent crude — the international oil price benchmark — closes below $80 per barrel and holds there for three or more consecutive trading sessions — </span>OPEC+ is delivering on its pledge and the Iran war&#x27;s primary inflation channel is materially weakening, giving the Fed incrementally more room to respond to the deteriorating labor market without immediately worsening inflation.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Brent crude recovers above its July 2 closing price within the next five trading sessions despite the OPEC+ announcement — </span>The OPEC+ pledge is being discounted by actual oil buyers, the relief rally was sentiment-driven rather than supply-driven, and the worst-case stagflation scenario remains fully intact — expect the July 2 market dynamics to reassert.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Any major OPEC+ member — Saudi Arabia, UAE, or Iraq — publicly signals a compliance concern, production shortfall, or output target adjustment over the next 30 days — </span>The supply pledge is already fraying; oil will reverse sharply on the news and the market will reprice today&#x27;s session as a head-fake, restoring the full stagflation pressure in a single session.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A major semiconductor company — Nvidia, AMD, or Qualcomm — issues positive forward guidance or an upside earnings preannouncement for the second half of 2026 — </span>Today&#x27;s chip bounce has actual earnings support behind it rather than just relief-rally mechanics, giving the Nasdaq&#x27;s outperformance staying power beyond a single post-holiday session.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 06, 2026</div>
+</footer>
+
+</body>
+</html>
