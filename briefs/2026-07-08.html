@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 08, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">WEDNESDAY · July 08, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-OFF SESSION</div>
+    <div class="delta-badge">DELTA BRIEF</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,482.71</span>
+    <span class="ticker-change down">
+      ▼ 0.28%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">25,871</span>
+    <span class="ticker-change up">
+      ▲ 0.2%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,348</span>
+    <span class="ticker-change down">
+      ▼ 1.09%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Iran Ceasefire Ends. Fed Says 2027. The Two Exits From This Trap Just Closed on the Same Day.</h1>
+    <p class="lead-body">President Trump formally declared the Iran ceasefire over on Wednesday, sending <strong>Brent crude — the global benchmark oil price — above $79 per barrel in a single session, a 5% spike</strong> that drove government bond yields (what the US pays to borrow money across the economy) sharply higher on fresh inflation fears and pulled the S&amp;P 500 down 0.28%. On the same day, Fed Chair Kevin Warsh&#x27;s position finally surfaced through the Fed&#x27;s official meeting minutes: <strong>no interest rate cuts until 2027</strong>, with Warsh openly welcoming what he called a &#x27;good family fight&#x27; over rate policy while clearly holding the hawkish line. The significance of these two events landing together is structural, not coincidental — the ceasefire collapse re-accelerates the energy inflation trend that the Fed is already refusing to fight with cuts, and the 2027 confirmation means there is now no policy mechanism available to cushion what comes next. The oil price is being set by military commanders, and the Fed is watching.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Iran ceasefire collapse sends oil above $79; Fed minutes lock out rate relief until 2027</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">CEASEFIRE COLLAPSE</div>
+          <div class="cause-headline">Trump formally ending the Iran ceasefire removed the diplomatic buffer that had partially suppressed oil prices, sending Brent crude up 5% in a single session</div>
+          <div class="cause-text">This is the discrete escalation we were tracking: the ceasefire had been holding a conflict premium out of oil prices by keeping open the theoretical possibility of a negotiated resolution. Its formal collapse doesn&#x27;t just spike oil for one session — it tells the bond market and the Fed that the prior relative calm was a temporary pause, not a trajectory toward resolution, and that the structural risk of Strait of Hormuz disruption must now be priced as a persistent feature rather than an episodic spike. The bond market&#x27;s immediate response — yields surging — confirms that this is being read as an inflation event compounding an already dangerous baseline, not merely a geopolitical headline to be shrugged off.</div>
+          <div class="cause-verdict">Oil now carries a permanent conflict premium until either a new ceasefire materializes or Iran&#x27;s ability to threaten Strait shipping is militarily degraded — neither of which has a visible near-term path. If Brent crude holds above $80 through next week, the July CPI reading will reflect it directly, and any residual hope for policy relief before 2027 evaporates entirely.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">FED LOCKED IN</div>
+          <div class="cause-headline">Fed minutes confirming no cuts until 2027 close the policy relief valve that markets had been hoping might crack open</div>
+          <div class="cause-text">After 83 days of silence, Warsh&#x27;s position is now on the official record: the 57,000-job June print is insufficient to move him, and a &#x27;good family fight&#x27; is welcome precisely because he expects to win it. The phrasing matters — a chair who fears losing an internal debate doesn&#x27;t invite it publicly. The Iran re-escalation now actually reinforces his hand: renewed oil-driven inflation makes cutting rates in 2026 politically and analytically indefensible, and any governor arguing for cuts faces an immediate &#x27;oil is spiking&#x27; rebuttal. The debate is real, but Warsh holds the votes.</div>
+          <div class="cause-verdict">Watch for a formal dissenting vote in the next FOMC (Federal Open Market Committee — the Fed&#x27;s rate-setting body) meeting minutes; if a governor officially votes for a cut, the &#x27;good family fight&#x27; has become a formal record of fracture, which historically precedes policy pivots that arrive faster and more disruptively than prior guidance suggested.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The two relief valves — diplomatic oil de-escalation and a Fed rate pivot — both got welded shut on the same afternoon</h2>
+      <p class="section-body">Think of the economy right now as a pressure cooker with two steam valves: an oil valve that releases when diplomacy cools the conflict, and a Fed valve that releases when rate cuts ease borrowing costs for consumers and businesses. <strong>Both valves just got officially sealed on the same afternoon.</strong> This version is harder than a typical stagflation episode because the oil shock is an active declared conflict, not a cartel decision — no phone call to Riyadh solves it — and the Fed&#x27;s inflation baseline was already entrenched at 4.2% core before oil re-accelerated today.</p>
+    </div>
+    
+
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The primary variable this week — and arguably this month — is whether Brent crude holds above $80 or fades back toward $72-73 as previous conflict spikes have done. If oil sustains above $80 through the July CPI (Consumer Price Index) release expected mid-month, it will mechanically push the headline inflation reading higher, cementing the Fed&#x27;s 2027 hold as a floor rather than a projection and bringing active rate hike discussion into mainstream market pricing. If oil fades back, it buys a small but real window of breathing room and keeps alive the outside possibility that July CPI surprises to the downside. One sentence to hold all week: the most important number in the market right now is the daily Brent crude close, and it is being set by military commanders, not economists.</p>
+      <div class="signal-kicker">
+        Scenario A — Oil Fades Fast: Brent crude falls back below $75 within two weeks — consistent with the 2019 Gulf attack pattern where oil spiked hard and then reversed as no broader escalation materialized — easing July CPI pressure and keeping the theoretical possibility of a pre-2027 Fed reconsideration alive.<br>
+        Scenario B — Oil Holds and Escalates: Brent crude holds above $80 through the July CPI release, pushing core inflation at or above 4.2% and triggering active rate hike probability — meaning the market faces the scenario it has not yet fully priced: rates moving higher, not lower, into a deteriorating labor market.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,482.71</span>
+            <span class="index-pct down">
+              ▼ 0.28%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">25,871</span>
+            <span class="index-pct up">
+              ▲ 0.2%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,348</span>
+            <span class="index-pct down">
+              ▼ 1.09%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,956.39</span>
+            <span class="index-pct down">
+              ▼ 0.88%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">16.90</span>
+            <span class="index-pct up">
+              ▲ 4.77%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">Warsh or a senior Fed official gives a public statement on the June jobs report — specifically whether they describe it as &#x27;a sign of demand deterioration requiring attention&#x27; versus &#x27;consistent with gradual labor market rebalancing&#x27; </span>
+          <span>The Fed minutes reveal Warsh&#x27;s answer: no cuts until 2027, with the 57,000-job print treated as insufficient to shift his hawkish stance — his &#x27;good family fight&#x27; framing confirms he views the labor weakness as consistent with holding rates, not as demand deterioration requiring a policy response.</span>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Brent crude closes above $80 per barrel for five or more consecutive trading sessions following today&#x27;s spike — </span>Confirms a sustained oil-driven inflation event rather than a one-session panic — the July CPI reading will mechanically reflect it, making the Fed&#x27;s 2027 hold a floor and bringing rate hike odds from &#x27;discussed&#x27; to &#x27;actively priced.&#x27;</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A formal dissenting vote appears in the next FOMC meeting&#x27;s published minutes, with at least one Fed governor officially voting for a rate cut despite Chair Warsh&#x27;s hawkish hold — </span>Warsh&#x27;s &#x27;good family fight&#x27; has become a matter of official record rather than informal debate — historically, visible Fed dissent in stagflation environments precedes policy pivots that arrive faster and more disruptively than prior public guidance suggested.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The US trade suspension targeting Spain triggers a formal EU trade retaliation announcement or WTO (World Trade Organization — the international body that arbitrates trade disputes) complaint within 30 days — </span>Confirms the Spain action is a policy direction rather than a one-off warning, adding a US-EU trade conflict to the existing stagflation and Iran oil shock — a combination that would push import prices higher and give the Fed an additional inflation input it cannot control.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A US or Israeli airstrike directly targets Iranian oil production infrastructure — refineries, offshore platforms, or export terminals — rather than military or nuclear targets — </span>This is the escalation scenario that would remove roughly 3 million barrels per day from global supply, potentially spiking Brent crude above $90 and eliminating the oil price fade scenario entirely — at that point, the July CPI overshoot becomes nearly certain.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 08, 2026</div>
+</footer>
+
+</body>
+</html>

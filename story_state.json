@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Still Absent",
+      "label": "Warsh On Record",
       "first_seen": "2026-04-15",
-      "age_days": 83,
-      "summary": "Kevin Warsh has still made no public statement on the June jobs report. Monday's OPEC+ news had briefly created a potential opening \u2014 easing oil could have softened his pre-committed hawkish stance without formally abandoning it. Today's oil reversal closes that opening entirely. If oil holds elevated through July CPI, Warsh's hawkish posture is structurally unchanged, and his eventual statement will carry even more market weight for having been delayed. His silence remains the single most consequential unspoken market signal."
+      "age_days": 84,
+      "summary": "After 83 days without a direct public statement on labor market conditions, Warsh's position is now on record through the Fed minutes: no cuts until 2027, and the 57,000-job June print was insufficient to move him. His 'good family fight' framing acknowledges genuine internal dissent \u2014 some governors clearly want to cut given the weakening labor market \u2014 but confirms he controls the outcome and is not yielding. The Iran re-escalation now strengthens his inflation-fighting rationale, making a pre-2027 cut dependent on either a dramatic CPI undershoot or a sudden labor market collapse, neither of which is visible today."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Strait Shuts the Relief",
+      "label": "Ceasefire Formally Gone",
       "first_seen": "2026-04-15",
-      "age_days": 83,
-      "summary": "Monday's OPEC+ supply pledge has been directly undercut: oil jumped 5% back to a two-week high after a Strait of Hormuz tanker attack and Trump's escalating Iran threats. The structural vulnerability is now exposed \u2014 OPEC+ can promise more production at the wellhead, but roughly 20% of global oil must physically transit the Strait to reach world markets, and that lane is now an active conflict zone. What remains open is whether this is a one-session spike that reverses as the 2019 Gulf attacks did, or a sustained campaign that permanently embeds an oil risk premium. The next 5-10 trading sessions of Strait activity are the decisive tell."
+      "age_days": 84,
+      "summary": "The Iran conflict has escalated from uncertain escalation to declared resumption \u2014 Trump's formal ceasefire termination removes the diplomatic optionality that had partially suppressed oil prices. Brent crude hit $79.26, its highest level in weeks. What remains open is whether oil holds above $80 and embeds a permanent conflict premium, or fades back as it did after the 2019 Gulf tanker attacks when no broader escalation materialized. The next 10-15 trading sessions of oil price action and Strait of Hormuz activity are the decisive tell."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Inflation Risk Resurges",
+      "label": "Yields Surge on Dual Shock",
       "first_seen": "2026-05-15",
-      "age_days": 53,
-      "summary": "Oil back at a two-week high means inflation expectations \u2014 what investors and bond markets believe future price increases will be \u2014 are moving higher again, not lower. The 10-year Treasury yield \u2014 the rate the U.S. government pays to borrow money for a decade, and the benchmark that sets borrowing costs across the economy \u2014 faces upward pressure as energy inflation resurges. July CPI remains the decisive test: if core inflation \u2014 the underlying price trend excluding food and energy \u2014 holds at or above 4.2% despite June's 57,000-job print, the Fed's trap is fully locked."
+      "age_days": 54,
+      "summary": "Government bond yields surged today on the combined impact of oil-driven inflation re-acceleration and the Fed's explicit 2027 hold. Critically, the Forbes headline noted that the renewed Iran conflict is spiking rate hike odds \u2014 the market is beginning to price not just delayed cuts but the possibility of additional rate increases. July CPI remains the decisive test: if core inflation \u2014 the underlying price trend excluding food and energy \u2014 holds at or above 4.2%, the yield pressure becomes structural. The framing has shifted from 'cuts delayed' to 'hikes debated,' which is a meaningfully different and more dangerous market environment."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Resumes",
+      "label": "Rotation Signal Breaks",
       "first_seen": "2026-06-02",
-      "age_days": 35,
-      "summary": "Today's session reactivated the stagflation rotation: the Dow fell 0.25% versus the Nasdaq's 1.16%, with the Dow outperforming by 0.91 percentage points. Monday's Nasdaq outperformance is confirmed as a one-day bounce, not a durable shift. Today is Day 1 of a new potential Dow outperformance streak toward the three-consecutive-day, one-point threshold. Oil's reversal today restores the energy-cost inflation catalyst that Monday's OPEC+ news had briefly removed."
+      "age_days": 36,
+      "summary": "Today's session broke the nascent Dow-outperformance streak before it could form: Nasdaq rose 0.2% while the Dow fell 1.09%, with Nasdaq outperforming by 1.29 percentage points \u2014 the opposite of the defensive rotation pattern. The oil spike is hitting Dow-heavy industrials and consumer companies with direct energy cost exposure harder than Nasdaq tech names, which have minimal oil dependence. The stagflation rotation signal (Dow consistently outperforming Nasdaq as investors rotate to defensives) remains a watch condition but has produced only a single confirmed day across the past week."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,25 +65,20 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Lenders Still Silent",
+      "label": "Silence Continues, Day 15",
       "first_seen": "2026-06-23",
-      "age_days": 14,
-      "summary": "No credit tightening announcements from Discover, Capital One, or American Express \u2014 now 14 consecutive days of silence. A Guardian poll released today showing roughly half of Americans struggle to afford groceries and gas, with 57% believing the economy is worsening, adds direct texture to the consumer default risk these lenders are absorbing. Today's oil spike worsens grocery and gas affordability in real time. Each silent week enlarges the eventual repricing shock when an announcement arrives."
+      "age_days": 15,
+      "summary": "No credit tightening announcements from Discover, Capital One, or American Express \u2014 now 15 consecutive days of silence. Today's oil spike directly worsens the consumer affordability picture these lenders are absorbing: higher gasoline and grocery prices compress the monthly cash flow of their borrowers, increasing default risk on existing balances in real time. The longer the silence extends as underlying conditions worsen, the more abrupt and market-moving the eventual announcement will be."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Stagflation Deepens",
+      "label": "Trap Tightens Further",
       "first_seen": "2026-07-02",
-      "age_days": 5,
-      "summary": "June's 57,000-job print and 4.2% core inflation confirmed stagflation as a present reality, not a forward risk. Today's oil spike tightens the trap further: the primary energy-cost inflation channel is re-accelerating at precisely the moment the labor market is deteriorating. The Fed cannot cut rates without risking a second inflation surge; it cannot raise rates without accelerating a contraction already underway. No clean policy exit is visible on today's data."
+      "age_days": 6,
+      "summary": "The ceasefire ending and the Fed's 2027 confirmation tightened the stagflation trap simultaneously. Oil re-accelerating into the July CPI (Consumer Price Index \u2014 the government's main measure of inflation) window means the energy-driven price component will push upward precisely when the labor market is deteriorating. The Fed cannot cut without risking a second inflation wave; it cannot raise rates without deepening a contraction already underway. Today added a geopolitical lock to a trap that was already structural."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1981-1982",
-      "context": "The Fed (Volcker) held rates at 20% to crush inflation. Unemployment spiked to 1",
-      "date_used": "2026-06-09"
-    },
     {
       "year": "1970-1975",
       "context": "The Fed cut rates from 9% to 7% in 1974-1975 while inflation stayed above 9%. Eq",
@@ -132,38 +127,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-02-0",
-      "date_added": "2026-07-02",
-      "condition": "Warsh or a senior Fed official gives a public statement on the June jobs report \u2014 specifically whether they describe it as 'a sign of demand deterioration requiring attention' versus 'consistent with gradual labor market rebalancing'",
-      "meaning": "The first framing signals a potential softening of the hike path and gives tech a relief rally; the second confirms the hike signal survives weak jobs and the Nasdaq selloff has significantly further to run.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-02-1",
-      "date_added": "2026-07-02",
-      "condition": "Dow outperforms Nasdaq by one percentage point or more for three or more consecutive trading sessions",
-      "meaning": "Confirms institutional money has begun rotating into stagflation positioning \u2014 the signal that growth stock repricing is a multi-week event rather than a single-session data reaction.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-02-2",
-      "date_added": "2026-07-02",
-      "condition": "Capital One, Discover, or American Express announces tighter consumer credit standards or reduced credit limits at any point in July",
-      "meaning": "This is the trigger that forces full equity repricing into stagflation \u2014 the moment the theoretical credit squeeze becomes a real one and equities can no longer hold out for a Fed rescue.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-02-3",
-      "date_added": "2026-07-02",
-      "condition": "July CPI report (due mid-month) shows core inflation \u2014 the underlying price trend excluding food and energy \u2014 at or above 4.2% despite the 57,000-job employment print",
-      "meaning": "Locks the stagflation trap permanently: slowing growth and stubborn inflation confirmed simultaneously, no Fed tool helps both conditions, and the 8-12% equity repricing becomes a question of timing rather than probability.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-06-2",
       "date_added": "2026-07-06",
       "condition": "Any major OPEC+ member \u2014 Saudi Arabia, UAE, or Iraq \u2014 publicly signals a compliance concern, production shortfall, or output target adjustment over the next 30 days",
@@ -208,6 +171,38 @@
       "date_added": "2026-07-07",
       "condition": "A diplomatic back-channel signal emerges \u2014 through Qatar, Oman, or the United Nations \u2014 indicating the US and Iran have opened any formal or informal communications about Strait of Hormuz shipping safety",
       "meaning": "This is the single fastest path to oil relief \u2014 even an unconfirmed report of talks would begin reversing the oil risk premium before any agreement is reached.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-08-0",
+      "date_added": "2026-07-08",
+      "condition": "Brent crude closes above $80 per barrel for five or more consecutive trading sessions following today's spike",
+      "meaning": "Confirms a sustained oil-driven inflation event rather than a one-session panic \u2014 the July CPI reading will mechanically reflect it, making the Fed's 2027 hold a floor and bringing rate hike odds from 'discussed' to 'actively priced.'",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-08-1",
+      "date_added": "2026-07-08",
+      "condition": "A formal dissenting vote appears in the next FOMC meeting's published minutes, with at least one Fed governor officially voting for a rate cut despite Chair Warsh's hawkish hold",
+      "meaning": "Warsh's 'good family fight' has become a matter of official record rather than informal debate \u2014 historically, visible Fed dissent in stagflation environments precedes policy pivots that arrive faster and more disruptively than prior public guidance suggested.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-08-2",
+      "date_added": "2026-07-08",
+      "condition": "The US trade suspension targeting Spain triggers a formal EU trade retaliation announcement or WTO (World Trade Organization \u2014 the international body that arbitrates trade disputes) complaint within 30 days",
+      "meaning": "Confirms the Spain action is a policy direction rather than a one-off warning, adding a US-EU trade conflict to the existing stagflation and Iran oil shock \u2014 a combination that would push import prices higher and give the Fed an additional inflation input it cannot control.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-08-3",
+      "date_added": "2026-07-08",
+      "condition": "A US or Israeli airstrike directly targets Iranian oil production infrastructure \u2014 refineries, offshore platforms, or export terminals \u2014 rather than military or nuclear targets",
+      "meaning": "This is the escalation scenario that would remove roughly 3 million barrels per day from global supply, potentially spiking Brent crude above $90 and eliminating the oil price fade scenario entirely \u2014 at that point, the July CPI overshoot becomes nearly certain.",
       "status": "open",
       "outcome": ""
     }
