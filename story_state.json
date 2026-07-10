@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh On Record",
+      "label": "Warsh Builds His Circle",
       "first_seen": "2026-04-15",
-      "age_days": 84,
-      "summary": "After 83 days without a direct public statement on labor market conditions, Warsh's position is now on record through the Fed minutes: no cuts until 2027, and the 57,000-job June print was insufficient to move him. His 'good family fight' framing acknowledges genuine internal dissent \u2014 some governors clearly want to cut given the weakening labor market \u2014 but confirms he controls the outcome and is not yielding. The Iran re-escalation now strengthens his inflation-fighting rationale, making a pre-2027 cut dependent on either a dramatic CPI undershoot or a sudden labor market collapse, neither of which is visible today."
+      "age_days": 85,
+      "summary": "The Fed announced new task forces today featuring Marc Andreessen and Xbox CEO Asha Sharma \u2014 voices with a direct stake in the AI productivity narrative. The composition matters: these are people positioned to argue that AI-driven productivity growth justifies holding rates firm without cutting, providing intellectual cover for Warsh's 2027 hold even as the labor market weakens. No change to the base case, but the advisory architecture is worth tracking as it shapes the Fed's public justification for its posture."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Ceasefire Formally Gone",
+      "label": "War in Amber",
       "first_seen": "2026-04-15",
-      "age_days": 84,
-      "summary": "The Iran conflict has escalated from uncertain escalation to declared resumption \u2014 Trump's formal ceasefire termination removes the diplomatic optionality that had partially suppressed oil prices. Brent crude hit $79.26, its highest level in weeks. What remains open is whether oil holds above $80 and embeds a permanent conflict premium, or fades back as it did after the 2019 Gulf tanker attacks when no broader escalation materialized. The next 10-15 trading sessions of oil price action and Strait of Hormuz activity are the decisive tell."
+      "age_days": 85,
+      "summary": "The Iran conflict has settled into what The Atlantic called a state of being 'simultaneously happening and not happening' \u2014 real enough to sustain an oil risk premium with prices rising again, but not escalating sharply enough to force a repricing of risk assets. The 10-to-15 session window for decisive oil price action continues; today extended it without resolving it. The decisive questions remain open: whether Brent crosses and holds $80 for a sustained run, and whether any Strait of Hormuz escalation forces a hard supply disruption rather than just a risk premium."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Signal Breaks",
+      "label": "Rotation Still Won't Form",
       "first_seen": "2026-06-02",
-      "age_days": 36,
-      "summary": "Today's session broke the nascent Dow-outperformance streak before it could form: Nasdaq rose 0.2% while the Dow fell 1.09%, with Nasdaq outperforming by 1.29 percentage points \u2014 the opposite of the defensive rotation pattern. The oil spike is hitting Dow-heavy industrials and consumer companies with direct energy cost exposure harder than Nasdaq tech names, which have minimal oil dependence. The stagflation rotation signal (Dow consistently outperforming Nasdaq as investors rotate to defensives) remains a watch condition but has produced only a single confirmed day across the past week."
+      "age_days": 37,
+      "summary": "Nasdaq +1.3% vs. Dow +0.27% today \u2014 the defensive rotation signal continues to fail to materialize. The market is pricing AI exceptionalism rather than stagflation defensiveness, running the opposite of what a true stagflation repricing would look like. This pattern is consistent but brittle: tech can outperform on earnings momentum for quarters, but the consumer who pays for AI services is the same person whose grocery and clothing budgets are being squeezed by tariff-driven price hikes. The rotation will arrive; today just wasn't the day."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,25 +65,20 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Silence Continues, Day 15",
+      "label": "Day 16 of Silence",
       "first_seen": "2026-06-23",
-      "age_days": 15,
-      "summary": "No credit tightening announcements from Discover, Capital One, or American Express \u2014 now 15 consecutive days of silence. Today's oil spike directly worsens the consumer affordability picture these lenders are absorbing: higher gasoline and grocery prices compress the monthly cash flow of their borrowers, increasing default risk on existing balances in real time. The longer the silence extends as underlying conditions worsen, the more abrupt and market-moving the eventual announcement will be."
+      "age_days": 16,
+      "summary": "Sixteen consecutive days without a credit tightening announcement from Discover, Capital One, or American Express. Today's NY Fed tariff survey makes the silence more significant, not less \u2014 if half of companies are raising prices, their customers on those credit cards are about to face higher monthly bills on top of already-stretched budgets. The longer the silence extends into a worsening consumer affordability picture, the more abrupt and market-moving the eventual announcement will be."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Trap Tightens Further",
+      "label": "Second Inflation Gun Loads",
       "first_seen": "2026-07-02",
-      "age_days": 6,
-      "summary": "The ceasefire ending and the Fed's 2027 confirmation tightened the stagflation trap simultaneously. Oil re-accelerating into the July CPI (Consumer Price Index \u2014 the government's main measure of inflation) window means the energy-driven price component will push upward precisely when the labor market is deteriorating. The Fed cannot cut without risking a second inflation wave; it cannot raise rates without deepening a contraction already underway. Today added a geopolitical lock to a trap that was already structural."
+      "age_days": 7,
+      "summary": "The NY Fed survey today adds a second inflation channel to the stagflation trap, operating independently of oil: tariff pass-throughs from manufacturers and service companies feeding into core inflation \u2014 the underlying price trend excluding food and energy \u2014 rather than the energy component the Fed typically looks past. Two guns loading simultaneously (energy from oil above $79, goods from tariff pass-throughs) means the July CPI faces upside pressure from two directions at once. Warsh has more reasons to hold, not fewer, and the pathway to any pre-2027 rate cut is narrowing further."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1970-1975",
-      "context": "The Fed cut rates from 9% to 7% in 1974-1975 while inflation stayed above 9%. Eq",
-      "date_used": "2026-06-10"
-    },
     {
       "year": "1974",
       "context": "The Fed held rates steady at 13% through mid-1974 as inflation stayed above 12% ",
@@ -126,38 +121,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-06-2",
-      "date_added": "2026-07-06",
-      "condition": "Any major OPEC+ member \u2014 Saudi Arabia, UAE, or Iraq \u2014 publicly signals a compliance concern, production shortfall, or output target adjustment over the next 30 days",
-      "meaning": "The supply pledge is already fraying; oil will reverse sharply on the news and the market will reprice today's session as a head-fake, restoring the full stagflation pressure in a single session.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-06-3",
-      "date_added": "2026-07-06",
-      "condition": "A major semiconductor company \u2014 Nvidia, AMD, or Qualcomm \u2014 issues positive forward guidance or an upside earnings preannouncement for the second half of 2026",
-      "meaning": "Today's chip bounce has actual earnings support behind it rather than just relief-rally mechanics, giving the Nasdaq's outperformance staying power beyond a single post-holiday session.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-07-0",
-      "date_added": "2026-07-07",
-      "condition": "A second commercial tanker is attacked in the Strait of Hormuz within the next 10 trading sessions, OR the US Navy announces it will begin escorting commercial vessels through the Strait",
-      "meaning": "Either event confirms a sustained interdiction campaign \u2014 the OPEC+ supply pledge becomes structurally irrelevant, oil embeds a lasting premium above pre-OPEC+ levels, and the entire energy inflation relief narrative closes.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-07-1",
-      "date_added": "2026-07-07",
-      "condition": "Saudi Arabia or the UAE officially acknowledges that Strait of Hormuz security concerns are affecting their ability to fulfill the OPEC+ output increase pledge",
-      "meaning": "This collapses the only remaining near-term relief valve for oil prices \u2014 supply cannot rise and the shipping lane is contested simultaneously, feeding directly into the next CPI print.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-07-2",
       "date_added": "2026-07-07",
@@ -203,6 +166,38 @@
       "date_added": "2026-07-08",
       "condition": "A US or Israeli airstrike directly targets Iranian oil production infrastructure \u2014 refineries, offshore platforms, or export terminals \u2014 rather than military or nuclear targets",
       "meaning": "This is the escalation scenario that would remove roughly 3 million barrels per day from global supply, potentially spiking Brent crude above $90 and eliminating the oil price fade scenario entirely \u2014 at that point, the July CPI overshoot becomes nearly certain.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-09-0",
+      "date_added": "2026-07-09",
+      "condition": "July CPI core inflation \u2014 the underlying price trend excluding food and energy \u2014 prints at 4.3% or higher when the report is released",
+      "meaning": "Confirms the NY Fed tariff survey was a real signal, not noise, shifts the Fed debate from 'cuts delayed' to 'hikes possible,' and invalidates the chip rally's assumption that the macro backdrop is contained.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-09-1",
+      "date_added": "2026-07-09",
+      "condition": "A major U.S. retailer \u2014 Walmart, Target, Costco, or Amazon \u2014 publicly announces consumer price increases directly citing tariffs on imported goods within the next 30 days",
+      "meaning": "Moves the tariff inflation story from a survey finding to a confirmed price event that will show up in the next CPI reading, giving the Fed no rhetorical cover to soften its current stance.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-09-2",
+      "date_added": "2026-07-09",
+      "condition": "Any of Discover, Capital One, or American Express formally announces tighter credit standards, reduced credit lines, or a material increase in loan loss reserves within the next 30 days",
+      "meaning": "Day 16 of silence breaks in the worst way \u2014 confirms that consumer credit stress from the combined tariff and oil inflation squeeze has become too large to absorb quietly, and the household spending story starts to collapse.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-09-3",
+      "date_added": "2026-07-09",
+      "condition": "The Nasdaq 100 closes above its most recent 52-week high within the next 10 trading sessions, on volume at least 20% above its 30-day average",
+      "meaning": "Confirms today's large QQQ institutional trade was a genuine breakout signal with broad participation behind it, not a single outsized bet at the top of a range.",
       "status": "open",
       "outcome": ""
     }

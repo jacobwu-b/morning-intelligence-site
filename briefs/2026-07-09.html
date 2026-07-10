@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 09, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">THURSDAY · July 09, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-ON SESSION</div>
+    <div class="delta-badge">DELTA BRIEF</div>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,543.64</span>
+    <span class="ticker-change up">
+      ▲ 0.81%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,207</span>
+    <span class="ticker-change up">
+      ▲ 1.3%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,487</span>
+    <span class="ticker-change up">
+      ▲ 0.27%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The Market Chose AI Over Iran Today. That Works — Until the Inflation Data Arrives.</h1>
+    <p class="lead-body">The Nasdaq surged <strong>1.3%</strong> today on a chip-led rally as investors collectively decided that AI demand was a better story than an unresolved war and rising oil prices. But the most important data point of the day had nothing to do with chips: a <strong>New York Federal Reserve survey found that nearly half of U.S. companies are planning to raise consumer prices specifically because of tariffs</strong> — and those hikes have not yet shown up in official inflation numbers. The Iran conflict settled into a strange limbo, described today as &#x27;simultaneously happening and not happening,&#x27; with oil edging higher but not spiking hard enough to break the tech momentum. Today&#x27;s session bought time; the July CPI print will collect.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Chip-led tech surge carries the tape higher; NY Fed tariff survey signals the inflation pipeline hasn&#x27;t finished loading</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">CHIP-LED SURGE</div>
+          <div class="cause-headline">The single largest trade ever recorded in the Nasdaq 100 ETF executed today, and semiconductor names dragged the entire market 1.3% higher</div>
+          <div class="cause-text">The Invesco QQQ Trust — the exchange-traded fund that holds the 100 largest non-financial Nasdaq companies — saw its biggest single trade in history today, and institutional bulls are reading it as large-scale money re-entering tech leadership. The structural case for chips is real: AI data center spending commitments from the major cloud companies are locked in for years and don&#x27;t get repriced because of quarterly oil moves or geopolitical headlines. That insulation from the current macro mess is exactly why chip names are being used as a shelter today rather than a pure growth bet.</div>
+          <div class="cause-verdict">The chip rally has a real earnings foundation, but it&#x27;s running ahead of any near-term guidance catalyst — the big institutional trade today needs Nvidia or a major peer to confirm it with forward-looking numbers. If the next earnings cycle disappoints, the largest QQQ trade in history will look less like a signal and more like a very expensive trap set at the top.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">TARIFF PRICE PIPELINE</div>
+          <div class="cause-headline">Nearly half of U.S. companies told the New York Fed they plan to raise consumer prices because of tariffs — and those hikes have not yet appeared in official inflation data</div>
+          <div class="cause-text">The New York Fed survey is a leading indicator — a signal that arrives before the event it predicts — and today&#x27;s reading is unambiguous: the tariff-driven price wave is still loading, not releasing. These planned hikes feed directly into core inflation (the underlying price trend excluding food and energy), which is the number the Fed actually responds to when deciding whether to hold or cut rates. The market treated this as background noise today; the July CPI report will determine whether that was wisdom or denial.</div>
+          <div class="cause-verdict">This is signal, not noise — companies do not tell the New York Fed they plan to raise prices and then quietly absorb the costs instead. Watch the July CPI core reading: if tariff pass-throughs show up in finished goods categories on top of the energy component already baked in from oil, the conversation shifts from &#x27;no cuts until 2027&#x27; to &#x27;are hikes back on the table.&#x27;</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">The market is running two incompatible mental models at once</h2>
+      <p class="section-body"><strong>Tech investors are pricing a world where AI creates its own demand cycle, insulated from tariffs and oil; macro investors are watching a world where inflation is being loaded from two guns simultaneously — energy and tariffs — while the Fed is frozen in place.</strong> Both can coexist for months; they cannot coexist indefinitely, because the consumer who pays for AI services is the same person whose grocery and clothing budgets are being squeezed by tariff-driven price hikes.</p>
+    </div>
+    
+
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The single most important variable is the July CPI print — specifically whether tariff-driven price hikes show up in core goods inflation on top of the energy component already building from oil above $79. If core CPI prints soft (below 4.0%), the chip rally&#x27;s macro assumptions are validated and the summer extends. If core CPI prints hot (4.3% or above), Warsh&#x27;s language hardens, rate hike odds climb back onto the board, and the Nasdaq gives back its summer gains quickly. The market today made its bet on soft; the NY Fed survey is betting on hot.</p>
+      <div class="signal-kicker">
+        Scenario A — July CPI Surprises Soft: Core inflation prints below 4.0%, showing tariff pass-throughs are slower than the NY Fed survey implied, giving the chip rally room to extend and the market permission to treat macro risk as manageable through the rest of summer.<br>
+        Scenario B — Tariff Hikes Hit the Data: Core CPI prints at 4.3% or higher as tariff-driven goods price increases layer onto energy costs, Warsh hardens the 2027 hold, rate hike odds return, and the Nasdaq rapidly reverses everything it gained today.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,543.64</span>
+            <span class="index-pct up">
+              ▲ 0.81%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,207</span>
+            <span class="index-pct up">
+              ▲ 1.3%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,487</span>
+            <span class="index-pct up">
+              ▲ 0.27%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,992.54</span>
+            <span class="index-pct up">
+              ▲ 1.22%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">15.84</span>
+            <span class="index-pct down">
+              ▼ 6.27%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">July CPI core inflation — the underlying price trend excluding food and energy — prints at 4.3% or higher when the report is released — </span>Confirms the NY Fed tariff survey was a real signal, not noise, shifts the Fed debate from &#x27;cuts delayed&#x27; to &#x27;hikes possible,&#x27; and invalidates the chip rally&#x27;s assumption that the macro backdrop is contained.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">A major U.S. retailer — Walmart, Target, Costco, or Amazon — publicly announces consumer price increases directly citing tariffs on imported goods within the next 30 days — </span>Moves the tariff inflation story from a survey finding to a confirmed price event that will show up in the next CPI reading, giving the Fed no rhetorical cover to soften its current stance.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Any of Discover, Capital One, or American Express formally announces tighter credit standards, reduced credit lines, or a material increase in loan loss reserves within the next 30 days — </span>Day 16 of silence breaks in the worst way — confirms that consumer credit stress from the combined tariff and oil inflation squeeze has become too large to absorb quietly, and the household spending story starts to collapse.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The Nasdaq 100 closes above its most recent 52-week high within the next 10 trading sessions, on volume at least 20% above its 30-day average — </span>Confirms today&#x27;s large QQQ institutional trade was a genuine breakout signal with broad participation behind it, not a single outsized bet at the top of a range.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 09, 2026</div>
+</footer>
+
+</body>
+</html>
