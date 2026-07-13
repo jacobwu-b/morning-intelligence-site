@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Market Brief — July 10, 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <a href="../index.html" style="text-decoration: none; color: inherit;">
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </a>
+  <div class="masthead-right">
+    <div class="date">FRIDAY · July 10, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">MIXED SESSION</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,575.39</span>
+    <span class="ticker-change up">
+      ▲ 0.42%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">26,282</span>
+    <span class="ticker-change up">
+      ▲ 0.29%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">52,637</span>
+    <span class="ticker-change up">
+      ▲ 0.29%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">Markets Are Betting Iran Blinks — Oil Says They&#x27;re Right, <em>For Now</em></h1>
+    <p class="lead-body">Stocks closed modestly higher — S&amp;P up <strong>0.42%</strong> — on a day the US-Iran ceasefire officially ended and American forces remained in active combat. The striking signal wasn&#x27;t the gain; it was that <strong>oil prices fell</strong> even as fighting continued. That only happens when markets are pricing a specific scenario: that ongoing talks succeed before Iran does anything to threaten the Strait of Hormuz — the narrow waterway through which roughly a fifth of the world&#x27;s oil travels. Today&#x27;s calm is not proof the conflict is under control. It is a bet on one outcome, and it has a clear expiration date.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Oil falls through an active war; US debt math crystallizes as a structural constraint</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">OIL VS. WAR</div>
+          <div class="cause-headline">Markets chose the diplomatic scenario over the military one — oil slid even as US-Iran fighting continued</div>
+          <div class="cause-text">The ceasefire is over, active hostilities are ongoing, and the US is publicly demanding Iran halt attacks on Hormuz shipping. Yet oil prices fell today. That divergence only makes sense if traders believe ongoing talks will succeed — and Iran&#x27;s own request to keep talking gave markets exactly the signal they needed. The conflict is real; the falling oil price is a bet that it stays contained. The real-economy consequences are already visible: pain at the pump has gotten worse, and US EV sales bounced sharply in Q2 not because of government incentives (those ended) but because high gas prices made electric cars look attractive again.</div>
+          <div class="cause-verdict">Watch oil this weekend. If prices drift back up when Asian markets open Sunday night, it means the diplomatic optimism is evaporating and the Iran bet is being quietly unwound — which would pressure everything that rallied today, especially energy-sensitive consumer stocks.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">DEBT MATH BITES</div>
+          <div class="cause-headline">At $24 billion a week in interest, US borrowing costs have become the government&#x27;s single largest spending category</div>
+          <div class="cause-text">The Treasury is paying more in weekly interest than most cabinet departments spend in a month, and it needs to borrow <strong>$155 billion every single month</strong> to cover the gap. RBC Wealth Management crystallized the Fed risk this week: the 2025 &#x27;insurance cuts&#x27; — the modest rate reductions the Fed made last year to cushion a growth scare — may need to be fully reversed. If the Fed raises rates back to where they were, interest on that debt gets more expensive still. And the buyer pool is quietly shrinking: Japan is now actively nudging its giant pension funds — historically among the largest purchasers of US government bonds — to invest at home instead, meaning fewer buyers for an avalanche of new US debt.</div>
+          <div class="cause-verdict">If the 10-year US Treasury yield — the interest rate on 10-year US government loans — rises meaningfully on heavy new debt supply, that confirms the squeeze is tightening. Higher yields mean higher interest costs mean more borrowing means more yield pressure. It is not a cliff, but it is an escalator going the wrong direction with no off switch in sight.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">Wall Street is betting one story — AI growth — can outweigh three serious risks at once</h2>
+      <p class="section-body">Today&#x27;s market did something worth naming clearly: it looked at active military conflict, a record debt load, a potential Fed reversal, and a developing Super El Niño that could drive food prices higher — and said &#x27;yes, but AI.&#x27; That is not irrational on its face; AI productivity gains are real and earnings have backed the narrative for two years. But <strong>the danger of anchoring hard on one growth story is that it prices every other risk as temporary, right up until two or three of them stop being temporary at the same moment.</strong> This instance is more precarious than the typical &#x27;look-through&#x27; trade because the risks are structurally linked: the same Iran conflict raising oil also raises inflation, which constrains the Fed, which raises borrowing costs, at the exact moment Japan is pulling back from buying the bonds that fund those costs. A single narrative thread holding that knot together is thinner than it looks.</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label">Historical Precedent</div>
+      <h2 class="section-headline">When markets look through active US-Iran conflict, the resolution usually hinges on one thing: whether oil keeps moving</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1988</div>
+          <div>
+            <div class="comp-text">The &#x27;Tanker War&#x27; — the last time the US and Iran fought directly in the Persian Gulf — ran for nearly a year. The US Navy escorted Kuwaiti oil tankers through Iranian attack zones, both sides struck ships and platforms, and oil markets were disrupted. But the Strait of Hormuz never closed. Tanker traffic kept moving, oil stayed available, and US equity markets were essentially unaffected by the fighting itself. The conflict ended with a UN ceasefire in July 1988 after Iran accepted terms it had refused for years.</div>
+            <div class="comp-lesson">Markets can tolerate active US-Iran combat almost indefinitely — the line that breaks them is Hormuz, not a casualty count.</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2002-2003</div>
+          <div>
+            <div class="comp-text">In the run-up to the Iraq War, oil climbed from roughly $25 to $40 as invasion fears peaked, then fell sharply once major combat operations ended within weeks. The S&amp;P 500 recovered nearly 30% in the twelve months after the war&#x27;s start — because the market had priced the scenario it hoped for, and that scenario arrived. The lesson worked perfectly for the opening act. It failed completely as a framework for the decade of occupation and regional instability that followed.</div>
+            <div class="comp-lesson">Markets are structurally good at pricing how a conflict starts; they are structurally bad at pricing what it becomes.</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The single variable that determines whether today&#x27;s calm holds or breaks is whether the Strait of Hormuz stays open for commercial shipping. If it does, oil stays contained, inflation pressure stays manageable, the Fed can stay patient, and the AI growth story holds its weight against the fiscal and geopolitical noise. If Hormuz is genuinely threatened — by Iranian mines, by insurance markets refusing to cover tanker transits, or by a US escalation — oil spikes, inflation re-accelerates, and the Fed&#x27;s hand is forced at the worst possible moment for the US budget. Hold that one variable and the rest of the picture follows.</p>
+      <div class="signal-kicker">
+        Scenario A — Talks Hold: Iran makes sufficient commitments in ongoing negotiations, oil drifts below $75, and markets re-anchor on Q2 AI earnings — the growth narrative wins by default and the S&amp;P pushes toward new highs.<br>
+        Scenario B — Hormuz Risk: Talks break down or a maritime incident disrupts Hormuz shipping, oil spikes toward $100+, the Fed signals it cannot cut — or must hike — and higher energy costs plus higher borrowing costs hit corporate earnings and household budgets simultaneously.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,575.39</span>
+            <span class="index-pct up">
+              ▲ 0.42%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">26,282</span>
+            <span class="index-pct up">
+              ▲ 0.29%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">52,637</span>
+            <span class="index-pct up">
+              ▲ 0.29%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,977.81</span>
+            <span class="index-pct down">
+              ▼ 0.49%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">15.03</span>
+            <span class="index-pct down">
+              ▼ 5.11%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Watch Next Week</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Tanker war-risk insurance premiums in the Persian Gulf spike sharply, or Lloyd&#x27;s of London suspends coverage for Hormuz transits — </span>That is the real-money signal — not a diplomat&#x27;s statement — that markets believe Hormuz is in genuine danger; oil prices would follow upward within 48 hours.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The 10-year US Treasury yield — the interest rate on 10-year US government loans — rises to a new multi-month high on heavy new debt supply in the coming week — </span>That confirms the debt supply is overwhelming buyer demand and the fiscal feedback loop is tightening, which simultaneously squeezes corporate borrowers and inflates the government&#x27;s own interest bill.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The yen continues strengthening and Japan releases specific data showing pension funds have reduced foreign bond holdings — </span>Fewer Japanese buyers of US bonds at a moment of record US issuance would push US borrowing costs higher quietly but persistently — the kind of slow-moving force that blindsides markets after it has already done most of its damage.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">NOAA formally upgrades this El Niño to &#x27;Super El Niño&#x27; status and issues seasonal agricultural disruption forecasts for key US and global growing regions — </span>Food price inflation would re-accelerate in the second half of 2026, handing the Fed yet another reason it cannot cut rates even if growth slows — simultaneously hot inflation and a cooling economy is the Fed&#x27;s worst possible position.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-07-09.html" style="color: var(--muted); text-decoration: none;">← Previous brief · July 09, 2026</a></nav><!-- brief-nav:end -->
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">July 10, 2026</div>
+</footer>
+
+</body>
+</html>
