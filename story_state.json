@@ -9,10 +9,10 @@
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "War in Amber",
+      "label": "War Off Amber",
       "first_seen": "2026-04-15",
-      "age_days": 85,
-      "summary": "The Iran conflict has settled into what The Atlantic called a state of being 'simultaneously happening and not happening' \u2014 real enough to sustain an oil risk premium with prices rising again, but not escalating sharply enough to force a repricing of risk assets. The 10-to-15 session window for decisive oil price action continues; today extended it without resolving it. The decisive questions remain open: whether Brent crosses and holds $80 for a sustained run, and whether any Strait of Hormuz escalation forces a hard supply disruption rather than just a risk premium."
+      "age_days": 89,
+      "summary": "The ceasefire has formally collapsed. US airstrikes, Iranian retaliatory missile strikes on commercial tankers, one sailor killed, the 20% Hormuz toll reimposed, and a formal Congressional notification under the War Powers Act \u2014 the law requiring the president to alert Congress within 48 hours of committing US forces to armed conflict. Brent crude rose 3\u20135% on the day but closed below $80. The conflict has crossed from risk premium into active combat but has not yet crossed from active combat into hard supply disruption. The binary question is now whether sustained Strait interference materializes: if it does, Brent breaks $80 and holds; if it does not, the market finds a new, higher equilibrium and stabilizes around it."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Yields Surge on Dual Shock",
+      "label": "Hike Odds Rise Again",
       "first_seen": "2026-05-15",
-      "age_days": 54,
-      "summary": "Government bond yields surged today on the combined impact of oil-driven inflation re-acceleration and the Fed's explicit 2027 hold. Critically, the Forbes headline noted that the renewed Iran conflict is spiking rate hike odds \u2014 the market is beginning to price not just delayed cuts but the possibility of additional rate increases. July CPI remains the decisive test: if core inflation \u2014 the underlying price trend excluding food and energy \u2014 holds at or above 4.2%, the yield pressure becomes structural. The framing has shifted from 'cuts delayed' to 'hikes debated,' which is a meaningfully different and more dangerous market environment."
+      "age_days": 59,
+      "summary": "Today's combat escalation and oil spike add momentum to the rate hike probability thesis. The framing that has built since May \u2014 from 'cuts delayed' to 'hikes debated' \u2014 takes another step forward: sustained Hormuz disruption and a hot CPI print this week could push the market to price an actual rate increase as the base case rather than a tail risk. July CPI, due this week, is the next decisive test of whether that framing hardens into the dominant narrative."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Still Won't Form",
+      "label": "Rotation Signal Appears",
       "first_seen": "2026-06-02",
-      "age_days": 37,
-      "summary": "Nasdaq +1.3% vs. Dow +0.27% today \u2014 the defensive rotation signal continues to fail to materialize. The market is pricing AI exceptionalism rather than stagflation defensiveness, running the opposite of what a true stagflation repricing would look like. This pattern is consistent but brittle: tech can outperform on earnings momentum for quarters, but the consumer who pays for AI services is the same person whose grocery and clothing budgets are being squeezed by tariff-driven price hikes. The rotation will arrive; today just wasn't the day."
+      "age_days": 41,
+      "summary": "The pattern broke today: Nasdaq down 1.55% versus Dow down only 0.26% \u2014 the sharpest tech-versus-defensive divergence since this theme opened 37 days ago. For weeks, AI exceptionalism held up through every macro headwind. Today it did not. Whether this is a single-day crack or the start of the sustained rotation toward defensive stocks that stagflation theory predicts is unresolved; three consecutive sessions of similar divergence would confirm the turn. This week's CPI report is the next forcing event."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,25 +65,20 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Day 16 of Silence",
+      "label": "Day 17 of Silence",
       "first_seen": "2026-06-23",
-      "age_days": 16,
-      "summary": "Sixteen consecutive days without a credit tightening announcement from Discover, Capital One, or American Express. Today's NY Fed tariff survey makes the silence more significant, not less \u2014 if half of companies are raising prices, their customers on those credit cards are about to face higher monthly bills on top of already-stretched budgets. The longer the silence extends into a worsening consumer affordability picture, the more abrupt and market-moving the eventual announcement will be."
+      "age_days": 20,
+      "summary": "Discover, Capital One, and American Express have now been silent for 17 consecutive days on credit standards or reserves. Today's oil-driven price spike \u2014 higher gas costs hitting already-stretched household budgets \u2014 makes the silence more consequential by the day. The household carrying a revolving credit card balance is the same household absorbing a 20-cent increase at the pump. The longer this extends into a worsening consumer affordability picture, the more abrupt and market-moving the eventual announcement will be."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Second Inflation Gun Loads",
+      "label": "Energy Channel Opens",
       "first_seen": "2026-07-02",
-      "age_days": 7,
-      "summary": "The NY Fed survey today adds a second inflation channel to the stagflation trap, operating independently of oil: tariff pass-throughs from manufacturers and service companies feeding into core inflation \u2014 the underlying price trend excluding food and energy \u2014 rather than the energy component the Fed typically looks past. Two guns loading simultaneously (energy from oil above $79, goods from tariff pass-throughs) means the July CPI faces upside pressure from two directions at once. Warsh has more reasons to hold, not fewer, and the pathway to any pre-2027 rate cut is narrowing further."
+      "age_days": 11,
+      "summary": "Today's oil spike opens the energy inflation channel simultaneously with the established tariff pass-through channel. If Hormuz disruption pushes Brent above $80 and this week's CPI \u2014 the government's measure of how much everyday prices have risen \u2014 captures even early energy cost pass-through, the Fed faces meaningful inflation pressure from two independent sources at once. Warsh's hold-through-2027 posture gains another structural justification, and the pathway to any pre-2027 rate cut narrows further."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1974",
-      "context": "The Fed held rates steady at 13% through mid-1974 as inflation stayed above 12% ",
-      "date_used": "2026-06-12"
-    },
     {
       "year": "1974-1975",
       "context": "The Fed cut from 9% to 7% in 1974-1975 while inflation stayed above 9%. Unemploy",
@@ -121,38 +116,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-07-2",
-      "date_added": "2026-07-07",
-      "condition": "Nvidia, AMD, or Qualcomm falls 3% or more in the session immediately following its next quarterly earnings report, despite beating profit expectations",
-      "meaning": "The Samsung pattern is repeating in US markets \u2014 the premium investors have paid for AI chip stocks based on future growth expectations is being unwound, and the Nasdaq's primary support is cracking.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-07-3",
-      "date_added": "2026-07-07",
-      "condition": "A diplomatic back-channel signal emerges \u2014 through Qatar, Oman, or the United Nations \u2014 indicating the US and Iran have opened any formal or informal communications about Strait of Hormuz shipping safety",
-      "meaning": "This is the single fastest path to oil relief \u2014 even an unconfirmed report of talks would begin reversing the oil risk premium before any agreement is reached.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-08-0",
-      "date_added": "2026-07-08",
-      "condition": "Brent crude closes above $80 per barrel for five or more consecutive trading sessions following today's spike",
-      "meaning": "Confirms a sustained oil-driven inflation event rather than a one-session panic \u2014 the July CPI reading will mechanically reflect it, making the Fed's 2027 hold a floor and bringing rate hike odds from 'discussed' to 'actively priced.'",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-08-1",
-      "date_added": "2026-07-08",
-      "condition": "A formal dissenting vote appears in the next FOMC meeting's published minutes, with at least one Fed governor officially voting for a rate cut despite Chair Warsh's hawkish hold",
-      "meaning": "Warsh's 'good family fight' has become a matter of official record rather than informal debate \u2014 historically, visible Fed dissent in stagflation environments precedes policy pivots that arrive faster and more disruptively than prior public guidance suggested.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-08-2",
       "date_added": "2026-07-08",
@@ -198,6 +161,38 @@
       "date_added": "2026-07-09",
       "condition": "The Nasdaq 100 closes above its most recent 52-week high within the next 10 trading sessions, on volume at least 20% above its 30-day average",
       "meaning": "Confirms today's large QQQ institutional trade was a genuine breakout signal with broad participation behind it, not a single outsized bet at the top of a range.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-13-0",
+      "date_added": "2026-07-13",
+      "condition": "Tanker tracking services or public shipping company statements confirm vessels are actively rerouting away from the Strait of Hormuz following Iranian missile strikes and Trump's 20% toll",
+      "meaning": "Physical supply disruption has begun \u2014 Brent almost certainly crosses and holds $80, converting the oil inflation story from a financial risk into a structural supply shock the Fed cannot look past.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-13-1",
+      "date_added": "2026-07-13",
+      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive for three consecutive sessions",
+      "meaning": "The stagflation rotation has arrived in force \u2014 AI exceptionalism is losing to macro reality, and the concentrated positions in tech that led the market higher for months face a sustained, not temporary, unwinding.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-13-2",
+      "date_added": "2026-07-13",
+      "condition": "A major US ally \u2014 the United Kingdom, European Union, Japan, or South Korea \u2014 publicly declines to enforce or formally objects to Trump's 20% Hormuz toll on Iranian shipping",
+      "meaning": "The toll depends entirely on US naval enforcement to have teeth; allied defection reduces its deterrent power, signals diplomatic fracture, and may encourage Iran to escalate further rather than stand down.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-13-3",
+      "date_added": "2026-07-13",
+      "condition": "Iran formally announces a suspension or closure of the Strait of Hormuz to non-Iranian commercial shipping",
+      "meaning": "This is the maximum-escalation scenario the market has not yet priced \u2014 roughly one-fifth of global oil trade stops flowing immediately, Brent spikes past $90, and the Fed's inflation problem becomes unmanageable regardless of what Chair Warsh wants to do.",
       "status": "open",
       "outcome": ""
     }
