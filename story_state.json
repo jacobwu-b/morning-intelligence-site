@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Builds His Circle",
+      "label": "Warsh Holds His Ground",
       "first_seen": "2026-04-15",
-      "age_days": 85,
-      "summary": "The Fed announced new task forces today featuring Marc Andreessen and Xbox CEO Asha Sharma \u2014 voices with a direct stake in the AI productivity narrative. The composition matters: these are people positioned to argue that AI-driven productivity growth justifies holding rates firm without cutting, providing intellectual cover for Warsh's 2027 hold even as the labor market weakens. No change to the base case, but the advisory architecture is worth tracking as it shapes the Fed's public justification for its posture."
+      "age_days": 90,
+      "summary": "Warsh's 'no tolerance for high inflation' statement today, paired with zero signal on next move, is the public posture of a Fed chair who has engineered a clean holding pattern: the benign CPI print gives him cover to hold without hiking, and the oil spike gives him cover to hold without cutting. This is the hold-through-2027 posture working exactly as designed. The intellectual scaffolding he is constructing \u2014 advisory task forces featuring voices positioned to argue AI-driven productivity growth \u2014 continues to build the public justification for an extended hold even as labor data weakens."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "War Off Amber",
+      "label": "Toll Withdrawn, War Continues",
       "first_seen": "2026-04-15",
-      "age_days": 89,
-      "summary": "The ceasefire has formally collapsed. US airstrikes, Iranian retaliatory missile strikes on commercial tankers, one sailor killed, the 20% Hormuz toll reimposed, and a formal Congressional notification under the War Powers Act \u2014 the law requiring the president to alert Congress within 48 hours of committing US forces to armed conflict. Brent crude rose 3\u20135% on the day but closed below $80. The conflict has crossed from risk premium into active combat but has not yet crossed from active combat into hard supply disruption. The binary question is now whether sustained Strait interference materializes: if it does, Brent breaks $80 and holds; if it does not, the market finds a new, higher equilibrium and stabilizes around it."
+      "age_days": 90,
+      "summary": "Trump abandoned the 20% Hormuz toll today, which helped oil stabilize after an early spike \u2014 removing one immediate escalation lever. The underlying military conflict continues: US-Iran clashes, Iranian missile strikes on commercial tankers, and the naval blockade remain active. Brent crude \u2014 the international oil price benchmark \u2014 rose on the day but stayed below $80. The toll's removal modestly reduces the probability of a hard supply disruption, but a naval incident or fresh Iranian retaliation could reinstate the risk overnight."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Hike Odds Rise Again",
+      "label": "July Hike Off Table, August Open",
       "first_seen": "2026-05-15",
-      "age_days": 59,
-      "summary": "Today's combat escalation and oil spike add momentum to the rate hike probability thesis. The framing that has built since May \u2014 from 'cuts delayed' to 'hikes debated' \u2014 takes another step forward: sustained Hormuz disruption and a hot CPI print this week could push the market to price an actual rate increase as the base case rather than a tail risk. July CPI, due this week, is the next decisive test of whether that framing hardens into the dominant narrative."
+      "age_days": 60,
+      "summary": "Today's below-estimate CPI removes the immediate case for a July rate increase and gives Warsh room to hold without looking either hawkish or dovish. But the energy reversal means August's CPI \u2014 covering July's data, when oil began rising \u2014 will capture the spike that followed the ceasefire collapse. The rate-hike debate is deferred to August, not resolved. Whether Brent crude breaks $80 and holds is now the single most important forward signal for that debate."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Signal Appears",
+      "label": "Rotation Day 2, One Session Away",
       "first_seen": "2026-06-02",
-      "age_days": 41,
-      "summary": "The pattern broke today: Nasdaq down 1.55% versus Dow down only 0.26% \u2014 the sharpest tech-versus-defensive divergence since this theme opened 37 days ago. For weeks, AI exceptionalism held up through every macro headwind. Today it did not. Whether this is a single-day crack or the start of the sustained rotation toward defensive stocks that stagflation theory predicts is unresolved; three consecutive sessions of similar divergence would confirm the turn. This week's CPI report is the next forcing event."
+      "age_days": 42,
+      "summary": "Today's Nasdaq -1.55% versus Dow -0.26% is Day 2 of the potential three-session confirmation pattern the watchlist is tracking. IBM's 22% collapse on a profit warning added sector-specific weight, though IBM is legacy enterprise technology rather than a pure AI play \u2014 its warning may be company-specific rather than a signal about AI earnings broadly. Jamie Dimon's public warning that markets are 'close to as good as it gets,' delivered on a day JPMorgan posted record profits, adds institutional voice to the rotation thesis. One more session of similar divergence triggers the confirmation threshold."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,25 +65,20 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Day 17 of Silence",
+      "label": "Day 18, Pressure Mounting",
       "first_seen": "2026-06-23",
-      "age_days": 20,
-      "summary": "Discover, Capital One, and American Express have now been silent for 17 consecutive days on credit standards or reserves. Today's oil-driven price spike \u2014 higher gas costs hitting already-stretched household budgets \u2014 makes the silence more consequential by the day. The household carrying a revolving credit card balance is the same household absorbing a 20-cent increase at the pump. The longer this extends into a worsening consumer affordability picture, the more abrupt and market-moving the eventual announcement will be."
+      "age_days": 21,
+      "summary": "Discover, Capital One, and American Express have now been silent for 18 consecutive days on credit standards or reserves. Pump prices heading back toward $4 per gallon are tightening the same household budgets these lenders are most exposed to. The silence is becoming harder to explain as the consumer affordability picture deteriorates from multiple directions simultaneously \u2014 rising energy, persistent underlying inflation, and weakening employment."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Energy Channel Opens",
+      "label": "Energy Channel Now Actively Reversing",
       "first_seen": "2026-07-02",
-      "age_days": 11,
-      "summary": "Today's oil spike opens the energy inflation channel simultaneously with the established tariff pass-through channel. If Hormuz disruption pushes Brent above $80 and this week's CPI \u2014 the government's measure of how much everyday prices have risen \u2014 captures even early energy cost pass-through, the Fed faces meaningful inflation pressure from two independent sources at once. Warsh's hold-through-2027 posture gains another structural justification, and the pathway to any pre-2027 rate cut narrows further."
+      "age_days": 12,
+      "summary": "Today's CPI data confirmed the structural story: June's inflation relief was entirely conditional on a ceasefire that no longer holds. The energy channel that was 'opening as a risk' in prior briefs is now actively unwinding June's gains in real time. If Brent crude breaks $80 and holds there, August's CPI report will arrive hot, and the stagflation thesis will have both the tariff pass-through channel and the energy channel firing simultaneously."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1974-1975",
-      "context": "The Fed cut from 9% to 7% in 1974-1975 while inflation stayed above 9%. Unemploy",
-      "date_used": "2026-06-15"
-    },
     {
       "year": "1979\u20131980",
       "context": "Volcker's Fed watched employment deteriorate through late 1979 as inflation ran ",
@@ -116,30 +111,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-08-2",
-      "date_added": "2026-07-08",
-      "condition": "The US trade suspension targeting Spain triggers a formal EU trade retaliation announcement or WTO (World Trade Organization \u2014 the international body that arbitrates trade disputes) complaint within 30 days",
-      "meaning": "Confirms the Spain action is a policy direction rather than a one-off warning, adding a US-EU trade conflict to the existing stagflation and Iran oil shock \u2014 a combination that would push import prices higher and give the Fed an additional inflation input it cannot control.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-08-3",
-      "date_added": "2026-07-08",
-      "condition": "A US or Israeli airstrike directly targets Iranian oil production infrastructure \u2014 refineries, offshore platforms, or export terminals \u2014 rather than military or nuclear targets",
-      "meaning": "This is the escalation scenario that would remove roughly 3 million barrels per day from global supply, potentially spiking Brent crude above $90 and eliminating the oil price fade scenario entirely \u2014 at that point, the July CPI overshoot becomes nearly certain.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-09-0",
-      "date_added": "2026-07-09",
-      "condition": "July CPI core inflation \u2014 the underlying price trend excluding food and energy \u2014 prints at 4.3% or higher when the report is released",
-      "meaning": "Confirms the NY Fed tariff survey was a real signal, not noise, shifts the Fed debate from 'cuts delayed' to 'hikes possible,' and invalidates the chip rally's assumption that the macro backdrop is contained.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-09-1",
       "date_added": "2026-07-09",
@@ -181,18 +152,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-13-2",
-      "date_added": "2026-07-13",
-      "condition": "A major US ally \u2014 the United Kingdom, European Union, Japan, or South Korea \u2014 publicly declines to enforce or formally objects to Trump's 20% Hormuz toll on Iranian shipping",
-      "meaning": "The toll depends entirely on US naval enforcement to have teeth; allied defection reduces its deterrent power, signals diplomatic fracture, and may encourage Iran to escalate further rather than stand down.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-13-3",
       "date_added": "2026-07-13",
       "condition": "Iran formally announces a suspension or closure of the Strait of Hormuz to non-Iranian commercial shipping",
       "meaning": "This is the maximum-escalation scenario the market has not yet priced \u2014 roughly one-fifth of global oil trade stops flowing immediately, Brent spikes past $90, and the Fed's inflation problem becomes unmanageable regardless of what Chair Warsh wants to do.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-14-0",
+      "date_added": "2026-07-14",
+      "condition": "Brent crude \u2014 the international oil price benchmark \u2014 closes above $80 per barrel for three consecutive sessions",
+      "meaning": "The energy channel into August's CPI report is fully open; the rate-hike debate shifts from theoretical to probable, and high-multiple growth stocks face renewed and sustained selling pressure.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-14-1",
+      "date_added": "2026-07-14",
+      "condition": "A second major technology company \u2014 outside IBM \u2014 issues a profit warning or materially misses earnings estimates during this reporting season (the quarterly window when major companies release profit results)",
+      "meaning": "IBM's collapse is not company-specific; AI-exceptionalism in corporate earnings is cracking, and the rotation from tech into defensives has a fundamental earnings driver behind it rather than a purely macro one.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-14-2",
+      "date_added": "2026-07-14",
+      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive for a third consecutive session",
+      "meaning": "The three-session confirmation threshold is reached, the sustained tech-to-defensive rotation is confirmed, and the stagflation rotation thesis moves from early signal to established market trend.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-14-3",
+      "date_added": "2026-07-14",
+      "condition": "Trump reinstates any version of the Hormuz toll or announces new economic measures targeting Strait traffic",
+      "meaning": "The de-escalation signal from today's toll withdrawal reverses, oil gets a fresh upward catalyst, and the $80 Brent threshold comes immediately back into play.",
       "status": "open",
       "outcome": ""
     }
