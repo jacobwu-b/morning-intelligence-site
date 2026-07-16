@@ -9,10 +9,10 @@
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Toll Withdrawn, War Continues",
+      "label": "Avoidance Now Confirmed",
       "first_seen": "2026-04-15",
-      "age_days": 90,
-      "summary": "Trump abandoned the 20% Hormuz toll today, which helped oil stabilize after an early spike \u2014 removing one immediate escalation lever. The underlying military conflict continues: US-Iran clashes, Iranian missile strikes on commercial tankers, and the naval blockade remain active. Brent crude \u2014 the international oil price benchmark \u2014 rose on the day but stayed below $80. The toll's removal modestly reduces the probability of a hard supply disruption, but a naval incident or fresh Iranian retaliation could reinstate the risk overnight."
+      "age_days": 91,
+      "summary": "Ships are actively refusing US military-guided Hormuz transits following attacks \u2014 the rerouting behavior that was a watchlist condition is now reported fact. Iran also summoned the British envoy today over its IRGC (the Islamic Revolutionary Guard Corps, Iran's elite military and paramilitary force) designation, and US officials confirmed that recent American strikes on Iran strengthen Trump's escalation options. The question has shifted from whether avoidance behavior would emerge to how widely it spreads and how quickly insurance markets price it."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "July Hike Off Table, August Open",
+      "label": "July Dead, August Now Live",
       "first_seen": "2026-05-15",
-      "age_days": 60,
-      "summary": "Today's below-estimate CPI removes the immediate case for a July rate increase and gives Warsh room to hold without looking either hawkish or dovish. But the energy reversal means August's CPI \u2014 covering July's data, when oil began rising \u2014 will capture the spike that followed the ceasefire collapse. The rate-hike debate is deferred to August, not resolved. Whether Brent crude breaks $80 and holds is now the single most important forward signal for that debate."
+      "age_days": 61,
+      "summary": "Today's below-expectations CPI officially ends the July rate-hike debate \u2014 Warsh holds, markets priced it correctly. The calendar now becomes the most important variable: August's CPI report will cover July's data, precisely the period when oil began rising materially and Hormuz avoidance began in earnest. That report arrives around August 13 and becomes the next real decision point for the Fed. The market is right to be relieved today; it may be wrong to assume August looks the same."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Day 2, One Session Away",
+      "label": "Rotation Signal Reset",
       "first_seen": "2026-06-02",
-      "age_days": 42,
-      "summary": "Today's Nasdaq -1.55% versus Dow -0.26% is Day 2 of the potential three-session confirmation pattern the watchlist is tracking. IBM's 22% collapse on a profit warning added sector-specific weight, though IBM is legacy enterprise technology rather than a pure AI play \u2014 its warning may be company-specific rather than a signal about AI earnings broadly. Jamie Dimon's public warning that markets are 'close to as good as it gets,' delivered on a day JPMorgan posted record profits, adds institutional voice to the rotation thesis. One more session of similar divergence triggers the confirmation threshold."
+      "age_days": 43,
+      "summary": "The three-session Nasdaq-versus-Dow rotation pattern failed to complete: today's soft CPI and strong ASML semiconductor equipment earnings lifted tech broadly, with Nasdaq gaining 0.62% against the Dow's 0.29% \u2014 the opposite of the signal. The specific streak reset without triggering. The structural case for rotation from growth to value remains intact given deteriorating employment, persistent core inflation, and rising energy costs, but this signal window closed without firing. Watch for the pattern to re-emerge as earnings season progresses and energy inflation builds."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,17 +65,17 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Day 18, Pressure Mounting",
+      "label": "Silence Enters Earnings Season",
       "first_seen": "2026-06-23",
-      "age_days": 21,
-      "summary": "Discover, Capital One, and American Express have now been silent for 18 consecutive days on credit standards or reserves. Pump prices heading back toward $4 per gallon are tightening the same household budgets these lenders are most exposed to. The silence is becoming harder to explain as the consumer affordability picture deteriorates from multiple directions simultaneously \u2014 rising energy, persistent underlying inflation, and weakening employment."
+      "age_days": 22,
+      "summary": "Discover, Capital One, and American Express have now been silent for 21-plus days on credit standards and reserve levels. With Q2 earnings season now active \u2014 BlackRock reported today \u2014 the credit card lenders will face direct investor questioning within the next two to three weeks. Their earnings calls will either resolve the silence with reassurance or confirm deterioration through reserve levels and forward guidance language. Pump prices approaching $4 continue to squeeze the exact household budgets these lenders are most exposed to."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Energy Channel Now Actively Reversing",
+      "label": "July CPI Already Being Written",
       "first_seen": "2026-07-02",
-      "age_days": 12,
-      "summary": "Today's CPI data confirmed the structural story: June's inflation relief was entirely conditional on a ceasefire that no longer holds. The energy channel that was 'opening as a risk' in prior briefs is now actively unwinding June's gains in real time. If Brent crude breaks $80 and holds there, August's CPI report will arrive hot, and the stagflation thesis will have both the tariff pass-through channel and the energy channel firing simultaneously."
+      "age_days": 13,
+      "summary": "The energy channel is actively building: oil rose on the day despite the broader risk-on session, ships are rerouting from Hormuz, Kalshi prediction markets are pricing gas above $4 by end of July, and India raised diesel and jet fuel export taxes today \u2014 adding regional supply pressure. June's soft CPI was entirely conditional on energy conditions that no longer exist. The structural stagflation thesis now has both the tariff pass-through channel and the energy supply disruption channel compounding simultaneously. August 13 is the next inflection point."
     }
   ],
   "historical_comps_used": [
@@ -112,34 +112,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-09-1",
-      "date_added": "2026-07-09",
-      "condition": "A major U.S. retailer \u2014 Walmart, Target, Costco, or Amazon \u2014 publicly announces consumer price increases directly citing tariffs on imported goods within the next 30 days",
-      "meaning": "Moves the tariff inflation story from a survey finding to a confirmed price event that will show up in the next CPI reading, giving the Fed no rhetorical cover to soften its current stance.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-09-2",
-      "date_added": "2026-07-09",
-      "condition": "Any of Discover, Capital One, or American Express formally announces tighter credit standards, reduced credit lines, or a material increase in loan loss reserves within the next 30 days",
-      "meaning": "Day 16 of silence breaks in the worst way \u2014 confirms that consumer credit stress from the combined tariff and oil inflation squeeze has become too large to absorb quietly, and the household spending story starts to collapse.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-09-3",
       "date_added": "2026-07-09",
       "condition": "The Nasdaq 100 closes above its most recent 52-week high within the next 10 trading sessions, on volume at least 20% above its 30-day average",
       "meaning": "Confirms today's large QQQ institutional trade was a genuine breakout signal with broad participation behind it, not a single outsized bet at the top of a range.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-13-0",
-      "date_added": "2026-07-13",
-      "condition": "Tanker tracking services or public shipping company statements confirm vessels are actively rerouting away from the Strait of Hormuz following Iranian missile strikes and Trump's 20% toll",
-      "meaning": "Physical supply disruption has begun \u2014 Brent almost certainly crosses and holds $80, converting the oil inflation story from a financial risk into a structural supply shock the Fed cannot look past.",
       "status": "open",
       "outcome": ""
     },
@@ -176,18 +152,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-14-2",
-      "date_added": "2026-07-14",
-      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive for a third consecutive session",
-      "meaning": "The three-session confirmation threshold is reached, the sustained tech-to-defensive rotation is confirmed, and the stagflation rotation thesis moves from early signal to established market trend.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-14-3",
       "date_added": "2026-07-14",
       "condition": "Trump reinstates any version of the Hormuz toll or announces new economic measures targeting Strait traffic",
       "meaning": "The de-escalation signal from today's toll withdrawal reverses, oil gets a fresh upward catalyst, and the $80 Brent threshold comes immediately back into play.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-15-0",
+      "date_added": "2026-07-15",
+      "condition": "Tanker tracking services, Lloyd's of London, or public shipping company statements confirm more than five additional vessels refusing Hormuz transits within the next five trading days",
+      "meaning": "It means the avoidance is systematic rather than episodic, effective oil supply tightens materially, and the August CPI risk becomes the central market story rather than a background concern.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-15-1",
+      "date_added": "2026-07-15",
+      "condition": "National average pump price for regular gasoline crosses $4.00 per gallon as confirmed by AAA or EIA weekly data",
+      "meaning": "It means energy inflation has reached the household level directly, tightening the same consumer budgets the silent credit card lenders are most exposed to and giving August CPI a concrete, visible number to beat.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-15-2",
+      "date_added": "2026-07-15",
+      "condition": "Iran takes formal retaliatory action following the IRGC designation \u2014 additional missile strikes on commercial vessels, tanker seizures, or a formal Hormuz announcement \u2014 within the next five trading days",
+      "meaning": "It means the diplomatic escalation ladder has another rung, oil spikes, and Trump's additional escalation options shift from background risk to active front-page policy debate.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-15-3",
+      "date_added": "2026-07-15",
+      "condition": "Any of Discover, Capital One, or American Express reports its Q2 earnings \u2014 April-through-June profit results \u2014 without addressing credit standard changes or reserve levels in either the prepared remarks or analyst question-and-answer session",
+      "meaning": "It means the silence is being maintained under direct investor questioning, which is more alarming than the silence itself \u2014 companies facing deteriorating loan portfolios typically get ahead of bad news on earnings calls, not behind it.",
       "status": "open",
       "outcome": ""
     }
