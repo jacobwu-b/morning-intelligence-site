@@ -9,10 +9,10 @@
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Avoidance Now Confirmed",
+      "label": "War Budget Enters the Picture",
       "first_seen": "2026-04-15",
-      "age_days": 91,
-      "summary": "Ships are actively refusing US military-guided Hormuz transits following attacks \u2014 the rerouting behavior that was a watchlist condition is now reported fact. Iran also summoned the British envoy today over its IRGC (the Islamic Revolutionary Guard Corps, Iran's elite military and paramilitary force) designation, and US officials confirmed that recent American strikes on Iran strengthen Trump's escalation options. The question has shifted from whether avoidance behavior would emerge to how widely it spreads and how quickly insurance markets price it."
+      "age_days": 92,
+      "summary": "Oil reached $85 and Congress advanced formal Iran war funding legislation today \u2014 the conflict has crossed from executive military action into congressional budget territory, a qualitative escalation. The Dubai security scare (officials issuing a statement specifically denying explosions in the city) signals that threat perception is now wide enough to unsettle assets far beyond the Strait. The open question is whether the Senate takes up companion legislation, and what formal war authorization does to the expected duration of the energy risk premium."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Signal Reset",
+      "label": "Rotation Trying to Reassert",
       "first_seen": "2026-06-02",
-      "age_days": 43,
-      "summary": "The three-session Nasdaq-versus-Dow rotation pattern failed to complete: today's soft CPI and strong ASML semiconductor equipment earnings lifted tech broadly, with Nasdaq gaining 0.62% against the Dow's 0.29% \u2014 the opposite of the signal. The specific streak reset without triggering. The structural case for rotation from growth to value remains intact given deteriorating employment, persistent core inflation, and rising energy costs, but this signal window closed without firing. Watch for the pattern to re-emerge as earnings season progresses and energy inflation builds."
+      "age_days": 44,
+      "summary": "Nasdaq -1.47% versus Dow -0.2% today revives the rotation divergence, though the formal three-consecutive-session signal did not start \u2014 the Dow closed slightly negative rather than flat or positive. The structural logic is intact: energy at $85 benefits value and energy stocks while raising inflation expectations, which push up the interest rates investors use to value future corporate earnings, hitting tech hardest. Two more sessions matching this pattern formally trigger the signal."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -72,10 +72,10 @@
     },
     {
       "id": "stagflation-confirmed",
-      "label": "July CPI Already Being Written",
+      "label": "Oil at $85 Sharpens August CPI",
       "first_seen": "2026-07-02",
-      "age_days": 13,
-      "summary": "The energy channel is actively building: oil rose on the day despite the broader risk-on session, ships are rerouting from Hormuz, Kalshi prediction markets are pricing gas above $4 by end of July, and India raised diesel and jet fuel export taxes today \u2014 adding regional supply pressure. June's soft CPI was entirely conditional on energy conditions that no longer exist. The structural stagflation thesis now has both the tariff pass-through channel and the energy supply disruption channel compounding simultaneously. August 13 is the next inflection point."
+      "age_days": 14,
+      "summary": "Oil at $85 means July's energy inflation contribution is building materially with each session \u2014 the August CPI report arriving around August 13 is being written by today's prices. Congressional war funding adds a second inflationary channel: defense appropriations at scale inject fiscal demand into an economy where the Fed cannot respond with cuts. The stagflation trap is tightening from both ends simultaneously."
     }
   ],
   "historical_comps_used": [
@@ -112,34 +112,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-09-3",
-      "date_added": "2026-07-09",
-      "condition": "The Nasdaq 100 closes above its most recent 52-week high within the next 10 trading sessions, on volume at least 20% above its 30-day average",
-      "meaning": "Confirms today's large QQQ institutional trade was a genuine breakout signal with broad participation behind it, not a single outsized bet at the top of a range.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-13-1",
-      "date_added": "2026-07-13",
-      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive for three consecutive sessions",
-      "meaning": "The stagflation rotation has arrived in force \u2014 AI exceptionalism is losing to macro reality, and the concentrated positions in tech that led the market higher for months face a sustained, not temporary, unwinding.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-13-3",
       "date_added": "2026-07-13",
       "condition": "Iran formally announces a suspension or closure of the Strait of Hormuz to non-Iranian commercial shipping",
       "meaning": "This is the maximum-escalation scenario the market has not yet priced \u2014 roughly one-fifth of global oil trade stops flowing immediately, Brent spikes past $90, and the Fed's inflation problem becomes unmanageable regardless of what Chair Warsh wants to do.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-14-0",
-      "date_added": "2026-07-14",
-      "condition": "Brent crude \u2014 the international oil price benchmark \u2014 closes above $80 per barrel for three consecutive sessions",
-      "meaning": "The energy channel into August's CPI report is fully open; the rate-hike debate shifts from theoretical to probable, and high-multiple growth stocks face renewed and sustained selling pressure.",
       "status": "open",
       "outcome": ""
     },
@@ -176,18 +152,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-15-2",
-      "date_added": "2026-07-15",
-      "condition": "Iran takes formal retaliatory action following the IRGC designation \u2014 additional missile strikes on commercial vessels, tanker seizures, or a formal Hormuz announcement \u2014 within the next five trading days",
-      "meaning": "It means the diplomatic escalation ladder has another rung, oil spikes, and Trump's additional escalation options shift from background risk to active front-page policy debate.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-15-3",
       "date_added": "2026-07-15",
       "condition": "Any of Discover, Capital One, or American Express reports its Q2 earnings \u2014 April-through-June profit results \u2014 without addressing credit standard changes or reserve levels in either the prepared remarks or analyst question-and-answer session",
       "meaning": "It means the silence is being maintained under direct investor questioning, which is more alarming than the silence itself \u2014 companies facing deteriorating loan portfolios typically get ahead of bad news on earnings calls, not behind it.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-16-0",
+      "date_added": "2026-07-16",
+      "condition": "The full US House of Representatives passes Iran war funding legislation to a floor vote",
+      "meaning": "Congressional authorization transforms the conflict's expected duration \u2014 energy, defense, and industrial stocks become structural beneficiaries while tech and consumer discretionary face a sustained headwind that no single diplomatic headline can quickly reverse.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-16-1",
+      "date_added": "2026-07-16",
+      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive on July 17",
+      "meaning": "That is day one of the formal three-consecutive-session rotation signal \u2014 two more matching sessions confirms the structural rotation from growth to value is underway and actionable.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-16-2",
+      "date_added": "2026-07-16",
+      "condition": "Brent crude \u2014 the international oil benchmark \u2014 closes above $90 per barrel on any session this week",
+      "meaning": "At $90, energy's July contribution to inflation is large enough that even a modest oil retreat before August 13 would not prevent a materially higher CPI read, and the surprise-rate-hike risk the Fed has supposedly taken off the table comes back onto it.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-16-3",
+      "date_added": "2026-07-16",
+      "condition": "Iran makes any formal or informal diplomatic signal \u2014 a hostage release, ceasefire proposal, or back-channel communication acknowledged by the US State Department",
+      "meaning": "Even a small negotiating gesture would collapse the oil premium quickly and is the single most powerful single-session reversal trigger available to markets right now.",
       "status": "open",
       "outcome": ""
     }
