@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Holds His Ground",
+      "label": "Hold Finally Gets Priced",
       "first_seen": "2026-04-15",
-      "age_days": 90,
-      "summary": "Warsh's 'no tolerance for high inflation' statement today, paired with zero signal on next move, is the public posture of a Fed chair who has engineered a clean holding pattern: the benign CPI print gives him cover to hold without hiking, and the oil spike gives him cover to hold without cutting. This is the hold-through-2027 posture working exactly as designed. The intellectual scaffolding he is constructing \u2014 advisory task forces featuring voices positioned to argue AI-driven productivity growth \u2014 continues to build the public justification for an extended hold even as labor data weakens."
+      "age_days": 93,
+      "summary": "Warsh's no-cut posture has migrated from verbal commitment to market reality \u2014 the chip sector's sell-off today is behavioral confirmation that the hold-through-2027 message has been internalized by the equity market's most rate-sensitive corner. The next real catalyst is August 13's CPI report, which covers July data and will either validate or challenge the extended hold. Until then, the Fed's posture is fixed and its effect on tech valuations compounds daily."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "War Budget Enters the Picture",
+      "label": "Tensions Move Mortgage Rates",
       "first_seen": "2026-04-15",
-      "age_days": 92,
-      "summary": "Oil reached $85 and Congress advanced formal Iran war funding legislation today \u2014 the conflict has crossed from executive military action into congressional budget territory, a qualitative escalation. The Dubai security scare (officials issuing a statement specifically denying explosions in the city) signals that threat perception is now wide enough to unsettle assets far beyond the Strait. The open question is whether the Senate takes up companion legislation, and what formal war authorization does to the expected duration of the energy risk premium."
+      "age_days": 93,
+      "summary": "Renewed Middle East tensions moved mortgage rates visibly on July 17, confirming that the geopolitical-to-borrowing-costs transmission channel remains live and active. Boeing's decision to leave its 20-year commercial jet demand forecast unchanged despite the Iran conflict is a notable industrial signal: when a major buyer treats the war as baseline rather than disruption, it suggests the shock premium embedded in energy prices may be narrowing even as physical supply risks persist. The Senate companion legislation question \u2014 whether Congress formally authorizes war duration and funding \u2014 remains the structural variable determining how long the energy risk premium holds."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "July Dead, August Now Live",
+      "label": "Rates Rise on Geopolitics",
       "first_seen": "2026-05-15",
-      "age_days": 61,
-      "summary": "Today's below-expectations CPI officially ends the July rate-hike debate \u2014 Warsh holds, markets priced it correctly. The calendar now becomes the most important variable: August's CPI report will cover July's data, precisely the period when oil began rising materially and Hormuz avoidance began in earnest. That report arrives around August 13 and becomes the next real decision point for the Fed. The market is right to be relieved today; it may be wrong to assume August looks the same."
+      "age_days": 63,
+      "summary": "The Guardian's explicit link between renewed Middle East tensions and rising mortgage rates on July 17 confirms the yield transmission mechanism remains active: geopolitical risk keeps oil elevated, elevated oil keeps inflation expectations elevated, elevated inflation expectations push government bond yields (the interest rate the government pays to borrow \u2014 which sets the floor for all other borrowing costs) higher, and rising government bond yields drag mortgage rates upward. August 13's CPI is the next true decision node; every oil-price session between now and then is building that report's headline number."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Trying to Reassert",
+      "label": "Rotation Deepens Again",
       "first_seen": "2026-06-02",
-      "age_days": 44,
-      "summary": "Nasdaq -1.47% versus Dow -0.2% today revives the rotation divergence, though the formal three-consecutive-session signal did not start \u2014 the Dow closed slightly negative rather than flat or positive. The structural logic is intact: energy at $85 benefits value and energy stocks while raising inflation expectations, which push up the interest rates investors use to value future corporate earnings, hitting tech hardest. Two more sessions matching this pattern formally trigger the signal."
+      "age_days": 45,
+      "summary": "Nasdaq -1.4% versus Dow -0.77% on July 17 continues the directional pattern of tech underperforming value by roughly 2-to-1. The formal three-session trigger \u2014 Dow flat or positive while Nasdaq falls 1% or more \u2014 was not met because the Dow also declined, but the magnitude ratio confirms sustained capital rotation away from rate-sensitive growth stocks. Two sessions next week with Dow losses under 0.3% and Nasdaq losses above 1% would formally confirm the signal."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,17 +65,17 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Silence Enters Earnings Season",
+      "label": "Silence Deepens Into Earnings",
       "first_seen": "2026-06-23",
-      "age_days": 22,
-      "summary": "Discover, Capital One, and American Express have now been silent for 21-plus days on credit standards and reserve levels. With Q2 earnings season now active \u2014 BlackRock reported today \u2014 the credit card lenders will face direct investor questioning within the next two to three weeks. Their earnings calls will either resolve the silence with reassurance or confirm deterioration through reserve levels and forward guidance language. Pump prices approaching $4 continue to squeeze the exact household budgets these lenders are most exposed to."
+      "age_days": 24,
+      "summary": "No Q2 earnings from Discover, Capital One, or American Express today. With BlackRock already reporting and earnings season now active, the window for these lenders narrows each session. Their silence now extends past 22 days on credit standards and loan-loss reserves (money banks set aside for expected defaults) \u2014 questions that will be put directly to management on their earnings calls. Those calls will either reassure with hard data or expose deterioration through reserve builds and cautious forward guidance."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Oil at $85 Sharpens August CPI",
+      "label": "Energy Supply Squeezed Both Ends",
       "first_seen": "2026-07-02",
-      "age_days": 14,
-      "summary": "Oil at $85 means July's energy inflation contribution is building materially with each session \u2014 the August CPI report arriving around August 13 is being written by today's prices. Congressional war funding adds a second inflationary channel: defense appropriations at scale inject fiscal demand into an economy where the Fed cannot respond with cuts. The stagflation trap is tightening from both ends simultaneously."
+      "age_days": 15,
+      "summary": "The Pentagon's freeze of 155 wind farm projects on national security grounds introduces a new domestic constraint on future electricity supply capacity, layering on top of the Iran/Hormuz international oil supply risk. Long-run energy supply is now being squeezed simultaneously from geopolitical and regulatory directions \u2014 a structurally inflationary combination that Warsh cannot address with rate cuts. This is not a near-term price mover, but it narrows the long-run path to lower energy costs that could eventually give the Fed any room to ease."
     }
   ],
   "historical_comps_used": [
@@ -108,33 +108,19 @@
       "year": "2019",
       "context": "In June 2019, two tankers were attacked in the Gulf of Oman. In September 2019, ",
       "date_used": "2026-07-07"
+    },
+    {
+      "year": "2018",
+      "context": "The index tracking the 30 largest chip companies fell roughly 37% from its March",
+      "date_used": "2026-07-17"
+    },
+    {
+      "year": "1998",
+      "context": "Broad market stocks fell roughly 19% in three months when the Russian debt defau",
+      "date_used": "2026-07-17"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-13-3",
-      "date_added": "2026-07-13",
-      "condition": "Iran formally announces a suspension or closure of the Strait of Hormuz to non-Iranian commercial shipping",
-      "meaning": "This is the maximum-escalation scenario the market has not yet priced \u2014 roughly one-fifth of global oil trade stops flowing immediately, Brent spikes past $90, and the Fed's inflation problem becomes unmanageable regardless of what Chair Warsh wants to do.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-14-1",
-      "date_added": "2026-07-14",
-      "condition": "A second major technology company \u2014 outside IBM \u2014 issues a profit warning or materially misses earnings estimates during this reporting season (the quarterly window when major companies release profit results)",
-      "meaning": "IBM's collapse is not company-specific; AI-exceptionalism in corporate earnings is cracking, and the rotation from tech into defensives has a fundamental earnings driver behind it rather than a purely macro one.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-14-3",
-      "date_added": "2026-07-14",
-      "condition": "Trump reinstates any version of the Hormuz toll or announces new economic measures targeting Strait traffic",
-      "meaning": "The de-escalation signal from today's toll withdrawal reverses, oil gets a fresh upward catalyst, and the $80 Brent threshold comes immediately back into play.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-15-0",
       "date_added": "2026-07-15",
@@ -168,14 +154,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-16-1",
-      "date_added": "2026-07-16",
-      "condition": "Nasdaq closes down 1% or more while the Dow closes flat or positive on July 17",
-      "meaning": "That is day one of the formal three-consecutive-session rotation signal \u2014 two more matching sessions confirms the structural rotation from growth to value is underway and actionable.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-16-2",
       "date_added": "2026-07-16",
       "condition": "Brent crude \u2014 the international oil benchmark \u2014 closes above $90 per barrel on any session this week",
@@ -188,6 +166,38 @@
       "date_added": "2026-07-16",
       "condition": "Iran makes any formal or informal diplomatic signal \u2014 a hostage release, ceasefire proposal, or back-channel communication acknowledged by the US State Department",
       "meaning": "Even a small negotiating gesture would collapse the oil premium quickly and is the single most powerful single-session reversal trigger available to markets right now.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-17-0",
+      "date_added": "2026-07-17",
+      "condition": "The Nasdaq closes down more than 1% while the Dow closes down less than 0.3% on any two consecutive sessions in the week beginning July 21",
+      "meaning": "Two sessions of this pattern confirm that the rotation from tech into value is structural rather than episodic \u2014 the gap between the two indexes will likely widen further, and the stagflation-pricing thesis is formally confirmed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-17-1",
+      "date_added": "2026-07-17",
+      "condition": "SpaceX shares close more than 10% below their IPO debut price (the price at which shares first traded when the company went public on the stock market) on any two consecutive sessions",
+      "meaning": "If this happens, the market is broadly repricing the speculative premium attached to high-profile technology listings \u2014 a warning that every other AI and high-valuation tech company carrying similar future-earnings assumptions faces the same downside risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-17-2",
+      "date_added": "2026-07-17",
+      "condition": "The Senate Judiciary or Armed Services Committee schedules a formal vote on companion legislation to the House Iran war funding bill within the next two weeks",
+      "meaning": "If the Senate moves quickly toward formal war authorization, the expected duration of the conflict extends materially \u2014 making oil above $90 significantly more probable, the Fed's hold timeline longer, and the July CPI inflation number larger.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-17-3",
+      "date_added": "2026-07-17",
+      "condition": "Any major semiconductor company reporting Q2 earnings \u2014 Nvidia, AMD, TSMC, or Broadcom \u2014 explicitly acknowledges slowing AI chip order rates on its earnings call, even without formally missing earnings estimates or issuing a profit warning",
+      "meaning": "An acknowledgment of slowing orders without a formal miss is more ominous than a clean earnings miss \u2014 it means demand deterioration has not yet hit reported numbers but is already in the pipeline, and the chip sell-off has much further to run than a pure rate story would imply.",
       "status": "open",
       "outcome": ""
     }
