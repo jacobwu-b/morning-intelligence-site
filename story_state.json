@@ -4,15 +4,15 @@
       "id": "fed-leadership-transition",
       "label": "Hold Finally Gets Priced",
       "first_seen": "2026-04-15",
-      "age_days": 93,
-      "summary": "Warsh's no-cut posture has migrated from verbal commitment to market reality \u2014 the chip sector's sell-off today is behavioral confirmation that the hold-through-2027 message has been internalized by the equity market's most rate-sensitive corner. The next real catalyst is August 13's CPI report, which covers July data and will either validate or challenge the extended hold. Until then, the Fed's posture is fixed and its effect on tech valuations compounds daily."
+      "age_days": 96,
+      "summary": "No new Fed news on July 21. Warsh's hold-through-2027 posture is the fixed backdrop against which every new inflation development \u2014 including $4 gas \u2014 compounds daily. $4 gas in mid-July feeds almost directly into the July CPI data reported August 13, making that number harder for Warsh to read as benign. The hold is locked in until then."
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Tensions Move Mortgage Rates",
       "first_seen": "2026-04-15",
-      "age_days": 93,
-      "summary": "Renewed Middle East tensions moved mortgage rates visibly on July 17, confirming that the geopolitical-to-borrowing-costs transmission channel remains live and active. Boeing's decision to leave its 20-year commercial jet demand forecast unchanged despite the Iran conflict is a notable industrial signal: when a major buyer treats the war as baseline rather than disruption, it suggests the shock premium embedded in energy prices may be narrowing even as physical supply risks persist. The Senate companion legislation question \u2014 whether Congress formally authorizes war duration and funding \u2014 remains the structural variable determining how long the energy risk premium holds."
+      "age_days": 96,
+      "summary": "The Houthis formally declared a naval blockade against Saudi Arabia on July 21 \u2014 a step up from individual ship attacks to claiming authority over all Saudi maritime commerce via the Red Sea and Bab-el-Mandeb Strait, the narrow chokepoint at the Red Sea's southern mouth. Saudi Arabia condemned the declaration. Reuters noted pipeline alternatives and Cape of Good Hope rerouting \u2014 a longer voyage around Africa's southern tip instead of through the Red Sea \u2014 as workarounds that could limit the physical impact, but the declaration alone forces insurers and shipping companies to re-price Saudi trade routes. Separately, national gas prices crossed $4 a gallon, making the war's cost visible at every American gas station. The Senate war authorization question remains the structural variable determining how long the energy risk premium holds."
     },
     {
       "id": "institutional-erosion",
@@ -32,15 +32,15 @@
       "id": "treasury-yield-shock",
       "label": "Rates Rise on Geopolitics",
       "first_seen": "2026-05-15",
-      "age_days": 63,
-      "summary": "The Guardian's explicit link between renewed Middle East tensions and rising mortgage rates on July 17 confirms the yield transmission mechanism remains active: geopolitical risk keeps oil elevated, elevated oil keeps inflation expectations elevated, elevated inflation expectations push government bond yields (the interest rate the government pays to borrow \u2014 which sets the floor for all other borrowing costs) higher, and rising government bond yields drag mortgage rates upward. August 13's CPI is the next true decision node; every oil-price session between now and then is building that report's headline number."
+      "age_days": 66,
+      "summary": "UK gilt yields \u2014 the interest rate the British government pays to borrow \u2014 edged higher on July 21 as new Prime Minister Andy Burnham pledged to meet fiscal rules, a parallel signal that government borrowing costs face upward pressure across developed markets, not just the US. The domestic transmission mechanism remains unchanged: $4 gas feeds directly into July's headline inflation reading, which feeds the August 13 CPI (Consumer Price Index \u2014 the government's main monthly inflation gauge) print, which determines whether Warsh's hold is validated or challenged. Every oil-price session between now and August 13 is an input into that report."
     },
     {
       "id": "stagflation-pricing",
       "label": "Rotation Deepens Again",
       "first_seen": "2026-06-02",
-      "age_days": 45,
-      "summary": "Nasdaq -1.4% versus Dow -0.77% on July 17 continues the directional pattern of tech underperforming value by roughly 2-to-1. The formal three-session trigger \u2014 Dow flat or positive while Nasdaq falls 1% or more \u2014 was not met because the Dow also declined, but the magnitude ratio confirms sustained capital rotation away from rate-sensitive growth stocks. Two sessions next week with Dow losses under 0.3% and Nasdaq losses above 1% would formally confirm the signal."
+      "age_days": 48,
+      "summary": "July 21 broke the recent directional pattern: the Dow fell -0.59% while the Nasdaq moved barely -0.05%, the inverse of last week's tech-underperforms-value rotation. This appears to reflect geopolitical and shipping disruption risk landing harder on Dow-weighted industrials and energy-exposed names than on tech. The formal rotation trigger \u2014 Nasdaq down more than 1% while Dow down less than 0.3% on two consecutive sessions in the week of July 21 \u2014 did not fire on day one. Tuesday's session is the next key data point."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -67,15 +67,15 @@
       "id": "lender-margin-compression",
       "label": "Silence Deepens Into Earnings",
       "first_seen": "2026-06-23",
-      "age_days": 24,
-      "summary": "No Q2 earnings from Discover, Capital One, or American Express today. With BlackRock already reporting and earnings season now active, the window for these lenders narrows each session. Their silence now extends past 22 days on credit standards and loan-loss reserves (money banks set aside for expected defaults) \u2014 questions that will be put directly to management on their earnings calls. Those calls will either reassure with hard data or expose deterioration through reserve builds and cautious forward guidance."
+      "age_days": 27,
+      "summary": "No Q2 earnings from Discover, Capital One, or American Express on July 21, extending the silence on credit standards and loan-loss reserves \u2014 money banks set aside for expected defaults \u2014 to at least 23 days. With earnings season fully active, each passing session without a major consumer lender reporting narrows the window before those questions are put directly to management on earnings calls. The next several sessions are the highest-probability window for these reports."
     },
     {
       "id": "stagflation-confirmed",
       "label": "Energy Supply Squeezed Both Ends",
       "first_seen": "2026-07-02",
-      "age_days": 15,
-      "summary": "The Pentagon's freeze of 155 wind farm projects on national security grounds introduces a new domestic constraint on future electricity supply capacity, layering on top of the Iran/Hormuz international oil supply risk. Long-run energy supply is now being squeezed simultaneously from geopolitical and regulatory directions \u2014 a structurally inflationary combination that Warsh cannot address with rate cuts. This is not a near-term price mover, but it narrows the long-run path to lower energy costs that could eventually give the Fed any room to ease."
+      "age_days": 18,
+      "summary": "$4 gas confirmed July 21 adds a concrete consumer data point to the stagflation picture: energy costs are now above the threshold at which American behavior historically changes, arriving alongside 4.2% core inflation \u2014 the rate of price increases excluding food and energy, which measures underlying price pressure \u2014 and a labor market that produced only 57,000 jobs last month. The Pentagon wind farm freeze, Iran/Hormuz risk, and now the Houthi Red Sea blockade are simultaneously squeezing energy supply from domestic regulatory and international geopolitical directions. Warsh's hold-through-2027 posture cannot address cost-push inflation \u2014 price increases driven by supply constraints rather than excess consumer demand \u2014 meaning households absorb the full squeeze with no policy relief in sight."
     }
   ],
   "historical_comps_used": [
@@ -122,42 +122,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-15-0",
-      "date_added": "2026-07-15",
-      "condition": "Tanker tracking services, Lloyd's of London, or public shipping company statements confirm more than five additional vessels refusing Hormuz transits within the next five trading days",
-      "meaning": "It means the avoidance is systematic rather than episodic, effective oil supply tightens materially, and the August CPI risk becomes the central market story rather than a background concern.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-15-1",
-      "date_added": "2026-07-15",
-      "condition": "National average pump price for regular gasoline crosses $4.00 per gallon as confirmed by AAA or EIA weekly data",
-      "meaning": "It means energy inflation has reached the household level directly, tightening the same consumer budgets the silent credit card lenders are most exposed to and giving August CPI a concrete, visible number to beat.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-15-3",
-      "date_added": "2026-07-15",
-      "condition": "Any of Discover, Capital One, or American Express reports its Q2 earnings \u2014 April-through-June profit results \u2014 without addressing credit standard changes or reserve levels in either the prepared remarks or analyst question-and-answer session",
-      "meaning": "It means the silence is being maintained under direct investor questioning, which is more alarming than the silence itself \u2014 companies facing deteriorating loan portfolios typically get ahead of bad news on earnings calls, not behind it.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-16-0",
       "date_added": "2026-07-16",
       "condition": "The full US House of Representatives passes Iran war funding legislation to a floor vote",
       "meaning": "Congressional authorization transforms the conflict's expected duration \u2014 energy, defense, and industrial stocks become structural beneficiaries while tech and consumer discretionary face a sustained headwind that no single diplomatic headline can quickly reverse.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-16-2",
-      "date_added": "2026-07-16",
-      "condition": "Brent crude \u2014 the international oil benchmark \u2014 closes above $90 per barrel on any session this week",
-      "meaning": "At $90, energy's July contribution to inflation is large enough that even a modest oil retreat before August 13 would not prevent a materially higher CPI read, and the surprise-rate-hike risk the Fed has supposedly taken off the table comes back onto it.",
       "status": "open",
       "outcome": ""
     },
@@ -198,6 +166,38 @@
       "date_added": "2026-07-17",
       "condition": "Any major semiconductor company reporting Q2 earnings \u2014 Nvidia, AMD, TSMC, or Broadcom \u2014 explicitly acknowledges slowing AI chip order rates on its earnings call, even without formally missing earnings estimates or issuing a profit warning",
       "meaning": "An acknowledgment of slowing orders without a formal miss is more ominous than a clean earnings miss \u2014 it means demand deterioration has not yet hit reported numbers but is already in the pipeline, and the chip sell-off has much further to run than a pure rate story would imply.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-20-0",
+      "date_added": "2026-07-20",
+      "condition": "MarineTraffic, Lloyd's of London, or any major maritime insurer or shipping company publicly confirms that Saudi oil tankers are actively diverting away from the Red Sea or Bab-el-Mandeb Strait following today's Houthi blockade declaration",
+      "meaning": "If confirmed, the blockade is operational rather than declaratory \u2014 Saudi oil export disruption is real, and a Brent spike above $90 becomes the base case rather than the tail risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-20-1",
+      "date_added": "2026-07-20",
+      "condition": "Brent crude \u2014 the international oil price benchmark \u2014 closes above $90 per barrel on any session in the week of July 21\u201325",
+      "meaning": "This signals energy markets are pricing the Houthi blockade as a credible supply threat, making the August CPI upside risk severe and effectively extending Warsh's hold deeper into 2027.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-20-2",
+      "date_added": "2026-07-20",
+      "condition": "The national average gasoline price as reported by AAA's daily tracker rises above $4.25 per gallon within the next five trading days",
+      "meaning": "$4 was a floor, not a ceiling \u2014 the consumer budget squeeze deepens materially and July's retail spending data will show it.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-20-3",
+      "date_added": "2026-07-20",
+      "condition": "Any major US airline, logistics company, or consumer retailer reporting Q2 earnings this week explicitly cites higher fuel costs or softer consumer spending as a reason for reduced forward guidance",
+      "meaning": "The stagflation signal migrates from government statistics into corporate earnings guidance \u2014 which markets price faster and more visibly than monthly data releases.",
       "status": "open",
       "outcome": ""
     }

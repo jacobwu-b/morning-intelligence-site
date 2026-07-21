@@ -19,3 +19,5 @@
 {"timestamp": "2026-07-16T15:28:15Z", "market_date": "2026-07-15", "success": true, "elapsed_s": 297, "tokens_in": 6203, "tokens_out": 16392, "retried": false, "brief_format": "delta"}
 {"timestamp": "2026-07-17T15:09:22Z", "market_date": "2026-07-16", "success": true, "elapsed_s": 331, "tokens_in": 6238, "tokens_out": 19199, "retried": false, "brief_format": "delta"}
 {"timestamp": "2026-07-18T14:52:33Z", "market_date": "2026-07-17", "success": true, "elapsed_s": 584, "tokens_in": 6277, "tokens_out": 31405, "retried": false, "brief_format": "full"}
+{"timestamp": "2026-07-21T15:33:58Z", "market_date": "2026-07-20", "success": true, "elapsed_s": 405, "tokens_in": 6137, "tokens_out": 24297, "retried": false, "brief_format": "delta", "zh_translated": 0, "zh_chars_submitted": 0, "zh_failures_skipped": 0}
+{"timestamp": "2026-07-21T15:34:01Z", "market_date": "2026-07-21", "success": false, "elapsed_s": 0, "tokens_in": 0, "tokens_out": 0, "retried": false, "brief_format": "chinese_mirror", "zh_translated": 3, "zh_chars_submitted": 57945, "zh_failures_skipped": 1}
