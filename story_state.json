@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Hold Finally Gets Priced",
+      "label": "Hold Locked In Further",
       "first_seen": "2026-04-15",
-      "age_days": 96,
-      "summary": "No new Fed news on July 21. Warsh's hold-through-2027 posture is the fixed backdrop against which every new inflation development \u2014 including $4 gas \u2014 compounds daily. $4 gas in mid-July feeds almost directly into the July CPI data reported August 13, making that number harder for Warsh to read as benign. The hold is locked in until then."
+      "age_days": 97,
+      "summary": "No new Fed communication on July 21, but the backdrop hardened: oil above $90 makes the August 13 CPI path sharply more difficult and Warsh's hold-through-2027 posture more bulletproof. Cutting rates into a supply-driven inflation wave above $90 oil would be seen as surrendering on the Fed's core mandate. The only path to any 2026 rate relief runs through oil coming back down materially and CPI showing a credible sustained decline \u2014 neither condition is remotely visible today."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Tensions Move Mortgage Rates",
+      "label": "Oil Crosses $90",
       "first_seen": "2026-04-15",
-      "age_days": 96,
-      "summary": "The Houthis formally declared a naval blockade against Saudi Arabia on July 21 \u2014 a step up from individual ship attacks to claiming authority over all Saudi maritime commerce via the Red Sea and Bab-el-Mandeb Strait, the narrow chokepoint at the Red Sea's southern mouth. Saudi Arabia condemned the declaration. Reuters noted pipeline alternatives and Cape of Good Hope rerouting \u2014 a longer voyage around Africa's southern tip instead of through the Red Sea \u2014 as workarounds that could limit the physical impact, but the declaration alone forces insurers and shipping companies to re-price Saudi trade routes. Separately, national gas prices crossed $4 a gallon, making the war's cost visible at every American gas station. The Senate war authorization question remains the structural variable determining how long the energy risk premium holds."
+      "age_days": 97,
+      "summary": "Brent crude closed above $90 per barrel on July 21, crossing the first concrete price threshold since the Iran war began, driven by the Houthi naval blockade declaration against Saudi Arabia and direct US-Iran fire exchange. At $90, marine insurers formally reprice Saudi trade routes, airlines revise fuel-cost assumptions for forward guidance, and the August 13 CPI path hardens materially. The Senate war authorization question remains the structural variable determining whether the conflict has a legal framework that sustains the risk premium long-term. The next level to watch is $95 \u2014 a breach there signals the $90 crossing was a floor, not peak-fear pricing on the blockade declaration."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Rates Rise on Geopolitics",
+      "label": "60bps Since War Start",
       "first_seen": "2026-05-15",
-      "age_days": 66,
-      "summary": "UK gilt yields \u2014 the interest rate the British government pays to borrow \u2014 edged higher on July 21 as new Prime Minister Andy Burnham pledged to meet fiscal rules, a parallel signal that government borrowing costs face upward pressure across developed markets, not just the US. The domestic transmission mechanism remains unchanged: $4 gas feeds directly into July's headline inflation reading, which feeds the August 13 CPI (Consumer Price Index \u2014 the government's main monthly inflation gauge) print, which determines whether Warsh's hold is validated or challenged. Every oil-price session between now and August 13 is an input into that report."
+      "age_days": 67,
+      "summary": "Today's reporting quantified the cumulative damage: 10-year US Treasury yields \u2014 the rate the government pays to borrow for a decade, which sets the floor for mortgages and corporate loans \u2014 are up 60 basis points (0.60 percentage points) since the Iran war started. With oil now above $90, the inflation expectations baked into those higher yields are being validated rather than corrected. If the August 13 CPI comes in above expectations, yields push further and the Fed's hold becomes a longer story than even Warsh has signaled publicly."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Deepens Again",
+      "label": "Rotation Paused, Not Confirmed Dead",
       "first_seen": "2026-06-02",
-      "age_days": 48,
-      "summary": "July 21 broke the recent directional pattern: the Dow fell -0.59% while the Nasdaq moved barely -0.05%, the inverse of last week's tech-underperforms-value rotation. This appears to reflect geopolitical and shipping disruption risk landing harder on Dow-weighted industrials and energy-exposed names than on tech. The formal rotation trigger \u2014 Nasdaq down more than 1% while Dow down less than 0.3% on two consecutive sessions in the week of July 21 \u2014 did not fire on day one. Tuesday's session is the next key data point."
+      "age_days": 49,
+      "summary": "Tuesday July 21 ran counter to the recent rotation pattern: the Nasdaq led with +1.29% while the Dow gained +0.74%, the opposite of the geopolitical-escalation dynamic that has prevailed on risk-off days. The rotation watchlist condition \u2014 Nasdaq down more than 1% while Dow down less than 0.3% on two consecutive sessions this week \u2014 did not trigger. The most likely explanation is that chip-sector earnings optimism temporarily overrode the macro rotation. Wednesday and Thursday sessions will determine whether today was a brief interruption or evidence the rotation thesis was always overstated."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -51,10 +51,10 @@
     },
     {
       "id": "soft-landing-dead",
-      "label": "Confirmed: No Soft Landing",
+      "label": "Confirmed \u2014 Theme Complete",
       "first_seen": "2026-06-15",
-      "age_days": 17,
-      "summary": "57,000 jobs and 61.5% labor force participation officially closed the soft landing thesis. The scenario required inflation to cool while employment held \u2014 instead, employment is deteriorating while core inflation remains at 4.2%. This theme is resolved as confirmed; future briefs should track stagflation-confirmed and stagflation-pricing rather than this framing."
+      "age_days": 36,
+      "summary": "The soft landing thesis is closed and confirmed: 57,000 jobs and 4.2% core inflation ended the scenario that required inflation to cool while employment held. This theme requires no further tracking \u2014 future briefs should operate from stagflation-confirmed and stagflation-pricing as the live analytical frameworks. The only remaining question is severity and duration, not the label."
     },
     {
       "id": "warsh-hawkish-pivot",
@@ -65,17 +65,17 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Silence Deepens Into Earnings",
+      "label": "Day 24, Still Silent",
       "first_seen": "2026-06-23",
-      "age_days": 27,
-      "summary": "No Q2 earnings from Discover, Capital One, or American Express on July 21, extending the silence on credit standards and loan-loss reserves \u2014 money banks set aside for expected defaults \u2014 to at least 23 days. With earnings season fully active, each passing session without a major consumer lender reporting narrows the window before those questions are put directly to management on earnings calls. The next several sessions are the highest-probability window for these reports."
+      "age_days": 28,
+      "summary": "No Q2 earnings from Discover Financial, Capital One, or American Express on July 21, extending the consumer lender silence to day 24. With earnings season fully active across most sectors, each passing session narrows the window before these companies face direct analyst questions on delinquency rates \u2014 the share of borrowers who have missed payments \u2014 and loan-loss reserves, the money banks set aside for expected defaults. When these numbers surface, they will be the first hard read on whether the softening job market has begun flowing through to consumer credit quality in a measurable way."
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Energy Supply Squeezed Both Ends",
+      "label": "Energy Squeeze Deepens",
       "first_seen": "2026-07-02",
-      "age_days": 18,
-      "summary": "$4 gas confirmed July 21 adds a concrete consumer data point to the stagflation picture: energy costs are now above the threshold at which American behavior historically changes, arriving alongside 4.2% core inflation \u2014 the rate of price increases excluding food and energy, which measures underlying price pressure \u2014 and a labor market that produced only 57,000 jobs last month. The Pentagon wind farm freeze, Iran/Hormuz risk, and now the Houthi Red Sea blockade are simultaneously squeezing energy supply from domestic regulatory and international geopolitical directions. Warsh's hold-through-2027 posture cannot address cost-push inflation \u2014 price increases driven by supply constraints rather than excess consumer demand \u2014 meaning households absorb the full squeeze with no policy relief in sight."
+      "age_days": 19,
+      "summary": "Oil at $90 on July 21 adds a concrete price anchor to the stagflation picture: energy costs have crossed a level that historically changes American consumer behavior and materially affects corporate fuel assumptions, arriving alongside 4.2% core inflation and a labor market that produced only 57,000 jobs last month. The Pentagon wind farm freeze, Iran/Hormuz risk, and the Houthi Red Sea blockade are simultaneously squeezing supply from domestic regulatory and international geopolitical directions \u2014 this is cost-push inflation, meaning price increases driven by supply constraints rather than excess demand, which Warsh's rate hold literally cannot address. The consumer absorbs the full squeeze with no policy relief in view."
     }
   ],
   "historical_comps_used": [
@@ -122,30 +122,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-16-0",
-      "date_added": "2026-07-16",
-      "condition": "The full US House of Representatives passes Iran war funding legislation to a floor vote",
-      "meaning": "Congressional authorization transforms the conflict's expected duration \u2014 energy, defense, and industrial stocks become structural beneficiaries while tech and consumer discretionary face a sustained headwind that no single diplomatic headline can quickly reverse.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-16-3",
-      "date_added": "2026-07-16",
-      "condition": "Iran makes any formal or informal diplomatic signal \u2014 a hostage release, ceasefire proposal, or back-channel communication acknowledged by the US State Department",
-      "meaning": "Even a small negotiating gesture would collapse the oil premium quickly and is the single most powerful single-session reversal trigger available to markets right now.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-17-0",
-      "date_added": "2026-07-17",
-      "condition": "The Nasdaq closes down more than 1% while the Dow closes down less than 0.3% on any two consecutive sessions in the week beginning July 21",
-      "meaning": "Two sessions of this pattern confirm that the rotation from tech into value is structural rather than episodic \u2014 the gap between the two indexes will likely widen further, and the stagflation-pricing thesis is formally confirmed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-17-1",
       "date_added": "2026-07-17",
       "condition": "SpaceX shares close more than 10% below their IPO debut price (the price at which shares first traded when the company went public on the stock market) on any two consecutive sessions",
@@ -178,14 +154,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-20-1",
-      "date_added": "2026-07-20",
-      "condition": "Brent crude \u2014 the international oil price benchmark \u2014 closes above $90 per barrel on any session in the week of July 21\u201325",
-      "meaning": "This signals energy markets are pricing the Houthi blockade as a credible supply threat, making the August CPI upside risk severe and effectively extending Warsh's hold deeper into 2027.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-20-2",
       "date_added": "2026-07-20",
       "condition": "The national average gasoline price as reported by AAA's daily tracker rises above $4.25 per gallon within the next five trading days",
@@ -198,6 +166,38 @@
       "date_added": "2026-07-20",
       "condition": "Any major US airline, logistics company, or consumer retailer reporting Q2 earnings this week explicitly cites higher fuel costs or softer consumer spending as a reason for reduced forward guidance",
       "meaning": "The stagflation signal migrates from government statistics into corporate earnings guidance \u2014 which markets price faster and more visibly than monthly data releases.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-21-0",
+      "date_added": "2026-07-21",
+      "condition": "Brent crude closes above $95 per barrel on any session before August 13",
+      "meaning": "A further $5 escalation above today's $90 threshold signals the geopolitical risk premium is accelerating rather than stabilizing \u2014 at that level, the August CPI upside surprise is structurally baked in and all serious discussion of 2026 rate relief ends.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-21-1",
+      "date_added": "2026-07-21",
+      "condition": "Discover Financial, Capital One, or American Express reports Q2 earnings and discloses a delinquency rate \u2014 the share of borrowers who have missed payments \u2014 meaningfully above its Q1 2026 level",
+      "meaning": "That would be the first hard data point confirming that the weakening job market has flowed through to consumer credit quality, and it would move financial sector stocks immediately and sharply.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-21-2",
+      "date_added": "2026-07-21",
+      "condition": "The Reserve Bank of Australia \u2014 Australia's central bank \u2014 raises interest rates at its next scheduled meeting, explicitly citing energy price inflation from the Iran conflict",
+      "meaning": "That would signal the Iran war is forcing central banks globally to tighten into weakening economies, making the US Fed's hold look less like an isolated hawkish choice and more like a synchronized global squeeze that compounds the growth slowdown risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-21-3",
+      "date_added": "2026-07-21",
+      "condition": "The full US Senate brings Iran war authorization to a floor vote \u2014 a vote by all senators, not just a committee hearing \u2014 within the next 10 days",
+      "meaning": "A full Senate vote would signal the US has a durable legal framework for the conflict, removing the scenario where Congress constrains or ends US involvement and cementing the geopolitical risk premium in oil at its current elevated level.",
       "status": "open",
       "outcome": ""
     }
