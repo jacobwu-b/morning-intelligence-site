@@ -9,10 +9,10 @@
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Crosses $90",
+      "label": "Oil Touches $95",
       "first_seen": "2026-04-15",
-      "age_days": 97,
-      "summary": "Brent crude closed above $90 per barrel on July 21, crossing the first concrete price threshold since the Iran war began, driven by the Houthi naval blockade declaration against Saudi Arabia and direct US-Iran fire exchange. At $90, marine insurers formally reprice Saudi trade routes, airlines revise fuel-cost assumptions for forward guidance, and the August 13 CPI path hardens materially. The Senate war authorization question remains the structural variable determining whether the conflict has a legal framework that sustains the risk premium long-term. The next level to watch is $95 \u2014 a breach there signals the $90 crossing was a floor, not peak-fear pricing on the blockade declaration."
+      "age_days": 98,
+      "summary": "Brent touched $95 intraday on July 22 as Houthi forces attacked two Saudi tankers (one set ablaze), executing on the blockade they'd only threatened before, while separate reporting surfaced on Iranian strikes against CIA facilities with a possible Russian hand. The $95 level was the explicit next line we were watching after the $90 crossing, but this was an intraday touch, not a confirmed close \u2014 that distinction now matters enormously. If the Russian connection is verified, this shifts from a regional Iran-Israel-US conflict into a proxy confrontation with a nuclear-armed state, a materially different and more durable risk category."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Paused, Not Confirmed Dead",
+      "label": "Rotation Partially Returns",
       "first_seen": "2026-06-02",
-      "age_days": 49,
-      "summary": "Tuesday July 21 ran counter to the recent rotation pattern: the Nasdaq led with +1.29% while the Dow gained +0.74%, the opposite of the geopolitical-escalation dynamic that has prevailed on risk-off days. The rotation watchlist condition \u2014 Nasdaq down more than 1% while Dow down less than 0.3% on two consecutive sessions this week \u2014 did not trigger. The most likely explanation is that chip-sector earnings optimism temporarily overrode the macro rotation. Wednesday and Thursday sessions will determine whether today was a brief interruption or evidence the rotation thesis was always overstated."
+      "age_days": 50,
+      "summary": "Wednesday's session (Nasdaq -0.57%, Dow -0.01%, S&P -0.14%) partially reasserted the tech-underperforms-on-war-news pattern that Tuesday had broken, but the move was too small to trigger the formal rotation threshold. One clean counter-day doesn't erase the pattern, and it isn't yet confirmed dead either \u2014 Thursday is the decisive test."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -65,10 +65,10 @@
     },
     {
       "id": "lender-margin-compression",
-      "label": "Day 24, Still Silent",
+      "label": "Dimon Breaks Silence",
       "first_seen": "2026-06-23",
-      "age_days": 28,
-      "summary": "No Q2 earnings from Discover Financial, Capital One, or American Express on July 21, extending the consumer lender silence to day 24. With earnings season fully active across most sectors, each passing session narrows the window before these companies face direct analyst questions on delinquency rates \u2014 the share of borrowers who have missed payments \u2014 and loan-loss reserves, the money banks set aside for expected defaults. When these numbers surface, they will be the first hard read on whether the softening job market has begun flowing through to consumer credit quality in a measurable way."
+      "age_days": 29,
+      "summary": "JPMorgan CEO Jamie Dimon explicitly warned the next credit cycle will be \"worse than people expect,\" the most direct public statement yet from the bank with the broadest visibility into American consumer lending. Discover, Capital One, and American Express have still not reported Q2 delinquency data as the silence stretches past day 24 \u2014 Dimon's comment raises the stakes for what those three companies say when they finally report."
     },
     {
       "id": "stagflation-confirmed",
@@ -122,38 +122,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-17-1",
-      "date_added": "2026-07-17",
-      "condition": "SpaceX shares close more than 10% below their IPO debut price (the price at which shares first traded when the company went public on the stock market) on any two consecutive sessions",
-      "meaning": "If this happens, the market is broadly repricing the speculative premium attached to high-profile technology listings \u2014 a warning that every other AI and high-valuation tech company carrying similar future-earnings assumptions faces the same downside risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-17-2",
-      "date_added": "2026-07-17",
-      "condition": "The Senate Judiciary or Armed Services Committee schedules a formal vote on companion legislation to the House Iran war funding bill within the next two weeks",
-      "meaning": "If the Senate moves quickly toward formal war authorization, the expected duration of the conflict extends materially \u2014 making oil above $90 significantly more probable, the Fed's hold timeline longer, and the July CPI inflation number larger.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-17-3",
-      "date_added": "2026-07-17",
-      "condition": "Any major semiconductor company reporting Q2 earnings \u2014 Nvidia, AMD, TSMC, or Broadcom \u2014 explicitly acknowledges slowing AI chip order rates on its earnings call, even without formally missing earnings estimates or issuing a profit warning",
-      "meaning": "An acknowledgment of slowing orders without a formal miss is more ominous than a clean earnings miss \u2014 it means demand deterioration has not yet hit reported numbers but is already in the pipeline, and the chip sell-off has much further to run than a pure rate story would imply.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-20-0",
-      "date_added": "2026-07-20",
-      "condition": "MarineTraffic, Lloyd's of London, or any major maritime insurer or shipping company publicly confirms that Saudi oil tankers are actively diverting away from the Red Sea or Bab-el-Mandeb Strait following today's Houthi blockade declaration",
-      "meaning": "If confirmed, the blockade is operational rather than declaratory \u2014 Saudi oil export disruption is real, and a Brent spike above $90 becomes the base case rather than the tail risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-20-2",
       "date_added": "2026-07-20",
       "condition": "The national average gasoline price as reported by AAA's daily tracker rises above $4.25 per gallon within the next five trading days",
@@ -198,6 +166,38 @@
       "date_added": "2026-07-21",
       "condition": "The full US Senate brings Iran war authorization to a floor vote \u2014 a vote by all senators, not just a committee hearing \u2014 within the next 10 days",
       "meaning": "A full Senate vote would signal the US has a durable legal framework for the conflict, removing the scenario where Congress constrains or ends US involvement and cementing the geopolitical risk premium in oil at its current elevated level.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-22-0",
+      "date_added": "2026-07-22",
+      "condition": "Brent crude closes (not just touches intraday) above $95 per barrel on any session before August 13",
+      "meaning": "A confirmed close, not an intraday spike, is what actually hardens the inflation and Fed-hold case \u2014 this is the line to watch, not today's touch.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-22-1",
+      "date_added": "2026-07-22",
+      "condition": "US officials confirm or deny a Russian role in Iran's strikes on CIA facilities",
+      "meaning": "Confirmation would mean the conflict has effectively widened to include a nuclear-armed power, a different risk category than a regional war.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-22-2",
+      "date_added": "2026-07-22",
+      "condition": "Discover, Capital One, or American Express reports Q2 earnings with delinquency rates meaningfully above Q1 levels",
+      "meaning": "This is the hard data that would confirm Dimon's warning rather than leave it as a bank CEO's caution.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-22-3",
+      "date_added": "2026-07-22",
+      "condition": "Nasdaq underperforms the Dow by more than 1 percentage point on Thursday's session",
+      "meaning": "A second consecutive rotation day would confirm Tuesday's break in the pattern was the anomaly, not the new normal.",
       "status": "open",
       "outcome": ""
     }
