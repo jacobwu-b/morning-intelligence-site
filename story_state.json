@@ -9,10 +9,10 @@
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Touches $95",
+      "label": "Oil Confirms $100",
       "first_seen": "2026-04-15",
-      "age_days": 98,
-      "summary": "Brent touched $95 intraday on July 22 as Houthi forces attacked two Saudi tankers (one set ablaze), executing on the blockade they'd only threatened before, while separate reporting surfaced on Iranian strikes against CIA facilities with a possible Russian hand. The $95 level was the explicit next line we were watching after the $90 crossing, but this was an intraday touch, not a confirmed close \u2014 that distinction now matters enormously. If the Russian connection is verified, this shifts from a regional Iran-Israel-US conflict into a proxy confrontation with a nuclear-armed state, a materially different and more durable risk category."
+      "age_days": 99,
+      "summary": "Brent didn't just touch $95 this time \u2014 it broke through to $100 as Houthi forces struck Saudi tankers and US-Iran strikes widened, confirming the two-chokepoint fear (Hormuz plus Bab el-Mandeb) is now operating reality, not theory. Shipping companies are already paying the price: tankers are adding a month at sea and roughly $2.5 million in extra cost to avoid both routes. The open question is no longer whether this is serious \u2014 it's whether $100 holds or becomes the new floor heading into the August 13 inflation report."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Partially Returns",
+      "label": "Rotation Confirmed",
       "first_seen": "2026-06-02",
-      "age_days": 50,
-      "summary": "Wednesday's session (Nasdaq -0.57%, Dow -0.01%, S&P -0.14%) partially reasserted the tech-underperforms-on-war-news pattern that Tuesday had broken, but the move was too small to trigger the formal rotation threshold. One clean counter-day doesn't erase the pattern, and it isn't yet confirmed dead either \u2014 Thursday is the decisive test."
+      "age_days": 51,
+      "summary": "Thursday delivered the decisive test we'd flagged: Nasdaq's 2.15% drop against the Dow's 0.97% cleared the 1-point underperformance threshold, confirming that tech-led selling on war and inflation news is the dominant pattern again, not a one-off from earlier in the week. The mechanism is now doubled \u2014 oil-driven inflation pressures growth-stock valuations at the same moment AI-capex anxiety is undermining confidence in the earnings growth these stocks were priced for. Watch for a third consecutive underperformance session to confirm this is structural rather than episodic."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -138,42 +138,10 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-21-0",
-      "date_added": "2026-07-21",
-      "condition": "Brent crude closes above $95 per barrel on any session before August 13",
-      "meaning": "A further $5 escalation above today's $90 threshold signals the geopolitical risk premium is accelerating rather than stabilizing \u2014 at that level, the August CPI upside surprise is structurally baked in and all serious discussion of 2026 rate relief ends.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-21-1",
-      "date_added": "2026-07-21",
-      "condition": "Discover Financial, Capital One, or American Express reports Q2 earnings and discloses a delinquency rate \u2014 the share of borrowers who have missed payments \u2014 meaningfully above its Q1 2026 level",
-      "meaning": "That would be the first hard data point confirming that the weakening job market has flowed through to consumer credit quality, and it would move financial sector stocks immediately and sharply.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-21-2",
       "date_added": "2026-07-21",
       "condition": "The Reserve Bank of Australia \u2014 Australia's central bank \u2014 raises interest rates at its next scheduled meeting, explicitly citing energy price inflation from the Iran conflict",
       "meaning": "That would signal the Iran war is forcing central banks globally to tighten into weakening economies, making the US Fed's hold look less like an isolated hawkish choice and more like a synchronized global squeeze that compounds the growth slowdown risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-21-3",
-      "date_added": "2026-07-21",
-      "condition": "The full US Senate brings Iran war authorization to a floor vote \u2014 a vote by all senators, not just a committee hearing \u2014 within the next 10 days",
-      "meaning": "A full Senate vote would signal the US has a durable legal framework for the conflict, removing the scenario where Congress constrains or ends US involvement and cementing the geopolitical risk premium in oil at its current elevated level.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-22-0",
-      "date_added": "2026-07-22",
-      "condition": "Brent crude closes (not just touches intraday) above $95 per barrel on any session before August 13",
-      "meaning": "A confirmed close, not an intraday spike, is what actually hardens the inflation and Fed-hold case \u2014 this is the line to watch, not today's touch.",
       "status": "open",
       "outcome": ""
     },
@@ -194,10 +162,26 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-22-3",
-      "date_added": "2026-07-22",
-      "condition": "Nasdaq underperforms the Dow by more than 1 percentage point on Thursday's session",
-      "meaning": "A second consecutive rotation day would confirm Tuesday's break in the pattern was the anomaly, not the new normal.",
+      "id": "w-2026-07-23-0",
+      "date_added": "2026-07-23",
+      "condition": "Brent crude closes above $100 per barrel for three consecutive sessions",
+      "meaning": "Confirms $100 is a sustained floor rather than a spike, locking in higher inflation expectations ahead of the August 13 report.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-23-1",
+      "date_added": "2026-07-23",
+      "condition": "Nasdaq underperforms the Dow by more than 1 percentage point for a third consecutive session",
+      "meaning": "Confirms the tech-underperformance rotation is structural, not a single bad day driven by one earnings report.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-23-3",
+      "date_added": "2026-07-23",
+      "condition": "The national average gasoline price rises above $4.25 per gallon",
+      "meaning": "Signals the oil shock is reaching household budgets directly, which historically triggers pullbacks in discretionary consumer spending.",
       "status": "open",
       "outcome": ""
     }
