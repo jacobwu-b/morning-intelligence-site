@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Hold Locked In Further",
+      "label": "One Day Doesn't Move the Fed",
       "first_seen": "2026-04-15",
-      "age_days": 97,
-      "summary": "No new Fed communication on July 21, but the backdrop hardened: oil above $90 makes the August 13 CPI path sharply more difficult and Warsh's hold-through-2027 posture more bulletproof. Cutting rates into a supply-driven inflation wave above $90 oil would be seen as surrendering on the Fed's core mandate. The only path to any 2026 rate relief runs through oil coming back down materially and CPI showing a credible sustained decline \u2014 neither condition is remotely visible today."
+      "age_days": 100,
+      "summary": "Today's oil dip below $100 is not enough on its own to soften Warsh's hold-through-2027 posture \u2014 a single session of relief doesn't offset weeks of oil-driven inflation risk baked into the August 13 CPI report. The Fed needs a sustained, multi-week decline plus confirming CPI data before a 2026 cut becomes plausible again; nothing that happened today meets that bar."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil Confirms $100",
+      "label": "Oil's First Crack",
       "first_seen": "2026-04-15",
-      "age_days": 99,
-      "summary": "Brent didn't just touch $95 this time \u2014 it broke through to $100 as Houthi forces struck Saudi tankers and US-Iran strikes widened, confirming the two-chokepoint fear (Hormuz plus Bab el-Mandeb) is now operating reality, not theory. Shipping companies are already paying the price: tankers are adding a month at sea and roughly $2.5 million in extra cost to avoid both routes. The open question is no longer whether this is serious \u2014 it's whether $100 holds or becomes the new floor heading into the August 13 inflation report."
+      "age_days": 100,
+      "summary": "After confirming $100 as operating reality last week, Brent fell back below that level today despite intensifying Yemen and Saudi-Houthi clashes \u2014 the first meaningful crack in the pure-escalation oil narrative. The likely drivers are Saudi air defenses successfully intercepting the refinery attack (supply held) and a headline that US-Iran talks are ongoing, not that any actual risk was removed. The open question shifted from 'does $100 hold as a floor' to 'was today real de-escalation or a pause before the next leg up' \u2014 the next several sessions of Brent's price will answer it."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Confirmed",
+      "label": "Rotation Confirmed Structural",
       "first_seen": "2026-06-02",
-      "age_days": 51,
-      "summary": "Thursday delivered the decisive test we'd flagged: Nasdaq's 2.15% drop against the Dow's 0.97% cleared the 1-point underperformance threshold, confirming that tech-led selling on war and inflation news is the dominant pattern again, not a one-off from earlier in the week. The mechanism is now doubled \u2014 oil-driven inflation pressures growth-stock valuations at the same moment AI-capex anxiety is undermining confidence in the earnings growth these stocks were priced for. Watch for a third consecutive underperformance session to confirm this is structural rather than episodic."
+      "age_days": 52,
+      "summary": "The third-consecutive-session test we were tracking triggered today: Nasdaq's 0.64% decline against the Dow's 0.46% gain is a 1.1 percentage-point gap, meeting the bar for confirming this is now a structural pattern rather than an episodic one. Growth stocks priced on distant future profits are getting hurt by the combination of a Fed that can't cut and AI-capex anxiety, while more defensive, present-cash-flow stocks benefit disproportionately when oil eases even slightly. Watch next week's Fed meeting and tech earnings deluge \u2014 together they will either extend or break this pattern."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -118,6 +118,16 @@
       "year": "1998",
       "context": "Broad market stocks fell roughly 19% in three months when the Russian debt defau",
       "date_used": "2026-07-17"
+    },
+    {
+      "year": "2003",
+      "context": "Oil prices climbed steadily through the winter as fears mounted ahead of the US ",
+      "date_used": "2026-07-24"
+    },
+    {
+      "year": "1973",
+      "context": "The Arab oil embargo that began in October 1973 did not see any quick reversal \u2014",
+      "date_used": "2026-07-24"
     }
   ],
   "open_watchlist": [
@@ -170,18 +180,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-23-1",
-      "date_added": "2026-07-23",
-      "condition": "Nasdaq underperforms the Dow by more than 1 percentage point for a third consecutive session",
-      "meaning": "Confirms the tech-underperformance rotation is structural, not a single bad day driven by one earnings report.",
+      "id": "w-2026-07-24-0",
+      "date_added": "2026-07-24",
+      "condition": "Brent crude closes below $95 for two consecutive sessions",
+      "meaning": "Signals a real, sustained reversal in the oil-driven inflation threat, giving the Fed's hold-through-2027 stance its first real challenge in months.",
       "status": "open",
       "outcome": ""
     },
     {
-      "id": "w-2026-07-23-3",
-      "date_added": "2026-07-23",
-      "condition": "The national average gasoline price rises above $4.25 per gallon",
-      "meaning": "Signals the oil shock is reaching household budgets directly, which historically triggers pullbacks in discretionary consumer spending.",
+      "id": "w-2026-07-24-1",
+      "date_added": "2026-07-24",
+      "condition": "Brent crude reclaims $100 within the next three trading sessions",
+      "meaning": "Confirms today's dip was a head-fake, not a resolution, and the escalation trade resumes with reinforced conviction.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-24-2",
+      "date_added": "2026-07-24",
+      "condition": "Nasdaq underperforms the Dow again on Monday, extending the streak to four sessions",
+      "meaning": "Confirms the stagflation rotation is now the market's default regime heading into next week's Fed meeting, not a temporary phase.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-24-3",
+      "date_added": "2026-07-24",
+      "condition": "A major tech company reporting earnings next week issues cautious AI-capex spending guidance",
+      "meaning": "Would validate the growth-stock anxiety driving Nasdaq's underperformance and likely extend the rotation into a fourth or fifth session.",
       "status": "open",
       "outcome": ""
     }
