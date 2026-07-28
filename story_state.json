@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "One Day Doesn't Move the Fed",
+      "label": "One Weekend Doesn't Move Warsh",
       "first_seen": "2026-04-15",
-      "age_days": 100,
-      "summary": "Today's oil dip below $100 is not enough on its own to soften Warsh's hold-through-2027 posture \u2014 a single session of relief doesn't offset weeks of oil-driven inflation risk baked into the August 13 CPI report. The Fed needs a sustained, multi-week decline plus confirming CPI data before a 2026 cut becomes plausible again; nothing that happened today meets that bar."
+      "age_days": 103,
+      "summary": "Even a 9% oil drop over one weekend isn't enough to change Wednesday's Fed decision \u2014 a hold is still expected, with Warsh reportedly set to reference last week's supply shock directly in his press conference. The bar for a real policy shift remains the same: a multi-week sustained decline in oil plus a confirming August 13 CPI print, neither of which exists yet."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil's First Crack",
+      "label": "Oil's First Crack Widens",
       "first_seen": "2026-04-15",
-      "age_days": 100,
-      "summary": "After confirming $100 as operating reality last week, Brent fell back below that level today despite intensifying Yemen and Saudi-Houthi clashes \u2014 the first meaningful crack in the pure-escalation oil narrative. The likely drivers are Saudi air defenses successfully intercepting the refinery attack (supply held) and a headline that US-Iran talks are ongoing, not that any actual risk was removed. The open question shifted from 'does $100 hold as a floor' to 'was today real de-escalation or a pause before the next leg up' \u2014 the next several sessions of Brent's price will answer it."
+      "age_days": 103,
+      "summary": "What started last week as a single-session dip below $100 turned into a real break today: a weekend US-Iran pause in hostilities sent Brent down as much as 9% to below $88, the largest move of the entire conflict. This is the strongest evidence yet that de-escalation is real rather than a tactical lull \u2014 but a weekend pause is not a peace deal, and the next test is whether Brent holds below $90 through Wednesday's Fed decision or snaps back the moment talks stall."
     },
     {
       "id": "institutional-erosion",
@@ -30,17 +30,17 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "60bps Since War Start",
+      "label": "Yields Ease With Oil",
       "first_seen": "2026-05-15",
-      "age_days": 67,
-      "summary": "Today's reporting quantified the cumulative damage: 10-year US Treasury yields \u2014 the rate the government pays to borrow for a decade, which sets the floor for mortgages and corporate loans \u2014 are up 60 basis points (0.60 percentage points) since the Iran war started. With oil now above $90, the inflation expectations baked into those higher yields are being validated rather than corrected. If the August 13 CPI comes in above expectations, yields push further and the Fed's hold becomes a longer story than even Warsh has signaled publicly."
+      "age_days": 73,
+      "summary": "UK government bond yields fell today alongside the oil drop, the first real sign that the yield damage from the war (60 basis points \u2014 0.60 percentage points \u2014 of increase in US 10-year yields since the war started) can partially reverse if oil keeps falling. One day of relief doesn't undo the cumulative move, and US Treasury yields need their own multi-session confirmation before this becomes a trend rather than a blip."
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Confirmed Structural",
+      "label": "Rotation Extends to Four Sessions",
       "first_seen": "2026-06-02",
-      "age_days": 52,
-      "summary": "The third-consecutive-session test we were tracking triggered today: Nasdaq's 0.64% decline against the Dow's 0.46% gain is a 1.1 percentage-point gap, meeting the bar for confirming this is now a structural pattern rather than an episodic one. Growth stocks priced on distant future profits are getting hurt by the combination of a Fed that can't cut and AI-capex anxiety, while more defensive, present-cash-flow stocks benefit disproportionately when oil eases even slightly. Watch next week's Fed meeting and tech earnings deluge \u2014 together they will either extend or break this pattern."
+      "age_days": 55,
+      "summary": "The Nasdaq underperformed the Dow again today \u2014 a fourth consecutive session \u2014 confirming the growth-versus-value rotation flagged last week is not episodic. Apple overtaking Nvidia as the most valuable company on the same day is a visible symbol of the shift: cash-generating, present-value businesses are being rewarded over distant-future AI bets while the Fed can't cut and AI-capex anxiety builds."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -172,42 +172,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-23-0",
-      "date_added": "2026-07-23",
-      "condition": "Brent crude closes above $100 per barrel for three consecutive sessions",
-      "meaning": "Confirms $100 is a sustained floor rather than a spike, locking in higher inflation expectations ahead of the August 13 report.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-24-0",
-      "date_added": "2026-07-24",
-      "condition": "Brent crude closes below $95 for two consecutive sessions",
-      "meaning": "Signals a real, sustained reversal in the oil-driven inflation threat, giving the Fed's hold-through-2027 stance its first real challenge in months.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-24-1",
-      "date_added": "2026-07-24",
-      "condition": "Brent crude reclaims $100 within the next three trading sessions",
-      "meaning": "Confirms today's dip was a head-fake, not a resolution, and the escalation trade resumes with reinforced conviction.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-24-2",
-      "date_added": "2026-07-24",
-      "condition": "Nasdaq underperforms the Dow again on Monday, extending the streak to four sessions",
-      "meaning": "Confirms the stagflation rotation is now the market's default regime heading into next week's Fed meeting, not a temporary phase.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-24-3",
       "date_added": "2026-07-24",
       "condition": "A major tech company reporting earnings next week issues cautious AI-capex spending guidance",
       "meaning": "Would validate the growth-stock anxiety driving Nasdaq's underperformance and likely extend the rotation into a fourth or fifth session.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-27-0",
+      "date_added": "2026-07-27",
+      "condition": "Brent crude sustains a close below $90 through Wednesday's Fed decision",
+      "meaning": "Confirms this is genuine de-escalation rather than a dead-cat bounce, and gives Warsh room to soften his tone even without cutting rates.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-27-1",
+      "date_added": "2026-07-27",
+      "condition": "Discover, Capital One, or American Express reports Q2 delinquency data meaningfully above Q1 levels",
+      "meaning": "Confirms Dimon's credit-cycle warning was not hyperbole and consumer stress is spreading beyond headlines.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-27-2",
+      "date_added": "2026-07-27",
+      "condition": "A major AI-exposed tech company reporting earnings this week issues cautious capex guidance",
+      "meaning": "Confirms the AI trade crack seen today is structural, not just an Apple-Nvidia headline swap.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-27-3",
+      "date_added": "2026-07-27",
+      "condition": "US-Iran talks produce a formal statement or ceasefire framework beyond the weekend pause",
+      "meaning": "Would be the first real evidence oil's drop is durable rather than a tactical lull before renewed conflict.",
       "status": "open",
       "outcome": ""
     }
