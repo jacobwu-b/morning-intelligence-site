@@ -2,10 +2,10 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "One Weekend Doesn't Move Warsh",
+      "label": "Meeting Opens, No Bets Placed",
       "first_seen": "2026-04-15",
-      "age_days": 103,
-      "summary": "Even a 9% oil drop over one weekend isn't enough to change Wednesday's Fed decision \u2014 a hold is still expected, with Warsh reportedly set to reference last week's supply shock directly in his press conference. The bar for a real policy shift remains the same: a multi-week sustained decline in oil plus a confirming August 13 CPI print, neither of which exists yet."
+      "age_days": 104,
+      "summary": "The Fed's two-day meeting began today with a hold still expected tomorrow, but bond investors are notably avoiding directional positioning \u2014 a sign of genuine uncertainty over whether Warsh treats last weekend's oil drop as license to sound less hawkish, or whether he uses tomorrow's press conference to double down on inflation-fighting credibility as headlines suggest he's under pressure to do. Tomorrow's decision and tone are the resolution point, not today's data."
     },
     {
       "id": "iran-geopolitical-risk",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Extends to Four Sessions",
+      "label": "Rotation Goes Global",
       "first_seen": "2026-06-02",
-      "age_days": 55,
-      "summary": "The Nasdaq underperformed the Dow again today \u2014 a fourth consecutive session \u2014 confirming the growth-versus-value rotation flagged last week is not episodic. Apple overtaking Nvidia as the most valuable company on the same day is a visible symbol of the shift: cash-generating, present-value businesses are being rewarded over distant-future AI bets while the Fed can't cut and AI-capex anxiety builds."
+      "age_days": 56,
+      "summary": "The Nasdaq underperformed the Dow for a fourth straight session, but today's trigger came from Seoul, not New York: Samsung and SK Hynix fell over 10% on AI-spending and Chinese-competition fears, showing the cash-flow-over-hype rotation is now an international phenomenon, not a US quirk. Watch whether US chip names (Nvidia, and the AI-capex names reporting this week) follow Korea's lead or decouple from it."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -132,22 +132,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-20-2",
-      "date_added": "2026-07-20",
-      "condition": "The national average gasoline price as reported by AAA's daily tracker rises above $4.25 per gallon within the next five trading days",
-      "meaning": "$4 was a floor, not a ceiling \u2014 the consumer budget squeeze deepens materially and July's retail spending data will show it.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-20-3",
-      "date_added": "2026-07-20",
-      "condition": "Any major US airline, logistics company, or consumer retailer reporting Q2 earnings this week explicitly cites higher fuel costs or softer consumer spending as a reason for reduced forward guidance",
-      "meaning": "The stagflation signal migrates from government statistics into corporate earnings guidance \u2014 which markets price faster and more visibly than monthly data releases.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-21-2",
       "date_added": "2026-07-21",
       "condition": "The Reserve Bank of Australia \u2014 Australia's central bank \u2014 raises interest rates at its next scheduled meeting, explicitly citing energy price inflation from the Iran conflict",
@@ -160,22 +144,6 @@
       "date_added": "2026-07-22",
       "condition": "US officials confirm or deny a Russian role in Iran's strikes on CIA facilities",
       "meaning": "Confirmation would mean the conflict has effectively widened to include a nuclear-armed power, a different risk category than a regional war.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-22-2",
-      "date_added": "2026-07-22",
-      "condition": "Discover, Capital One, or American Express reports Q2 earnings with delinquency rates meaningfully above Q1 levels",
-      "meaning": "This is the hard data that would confirm Dimon's warning rather than leave it as a bank CEO's caution.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-24-3",
-      "date_added": "2026-07-24",
-      "condition": "A major tech company reporting earnings next week issues cautious AI-capex spending guidance",
-      "meaning": "Would validate the growth-stock anxiety driving Nasdaq's underperformance and likely extend the rotation into a fourth or fifth session.",
       "status": "open",
       "outcome": ""
     },
@@ -208,6 +176,38 @@
       "date_added": "2026-07-27",
       "condition": "US-Iran talks produce a formal statement or ceasefire framework beyond the weekend pause",
       "meaning": "Would be the first real evidence oil's drop is durable rather than a tactical lull before renewed conflict.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-28-0",
+      "date_added": "2026-07-28",
+      "condition": "US chip and AI-capex stocks (Nvidia and peers) fall meaningfully in the next 1-2 sessions following Korea's lead",
+      "meaning": "The AI-anxiety rotation has gone from a US phenomenon to a genuine global repricing, not a contained regional event.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-28-1",
+      "date_added": "2026-07-28",
+      "condition": "Wednesday's Fed statement or press conference explicitly cites the weekend oil de-escalation as grounds for a less hawkish tone",
+      "meaning": "Warsh is willing to bank the oil relief \u2014 a dovish tell that could support both bonds and rate-sensitive stocks.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-28-2",
+      "date_added": "2026-07-28",
+      "condition": "Brent crude closes back above $90 before Wednesday's decision",
+      "meaning": "The de-escalation reverses and the stagflation-confirmed energy squeeze reasserts itself, removing the one bullish counterweight in the room.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-28-3",
+      "date_added": "2026-07-28",
+      "condition": "Discover, Capital One, or American Express finally reports Q2 delinquency data this week",
+      "meaning": "This resolves whether Dimon's warning was bank-specific caution or a genuine early signal of consumer credit stress spreading.",
       "status": "open",
       "outcome": ""
     }

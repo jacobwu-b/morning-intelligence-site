@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mon Jul 27, 2026 | Morning Intelligence</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>2026年7月28日，星期二 |晨间情报</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #0a0a0a;
@@ -20,7 +20,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
     font-weight: 300;
     opacity: 0;
     animation: fadeIn 1.2s ease forwards;
@@ -37,7 +37,7 @@
     align-items: flex-end;
   }
   .publication-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.35em;
@@ -46,7 +46,7 @@
     margin-bottom: 4px;
   }
   .edition-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 1;
@@ -55,7 +55,7 @@
   .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
   .masthead-right { text-align: right; }
   .date {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 0.05em;
@@ -88,20 +88,20 @@
   }
   .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
   .ticker-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     letter-spacing: 0.15em;
     color: #888;
     text-transform: uppercase;
   }
   .ticker-value {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 13px;
     font-weight: 500;
     color: #f5f2eb;
   }
   .ticker-change {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 2px;
@@ -122,7 +122,7 @@
   }
   .sidebar { padding: 48px 0 64px 48px; }
   .lead-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -140,7 +140,7 @@
     opacity: 0.3;
   }
   .section-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -158,7 +158,7 @@
     opacity: 0.3;
   }
   .lead-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
@@ -180,7 +180,7 @@
     border-top: 1px solid var(--rule);
   }
   .section-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
@@ -206,7 +206,7 @@
   }
   .cause-card.secondary { border-top-color: var(--rule); }
   .cause-title {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -214,7 +214,7 @@
     margin-bottom: 8px;
   }
   .cause-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.35;
@@ -240,7 +240,7 @@
     border-left: 3px solid var(--gold);
   }
   .comp-year {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--gold);
@@ -260,14 +260,14 @@
     top: -9px; left: 20px;
     background: var(--ink);
     padding: 0 10px;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--gold);
   }
   .signal-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 15px;
     font-style: italic;
     line-height: 1.7;
@@ -277,7 +277,7 @@
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid #333;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--gold);
     letter-spacing: 0.05em;
@@ -289,7 +289,7 @@
   }
   .sidebar-section:last-child { border-bottom: none; }
   .sidebar-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -305,20 +305,20 @@
     background: var(--cream);
   }
   .index-name {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     letter-spacing: 0.05em;
     color: var(--muted);
   }
   .index-price {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 14px;
     font-weight: 500;
     display: block;
     text-align: right;
   }
   .index-pct {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     margin-top: 2px;
     display: block;
@@ -376,13 +376,13 @@
     align-items: center;
   }
   .footer-left {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     color: var(--muted);
     letter-spacing: 0.05em;
   }
   .disclaimer {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     color: var(--rule);
     letter-spacing: 0.03em;
@@ -391,7 +391,7 @@
     line-height: 1.6;
   }
   .footer-right {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-style: italic;
     color: var(--muted);
@@ -402,42 +402,42 @@
 
 <header class="masthead">
   <a href="../index.html" style="text-decoration: none; color: inherit;">
-    <div class="publication-name">Morning Intelligence</div>
-    <div class="edition-title">Market Brief <em>Daily</em></div>
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
   </a>
   <div class="masthead-right">
-    <div class="date">MONDAY · July 27, 2026 · U.S. MARKET CLOSE</div>
-    <div class="market-status">MIXED SESSION</div>
-    <div class="delta-badge">DELTA BRIEF</div>
+    <div class="date">星期二 ·2026年7月28日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">涨跌互现交易日</div>
+    <div class="delta-badge" translate="no">增量简报</div>
   </div>
 </header>
 
 <div class="ticker-strip">
   
   <div class="ticker-item">
-    <span class="ticker-label">S&amp;P 500</span>
-    <span class="ticker-value">7,413.18</span>
-    <span class="ticker-change up">
-      ▲ 0.02%
+    <span class="ticker-label" translate="no">S&amp;P 500</span><span class="ticker-value">7,413.18</span><span class="ticker-change up">
+      ▲ 0.07%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Nasdaq</span>
-    <span class="ticker-value">24,932</span>
-    <span class="ticker-change down">
-      ▼ 0.18%
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">24,932</span><span class="ticker-change down">
+      ▼ 0.82%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Dow</span>
-    <span class="ticker-value">52,210</span>
-    <span class="ticker-change up">
-      ▲ 0.51%
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">52,210</span><span class="ticker-change up">
+      ▲ 0.96%
     </span>
+    
+    
   </div>
   
   
@@ -446,101 +446,98 @@
 <div class="main">
   <div class="primary-col">
 
-    <div class="lead-label">Today's Thesis</div>
-    <h1 class="lead-headline">Oil Just Gave Back a Month of War Fear in One Weekend</h1>
-    <p class="lead-body">Brent crude fell as much as <strong>9%</strong> to below $88 a barrel after the US and Iran quietly paused hostilities over the weekend — the sharpest single move since this conflict started pushing oil above $100. That matters because oil&#x27;s climb has been the entire engine behind this year&#x27;s inflation scare and the Fed&#x27;s refusal to cut; take the war premium (the extra price baked in for supply-disruption fear) out fast, and the inflation math briefly looks less scary. Stocks barely moved on it though — the <strong>S&amp;P was flat, the Dow gained 0.51%, and the Nasdaq slipped 0.18%</strong> — because a second story is competing for attention: Apple just passed Nvidia as the world&#x27;s most valuable company, and cracks are showing in the AI trade that&#x27;s carried this market for two years.</strong></p>
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">人工智能抛售已蔓延至全球——而没人看好的美联储会议今天开始</h1>
+    <p class="lead-body">三星和SK海力士——全球大部分存储芯片制造商——隔夜股价下跌超过 <strong>10%，</strong> 拖累韩国市场跌至三个月低点，纳斯达克指数下跌 <strong>0.82%，</strong> 而道琼斯指数上涨 <strong>0.96%。</strong>这与我们连续四个交易日关注的增长与价值轮换趋势相同，但今天它不再是美国的话题，而是全球性的：对人工智能投资回报不足的担忧，加上中国竞争的加剧，现在正在两个大陆同时重新定价芯片股票。另外，美联储为期两天的会议今天开幕，债券投资者明显拒绝在明天的决定前下定向押注——这表明市场确实不清楚沃什是依赖上周的石油救助还是上个月的通胀数据。</p>
 
     <div class="section">
-      <div class="section-label">What's Actually Driving This</div>
-      <h2 class="section-headline">Oil&#x27;s sharp de-escalation collides with a cracking AI trade</h2>
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">主要原因：韩国芯片崩溃拉动了全球AI轮换。其次：美联储开会时债券市场拒绝下注。</h2>
       <div class="cause-grid">
         <div class="cause-card">
-          <div class="cause-title">OIL DE-ESCALATION</div>
-          <div class="cause-headline">A weekend pause in US-Iran hostilities erased a chunk of the war premium priced into oil.</div>
-          <div class="cause-text">The US and Iran paused active hostilities over the weekend while discussing a possible resumption of talks, and that alone was enough to knock Brent down as much as 9% to below $88 — its sharpest drop since fighting began pushing oil above $100. The move confirms last week&#x27;s crack in the pure-escalation story wasn&#x27;t a fluke: markets are now willing to price real odds of a durable de-escalation rather than assuming the next headline is another attack.</div>
-          <div class="cause-verdict">This needs multiple more sessions to matter for policy — a single weekend pause doesn&#x27;t offset 100 days of war-driven inflation risk already baked into the Fed&#x27;s thinking. Watch whether Brent holds below $90 through Wednesday&#x27;s Fed meeting; if it does, Warsh&#x27;s hold posture starts to look less locked-in for the fall.</div>
+          <div class="cause-title">人工智能抛售全球</div>
+          <div class="cause-headline">人工智能炒作转向现金创造型业务的转变刚刚跨越了太平洋。</div>
+          <div class="cause-text">第四天更新：今天变化是压力来自哪里。连续三个交易日，这成为美国新闻——苹果超过英伟达成为最有价值公司，纳斯达克落后于道琼斯。今天，三星和SK海力士，作为全球存储芯片供应的中坚力量，因同样的潜在担忧下跌超过10%——即AI资本支出无法迅速带来回报以抵消当前价格——加上中国芯片制造商正在缩小差距的担忧。</div>
+          <div class="cause-verdict">这是信号，而非噪声，因为同一种恐惧在不同市场和不同投资者中独立出现。如果美国芯片股本周开局呼应韩国的举措，而非耸耸肩，人工智能资本支出焦虑主题已从轮换升级为重新评级——一个更大且更缓慢的反转事件。</div>
         </div>
         <div class="cause-card secondary">
-          <div class="cause-title">AI TRADE CRACKS</div>
-          <div class="cause-headline">Apple dethroned Nvidia as the world&#x27;s most valuable company the same day Nvidia&#x27;s exposure to OpenAI raised new red flags.</div>
-          <div class="cause-text">Nvidia&#x27;s reported $250 billion backstop commitment to OpenAI is being read as a warning sign — one AI giant financially propping up its own biggest customer looks less like organic demand and more like circular funding. Combined with a fourth straight session of Nasdaq underperforming the Dow, this looks like signal, not noise: capital is rotating out of speculative future-profit tech and into present-cash-flow businesses.</div>
-          <div class="cause-verdict">This week&#x27;s tech earnings deluge is the real test. If AI-exposed companies guide capex spending down, this rotation extends; if they reaffirm aggressive spending plans, today&#x27;s move gets dismissed as a one-day headline reaction.</div>
+          <div class="cause-title">美联储会议开幕</div>
+          <div class="cause-headline">债券投资者走进为期两天的美联储会议时，没有任何强烈的立场。</div>
+          <div class="cause-text">这很不寻常——通常市场在决策前会倾向于一个方向。在这里，上周末因石油而缓解的情绪与上月4.2%的核心通胀数据呈相反方向，头条新闻显示沃什面临压力，无论石油消息如何，都必须对通胀表现强硬，而这正是债券市场拒绝预先判断的紧张局势。</div>
+          <div class="cause-verdict">明天的声明和新闻发布会解决了这个问题，而不是今天。请注意沃什是否明确将油价下跌作为乐观理由，还是将其视为通胀更为棘手的背景下的杂音——单一框架的调整带来的收益远超过持有决策本身。</div>
         </div>
       </div>
     </div>
 
     
     <div class="section">
-      <div class="section-label">The Core Dynamic</div>
-      <h2 class="section-headline">Relief in energy, stress in tech — the same rotation, different fuel.</h2>
-      <p class="section-body">Oil easing takes one inflation worry off the table for a moment, but it&#x27;s landing on a market that&#x27;s already mid-rotation away from AI-driven growth stocks and toward steadier, cash-generating businesses. <strong>Cheaper oil doesn&#x27;t reverse that rotation — it just removes one excuse investors had for avoiding it.</strong></p>
+      <div class="section-label" translate="no">核心动态</div>
+      <h2 class="section-headline">人工智能焦虑贸易已经不再是美国的现象了。</h2>
+      <p class="section-body">花了四个交易日悄然从美国科技转向美国工业的资金，在首尔却发现了同样的担忧——这证明这不是奇怪的国内偏好，而是全球范围内对谁真正从人工智能扩建中获利的重新定价。</p>
     </div>
     
 
     
 
     <div class="signal-box">
-      <div class="signal-box-label">Directional Read</div>
-      <p class="signal-text">The variable that decides everything this week is whether the US-Iran pause turns into an actual framework or breaks down the moment talks stall. If it holds, oil keeps falling, the Fed&#x27;s inflation math gets easier by August, and the stagflation story starts to soften at the edges. If it breaks, oil snaps back toward $100 fast, and the Fed&#x27;s hold — already expected to run through Wednesday — turns into a hold that lasts well past 2026.</p>
-      <div class="signal-kicker">
-        Scenario A — Real De-Escalation: US-Iran talks produce an actual agreement or ceasefire framework this week, Brent holds below $90, and the Fed&#x27;s August inflation math starts looking less hostile.<br>
-        Scenario B — Dead-Cat Bounce: Talks stall or fighting resumes within days, Brent snaps back above $95-100, and this weekend&#x27;s relief gets erased just as fast as it appeared.
-      </div>
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text">本周最重要的变量是周三美联储的态度是依赖石油缓解还是依赖顽固通胀——因为这与韩国芯片暴跌是否蔓延至英伟达及其同行企业共同决定了此次是一周的波动，还是AI股票估值真正重启的开始。如果沃什听起来鸽派，芯片股趋于稳定，那么今天看起来就是噪音。如果两者同时反向，你将看到AI交易的第一个真正裂缝，叠加在一个仍无法削减的美联储之上。坚持到周三：美联储能控制利率，但无法让芯片估值回升。</p>
+      <div class="signal-kicker">情景A——缓解趋同：沃什承认明天的油价暴跌，美国芯片股周四对韩国的举动置之不以为意——抛售局限于亚洲，读起来像是一场一天的恐慌。<br>情景B——复利再定价：尽管石油缓解，沃什仍持鹰派立场，美国AI资本支出指数本周反映韩国的下跌——轮换将成为更广泛、更难逆转的科技股估值重新定价。      </div>
     </div>
 
   </div>
 
   <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-label">US Close</div>
+      <div class="sidebar-label" translate="no">美股收盘</div>
       <div class="index-grid">
         
         <div class="index-tile">
-          <span class="index-name">S&amp;P 500</span>
+          <span class="index-name" translate="no">S&amp;P 500</span>
           <div>
             <span class="index-price">7,413.18</span>
             <span class="index-pct up">
-              ▲ 0.02%
+              ▲ 0.07%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Nasdaq</span>
+          <span class="index-name" translate="no">Nasdaq</span>
           <div>
             <span class="index-price">24,932</span>
             <span class="index-pct down">
-              ▼ 0.18%
+              ▼ 0.82%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Dow</span>
+          <span class="index-name" translate="no">Dow</span>
           <div>
             <span class="index-price">52,210</span>
             <span class="index-pct up">
-              ▲ 0.51%
+              ▲ 0.96%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Russell 2000</span>
+          <span class="index-name" translate="no">Russell 2000</span>
           <div>
             <span class="index-price">2,948.04</span>
             <span class="index-pct up">
-              ▲ 0.62%
+              ▲ 0.27%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">VIX</span>
+          <span class="index-name" translate="no">VIX</span>
           <div>
             <span class="index-price">18.67</span>
-            <span class="index-pct up">
-              ▲ 0.48%
+            <span class="index-pct down">
+              ▼ 0.16%
             </span>
           </div>
         </div>
@@ -550,9 +547,7 @@
 
     
     <div class="sidebar-section">
-      <div class="sidebar-label">Signal Updates</div>
-      
-      
+      <div class="sidebar-label" translate="no">信号更新</div>
       
       
       
@@ -566,18 +561,8 @@
       <div class="resolution-item retired">
         <div class="resolution-icon">—</div>
         <div>
-          <span class="resolution-condition">Brent crude closes above $100 per barrel for three consecutive sessions </span>
-          <span>Brent never reclaimed $100 for three sessions — instead it broke sharply lower, so the question of whether $100 holds as a floor is answered: it didn&#x27;t.</span>
-        </div>
-      </div>
-      
-      
-      
-      <div class="resolution-item triggered">
-        <div class="resolution-icon">✓</div>
-        <div>
-          <span class="resolution-condition">Brent crude closes below $95 for two consecutive sessions </span>
-          <span>Brent&#x27;s slide to below $88 confirms a close below $95 across consecutive sessions, meaning the oil de-escalation is now a multi-day pattern, not a single headline reaction.</span>
+          <span class="resolution-condition">Discover、Capital One或American Express报告的第二季度财报逾期率显著高于第一季度水平 </span>
+          <span>。W-2026-07-27-1的重复文件，追踪同一Discover/Capital One/Amex逾期披露——合并以避免重复计数同一信号。</span>
         </div>
       </div>
       
@@ -586,20 +571,16 @@
       <div class="resolution-item retired">
         <div class="resolution-icon">—</div>
         <div>
-          <span class="resolution-condition">Brent crude reclaims $100 within the next three trading sessions </span>
-          <span>Instead of reclaiming $100, Brent fell another several dollars further away from it — the reclaim scenario is structurally dead for now, not just unmet.</span>
+          <span class="resolution-condition">一家下周公布财报的主要科技公司发布了谨慎的人工智能资本支出指引 </span>
+          <span>，重复了2026年7月27日的同一人工智能资本支出指引信号——为避免重复计入而进行整固。</span>
         </div>
       </div>
       
       
       
-      <div class="resolution-item triggered">
-        <div class="resolution-icon">✓</div>
-        <div>
-          <span class="resolution-condition">Nasdaq underperforms the Dow again on Monday, extending the streak to four sessions </span>
-          <span>Nasdaq underperformed the Dow for a fourth straight session today, confirming the growth-to-value rotation is now an established pattern rather than noise.</span>
-        </div>
-      </div>
+      
+      
+      
       
       
       
@@ -608,38 +589,38 @@
     
 
     <div class="sidebar-section">
-      <div class="sidebar-label">Watch Next Week</div>
+      <div class="sidebar-label" translate="no">下周关注</div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Brent crude sustains a close below $90 through Wednesday&#x27;s Fed decision — </span>Confirms this is genuine de-escalation rather than a dead-cat bounce, and gives Warsh room to soften his tone even without cutting rates.</div>
+        <div>继<span class="watch-condition">韩国的领先之后，美国芯片和人工智能资本支出股（英伟达及同行）在接下来的1-2个交易日大幅下跌—— </span>人工智能焦虑轮换已从美国现象转变为真正的全球再定价，而非局限性区域事件。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Discover, Capital One, or American Express reports Q2 delinquency data meaningfully above Q1 levels — </span>Confirms Dimon&#x27;s credit-cycle warning was not hyperbole and consumer stress is spreading beyond headlines.</div>
+        <div><span class="watch-condition">周三美联储的声明或新闻发布会明确引用了周末石油降级作为降低鹰派基调的理由—— </span>沃什愿意将石油救济存入银行——这是一个鸽派信号，可能支持债券和利率敏感股。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">A major AI-exposed tech company reporting earnings this week issues cautious capex guidance — </span>Confirms the AI trade crack seen today is structural, not just an Apple-Nvidia headline swap.</div>
+        <div>布<span class="watch-condition">伦特原油在周三裁决前收盘价回升至90美元以上—— </span>降级局势逆转，滞胀确认的能量挤压重新显现，消除了场内唯一的多头制衡力量。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">US-Iran talks produce a formal statement or ceasefire framework beyond the weekend pause — </span>Would be the first real evidence oil&#x27;s drop is durable rather than a tactical lull before renewed conflict.</div>
+        <div><span class="watch-condition">Discover、Capital One或American Express本周终于公布了第二季度违约数据—— </span>这决定了迪蒙的警告是银行特有的谨慎，还是消费者信贷压力蔓延的真实早期信号。</div>
       </div>
       
     </div>
   </aside>
 </div>
 
-<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-07-24.html" style="color: var(--muted); text-decoration: none;">← Previous brief · July 24, 2026</a><a href="2026-07-28.html" style="color: var(--muted); text-decoration: none; margin-left: auto;">Next brief · July 28, 2026 →</a></nav><!-- brief-nav:end -->
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-07-27.html" style="color: var(--muted); text-decoration: none;">← 上一篇简报 · 2026年7月27日</a></nav><!-- brief-nav:end -->
 
 <footer>
-  <div class="footer-left">Morning Intelligence · Personal Edition</div>
-  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
-  <div class="footer-right">July 27, 2026</div>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年7月28日</div>
 </footer>
 
 </body>
