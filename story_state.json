@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Meeting Opens, No Bets Placed",
+      "label": "Warsh Holds The Line",
       "first_seen": "2026-04-15",
-      "age_days": 104,
-      "summary": "The Fed's two-day meeting began today with a hold still expected tomorrow, but bond investors are notably avoiding directional positioning \u2014 a sign of genuine uncertainty over whether Warsh treats last weekend's oil drop as license to sound less hawkish, or whether he uses tomorrow's press conference to double down on inflation-fighting credibility as headlines suggest he's under pressure to do. Tomorrow's decision and tone are the resolution point, not today's data."
+      "age_days": 105,
+      "summary": "The Fed held rates steady today and Warsh chose inflation-fighting credibility over any hint of relief, declaring 'no tolerance for persistently elevated inflation' even as dissent mounts inside the committee and Trump renews public pressure to cut. The open question is no longer whether the Fed eases this cycle \u2014 it's how long Warsh can hold this line as growth data softens and oil re-accelerates the inflation he's fighting."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Oil's First Crack Widens",
+      "label": "Cease-Fire Cracks",
       "first_seen": "2026-04-15",
-      "age_days": 103,
-      "summary": "What started last week as a single-session dip below $100 turned into a real break today: a weekend US-Iran pause in hostilities sent Brent down as much as 9% to below $88, the largest move of the entire conflict. This is the strongest evidence yet that de-escalation is real rather than a tactical lull \u2014 but a weekend pause is not a peace deal, and the next test is whether Brent holds below $90 through Wednesday's Fed decision or snaps back the moment talks stall."
+      "age_days": 105,
+      "summary": "The weekend pause that briefly sent Brent \u2014 the global oil price benchmark \u2014 below $88 reversed hard today after Iran attempted a 'surprise attack,' confirming the de-escalation was tactical, not durable. The next test is whether today's spike fades as a one-off reaction to a failed strike, or marks the start of a renewed escalation cycle that keeps energy prices elevated into the fall."
     },
     {
       "id": "institutional-erosion",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Goes Global",
+      "label": "Broad Risk-Off, Not Just Tech",
       "first_seen": "2026-06-02",
-      "age_days": 56,
-      "summary": "The Nasdaq underperformed the Dow for a fourth straight session, but today's trigger came from Seoul, not New York: Samsung and SK Hynix fell over 10% on AI-spending and Chinese-competition fears, showing the cash-flow-over-hype rotation is now an international phenomenon, not a US quirk. Watch whether US chip names (Nvidia, and the AI-capex names reporting this week) follow Korea's lead or decouple from it."
+      "age_days": 57,
+      "summary": "For the first time in this run, the Dow (-2.19%) fell harder than the Nasdaq (-1.74%), as Fed hawkishness and the oil reversal hit cyclical and industrial names alongside tech \u2014 evidence today's selloff was macro-driven, not purely an AI-valuation story. Underneath that, the AI-specific rotation stayed alive: Meta plunged over 8% after hours on a $130-145 billion capital spending plan paired with a mixed quarter, and Korea's chipmakers extended their slide, so watch whether this broadens or Nasdaq resumes leading the pain once the Fed story fades."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -72,10 +72,10 @@
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Energy Squeeze Deepens",
+      "label": "Cost-Push Squeeze Re-Intensifies",
       "first_seen": "2026-07-02",
-      "age_days": 19,
-      "summary": "Oil at $90 on July 21 adds a concrete price anchor to the stagflation picture: energy costs have crossed a level that historically changes American consumer behavior and materially affects corporate fuel assumptions, arriving alongside 4.2% core inflation and a labor market that produced only 57,000 jobs last month. The Pentagon wind farm freeze, Iran/Hormuz risk, and the Houthi Red Sea blockade are simultaneously squeezing supply from domestic regulatory and international geopolitical directions \u2014 this is cost-push inflation, meaning price increases driven by supply constraints rather than excess demand, which Warsh's rate hold literally cannot address. The consumer absorbs the full squeeze with no policy relief in view."
+      "age_days": 27,
+      "summary": "Oil's snap-back after Iran's attempted attack undoes days of relief and reconfirms the core problem: energy costs are rising again for supply reasons interest rates cannot touch, and Warsh explicitly cited elevated energy-driven inflation today as grounds to hold rather than ease. The consumer is back to absorbing a live energy shock with no rate relief in sight."
     }
   ],
   "historical_comps_used": [
@@ -132,26 +132,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-21-2",
-      "date_added": "2026-07-21",
-      "condition": "The Reserve Bank of Australia \u2014 Australia's central bank \u2014 raises interest rates at its next scheduled meeting, explicitly citing energy price inflation from the Iran conflict",
-      "meaning": "That would signal the Iran war is forcing central banks globally to tighten into weakening economies, making the US Fed's hold look less like an isolated hawkish choice and more like a synchronized global squeeze that compounds the growth slowdown risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-22-1",
       "date_added": "2026-07-22",
       "condition": "US officials confirm or deny a Russian role in Iran's strikes on CIA facilities",
       "meaning": "Confirmation would mean the conflict has effectively widened to include a nuclear-armed power, a different risk category than a regional war.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-27-0",
-      "date_added": "2026-07-27",
-      "condition": "Brent crude sustains a close below $90 through Wednesday's Fed decision",
-      "meaning": "Confirms this is genuine de-escalation rather than a dead-cat bounce, and gives Warsh room to soften his tone even without cutting rates.",
       "status": "open",
       "outcome": ""
     },
@@ -172,22 +156,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-27-3",
-      "date_added": "2026-07-27",
-      "condition": "US-Iran talks produce a formal statement or ceasefire framework beyond the weekend pause",
-      "meaning": "Would be the first real evidence oil's drop is durable rather than a tactical lull before renewed conflict.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-28-0",
-      "date_added": "2026-07-28",
-      "condition": "US chip and AI-capex stocks (Nvidia and peers) fall meaningfully in the next 1-2 sessions following Korea's lead",
-      "meaning": "The AI-anxiety rotation has gone from a US phenomenon to a genuine global repricing, not a contained regional event.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-28-1",
       "date_added": "2026-07-28",
       "condition": "Wednesday's Fed statement or press conference explicitly cites the weekend oil de-escalation as grounds for a less hawkish tone",
@@ -196,18 +164,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-28-2",
-      "date_added": "2026-07-28",
-      "condition": "Brent crude closes back above $90 before Wednesday's decision",
-      "meaning": "The de-escalation reverses and the stagflation-confirmed energy squeeze reasserts itself, removing the one bullish counterweight in the room.",
+      "id": "w-2026-07-29-0",
+      "date_added": "2026-07-29",
+      "condition": "Brent crude closes above $90 for three consecutive sessions",
+      "meaning": "Confirms today's spike is a structural re-escalation, not a one-day reaction to a failed attack.",
       "status": "open",
       "outcome": ""
     },
     {
-      "id": "w-2026-07-28-3",
-      "date_added": "2026-07-28",
-      "condition": "Discover, Capital One, or American Express finally reports Q2 delinquency data this week",
-      "meaning": "This resolves whether Dimon's warning was bank-specific caution or a genuine early signal of consumer credit stress spreading.",
+      "id": "w-2026-07-29-1",
+      "date_added": "2026-07-29",
+      "condition": "Thursday's Fed press conference reveals the number and direction of FOMC dissenters",
+      "meaning": "Shows how fragile Warsh's hawkish consensus really is heading into the fall.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-29-2",
+      "date_added": "2026-07-29",
+      "condition": "Microsoft, Alphabet, or Amazon echo Meta's aggressive-spending-without-clear-return story in earnings this week",
+      "meaning": "Signals the AI selloff is sector-wide rather than a Meta-specific stumble.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-29-3",
+      "date_added": "2026-07-29",
+      "condition": "Discover, Capital One, or American Express finally reports Q2 delinquency data",
+      "meaning": "Tests whether Dimon's credit-cycle warning is already showing up in real consumer numbers.",
       "status": "open",
       "outcome": ""
     }
