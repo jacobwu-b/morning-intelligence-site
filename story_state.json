@@ -4,8 +4,8 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Holds The Line",
       "first_seen": "2026-04-15",
-      "age_days": 105,
-      "summary": "The Fed held rates steady today and Warsh chose inflation-fighting credibility over any hint of relief, declaring 'no tolerance for persistently elevated inflation' even as dissent mounts inside the committee and Trump renews public pressure to cut. The open question is no longer whether the Fed eases this cycle \u2014 it's how long Warsh can hold this line as growth data softens and oil re-accelerates the inflation he's fighting."
+      "age_days": 106,
+      "summary": "Wednesday's hold and Warsh's 'no tolerance for persistently elevated inflation' stance remain unchanged today \u2014 nothing in today's data walked that back. The dissent inside the committee that mounted around the decision hasn't been quantified in today's coverage; that detail is still pending."
     },
     {
       "id": "iran-geopolitical-risk",
@@ -37,10 +37,10 @@
     },
     {
       "id": "stagflation-pricing",
-      "label": "Broad Risk-Off, Not Just Tech",
+      "label": "Consumer Resilience Bounce",
       "first_seen": "2026-06-02",
-      "age_days": 57,
-      "summary": "For the first time in this run, the Dow (-2.19%) fell harder than the Nasdaq (-1.74%), as Fed hawkishness and the oil reversal hit cyclical and industrial names alongside tech \u2014 evidence today's selloff was macro-driven, not purely an AI-valuation story. Underneath that, the AI-specific rotation stayed alive: Meta plunged over 8% after hours on a $130-145 billion capital spending plan paired with a mixed quarter, and Korea's chipmakers extended their slide, so watch whether this broadens or Nasdaq resumes leading the pain once the Fed story fades."
+      "age_days": 58,
+      "summary": "After yesterday's broad selloff (Dow -2.19%, Nasdaq -1.74%) on Fed hawkishness and Meta's capex-driven tech rout, today's GDP report showed slower headline growth but accelerating consumer spending, and stocks rallied hard across the board with Nasdaq (+2.78%) leading. The open question is whether this is relief that the recession leg of stagflation is delayed, or a one-day bounce that fades once tomorrow's inflation data and Apple/Amazon earnings land."
     },
     {
       "id": "lenders-silent-through-jobs-report",
@@ -148,22 +148,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-27-2",
-      "date_added": "2026-07-27",
-      "condition": "A major AI-exposed tech company reporting earnings this week issues cautious capex guidance",
-      "meaning": "Confirms the AI trade crack seen today is structural, not just an Apple-Nvidia headline swap.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-28-1",
-      "date_added": "2026-07-28",
-      "condition": "Wednesday's Fed statement or press conference explicitly cites the weekend oil de-escalation as grounds for a less hawkish tone",
-      "meaning": "Warsh is willing to bank the oil relief \u2014 a dovish tell that could support both bonds and rate-sensitive stocks.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-29-0",
       "date_added": "2026-07-29",
       "condition": "Brent crude closes above $90 for three consecutive sessions",
@@ -188,10 +172,18 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-29-3",
-      "date_added": "2026-07-29",
-      "condition": "Discover, Capital One, or American Express finally reports Q2 delinquency data",
-      "meaning": "Tests whether Dimon's credit-cycle warning is already showing up in real consumer numbers.",
+      "id": "w-2026-07-30-1",
+      "date_added": "2026-07-30",
+      "condition": "Tomorrow's inflation data shows core prices accelerating despite the GDP report's soft headline",
+      "meaning": "Would confirm the stagflation squeeze is intensifying even as growth cools \u2014 the worst combination for Warsh's rate hold.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-30-2",
+      "date_added": "2026-07-30",
+      "condition": "Apple or Amazon issue cautious capex guidance echoing Meta's spending story",
+      "meaning": "Would signal the AI-spending anxiety is systemic across Big Tech, not isolated to one company, and reignite the tech-specific rotation.",
       "status": "open",
       "outcome": ""
     }
