@@ -2,17 +2,17 @@
   "active_themes": [
     {
       "id": "fed-leadership-transition",
-      "label": "Warsh Holds The Line",
+      "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 106,
-      "summary": "Wednesday's hold and Warsh's 'no tolerance for persistently elevated inflation' stance remain unchanged today \u2014 nothing in today's data walked that back. The dissent inside the committee that mounted around the decision hasn't been quantified in today's coverage; that detail is still pending."
+      "age_days": 107,
+      "summary": "Warsh's Wednesday hold and hawkish inflation rhetoric held through the week, but Friday brought the first real market pushback: bond traders sold Treasuries instead of buying into his message, a direct signal they doubt his ability to stay tight once political pressure to cut mounts. The committee's internal dissent count from Wednesday's decision still hasn't been reported \u2014 that, plus whether the bond selloff extends into next week, are now the two things that will define this chair's credibility."
     },
     {
       "id": "iran-geopolitical-risk",
-      "label": "Cease-Fire Cracks",
+      "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 105,
-      "summary": "The weekend pause that briefly sent Brent \u2014 the global oil price benchmark \u2014 below $88 reversed hard today after Iran attempted a 'surprise attack,' confirming the de-escalation was tactical, not durable. The next test is whether today's spike fades as a one-off reaction to a failed strike, or marks the start of a renewed escalation cycle that keeps energy prices elevated into the fall."
+      "age_days": 107,
+      "summary": "Markets are increasingly treating the war's disruption as a cost to absorb rather than a reason to sell \u2014 the FTSE 100 is on pace for its best month since the first US strikes on Iran, and BP is proceeding with a sale of its North Sea business rather than retreating. The underlying risk hasn't gone away; investors have just stopped reacting to every headline."
     },
     {
       "id": "institutional-erosion",
@@ -30,10 +30,10 @@
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Yields Ease With Oil",
+      "label": "Credibility, Not Oil",
       "first_seen": "2026-05-15",
-      "age_days": 73,
-      "summary": "UK government bond yields fell today alongside the oil drop, the first real sign that the yield damage from the war (60 basis points \u2014 0.60 percentage points \u2014 of increase in US 10-year yields since the war started) can partially reverse if oil keeps falling. One day of relief doesn't undo the cumulative move, and US Treasury yields need their own multi-session confirmation before this becomes a trend rather than a blip."
+      "age_days": 77,
+      "summary": "Yesterday's hope that yields could ease alongside falling oil reversed hard today \u2014 not because of oil, but because bond traders explicitly rejected Warsh's attempt to calm the market. This shifts the driver of yield pressure from 'war and energy' to 'Fed credibility,' a harder problem because it can't be fixed just by oil prices coming down."
     },
     {
       "id": "stagflation-pricing",
@@ -72,23 +72,13 @@
     },
     {
       "id": "stagflation-confirmed",
-      "label": "Cost-Push Squeeze Re-Intensifies",
+      "label": "AI Fear Cools, Energy Doesn't",
       "first_seen": "2026-07-02",
-      "age_days": 27,
-      "summary": "Oil's snap-back after Iran's attempted attack undoes days of relief and reconfirms the core problem: energy costs are rising again for supply reasons interest rates cannot touch, and Warsh explicitly cited elevated energy-driven inflation today as grounds to hold rather than ease. The consumer is back to absorbing a live energy shock with no rate relief in sight."
+      "age_days": 29,
+      "summary": "The rally extended for a second day as Amazon CEO Andy Jassy successfully talked down fears that AI spending is happening without a clear payoff \u2014 a direct counter to what hit Meta and the broader market on Wednesday. The open question is whether Microsoft and Alphabet's upcoming earnings confirm that relief or reopen the capex-without-return fear still simmering underneath this rally."
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1979\u20131980",
-      "context": "Volcker's Fed watched employment deteriorate through late 1979 as inflation ran ",
-      "date_used": "2026-07-02"
-    },
-    {
-      "year": "1990\u20131991",
-      "context": "Greenspan's Fed navigated a Middle East war, oil-driven inflation, and a deterio",
-      "date_used": "2026-07-02"
-    },
     {
       "year": "2011",
       "context": "When Libya's civil war knocked roughly 1.6 million barrels per day off the globa",
@@ -128,6 +118,16 @@
       "year": "1973",
       "context": "The Arab oil embargo that began in October 1973 did not see any quick reversal \u2014",
       "date_used": "2026-07-24"
+    },
+    {
+      "year": "2013",
+      "context": "In May 2013, Fed Chair Bernanke merely mentioned slowing the pace of bond purcha",
+      "date_used": "2026-07-31"
+    },
+    {
+      "year": "1994",
+      "context": "The Fed's rate hikes that year were modest and well-telegraphed, but bond market",
+      "date_used": "2026-07-31"
     }
   ],
   "open_watchlist": [
@@ -184,6 +184,30 @@
       "date_added": "2026-07-30",
       "condition": "Apple or Amazon issue cautious capex guidance echoing Meta's spending story",
       "meaning": "Would signal the AI-spending anxiety is systemic across Big Tech, not isolated to one company, and reignite the tech-specific rotation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-31-0",
+      "date_added": "2026-07-31",
+      "condition": "10-year Treasury yield rises for a third straight session despite this week's Fed hold",
+      "meaning": "Confirms the bond market's rejection of Warsh is a trend, not a one-day reaction \u2014 borrowing costs stay elevated regardless of what the Fed says.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-31-2",
+      "date_added": "2026-07-31",
+      "condition": "Microsoft or Alphabet issue capex guidance echoing Meta's aggressive-spending story",
+      "meaning": "Would reignite the AI overspending scare that hit tech Wednesday, undoing today's relief from Amazon's reassurance.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-07-31-3",
+      "date_added": "2026-07-31",
+      "condition": "S&P 500 breaks decisively above or below 7,500 rather than bouncing between the two",
+      "meaning": "Signals the options-driven pinning some traders are pointing to is losing its grip, opening the door to a bigger directional move.",
       "status": "open",
       "outcome": ""
     }
