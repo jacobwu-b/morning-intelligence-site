@@ -4,78 +4,49 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 107,
-      "summary": "Warsh's Wednesday hold and hawkish inflation rhetoric held through the week, but Friday brought the first real market pushback: bond traders sold Treasuries instead of buying into his message, a direct signal they doubt his ability to stay tight once political pressure to cut mounts. The committee's internal dissent count from Wednesday's decision still hasn't been reported \u2014 that, plus whether the bond selloff extends into next week, are now the two things that will define this chair's credibility."
+      "age_days": 110,
+      "summary": "Public questioning of Warsh's independence from the White House sharpened today, and this weekend's joint US-Japan currency intervention \u2014 carried out with Trump directly involved \u2014 adds a fresh data point: the administration is comfortable putting its hand on monetary-adjacent levers while Warsh's own credibility fight with bond traders remains unresolved. The internal dissent count from last week's hold still hasn't surfaced; that, plus whether Treasury yields resume climbing, remain the two tests that will define this chair's credibility.",
+      "runs_since_update": 0
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 107,
-      "summary": "Markets are increasingly treating the war's disruption as a cost to absorb rather than a reason to sell \u2014 the FTSE 100 is on pace for its best month since the first US strikes on Iran, and BP is proceeding with a sale of its North Sea business rather than retreating. The underlying risk hasn't gone away; investors have just stopped reacting to every headline."
+      "age_days": 110,
+      "summary": "A tanker was struck in the Strait of Hormuz over the weekend, and shipping traffic through the Gulf came through little changed \u2014 another test of the market's 'absorb it, don't react to it' posture, and another test it passed. The risk hasn't gone away \u2014 EY's warning that the UK faces recession if the Strait stays closed shows how much is quietly riding on the lane staying open \u2014 but markets are increasingly pricing the war as a background cost rather than a fresh shock.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "stagflation-pricing",
+      "label": "Consumer Resilience Bounce",
+      "first_seen": "2026-06-02",
+      "age_days": 62,
+      "summary": "The relief rally extended for a second straight day: the S&P's close at 7,600.50 is a decisive break above the 7,500 level that had been a coin-flip zone for days, and the Nasdaq's 2.13% gain shows tech leading again. The open question is shifting \u2014 less about whether the GDP report was a real signal, and more about whether equities can keep ignoring the doubt already showing up in the bond market.",
+      "runs_since_update": 0
     },
     {
       "id": "institutional-erosion",
       "label": "Merged: See Lender-Margin-Compression",
       "first_seen": "2026-04-15",
       "age_days": 78,
-      "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed."
+      "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed.",
+      "runs_since_update": 1
     },
     {
       "id": "consumer-credit-tightening",
       "label": "Merged: See Lender-Margin-Compression",
       "first_seen": "2026-04-23",
       "age_days": 70,
-      "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed."
+      "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed.",
+      "runs_since_update": 1
     },
     {
       "id": "treasury-yield-shock",
       "label": "Credibility, Not Oil",
       "first_seen": "2026-05-15",
       "age_days": 77,
-      "summary": "Yesterday's hope that yields could ease alongside falling oil reversed hard today \u2014 not because of oil, but because bond traders explicitly rejected Warsh's attempt to calm the market. This shifts the driver of yield pressure from 'war and energy' to 'Fed credibility,' a harder problem because it can't be fixed just by oil prices coming down."
-    },
-    {
-      "id": "stagflation-pricing",
-      "label": "Consumer Resilience Bounce",
-      "first_seen": "2026-06-02",
-      "age_days": 58,
-      "summary": "After yesterday's broad selloff (Dow -2.19%, Nasdaq -1.74%) on Fed hawkishness and Meta's capex-driven tech rout, today's GDP report showed slower headline growth but accelerating consumer spending, and stocks rallied hard across the board with Nasdaq (+2.78%) leading. The open question is whether this is relief that the recession leg of stagflation is delayed, or a one-day bounce that fades once tomorrow's inflation data and Apple/Amazon earnings land."
-    },
-    {
-      "id": "lenders-silent-through-jobs-report",
-      "label": "Merged: See Lender-Margin-Compression",
-      "first_seen": "2026-06-08",
-      "age_days": 24,
-      "summary": "The lender silence observation has been absorbed into lender-margin-compression with July 2 context. This thread is subsumed."
-    },
-    {
-      "id": "soft-landing-dead",
-      "label": "Confirmed \u2014 Theme Complete",
-      "first_seen": "2026-06-15",
-      "age_days": 36,
-      "summary": "The soft landing thesis is closed and confirmed: 57,000 jobs and 4.2% core inflation ended the scenario that required inflation to cool while employment held. This theme requires no further tracking \u2014 future briefs should operate from stagflation-confirmed and stagflation-pricing as the live analytical frameworks. The only remaining question is severity and duration, not the label."
-    },
-    {
-      "id": "warsh-hawkish-pivot",
-      "label": "Merged: See Fed-Leadership-Transition",
-      "first_seen": "2026-06-17",
-      "age_days": 15,
-      "summary": "Warsh's hawkish stance and its conflict with weakening labor data are now tracked under fed-leadership-transition. This thread is subsumed."
-    },
-    {
-      "id": "lender-margin-compression",
-      "label": "Dimon Breaks Silence",
-      "first_seen": "2026-06-23",
-      "age_days": 29,
-      "summary": "JPMorgan CEO Jamie Dimon explicitly warned the next credit cycle will be \"worse than people expect,\" the most direct public statement yet from the bank with the broadest visibility into American consumer lending. Discover, Capital One, and American Express have still not reported Q2 delinquency data as the silence stretches past day 24 \u2014 Dimon's comment raises the stakes for what those three companies say when they finally report."
-    },
-    {
-      "id": "stagflation-confirmed",
-      "label": "AI Fear Cools, Energy Doesn't",
-      "first_seen": "2026-07-02",
-      "age_days": 29,
-      "summary": "The rally extended for a second day as Amazon CEO Andy Jassy successfully talked down fears that AI spending is happening without a clear payoff \u2014 a direct counter to what hit Meta and the broader market on Wednesday. The open question is whether Microsoft and Alphabet's upcoming earnings confirm that relief or reopen the capex-without-return fear still simmering underneath this rally."
+      "summary": "Yesterday's hope that yields could ease alongside falling oil reversed hard today \u2014 not because of oil, but because bond traders explicitly rejected Warsh's attempt to calm the market. This shifts the driver of yield pressure from 'war and energy' to 'Fed credibility,' a harder problem because it can't be fixed just by oil prices coming down.",
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -132,30 +103,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-07-22-1",
-      "date_added": "2026-07-22",
-      "condition": "US officials confirm or deny a Russian role in Iran's strikes on CIA facilities",
-      "meaning": "Confirmation would mean the conflict has effectively widened to include a nuclear-armed power, a different risk category than a regional war.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-27-1",
-      "date_added": "2026-07-27",
-      "condition": "Discover, Capital One, or American Express reports Q2 delinquency data meaningfully above Q1 levels",
-      "meaning": "Confirms Dimon's credit-cycle warning was not hyperbole and consumer stress is spreading beyond headlines.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-29-0",
-      "date_added": "2026-07-29",
-      "condition": "Brent crude closes above $90 for three consecutive sessions",
-      "meaning": "Confirms today's spike is a structural re-escalation, not a one-day reaction to a failed attack.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-07-29-1",
       "date_added": "2026-07-29",
       "condition": "Thursday's Fed press conference reveals the number and direction of FOMC dissenters",
@@ -204,10 +151,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-07-31-3",
-      "date_added": "2026-07-31",
-      "condition": "S&P 500 breaks decisively above or below 7,500 rather than bouncing between the two",
-      "meaning": "Signals the options-driven pinning some traders are pointing to is losing its grip, opening the door to a bigger directional move.",
+      "id": "w-2026-08-03-0",
+      "date_added": "2026-08-03",
+      "condition": "The yen extends its climb past this week's three-month high for a second consecutive session.",
+      "meaning": "Would confirm the currency move is a trend rather than a one-day intervention effect, raising real unwind risk for the leveraged trades that have helped fund the AI rally.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-03-1",
+      "date_added": "2026-08-03",
+      "condition": "Shipping insurance premiums or transit delays through the Strait of Hormuz rise measurably following the weekend tanker strike.",
+      "meaning": "Would signal the war is starting to show up as a real cost in freight and insurance markets, not just a headline the market has learned to shrug off.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-03-2",
+      "date_added": "2026-08-03",
+      "condition": "Dollar weakness broadens beyond the yen move alone, showing up against a wider basket of currencies.",
+      "meaning": "Would suggest the credibility question is bigger than one bilateral intervention \u2014 a signal investors are pricing broader doubt about US monetary policy.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-03-3",
+      "date_added": "2026-08-03",
+      "condition": "This week's jobs report shows payroll growth reaccelerating rather than confirming recent labor-market weakness.",
+      "meaning": "Would be the strongest confirmation yet that the GDP-fueled rally reflects real economic resilience rather than a one-time bounce.",
       "status": "open",
       "outcome": ""
     }
