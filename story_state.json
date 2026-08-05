@@ -4,24 +4,32 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 110,
-      "summary": "Public questioning of Warsh's independence from the White House sharpened today, and this weekend's joint US-Japan currency intervention \u2014 carried out with Trump directly involved \u2014 adds a fresh data point: the administration is comfortable putting its hand on monetary-adjacent levers while Warsh's own credibility fight with bond traders remains unresolved. The internal dissent count from last week's hold still hasn't surfaced; that, plus whether Treasury yields resume climbing, remain the two tests that will define this chair's credibility.",
+      "age_days": 111,
+      "summary": "Public criticism of Warsh's hands-off inflation strategy sharpened today, and a new indicator hitting its highest level in four years is quietly building a case that the Fed's next move could be a hike rather than a cut \u2014 a scenario almost nobody was pricing a month ago. Philadelphia Fed president Paulson's 'open mind' comment on rates adds to the sense that the committee is less unified around near-term cuts than markets assumed; the internal dissent count from last week's hold and whether this new indicator shows up in actual CPI/PCE data remain the two things that will settle this.",
       "runs_since_update": 0
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 110,
-      "summary": "A tanker was struck in the Strait of Hormuz over the weekend, and shipping traffic through the Gulf came through little changed \u2014 another test of the market's 'absorb it, don't react to it' posture, and another test it passed. The risk hasn't gone away \u2014 EY's warning that the UK faces recession if the Strait stays closed shows how much is quietly riding on the lane staying open \u2014 but markets are increasingly pricing the war as a background cost rather than a fresh shock.",
+      "age_days": 111,
+      "summary": "Today's news skewed toward de-escalation: Gulf shipping traffic stayed steady despite the weekend tanker strike, and emerging optimism around US-Iran peace talks weakened the dollar and pushed gold to a one-month high as a fading-but-not-gone hedge. The market is now doing more than absorbing the war passively \u2014 it's starting to price real progress toward resolution, which means a breakdown in talks would hit harder than the tanker strike did, precisely because expectations have shifted.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Consumer Resilience Bounce",
       "first_seen": "2026-06-02",
-      "age_days": 62,
-      "summary": "The relief rally extended for a second straight day: the S&P's close at 7,600.50 is a decisive break above the 7,500 level that had been a coin-flip zone for days, and the Nasdaq's 2.13% gain shows tech leading again. The open question is shifting \u2014 less about whether the GDP report was a real signal, and more about whether equities can keep ignoring the doubt already showing up in the bond market.",
+      "age_days": 63,
+      "summary": "The rally extended for a third-plus session, with the S&P clearing 7,700 and the Nasdaq leading on AI optimism \u2014 equities are increasingly ignoring the doubt still sitting in the bond market and in today's hawkish-leaning Fed commentary. The open question remains whether this is durable strength or a market that's decided to celebrate first and ask questions about rates later.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "treasury-yield-shock",
+      "label": "Credibility, Not Oil",
+      "first_seen": "2026-05-15",
+      "age_days": 81,
+      "summary": "No fresh yield data printed today, but the underlying credibility problem got a new data point: a four-year-high reading on an inflation-adjacent indicator, paired with Paulson's non-committal rate stance, strengthens the case that bond traders' skepticism of Warsh isn't just about optics \u2014 it may be about substance. The test remains unchanged: does the 10-year yield resume climbing, and does the next inflation print validate or deflate this new indicator.",
       "runs_since_update": 0
     },
     {
@@ -30,7 +38,7 @@
       "first_seen": "2026-04-15",
       "age_days": 78,
       "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "consumer-credit-tightening",
@@ -38,28 +46,10 @@
       "first_seen": "2026-04-23",
       "age_days": 70,
       "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "treasury-yield-shock",
-      "label": "Credibility, Not Oil",
-      "first_seen": "2026-05-15",
-      "age_days": 77,
-      "summary": "Yesterday's hope that yields could ease alongside falling oil reversed hard today \u2014 not because of oil, but because bond traders explicitly rejected Warsh's attempt to calm the market. This shifts the driver of yield pressure from 'war and energy' to 'Fed credibility,' a harder problem because it can't be fixed just by oil prices coming down.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2011",
-      "context": "When Libya's civil war knocked roughly 1.6 million barrels per day off the globa",
-      "date_used": "2026-07-06"
-    },
-    {
-      "year": "2022",
-      "context": "President Biden made a high-profile trip to Saudi Arabia in July 2022, pressing ",
-      "date_used": "2026-07-06"
-    },
     {
       "year": "1987\u20131988",
       "context": "During the Iran-Iraq War, Iranian forces attacked over 300 commercial vessels tr",
@@ -102,14 +92,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-29-1",
-      "date_added": "2026-07-29",
-      "condition": "Thursday's Fed press conference reveals the number and direction of FOMC dissenters",
-      "meaning": "Shows how fragile Warsh's hawkish consensus really is heading into the fall.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-29-2",
       "date_added": "2026-07-29",
@@ -167,18 +149,26 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-03-2",
-      "date_added": "2026-08-03",
-      "condition": "Dollar weakness broadens beyond the yen move alone, showing up against a wider basket of currencies.",
-      "meaning": "Would suggest the credibility question is bigger than one bilateral intervention \u2014 a signal investors are pricing broader doubt about US monetary policy.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-03-3",
       "date_added": "2026-08-03",
       "condition": "This week's jobs report shows payroll growth reaccelerating rather than confirming recent labor-market weakness.",
       "meaning": "Would be the strongest confirmation yet that the GDP-fueled rally reflects real economic resilience rather than a one-time bounce.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-04-1",
+      "date_added": "2026-08-04",
+      "condition": "The next CPI or PCE inflation print either echoes or contradicts today's four-year-high indicator reading.",
+      "meaning": "Validation would sharply raise the odds of a 2026 rate hike being seriously discussed; contradiction would let today's rally stand unchallenged.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-04-2",
+      "date_added": "2026-08-04",
+      "condition": "US-Iran peace talks produce either a concrete framework or a public breakdown.",
+      "meaning": "A breakdown would hit markets harder than the recent tanker strike did, since today's rally just priced in the opposite outcome.",
       "status": "open",
       "outcome": ""
     }
