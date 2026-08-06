@@ -4,32 +4,32 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 111,
-      "summary": "Public criticism of Warsh's hands-off inflation strategy sharpened today, and a new indicator hitting its highest level in four years is quietly building a case that the Fed's next move could be a hike rather than a cut \u2014 a scenario almost nobody was pricing a month ago. Philadelphia Fed president Paulson's 'open mind' comment on rates adds to the sense that the committee is less unified around near-term cuts than markets assumed; the internal dissent count from last week's hold and whether this new indicator shows up in actual CPI/PCE data remain the two things that will settle this.",
+      "age_days": 112,
+      "summary": "Gold hovering near a seven-week high today came specifically on easing hike fears \u2014 a signal that cuts against yesterday's hawkish four-year-high indicator reading and Paulson's non-committal rate stance. The Fed-credibility question is still unresolved: does the next inflation print validate the hawkish indicator, or does today's gold move mean traders already think it's a false alarm.",
       "runs_since_update": 0
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 111,
-      "summary": "Today's news skewed toward de-escalation: Gulf shipping traffic stayed steady despite the weekend tanker strike, and emerging optimism around US-Iran peace talks weakened the dollar and pushed gold to a one-month high as a fading-but-not-gone hedge. The market is now doing more than absorbing the war passively \u2014 it's starting to price real progress toward resolution, which means a breakdown in talks would hit harder than the tanker strike did, precisely because expectations have shifted.",
+      "age_days": 112,
+      "summary": "Israel struck southern Lebanon after soldiers were killed there, but the market chose to price the good news instead \u2014 continued talks in Rome and Trump's positive framing pushed the Dow to a record close and kept gold near a one-month high as a fading hedge. This is the clearest sign yet that markets are actively betting on resolution rather than passively absorbing risk, which means a real breakdown in talks \u2014 not just another strike \u2014 is now the thing that would hit hardest.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Consumer Resilience Bounce",
       "first_seen": "2026-06-02",
-      "age_days": 63,
-      "summary": "The rally extended for a third-plus session, with the S&P clearing 7,700 and the Nasdaq leading on AI optimism \u2014 equities are increasingly ignoring the doubt still sitting in the bond market and in today's hawkish-leaning Fed commentary. The open question remains whether this is durable strength or a market that's decided to celebrate first and ask questions about rates later.",
+      "age_days": 64,
+      "summary": "The multi-day rally paused today \u2014 the S&P and Nasdaq both slipped while only the Dow advanced, splitting along the same line as the Mideast-optimism-versus-chip-anxiety divide. The open question is whether this is a one-day breather in an otherwise durable rally, or the first crack in a market that's been celebrating strength while ignoring bond-market doubt.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "Credibility, Not Oil",
       "first_seen": "2026-05-15",
-      "age_days": 81,
-      "summary": "No fresh yield data printed today, but the underlying credibility problem got a new data point: a four-year-high reading on an inflation-adjacent indicator, paired with Paulson's non-committal rate stance, strengthens the case that bond traders' skepticism of Warsh isn't just about optics \u2014 it may be about substance. The test remains unchanged: does the 10-year yield resume climbing, and does the next inflation print validate or deflate this new indicator.",
+      "age_days": 82,
+      "summary": "No fresh yield data printed today, so the underlying credibility test is unchanged: does the 10-year resume climbing, and does the next inflation print confirm or deflate the four-year-high indicator now driving the Fed debate. Today's gold move \u2014 rising on easing hike fears \u2014 is a small data point suggesting the bond-adjacent market isn't fully convinced the hawkish case is real yet.",
       "runs_since_update": 0
     },
     {
@@ -38,7 +38,7 @@
       "first_seen": "2026-04-15",
       "age_days": 78,
       "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     },
     {
       "id": "consumer-credit-tightening",
@@ -46,20 +46,10 @@
       "first_seen": "2026-04-23",
       "age_days": 70,
       "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1987\u20131988",
-      "context": "During the Iran-Iraq War, Iranian forces attacked over 300 commercial vessels tr",
-      "date_used": "2026-07-07"
-    },
-    {
-      "year": "2019",
-      "context": "In June 2019, two tankers were attacked in the Gulf of Oman. In September 2019, ",
-      "date_used": "2026-07-07"
-    },
     {
       "year": "2018",
       "context": "The index tracking the 30 largest chip companies fell roughly 37% from its March",
@@ -92,22 +82,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-29-2",
-      "date_added": "2026-07-29",
-      "condition": "Microsoft, Alphabet, or Amazon echo Meta's aggressive-spending-without-clear-return story in earnings this week",
-      "meaning": "Signals the AI selloff is sector-wide rather than a Meta-specific stumble.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-30-1",
-      "date_added": "2026-07-30",
-      "condition": "Tomorrow's inflation data shows core prices accelerating despite the GDP report's soft headline",
-      "meaning": "Would confirm the stagflation squeeze is intensifying even as growth cools \u2014 the worst combination for Warsh's rate hold.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-07-30-2",
       "date_added": "2026-07-30",
@@ -169,6 +143,22 @@
       "date_added": "2026-08-04",
       "condition": "US-Iran peace talks produce either a concrete framework or a public breakdown.",
       "meaning": "A breakdown would hit markets harder than the recent tanker strike did, since today's rally just priced in the opposite outcome.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-05-0",
+      "date_added": "2026-08-05",
+      "condition": "Israeli strikes on Lebanon draw a direct Iranian or Hezbollah response, rather than staying a contained strike-and-pause pattern.",
+      "meaning": "That would mean the market's decision to price talks over strikes today was premature, and the Mideast-optimism rally in the Dow is exposed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-05-3",
+      "date_added": "2026-08-05",
+      "condition": "Additional chip or megacap tech earnings guidance echoes the same spending-without-clear-return caution seen around AMD today.",
+      "meaning": "That would turn today's Nasdaq drag from an isolated story into confirmation of the broader AI-capex anxiety the market has been trying to ignore.",
       "status": "open",
       "outcome": ""
     }
