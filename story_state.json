@@ -4,32 +4,32 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 112,
-      "summary": "Gold hovering near a seven-week high today came specifically on easing hike fears \u2014 a signal that cuts against yesterday's hawkish four-year-high indicator reading and Paulson's non-committal rate stance. The Fed-credibility question is still unresolved: does the next inflation print validate the hawkish indicator, or does today's gold move mean traders already think it's a false alarm.",
+      "age_days": 113,
+      "summary": "A new wrinkle: the yen slid to its weakest level against the dollar in 40 years, and the US Treasury reportedly stepped in to support it \u2014 an unusual role reversal that signals officials see dollar strength as disorderly, not just a Japan problem. This adds a currency-stability dimension to the Fed-credibility test that was previously just about domestic rates and inflation prints.",
       "runs_since_update": 0
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 112,
-      "summary": "Israel struck southern Lebanon after soldiers were killed there, but the market chose to price the good news instead \u2014 continued talks in Rome and Trump's positive framing pushed the Dow to a record close and kept gold near a one-month high as a fading hedge. This is the clearest sign yet that markets are actively betting on resolution rather than passively absorbing risk, which means a real breakdown in talks \u2014 not just another strike \u2014 is now the thing that would hit hardest.",
+      "age_days": 113,
+      "summary": "No escalation and no breakthrough today \u2014 stocks slipped modestly as investors watched ongoing Mideast talks alongside earnings, with oil holding near $80. The market is still pricing resolution rather than breakdown, which means the real risk remains a public collapse in talks, not another contained strike.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Consumer Resilience Bounce",
       "first_seen": "2026-06-02",
-      "age_days": 64,
-      "summary": "The multi-day rally paused today \u2014 the S&P and Nasdaq both slipped while only the Dow advanced, splitting along the same line as the Mideast-optimism-versus-chip-anxiety divide. The open question is whether this is a one-day breather in an otherwise durable rally, or the first crack in a market that's been celebrating strength while ignoring bond-market doubt.",
+      "age_days": 65,
+      "summary": "The pattern flipped from yesterday: instead of the Dow holding up while S&P and Nasdaq slipped, today the Dow underperformed by a wide margin while the other two indices were nearly flat. That's consistent with rate-sensitive sectors bearing the brunt of the mortgage-rate story while AI-driven tech names stay comparatively insulated \u2014 the open question is whether that rotation deepens or was just one day's noise.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "Credibility, Not Oil",
       "first_seen": "2026-05-15",
-      "age_days": 82,
-      "summary": "No fresh yield data printed today, so the underlying credibility test is unchanged: does the 10-year resume climbing, and does the next inflation print confirm or deflate the four-year-high indicator now driving the Fed debate. Today's gold move \u2014 rising on easing hike fears \u2014 is a small data point suggesting the bond-adjacent market isn't fully convinced the hawkish case is real yet.",
+      "age_days": 83,
+      "summary": "Mortgage rates rising a fifth straight week to their highest point in over a year is fresh evidence the underlying yield pressure hasn't broken, even without a new 10-year Treasury print today. Meanwhile gold's rally into its best week since January is betting the opposite \u2014 that hike fears are overblown \u2014 so the credibility question (does the bond market or the gold market have it right) is now sharper, not resolved.",
       "runs_since_update": 0
     },
     {
@@ -38,7 +38,7 @@
       "first_seen": "2026-04-15",
       "age_days": 78,
       "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed.",
-      "runs_since_update": 3
+      "runs_since_update": 4
     },
     {
       "id": "consumer-credit-tightening",
@@ -46,7 +46,7 @@
       "first_seen": "2026-04-23",
       "age_days": 70,
       "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed.",
-      "runs_since_update": 3
+      "runs_since_update": 4
     }
   ],
   "historical_comps_used": [
@@ -82,38 +82,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-07-30-2",
-      "date_added": "2026-07-30",
-      "condition": "Apple or Amazon issue cautious capex guidance echoing Meta's spending story",
-      "meaning": "Would signal the AI-spending anxiety is systemic across Big Tech, not isolated to one company, and reignite the tech-specific rotation.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-31-0",
-      "date_added": "2026-07-31",
-      "condition": "10-year Treasury yield rises for a third straight session despite this week's Fed hold",
-      "meaning": "Confirms the bond market's rejection of Warsh is a trend, not a one-day reaction \u2014 borrowing costs stay elevated regardless of what the Fed says.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-07-31-2",
-      "date_added": "2026-07-31",
-      "condition": "Microsoft or Alphabet issue capex guidance echoing Meta's aggressive-spending story",
-      "meaning": "Would reignite the AI overspending scare that hit tech Wednesday, undoing today's relief from Amazon's reassurance.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-03-0",
-      "date_added": "2026-08-03",
-      "condition": "The yen extends its climb past this week's three-month high for a second consecutive session.",
-      "meaning": "Would confirm the currency move is a trend rather than a one-day intervention effect, raising real unwind risk for the leveraged trades that have helped fund the AI rally.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-03-1",
       "date_added": "2026-08-03",
@@ -159,6 +127,38 @@
       "date_added": "2026-08-05",
       "condition": "Additional chip or megacap tech earnings guidance echoes the same spending-without-clear-return caution seen around AMD today.",
       "meaning": "That would turn today's Nasdaq drag from an isolated story into confirmation of the broader AI-capex anxiety the market has been trying to ignore.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-06-0",
+      "date_added": "2026-08-06",
+      "condition": "The yen falls through today's 40-year low against the dollar for a second consecutive session.",
+      "meaning": "Confirms a real trend rather than a one-day print, raising the odds of forced carry-trade unwinding that spills into US equities.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-06-1",
+      "date_added": "2026-08-06",
+      "condition": "The US Treasury confirms direct dollar-selling intervention to support the yen.",
+      "meaning": "Signals officials view the dollar's strength as a systemic risk worth spending reserves on, not background noise.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-06-2",
+      "date_added": "2026-08-06",
+      "condition": "Mortgage rates rise for a sixth consecutive week past today's one-year high.",
+      "meaning": "Confirms tightening credit is deepening, not plateauing, adding weight to the hawkish side of the Fed-credibility question.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-06-3",
+      "date_added": "2026-08-06",
+      "condition": "Gold's weekly gain holds even as the 10-year Treasury yield resumes climbing.",
+      "meaning": "Would mean gold is being bought as a pure inflation hedge, not a rate-cut bet \u2014 a very different, more troubling signal for the Fed.",
       "status": "open",
       "outcome": ""
     }
