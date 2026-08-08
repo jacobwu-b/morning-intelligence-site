@@ -4,49 +4,33 @@
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
-      "age_days": 113,
-      "summary": "A new wrinkle: the yen slid to its weakest level against the dollar in 40 years, and the US Treasury reportedly stepped in to support it \u2014 an unusual role reversal that signals officials see dollar strength as disorderly, not just a Japan problem. This adds a currency-stability dimension to the Fed-credibility test that was previously just about domestic rates and inflation prints.",
+      "age_days": 114,
+      "summary": "Trump is making a second attempt to remove Fed Governor Lisa Cook, months after the Supreme Court blocked the first effort and upheld the Fed's independence. The renewed push lands the same day a surprise July jobs loss handed the administration a fresh, data-based argument for faster rate cuts \u2014 stacking a leadership-control fight directly on top of the rates-and-currency credibility test already underway. What remains open: whether this becomes an actual legal or personnel change, or stays a pressure campaign the Fed and courts absorb again.",
       "runs_since_update": 0
     },
     {
       "id": "iran-geopolitical-risk",
       "label": "Markets Absorb The War",
       "first_seen": "2026-04-15",
-      "age_days": 113,
-      "summary": "No escalation and no breakthrough today \u2014 stocks slipped modestly as investors watched ongoing Mideast talks alongside earnings, with oil holding near $80. The market is still pricing resolution rather than breakdown, which means the real risk remains a public collapse in talks, not another contained strike.",
+      "age_days": 114,
+      "summary": "Diplomatic signals turned modestly positive: a deal on the Strait of Hormuz is reportedly close, even as Saudi Arabia, Turkey, and Pakistan signed a mutual defense pact and Houthi strikes on Yemen's Marib continued. Oil is holding near $80 and stocks are pricing negotiation over breakdown, but the new defense pact shows regional powers are hedging against exactly the escalation the market isn't pricing.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Consumer Resilience Bounce",
       "first_seen": "2026-06-02",
-      "age_days": 65,
-      "summary": "The pattern flipped from yesterday: instead of the Dow holding up while S&P and Nasdaq slipped, today the Dow underperformed by a wide margin while the other two indices were nearly flat. That's consistent with rate-sensitive sectors bearing the brunt of the mortgage-rate story while AI-driven tech names stay comparatively insulated \u2014 the open question is whether that rotation deepens or was just one day's noise.",
+      "age_days": 66,
+      "summary": "The rotation identified yesterday held for a second day \u2014 the Dow rose just 0.28% while the Nasdaq jumped 1.3% \u2014 as tech kept outperforming the more economically-sensitive names in the Dow. Today's weak jobs report reinforces the split: a cooling economy hits industrial and consumer companies directly, while the same weak data raises hopes for rate cuts that help expensive tech stocks the most. The open question is whether this becomes a durable leadership shift or unwinds once the labor data is fully digested.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "Credibility, Not Oil",
       "first_seen": "2026-05-15",
-      "age_days": 83,
-      "summary": "Mortgage rates rising a fifth straight week to their highest point in over a year is fresh evidence the underlying yield pressure hasn't broken, even without a new 10-year Treasury print today. Meanwhile gold's rally into its best week since January is betting the opposite \u2014 that hike fears are overblown \u2014 so the credibility question (does the bond market or the gold market have it right) is now sharper, not resolved.",
+      "age_days": 84,
+      "summary": "The credibility question sharpened today: a weak jobs report is exactly the kind of data that normally pulls Treasury yields (the interest rate on government debt that sets the floor for mortgage and loan rates) down on rate-cut hope, but it arrived the same day Trump escalated his effort to remove a sitting Fed governor \u2014 meaning any future cut now risks looking political rather than earned. Mortgage rates already rose a fifth straight week to a one-year high, and whether the bond market treats the next Fed move as legitimate stabilization or forced easing is the fault line to watch.",
       "runs_since_update": 0
-    },
-    {
-      "id": "institutional-erosion",
-      "label": "Merged: See Lender-Margin-Compression",
-      "first_seen": "2026-04-15",
-      "age_days": 78,
-      "summary": "The institutional lender silence story is tracked under lender-margin-compression with updated context from July 2 data. This thread is subsumed.",
-      "runs_since_update": 4
-    },
-    {
-      "id": "consumer-credit-tightening",
-      "label": "Merged: See Lender-Margin-Compression",
-      "first_seen": "2026-04-23",
-      "age_days": 70,
-      "summary": "Consumer credit tightening risk is tracked under lender-margin-compression with current stakes. This thread is subsumed.",
-      "runs_since_update": 4
     }
   ],
   "historical_comps_used": [
@@ -79,41 +63,19 @@
       "year": "1994",
       "context": "The Fed's rate hikes that year were modest and well-telegraphed, but bond market",
       "date_used": "2026-07-31"
+    },
+    {
+      "year": "1972",
+      "context": "Fed Chair Arthur Burns cut interest rates through 1971-72 under direct pressure ",
+      "date_used": "2026-08-07"
+    },
+    {
+      "year": "2018-2021",
+      "context": "Turkey's President Erdogan repeatedly pressured the central bank to cut rates de",
+      "date_used": "2026-08-07"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-03-1",
-      "date_added": "2026-08-03",
-      "condition": "Shipping insurance premiums or transit delays through the Strait of Hormuz rise measurably following the weekend tanker strike.",
-      "meaning": "Would signal the war is starting to show up as a real cost in freight and insurance markets, not just a headline the market has learned to shrug off.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-03-3",
-      "date_added": "2026-08-03",
-      "condition": "This week's jobs report shows payroll growth reaccelerating rather than confirming recent labor-market weakness.",
-      "meaning": "Would be the strongest confirmation yet that the GDP-fueled rally reflects real economic resilience rather than a one-time bounce.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-04-1",
-      "date_added": "2026-08-04",
-      "condition": "The next CPI or PCE inflation print either echoes or contradicts today's four-year-high indicator reading.",
-      "meaning": "Validation would sharply raise the odds of a 2026 rate hike being seriously discussed; contradiction would let today's rally stand unchallenged.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-04-2",
-      "date_added": "2026-08-04",
-      "condition": "US-Iran peace talks produce either a concrete framework or a public breakdown.",
-      "meaning": "A breakdown would hit markets harder than the recent tanker strike did, since today's rally just priced in the opposite outcome.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-05-0",
       "date_added": "2026-08-05",
@@ -159,6 +121,38 @@
       "date_added": "2026-08-06",
       "condition": "Gold's weekly gain holds even as the 10-year Treasury yield resumes climbing.",
       "meaning": "Would mean gold is being bought as a pure inflation hedge, not a rate-cut bet \u2014 a very different, more troubling signal for the Fed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-07-0",
+      "date_added": "2026-08-07",
+      "condition": "The 10-year Treasury yield's reaction over the next few sessions to today's jobs report \u2014 a decline signals normal growth-scare pricing, a rise or hold signals a credibility discount.",
+      "meaning": "Falling yields mean the Fed's independence is still trusted; rising or flat yields despite weak growth mean the market is pricing in political risk to the Fed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-07-1",
+      "date_added": "2026-08-07",
+      "condition": "Whether a court challenge or ruling directly addresses Trump's renewed attempt to remove Governor Cook.",
+      "meaning": "A ruling reaffirming Fed independence keeps this a pressure campaign; an actual removal would be the first real breach of Fed independence in modern history.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-07-2",
+      "date_added": "2026-08-07",
+      "condition": "Whether the next jobless claims or payroll revisions confirm or reverse today's job-loss print.",
+      "meaning": "Confirmation would mean the labor market is genuinely cracking, not just one noisy month, strengthening the case for a real Fed cut.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-07-3",
+      "date_added": "2026-08-07",
+      "condition": "Whether the Nasdaq's rate-cut-driven rally extends or fades as more officials comment on the Cook situation.",
+      "meaning": "A fading rally would signal markets are starting to worry more about Fed credibility than they are excited about cheaper money.",
       "status": "open",
       "outcome": ""
     }
