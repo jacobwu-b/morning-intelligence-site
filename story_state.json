@@ -1,36 +1,36 @@
 {
   "active_themes": [
     {
+      "id": "iran-geopolitical-risk",
+      "label": "Hormuz Hopes Fade",
+      "first_seen": "2026-04-15",
+      "age_days": 117,
+      "summary": "The diplomatic optimism from recent days reversed today \u2014 Iran tempered talk of a Hormuz deal, oil rose 2% on dimming peace hopes, and the rupee slid to a two-week low on the higher oil bill. A report that Trump's travel was secretly rerouted due to an Iran threat suggests the security establishment is treating this as a live risk, not a bargaining tactic. What remains open: whether this is a one-day negotiating setback or the start of a real breakdown \u2014 watch whether oil holds its gain or gives it back within days.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "stagflation-pricing",
+      "label": "Rotation Pauses",
+      "first_seen": "2026-06-02",
+      "age_days": 69,
+      "summary": "The tech-over-Dow rotation that held for two straight days broke today: the Nasdaq fell 0.32% versus the Dow's 0.11% decline, as oil-driven risk-off hit growth names harder than defensive industrials. One session isn't enough to call the rotation over \u2014 it needs to repeat before it's a trend rather than noise from the Iran headlines.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "treasury-yield-shock",
+      "label": "Credibility Widens",
+      "first_seen": "2026-05-15",
+      "age_days": 87,
+      "summary": "Jamie Dimon's comment that the dollar could lose its reserve-currency status \u2014 its position as the currency the world holds as its main safe asset \u2014 if the US loses its economic and military edge adds a longer-horizon version of the same credibility question already in play around the Fed. Gold eased from its two-month high today specifically because rising oil is clouding the rate-cut outlook, which is the mechanism to watch: anything that makes the inflation path murkier makes any future Fed cut look more political and less earned.",
+      "runs_since_update": 0
+    },
+    {
       "id": "fed-leadership-transition",
       "label": "Warsh Faces First Test",
       "first_seen": "2026-04-15",
       "age_days": 114,
       "summary": "Trump is making a second attempt to remove Fed Governor Lisa Cook, months after the Supreme Court blocked the first effort and upheld the Fed's independence. The renewed push lands the same day a surprise July jobs loss handed the administration a fresh, data-based argument for faster rate cuts \u2014 stacking a leadership-control fight directly on top of the rates-and-currency credibility test already underway. What remains open: whether this becomes an actual legal or personnel change, or stays a pressure campaign the Fed and courts absorb again.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "iran-geopolitical-risk",
-      "label": "Markets Absorb The War",
-      "first_seen": "2026-04-15",
-      "age_days": 114,
-      "summary": "Diplomatic signals turned modestly positive: a deal on the Strait of Hormuz is reportedly close, even as Saudi Arabia, Turkey, and Pakistan signed a mutual defense pact and Houthi strikes on Yemen's Marib continued. Oil is holding near $80 and stocks are pricing negotiation over breakdown, but the new defense pact shows regional powers are hedging against exactly the escalation the market isn't pricing.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "stagflation-pricing",
-      "label": "Consumer Resilience Bounce",
-      "first_seen": "2026-06-02",
-      "age_days": 66,
-      "summary": "The rotation identified yesterday held for a second day \u2014 the Dow rose just 0.28% while the Nasdaq jumped 1.3% \u2014 as tech kept outperforming the more economically-sensitive names in the Dow. Today's weak jobs report reinforces the split: a cooling economy hits industrial and consumer companies directly, while the same weak data raises hopes for rate cuts that help expensive tech stocks the most. The open question is whether this becomes a durable leadership shift or unwinds once the labor data is fully digested.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "treasury-yield-shock",
-      "label": "Credibility, Not Oil",
-      "first_seen": "2026-05-15",
-      "age_days": 84,
-      "summary": "The credibility question sharpened today: a weak jobs report is exactly the kind of data that normally pulls Treasury yields (the interest rate on government debt that sets the floor for mortgage and loan rates) down on rate-cut hope, but it arrived the same day Trump escalated his effort to remove a sitting Fed governor \u2014 meaning any future cut now risks looking political rather than earned. Mortgage rates already rose a fifth straight week to a one-year high, and whether the bond market treats the next Fed move as legitimate stabilization or forced easing is the fault line to watch.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -77,38 +77,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-08-05-0",
-      "date_added": "2026-08-05",
-      "condition": "Israeli strikes on Lebanon draw a direct Iranian or Hezbollah response, rather than staying a contained strike-and-pause pattern.",
-      "meaning": "That would mean the market's decision to price talks over strikes today was premature, and the Mideast-optimism rally in the Dow is exposed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-05-3",
-      "date_added": "2026-08-05",
-      "condition": "Additional chip or megacap tech earnings guidance echoes the same spending-without-clear-return caution seen around AMD today.",
-      "meaning": "That would turn today's Nasdaq drag from an isolated story into confirmation of the broader AI-capex anxiety the market has been trying to ignore.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-06-0",
-      "date_added": "2026-08-06",
-      "condition": "The yen falls through today's 40-year low against the dollar for a second consecutive session.",
-      "meaning": "Confirms a real trend rather than a one-day print, raising the odds of forced carry-trade unwinding that spills into US equities.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-06-1",
-      "date_added": "2026-08-06",
-      "condition": "The US Treasury confirms direct dollar-selling intervention to support the yen.",
-      "meaning": "Signals officials view the dollar's strength as a systemic risk worth spending reserves on, not background noise.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-06-2",
       "date_added": "2026-08-06",
       "condition": "Mortgage rates rise for a sixth consecutive week past today's one-year high.",
@@ -153,6 +121,38 @@
       "date_added": "2026-08-07",
       "condition": "Whether the Nasdaq's rate-cut-driven rally extends or fades as more officials comment on the Cook situation.",
       "meaning": "A fading rally would signal markets are starting to worry more about Fed credibility than they are excited about cheaper money.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-10-0",
+      "date_added": "2026-08-10",
+      "condition": "Oil (Brent) gives back this week's 2% gain and Hormuz talks show a concrete reopening signal, rather than continuing to climb on stalled negotiations.",
+      "meaning": "Would confirm today's reversal was a one-day negotiating setback, not the start of a real breakdown.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-10-1",
+      "date_added": "2026-08-10",
+      "condition": "The next inflation report shows core prices accelerating rather than cooling, arriving alongside oil's move higher.",
+      "meaning": "Would hand the Fed a genuine data-based reason to hold, deepening the credibility fight over any future cut rather than easing it.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-10-2",
+      "date_added": "2026-08-10",
+      "condition": "The Nasdaq's underperformance versus the Dow either repeats tomorrow or reverses back to tech leadership.",
+      "meaning": "Tells us whether today's rotation pause is real risk-off positioning or one day of Iran-headline noise.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-10-3",
+      "date_added": "2026-08-10",
+      "condition": "The rupee's slide past today's two-week low continues or stabilizes as oil's price move plays out.",
+      "meaning": "A currency that keeps weakening on oil costs signals the Hormuz risk is spreading beyond energy markets into broader emerging-market stress.",
       "status": "open",
       "outcome": ""
     }
