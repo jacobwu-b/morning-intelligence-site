@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Blockade Turns Kinetic",
       "first_seen": "2026-04-15",
-      "age_days": 118,
-      "summary": "Day 118 of this standoff, and today marks an escalation in kind, not just tone: a reported U.S. missile strike on a ship evading the blockade, plus a new Trump demand for compensation from Iran, both close off room for a quick Hormuz deal. Oil is pushing back toward $90 as a result. What remains open: whether Iran responds directly to the strike, which would be the signal this has moved from enforcement to open conflict.",
+      "age_days": 119,
+      "summary": "Day 119 of the standoff. Oil dipped back below $90 today, but the shift is cosmetic \u2014 the International Energy Agency warned that global oil stockpiles are 'rapidly depleting' and called for urgent reopening of the Strait of Hormuz, and Indian equities kept falling on the same Mideast uncertainty. No confirmed Iranian retaliation yet to the reported U.S. strike on the blockade-evading tanker \u2014 that remains the signal that would move this from enforcement to open conflict.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Confirmed, Not Noise",
+      "label": "Rotation Paused, Not Reversed",
       "first_seen": "2026-06-02",
-      "age_days": 70,
-      "summary": "The Nasdaq underperformed the Dow for a second straight session today (down 0.6% versus the Dow's 0.34%), following yesterday's 0.32% versus 0.11% gap \u2014 that's now a repeating pattern, not a one-day fluke. Oil-driven risk-off is hitting growth stocks harder than defensive industrials on back-to-back days, which is the mechanism to keep watching.",
+      "age_days": 71,
+      "summary": "The two-session pattern of the Nasdaq lagging the Dow broke today \u2014 the Nasdaq rose 0.54% against the Dow's -0.04% \u2014 as cooling inflation and strong AI earnings (CoreWeave +21%) pulled growth stocks back into favor. One day isn't enough to call the rotation dead; the mechanism to watch is still whether oil-driven risk-off returns and hits growth names harder than defensive ones on the next down day.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
-      "label": "Gold Wins the Tug-of-War",
+      "label": "Inflation Calm Cools the Safe-Haven Bid",
       "first_seen": "2026-05-15",
-      "age_days": 88,
-      "summary": "Gold reversed back up to a two-month high today, meaning the safe-haven demand from escalating Iran tension outweighed the rate-cut-clouding drag from rising oil that pushed gold down yesterday \u2014 a reminder that gold can swing on whichever fear is loudest that day. The larger credibility question \u2014 what a future Fed cut means if it looks political rather than earned \u2014 remains unresolved and now has one more hawkish data point working against it (see Fed driver below).",
+      "age_days": 89,
+      "summary": "Gold pulled back off its two-month high today as the benign CPI print gave traders less reason to hide in safety, and Treasury yields (the interest rate the government pays to borrow) declined on the same data. The bigger open question is unchanged: what a future Fed rate cut means for the Fed's credibility if it looks driven by political pressure rather than earned by the data, and today's cool report \u2014 paradoxically \u2014 makes a cut easier to justify on the merits.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "A Fed Voice Pushes Back",
       "first_seen": "2026-04-15",
-      "age_days": 118,
-      "summary": "Cleveland Fed President Beth Hammack, who dissented at last month's meeting, said today that current rates aren't meaningfully restrictive and multiple hikes \u2014 not cuts \u2014 may be needed, a direct counterweight to the case the administration is building off last week's weak jobs report. No new development today on the legal fight over Governor Cook's removal itself; what remains open is whether other officials side with Hammack's hawkish read or with the jobs-data dovish case, which will show whether the committee is unified or fracturing under pressure.",
+      "age_days": 119,
+      "summary": "No new comments today from Cleveland Fed President Hammack, whose hawkish, no-cuts case was the story yesterday, but the CPI print itself works against her argument \u2014 inflation cooled to target-adjacent levels rather than accelerating, which is exactly the kind of data the dovish camp needed. Still open: whether another regional Fed president backs her hawkish read, or whether today's calm number quiets the hike talk instead.",
       "runs_since_update": 0
     }
   ],
@@ -77,14 +77,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-08-07-1",
-      "date_added": "2026-08-07",
-      "condition": "Whether a court challenge or ruling directly addresses Trump's renewed attempt to remove Governor Cook.",
-      "meaning": "A ruling reaffirming Fed independence keeps this a pressure campaign; an actual removal would be the first real breach of Fed independence in modern history.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-07-2",
       "date_added": "2026-08-07",
       "condition": "Whether the next jobless claims or payroll revisions confirm or reverse today's job-loss print.",
@@ -109,14 +101,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-10-1",
-      "date_added": "2026-08-10",
-      "condition": "The next inflation report shows core prices accelerating rather than cooling, arriving alongside oil's move higher.",
-      "meaning": "Would hand the Fed a genuine data-based reason to hold, deepening the credibility fight over any future cut rather than easing it.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-10-3",
       "date_added": "2026-08-10",
       "condition": "The rupee's slide past today's two-week low continues or stabilizes as oil's price move plays out.",
@@ -133,26 +117,42 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-11-1",
-      "date_added": "2026-08-11",
-      "condition": "The next CPI print shows core prices (inflation excluding food and energy) accelerating alongside oil's climb toward $90.",
-      "meaning": "Would confirm the stagflation setup \u2014 rising prices and slowing growth at once \u2014 that makes any Fed rate cut look premature.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-11-2",
-      "date_added": "2026-08-11",
-      "condition": "The Nasdaq underperforms the Dow for a third straight session.",
-      "meaning": "Would turn the two-day rotation into an established trend rather than an Iran-headline reaction.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-11-3",
       "date_added": "2026-08-11",
       "condition": "A second Fed regional president publicly backs Hammack's hawkish, no-cuts stance within the next week.",
       "meaning": "Would signal a real split inside the Fed, not just one dissenting voice, deepening the credibility question around any future cut.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-12-0",
+      "date_added": "2026-08-12",
+      "condition": "Brent crude climbs back toward $90 despite the IEA's warning that global stockpiles are rapidly depleting.",
+      "meaning": "Would confirm the supply squeeze is reasserting itself and put today's calm inflation reading at risk of reversal next month.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-12-1",
+      "date_added": "2026-08-12",
+      "condition": "Iran responds directly against a U.S. or allied vessel following the strike on the blockade-evading tanker.",
+      "meaning": "The move from enforcement to open conflict \u2014 the single event most likely to spike oil and end the current risk-on mood fast.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-12-2",
+      "date_added": "2026-08-12",
+      "condition": "August's inflation data shows core prices accelerating, particularly in energy-sensitive categories, rather than holding near July's 3.4% pace.",
+      "meaning": "Would hand Hammack's hawkish case fresh ammunition and threaten the rate-cut assumption the AI rally is leaning on.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-12-3",
+      "date_added": "2026-08-12",
+      "condition": "A second Fed regional president publicly echoes Hammack's call for hikes rather than cuts.",
+      "meaning": "Would signal the committee is fracturing toward the hawkish camp, undercutting the market's rate-cut bet.",
       "status": "open",
       "outcome": ""
     }
