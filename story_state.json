@@ -2,58 +2,38 @@
   "active_themes": [
     {
       "id": "iran-geopolitical-risk",
-      "label": "Blockade Turns Kinetic",
+      "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 121,
-      "summary": "Day 121: the blockade turned unmistakably physical \u2014 a UAE state oil tanker (ADNOC) was directly attacked in the Strait of Hormuz, the first confirmed strike on allied shipping since the reported US strike on the blockade-evading tanker. Nobody has officially attributed the attack to Iran yet, and oil's price reaction wasn't captured in today's data, so whether this is contained escalation or the start of open conflict remains the open question.",
+      "age_days": 132,
+      "summary": "Oil fell to a more-than-two-week low as Iran and Oman opened talks aimed specifically at reopening the Strait of Hormuz \u2014 the first concrete de-escalation signal since the ADNOC tanker strike. Attribution for that attack still hasn't been made public and no retaliation has occurred, so the shift from kinetic escalation toward negotiation remains fragile and reversible.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Rotation Paused, Not Reversed",
       "first_seen": "2026-06-02",
-      "age_days": 73,
-      "summary": "The two-day growth rotation reversed today \u2014 Nasdaq fell 0.28% versus the Dow's 0.2% decline, its first underperformance this week \u2014 as the spike in 30-year Treasury yields hit richly-valued growth stocks hardest. This is the rate-sensitivity test the theme was waiting for, just delivered by bonds instead of oil.",
+      "age_days": 84,
+      "summary": "Nasdaq's underperformance broke today \u2014 it rose 0.66% versus the Dow's 0.3%, its first outperformance this week after two days of lagging on the bond selloff. One day doesn't settle the rate-sensitivity test; whether growth stocks can withstand rising long yields stays the open question.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
-      "label": "A Bond Market That Doesn't Trust the Long Run",
+      "label": "No New Data, Same Question",
       "first_seen": "2026-05-15",
-      "age_days": 91,
-      "summary": "The 91-day theme just split in two: near-term measures like gold and this month's inflation data still read calm, but the 30-year Treasury auction priced at its highest yield since 2001, showing investors want far more compensation to lend long-term even as short-term data behaves. The open question is now whether that's one-off auction indigestion or a lasting vote of no-confidence in the long-run inflation and fiscal picture.",
+      "age_days": 102,
+      "summary": "No fresh 30-year auction result arrived today, so the core question \u2014 one-off auction indigestion versus a lasting loss of confidence in long-run US fiscal and inflation policy \u2014 stays unresolved. Collins' hawkish comments reinforce one leg of that story: yields staying elevated because rate cuts look further away, not just because investors doubt the deficit math.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
-      "label": "A Fed Voice Pushes Back",
+      "label": "A Second Hawk",
       "first_seen": "2026-04-15",
-      "age_days": 121,
-      "summary": "No new comments from Hammack today, but the weak 30-year auction is effectively the bond market agreeing with her \u2014 investors demanding more yield precisely because they doubt political pressure won't eventually force premature cuts. Still open: whether another regional Fed president joins her line, or whether the long-end selloff proves temporary.",
+      "age_days": 132,
+      "summary": "Boston Fed President Collins became the second regional president to publicly float rate hikes over cuts, echoing Hammack's stance from weeks earlier. What's open: whether this becomes a documented voting bloc at an actual policy decision, or stays confined to speeches with no vote behind it.",
       "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2018",
-      "context": "The index tracking the 30 largest chip companies fell roughly 37% from its March",
-      "date_used": "2026-07-17"
-    },
-    {
-      "year": "1998",
-      "context": "Broad market stocks fell roughly 19% in three months when the Russian debt defau",
-      "date_used": "2026-07-17"
-    },
-    {
-      "year": "2003",
-      "context": "Oil prices climbed steadily through the winter as fears mounted ahead of the US ",
-      "date_used": "2026-07-24"
-    },
-    {
-      "year": "1973",
-      "context": "The Arab oil embargo that began in October 1973 did not see any quick reversal \u2014",
-      "date_used": "2026-07-24"
-    },
     {
       "year": "2013",
       "context": "In May 2013, Fed Chair Bernanke merely mentioned slowing the pace of bond purcha",
@@ -87,14 +67,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-08-10-0",
-      "date_added": "2026-08-10",
-      "condition": "Oil (Brent) gives back this week's 2% gain and Hormuz talks show a concrete reopening signal, rather than continuing to climb on stalled negotiations.",
-      "meaning": "Would confirm today's reversal was a one-day negotiating setback, not the start of a real breakdown.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-10-3",
       "date_added": "2026-08-10",
       "condition": "The rupee's slide past today's two-week low continues or stabilizes as oil's price move plays out.",
@@ -111,14 +83,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-11-3",
-      "date_added": "2026-08-11",
-      "condition": "A second Fed regional president publicly backs Hammack's hawkish, no-cuts stance within the next week.",
-      "meaning": "Would signal a real split inside the Fed, not just one dissenting voice, deepening the credibility question around any future cut.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-12-0",
       "date_added": "2026-08-12",
       "condition": "Brent crude climbs back toward $90 despite the IEA's warning that global stockpiles are rapidly depleting.",
@@ -131,14 +95,6 @@
       "date_added": "2026-08-12",
       "condition": "Iran responds directly against a U.S. or allied vessel following the strike on the blockade-evading tanker.",
       "meaning": "The move from enforcement to open conflict \u2014 the single event most likely to spike oil and end the current risk-on mood fast.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-12-3",
-      "date_added": "2026-08-12",
-      "condition": "A second Fed regional president publicly echoes Hammack's call for hikes rather than cuts.",
-      "meaning": "Would signal the committee is fracturing toward the hawkish camp, undercutting the market's rate-cut bet.",
       "status": "open",
       "outcome": ""
     },
@@ -163,6 +119,30 @@
       "date_added": "2026-08-14",
       "condition": "The Nasdaq keeps underperforming the Dow while 30-year yields stay elevated.",
       "meaning": "Would confirm growth stocks are re-rating lower specifically because of rising long-term borrowing costs, not just a one-day move.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-25-0",
+      "date_added": "2026-08-25",
+      "condition": "Iran-Oman talks produce a formal, verifiable agreement to reopen the Strait of Hormuz, or collapse without one.",
+      "meaning": "A real agreement validates today's oil drop as durable de-escalation; a collapse sends oil, and war-risk pricing, right back up.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-25-2",
+      "date_added": "2026-08-25",
+      "condition": "A third Fed regional president publicly echoes Collins and Hammack's call for hikes over cuts.",
+      "meaning": "Three hawkish voices starts to look like a real internal faction, pushing the bond market to price actual hikes rather than merely delayed cuts.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-25-3",
+      "date_added": "2026-08-25",
+      "condition": "The next 30-year Treasury auction result \u2014 strong demand and a lower yield, or another weak print.",
+      "meaning": "A second weak auction would confirm the long-end selloff is a lasting loss of confidence, not one bad day.",
       "status": "open",
       "outcome": ""
     }
