@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>市场简报 — 2026年5月18日</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div>
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
+  </div>
+  <div class="masthead-right">
+    <div class="date">星期一 ·2026年5月18日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">避险交易日</div>
+    
+  </div>
+</header>
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">S&P 500</span><span class="ticker-value">7,403.05</span><span class="ticker-change down">
+      ▼ 0.07%
+    </span>
+    
+    
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">26,091</span><span class="ticker-change down">
+      0.51%
+    </span>
+    
+    
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">49,686</span><span class="ticker-change up">
+      ▲ 0.32%
+    </span>
+    
+    
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">债券市场正在定价美联储拒绝透露的情景</h1>
+    <p class="lead-body">30年期国债收益率收于自2007年6月以来的最高水平，而股市则持平至略微下跌——这一组合表明债券投资者已不再相信降息的说法，开始预测货币走弱的可能性。 <strong>黄金跌至1.5个月低点</strong> ，因实际收益率上升使其竞争力不足，尽管特朗普暂停对伊朗打击，油价仍 <strong>稳固在90美元</strong> 以上。市场信息很明确：沃什的确认消除了美联储削减的最后一道机构障碍，但债券交易者现在抢先一步——降息将削弱美元，推高油价，迫使收益率进一步上升，使美联储陷入难以摆脱的政策陷阱。</p>
+
+    <div class="section">
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">国债收益率飙升 + 信贷抢先 = 债券市场对美元走弱及通胀重新定价的定价</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">长期收益重新定价</div>
+          <div class="cause-headline">30年期国债收益率达到自2007年6月以来的最高水平，表明债券交易者现在预计美联储降息将削弱美元，推动油价走高。</div>
+          <div class="cause-text">30年期是市场最清晰的通胀预期和货币耐久性信号。30年期收益率在2007年高点，而美联储即将降息并非噪音——而是债券市场明确定价了这一情景：沃什降息→美元走弱→石油向95–100美元走弱→通胀预期重启→长期收益率进一步飙升。这正是1979–1980年（第二次石油危机）和2021–2022年（通胀意外后政策逆转）的顺序。今天的收益率走势显示债券交易者已经内化了这一剧本，不再抗争。他们提前定价。</div>
+          <div class="cause-verdict">30年期收益率将保持高位（超过4.5%），直到（1）石油需求性崩溃时明确跌破85美元，或（2）沃什首次公开声明表明他不会积极削减粘性石油。本周这两件事都不会发生。这是结构性的，而非周期性的，并将主导资产配置决策直到5月29日。</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">信用提取加速</div>
+          <div class="cause-headline">贷款机构现在有明确的机构动机在利率降息下竞争性贷款利润率崩溃前撤销信贷。</div>
+          <div class="cause-text">今天没有重大贷款机构宣布，但未来7至14天内，信用收紧加速已做好准备。4月份家庭债务创历史新高188万美元——贷款机构知道这一点，知道沃什已被确认，因此现在有充分动力在低收益贷款竞争加剧前提取存款并收紧消费者信贷。5月29日的消费支出数据将决定贷款机构的悲观情绪是预见性的（支出减弱，信贷在适当时机被移除）还是过早（支出停滞，信贷提前撤出，导致需求受挫）。尽管美联储鹰派确认，今天股市抛售表明债券市场对这一悲观情况已充满信心。</div>
+          <div class="cause-verdict">请关注7天内有大型贷款机构（Discover、Capital One或美国运通）下限存款或收紧信贷的公告。如果发布在5月29日支出数据之前，将表明整个机构集团已转向需求崩溃预期。这将是股权的投降级别空头。</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label" translate="no">核心动态</div>
+      <h2 class="section-headline"><strong>美联储的降息正进入一个市场结构，低利率会削弱美元，推高油价，引发第二波通胀浪潮，迫使政策在降息全面生效前就已发生逆转。</strong></h2>
+      <p class="section-body">可以把它想象成干旱季节开坝。你放水，希望它能灌满下游水库（利率降低→更多贷款→更强的增长），但首先发生的是释放的水流向入海洋（利率降低→美元走弱→油价上涨）。当大坝完全开放时，水库仍然干涸，海平面已经上升。这就是沃什所陷入的陷阱。降息已成定局，因为他优先考虑金融状况。但沃什无法以石油升值速度减息，而石油价格在90美元以上因伊朗地缘政治风险、欧佩克生产管理以及美元将因美联储减息而走弱而陷入困境。所以真实顺序是：沃什降息→美元走弱→石油走至95–100美元→→通胀预期重置→长期收益率飙升沃什面临政治压力暂停或逆转削息。问题在于，到那时，贷款机构已经撤销信贷，消费者支出已经疲软，经济也在放缓。债券市场现在正在定价这一趋势。这就是为什么30年期收益率处于2007年高点，而股市持平。美联储即将削减最糟糕的市场结构：粘稠的石油、恶化的信贷状况以及长期通胀预期上升。这比典型的晚期降息更难，因为美联储无法用更宽松的金融条件来抵消石油疲软——而更宽松的金融条件才是石油强势的根本原因。</p>
+    </div>
+    
+
+    
+    <div class="section">
+      <div class="section-label" translate="no">历史先例</div>
+      <h2 class="section-headline">当央行因商品价格飙升和长期通胀预期扩大而降息时，通常会在6至12个月内触发政策逆转。</h2>
+      <div class="comp-list">
+        
+        <div class="comp-item">
+          <div class="comp-year">1979</div>
+          <div>
+            <div class="comp-text">伊朗革命摧毁了全球石油供应的5%。到1980年初，原油价格从15美元飙升至40美元。沃尔克领导下的美联储面临压力，要求放宽（失业率上升，信贷市场紧张）。相反，沃尔克积极加息，推动石油激增。长期国债收益率达到15%。结果逆转：信贷消失，随后陷入衰退，但通胀预期最终破裂。持续时间：从石油冲击到政策屈服18个月。</div>
+            <div class="comp-lesson">对大宗商品价格的降息无效——它们会延长周期。市场将通过长期收益率重新定价迫使市场逆转。</div>
+          </div>
+        </div>
+        
+        <div class="comp-item">
+          <div class="comp-year">2021</div>
+          <div>
+            <div class="comp-text">美联储降息并维持紧急量化宽松，通胀从暂时性上升为结构性通胀。长期通胀预期（5年期5年期盈亏平衡）从2.1%升至2.3%，尽管政策宽松。到2021年中，美联储开始示意缩减缩减。到2022年初，收益率飙升，美联储全面反转，积极加息。石油在宽松货币窗口期间从60美元涨至120美元。持续时间：从通胀意外到政策逆转9个月。</div>
+            <div class="comp-lesson">当长期收益率上升为更宽松的政策时，逆转会迅速。债券市场不会等美联储承认这个陷阱。</div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text">主要变量是石油是否能在贷款机构完成信贷提取和消费者支出回转前，决定性跌破90美元。如果油价在两周内跌至85至88美元，通缩信号将迫使债券收益率下降，股市多头将获得喘息机会——沃什可以安全地削减弱势。如果油价在5月29日消费者支出数据中保持在90美元以上，且贷款机构如预期收紧信贷，那么支出可能会令人失望，市场将重新定价为预计美联储在第三季度暂停或反转。测试很简单： <strong>5月27日前油价低于88美元，否则股市面临5月29日的抛售。</strong></p>
+      <div class="signal-kicker">情景A——石油因需求而屈服：石油价格跌破88美元，连续三天收盘跌破该水平;需求崩溃的担忧压倒了地缘政治风险溢价;债券收益率大幅下降;沃什获得了必要的通缩保障，能够在不引发通胀重估的情况下积极削减;股价在意识到降息安全后反弹进入6月份盈利。<br>情景B——贷款机构收紧，支出展期：一家主要贷款机构（Discover、Capital One或美国运通）在7天内降息或收紧消费者信贷;石油价格保持在90美元以上;5月29日消费者支出显示环比变化为0%或负;美联储在第三季度暂停加息时，债券市场重新定价;随着共识从“降息看涨”转为“削减恶化信贷和粘油制造政策陷阱”，股市大幅抛售。      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">美股收盘</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">S&P 500</span>
+          <div>
+            <span class="index-price">7,403.05</span>
+            <span class="index-pct down">
+              ▼ 0.07%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Nasdaq</span>
+          <div>
+            <span class="index-price">26,091</span>
+            <span class="index-pct down">
+              0.51%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Dow</span>
+          <div>
+            <span class="index-price">49,686</span>
+            <span class="index-pct up">
+              ▲ 0.32%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Russell 2000</span>
+          <div>
+            <span class="index-price">2,775.10</span>
+            <span class="index-pct down">
+              ▼ 0.65%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">VIX</span>
+          <div>
+            <span class="index-price">17.82</span>
+            <span class="index-pct down">
+              3.31%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">信号更新</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">30年期国债收益率连续两个交易日收盘在4.6%以上</span>。<span>30年期国债收益率今日收盘高于4.6%，表明债券市场已不再相信软着陆的说法，而是开始在美联储降息前评估货币走弱和通胀重新定价。</span>
+          
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">下周关注</div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">油价收盘低于88美元，并连续三个交易日保持在该水平以下—— </span> 需求破坏真实且严重;石油地缘政治风险溢价正在崩溃;通缩信号足够强烈，使沃什得以安全降价;债券收益率将被重新定价;股票获得减量抛售的喘息机会。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">一家大型贷款机构（Discover、Capital One或美国运通）在7天内降息或收紧消费者信贷 </span> ——机构信贷抢先加速;整个系统预计未来需求将被摧毁;悲观的市场叙事已成为共识;随着熊市风险从尾风险转向基线，请关注股市立即投降抛售。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">4月消费者支出数据（5月29日发布）显示月度变化为0%或负数—— </span> 信贷紧缩已在实时摧毁需求;贷款机构的悲观是预言性的，而非过早;美联储正在削减疲弱的消费者;债券市场将因政策逆转而重新定价;股票进入投降阶段。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">美元指数（DXY）连续五个交易日收盘低于100—— </span> 美联储降息预期现已成为货币市场的主导;美元走弱将推动油价上涨已开始;油价可能在10天内重新测试95+美元;通胀重新定价将加速;多头收益率将进一步飙升。</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<footer>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年5月18日</div>
+</footer>
+
+</body>
+</html>
