@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 132,
-      "summary": "Oil fell to a more-than-two-week low as Iran and Oman opened talks aimed specifically at reopening the Strait of Hormuz \u2014 the first concrete de-escalation signal since the ADNOC tanker strike. Attribution for that attack still hasn't been made public and no retaliation has occurred, so the shift from kinetic escalation toward negotiation remains fragile and reversible.",
+      "age_days": 133,
+      "summary": "Trump's rejection of proposed cease-fire terms with Iran reversed part of the recent de-escalation, sending oil up 2% off its two-week low, even as Qatar continues separate mediation efforts in Tehran. Notably, shipping traffic through the Strait of Hormuz rose slightly on the same day \u2014 a split signal that the diplomatic setback hasn't yet translated into commercial risk repricing. Whether the Oman-mediated talks survive this rejection or collapse entirely remains the open question.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Rotation Paused, Not Reversed",
       "first_seen": "2026-06-02",
-      "age_days": 84,
-      "summary": "Nasdaq's underperformance broke today \u2014 it rose 0.66% versus the Dow's 0.3%, its first outperformance this week after two days of lagging on the bond selloff. One day doesn't settle the rate-sensitivity test; whether growth stocks can withstand rising long yields stays the open question.",
+      "age_days": 85,
+      "summary": "Nasdaq outperformed the Dow for a second straight session (-0.08% versus -0.21% today, following +0.66% versus +0.3% yesterday), extending the break from its earlier bond-selloff-driven underperformance. Two consecutive sessions of outperformance is now enough to say the rotation-away-from-growth trade has genuinely paused, though whether it holds once long yields move again is still unproven.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "No New Data, Same Question",
       "first_seen": "2026-05-15",
-      "age_days": 102,
-      "summary": "No fresh 30-year auction result arrived today, so the core question \u2014 one-off auction indigestion versus a lasting loss of confidence in long-run US fiscal and inflation policy \u2014 stays unresolved. Collins' hawkish comments reinforce one leg of that story: yields staying elevated because rate cuts look further away, not just because investors doubt the deficit math.",
+      "age_days": 103,
+      "summary": "No fresh 30-year auction result arrived today, so the core question \u2014 one-off auction indigestion versus a lasting loss of confidence in US fiscal policy \u2014 remains unresolved. Strategist commentary today reinforced the structural half of that story: with Washington unwilling to touch the deficit, the bond market is left to enforce discipline on its own, which is a condition, not a one-day event.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "A Second Hawk",
       "first_seen": "2026-04-15",
-      "age_days": 132,
-      "summary": "Boston Fed President Collins became the second regional president to publicly float rate hikes over cuts, echoing Hammack's stance from weeks earlier. What's open: whether this becomes a documented voting bloc at an actual policy decision, or stays confined to speeches with no vote behind it.",
+      "age_days": 133,
+      "summary": "No third regional Fed president joined Collins and Hammack today in publicly favoring rate hikes over cuts, so the hawkish tilt (leaning toward higher rates rather than cuts) remains confined to two voices. The question stays the same: does this stay a rhetorical minority, or does it show up as an actual vote split at a policy decision.",
       "runs_since_update": 0
     }
   ],
@@ -67,22 +67,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-08-10-3",
-      "date_added": "2026-08-10",
-      "condition": "The rupee's slide past today's two-week low continues or stabilizes as oil's price move plays out.",
-      "meaning": "A currency that keeps weakening on oil costs signals the Hormuz risk is spreading beyond energy markets into broader emerging-market stress.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-11-0",
-      "date_added": "2026-08-11",
-      "condition": "Iran retaliates directly against a U.S. or allied vessel or asset following today's strike.",
-      "meaning": "Confirms this has moved from blockade enforcement to open conflict, and puts oil's move toward $95+ on the table.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-12-0",
       "date_added": "2026-08-12",
       "condition": "Brent crude climbs back toward $90 despite the IEA's warning that global stockpiles are rapidly depleting.",
@@ -115,14 +99,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-14-2",
-      "date_added": "2026-08-14",
-      "condition": "The Nasdaq keeps underperforming the Dow while 30-year yields stay elevated.",
-      "meaning": "Would confirm growth stocks are re-rating lower specifically because of rising long-term borrowing costs, not just a one-day move.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-25-0",
       "date_added": "2026-08-25",
       "condition": "Iran-Oman talks produce a formal, verifiable agreement to reopen the Strait of Hormuz, or collapse without one.",
@@ -143,6 +119,30 @@
       "date_added": "2026-08-25",
       "condition": "The next 30-year Treasury auction result \u2014 strong demand and a lower yield, or another weak print.",
       "meaning": "A second weak auction would confirm the long-end selloff is a lasting loss of confidence, not one bad day.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-26-0",
+      "date_added": "2026-08-26",
+      "condition": "Iran-Oman talks resume publicly or Tehran formally walks away from the Hormuz negotiating track.",
+      "meaning": "Determines whether today's oil bounce is a one-day blip or the start of a fresh escalation leg.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-26-1",
+      "date_added": "2026-08-26",
+      "condition": "Shipping traffic through the Strait of Hormuz keeps climbing over the next several sessions rather than reversing.",
+      "meaning": "Sustained traffic growth would mean the physical oil market still sees the corridor as safe despite the rhetoric.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-26-2",
+      "date_added": "2026-08-26",
+      "condition": "The next 30-year Treasury auction, when it happens, shows demand improve or weaken further from the recent soft print.",
+      "meaning": "Separates one-off auction indigestion from a lasting loss of confidence in long-run US fiscal policy.",
       "status": "open",
       "outcome": ""
     }
