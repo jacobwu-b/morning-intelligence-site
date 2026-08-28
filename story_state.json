@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 133,
-      "summary": "Trump's rejection of proposed cease-fire terms with Iran reversed part of the recent de-escalation, sending oil up 2% off its two-week low, even as Qatar continues separate mediation efforts in Tehran. Notably, shipping traffic through the Strait of Hormuz rose slightly on the same day \u2014 a split signal that the diplomatic setback hasn't yet translated into commercial risk repricing. Whether the Oman-mediated talks survive this rejection or collapse entirely remains the open question.",
+      "age_days": 134,
+      "summary": "Oil drifted lower today as Strait of Hormuz shipping flows held steady against slow but ongoing diplomatic progress; Iran is urging other nations not to join new US sanctions while mediators keep focused on reopening the strait. That's evidence the talks are continuing rather than collapsing after Trump's rejection of cease-fire terms two days ago, even though no formal agreement exists yet.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "Rotation Paused, Not Reversed",
       "first_seen": "2026-06-02",
-      "age_days": 85,
-      "summary": "Nasdaq outperformed the Dow for a second straight session (-0.08% versus -0.21% today, following +0.66% versus +0.3% yesterday), extending the break from its earlier bond-selloff-driven underperformance. Two consecutive sessions of outperformance is now enough to say the rotation-away-from-growth trade has genuinely paused, though whether it holds once long yields move again is still unproven.",
+      "age_days": 86,
+      "summary": "Today marks a third straight session of the Nasdaq beating the Dow (+1.57% vs +0.2%), driven directly by Nvidia's earnings blowout lifting chips and broader tech. Three consecutive sessions is enough to call this a genuine pause in the growth-stock selloff, not noise \u2014 though it remains a bet on AI-trade durability, and today's semiconductor tariff headlines are the first real threat to that durability since the pause began.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "No New Data, Same Question",
       "first_seen": "2026-05-15",
-      "age_days": 103,
-      "summary": "No fresh 30-year auction result arrived today, so the core question \u2014 one-off auction indigestion versus a lasting loss of confidence in US fiscal policy \u2014 remains unresolved. Strategist commentary today reinforced the structural half of that story: with Washington unwilling to touch the deficit, the bond market is left to enforce discipline on its own, which is a condition, not a one-day event.",
+      "age_days": 104,
+      "summary": "The average 30-year mortgage rate rose this week back to its recent high, a reminder that the bond market's discipline problem is still live even without a fresh auction result. No new 30-year auction printed today, so the core question \u2014 one-off indigestion versus a lasting confidence problem in US fiscal policy \u2014 remains unresolved.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
-      "label": "A Second Hawk",
+      "label": "A Second Hawk, A New Front",
       "first_seen": "2026-04-15",
-      "age_days": 133,
-      "summary": "No third regional Fed president joined Collins and Hammack today in publicly favoring rate hikes over cuts, so the hawkish tilt (leaning toward higher rates rather than cuts) remains confined to two voices. The question stays the same: does this stay a rhetorical minority, or does it show up as an actual vote split at a policy decision.",
+      "age_days": 134,
+      "summary": "Boston Fed President Collins called the latest inflation report 'mixed' \u2014 headline inflation stronger than expected but driven by a single component \u2014 which is cautious language, not a clear third hawkish vote alongside Collins and Hammack. Separately, Fed Governor Lisa Cook publicly denounced the Trump administration's mortgage fraud allegations against her despite a Supreme Court ruling in her favor, opening a second front in the fight over Fed independence that sits alongside the rate-path debate.",
       "runs_since_update": 0
     }
   ],
@@ -66,14 +66,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-12-0",
-      "date_added": "2026-08-12",
-      "condition": "Brent crude climbs back toward $90 despite the IEA's warning that global stockpiles are rapidly depleting.",
-      "meaning": "Would confirm the supply squeeze is reasserting itself and put today's calm inflation reading at risk of reversal next month.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-12-1",
       "date_added": "2026-08-12",
@@ -123,14 +115,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-26-0",
-      "date_added": "2026-08-26",
-      "condition": "Iran-Oman talks resume publicly or Tehran formally walks away from the Hormuz negotiating track.",
-      "meaning": "Determines whether today's oil bounce is a one-day blip or the start of a fresh escalation leg.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-26-1",
       "date_added": "2026-08-26",
       "condition": "Shipping traffic through the Strait of Hormuz keeps climbing over the next several sessions rather than reversing.",
@@ -143,6 +127,22 @@
       "date_added": "2026-08-26",
       "condition": "The next 30-year Treasury auction, when it happens, shows demand improve or weaken further from the recent soft print.",
       "meaning": "Separates one-off auction indigestion from a lasting loss of confidence in long-run US fiscal policy.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-27-0",
+      "date_added": "2026-08-27",
+      "condition": "The White House moves from 'considering' semiconductor tariffs to a formal proposal or announcement.",
+      "meaning": "That would directly threaten the input costs of the chipmakers currently leading the market, turning today's rally into a policy liability.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-08-27-1",
+      "date_added": "2026-08-27",
+      "condition": "The Nasdaq's outperformance over the Dow extends to a fourth or fifth consecutive session.",
+      "meaning": "A longer streak would confirm the growth-stock rotation pause is durable rather than a two-day earnings bounce.",
       "status": "open",
       "outcome": ""
     }
