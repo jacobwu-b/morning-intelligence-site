@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mon Aug 31, 2026 | Morning Intelligence</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>市场简报 — 2026年4月22日</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #0a0a0a;
@@ -20,7 +20,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
     font-weight: 300;
     opacity: 0;
     animation: fadeIn 1.2s ease forwards;
@@ -37,7 +37,7 @@
     align-items: flex-end;
   }
   .publication-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.35em;
@@ -46,7 +46,7 @@
     margin-bottom: 4px;
   }
   .edition-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 1;
@@ -55,7 +55,7 @@
   .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
   .masthead-right { text-align: right; }
   .date {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 0.05em;
@@ -69,7 +69,7 @@
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--red);
+    color: var(--gold);
   }
   .market-status::before {
     content: '';
@@ -88,20 +88,20 @@
   }
   .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
   .ticker-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     letter-spacing: 0.15em;
     color: #888;
     text-transform: uppercase;
   }
   .ticker-value {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 13px;
     font-weight: 500;
     color: #f5f2eb;
   }
   .ticker-change {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 2px;
@@ -122,7 +122,7 @@
   }
   .sidebar { padding: 48px 0 64px 48px; }
   .lead-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -140,7 +140,7 @@
     opacity: 0.3;
   }
   .section-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -158,7 +158,7 @@
     opacity: 0.3;
   }
   .lead-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
@@ -180,7 +180,7 @@
     border-top: 1px solid var(--rule);
   }
   .section-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
@@ -206,7 +206,7 @@
   }
   .cause-card.secondary { border-top-color: var(--rule); }
   .cause-title {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -214,7 +214,7 @@
     margin-bottom: 8px;
   }
   .cause-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.35;
@@ -240,7 +240,7 @@
     border-left: 3px solid var(--gold);
   }
   .comp-year {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--gold);
@@ -260,14 +260,14 @@
     top: -9px; left: 20px;
     background: var(--ink);
     padding: 0 10px;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--gold);
   }
   .signal-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 15px;
     font-style: italic;
     line-height: 1.7;
@@ -277,7 +277,7 @@
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid #333;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--gold);
     letter-spacing: 0.05em;
@@ -289,7 +289,7 @@
   }
   .sidebar-section:last-child { border-bottom: none; }
   .sidebar-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -305,20 +305,20 @@
     background: var(--cream);
   }
   .index-name {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     letter-spacing: 0.05em;
     color: var(--muted);
   }
   .index-price {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 14px;
     font-weight: 500;
     display: block;
     text-align: right;
   }
   .index-pct {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     margin-top: 2px;
     display: block;
@@ -376,13 +376,13 @@
     align-items: center;
   }
   .footer-left {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     color: var(--muted);
     letter-spacing: 0.05em;
   }
   .disclaimer {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     color: var(--rule);
     letter-spacing: 0.03em;
@@ -391,7 +391,7 @@
     line-height: 1.6;
   }
   .footer-right {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-style: italic;
     color: var(--muted);
@@ -401,43 +401,43 @@
 <body>
 
 <header class="masthead">
-  <a href="../index.html" style="text-decoration: none; color: inherit;">
-    <div class="publication-name">Morning Intelligence</div>
-    <div class="edition-title">Market Brief <em>Daily</em></div>
-  </a>
+  <div>
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
+  </div>
   <div class="masthead-right">
-    <div class="date">MONDAY · August 31, 2026 · U.S. MARKET CLOSE</div>
-    <div class="market-status">RISK-OFF SESSION</div>
-    <div class="delta-badge">DELTA BRIEF</div>
+    <div class="date">星期三 ·2026年4月22日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">涨跌互现交易日</div>
+    <div class="delta-badge" translate="no">增量简报</div>
   </div>
 </header>
 
 <div class="ticker-strip">
   
   <div class="ticker-item">
-    <span class="ticker-label">S&amp;P 500</span>
-    <span class="ticker-value">7,686.14</span>
-    <span class="ticker-change down">
-      ▼ 0.58%
+    <span class="ticker-label" translate="no">S&P 500</span><span class="ticker-value">7,137.90</span><span class="ticker-change up">
+      ▲ 1.05%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Nasdaq</span>
-    <span class="ticker-value">26,371</span>
-    <span class="ticker-change down">
-      ▼ 0.64%
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">24,658</span><span class="ticker-change up">
+      ▲ 1.64%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Dow</span>
-    <span class="ticker-value">53,186</span>
-    <span class="ticker-change down">
-      ▼ 0.72%
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">49,490</span><span class="ticker-change up">
+      ▲ 0.69%
     </span>
+    
+    
   </div>
   
   
@@ -446,101 +446,92 @@
 <div class="main">
   <div class="primary-col">
 
-    <div class="lead-label">Today's Thesis</div>
-    <h1 class="lead-headline">The Fed Chair Trump Wanted Just Sounded Like The Hawks He Was Supposed to Overrule</h1>
-    <p class="lead-body">All three major indexes fell today — the Dow led the decline at <strong>-0.72%</strong> — after Fed Chairman Warsh said inflation remains too high and that this summer&#x27;s better readings haven&#x27;t convinced him the underlying trend has actually improved. That matters because markets had been quietly betting a new, White House-installed Fed chair would move faster toward rate cuts than his predecessor; instead he just validated the hawkish camp inside the Fed. Layer on top of that a fresh reminder that oil-driven inflation from the Iran conflict is still live — mortgage rates hit their <strong>highest level since June 2025</strong> and German inflation accelerated on energy costs — and you get a market with fewer places to hide.</p>
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">市场因伊朗停火延长而反弹，但沃什确认重塑了真正的风险</h1>
+    <p class="lead-body"><strong>标普500 +1.05%，纳斯达克 +1.64%，</strong> 美国与伊朗的停火延长消除了供应冲击风险，油价从100+美元回落。但当天真正的信号是机构性：凯文·沃什证词确认他不会加快降息，对鲍威尔的压力模式加剧。市场定价缓解一次危机（伊朗），却忽视了潜在结构性风险——美联储的独立性正实时被侵蚀，而此时美联储最需要信誉。</p>
 
     <div class="section">
-      <div class="section-label">What's Actually Driving This</div>
-      <h2 class="section-headline">A hawkish Fed chair and oil-driven mortgage rates are squeezing the market from two sides at once</h2>
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">伊朗停火延期（救援）与沃什确认路径（制度风险）</h2>
       <div class="cause-grid">
         <div class="cause-card">
-          <div class="cause-title">THE NEW BOSS, SAME TUNE</div>
-          <div class="cause-headline">The Fed&#x27;s own pick just told markets not to expect fast relief.</div>
-          <div class="cause-text">Warsh&#x27;s remarks — inflation still too high, better summer data unconvincing — matter because he&#x27;s the chair many expected to tilt dovish under political pressure to cut rates. Instead he&#x27;s now sounding like the hawkish regional presidents (Collins, Hammack) the market had hoped he&#x27;d overrule, which removes the market&#x27;s cleanest remaining hope for near-term cuts.</div>
-          <div class="cause-verdict">This isn&#x27;t settled by one speech, but with the top of the institution now echoing the hawks below him, betting on a fast cut is the wrong side of this trade until he says otherwise.</div>
+          <div class="cause-title">伊朗停火延长</div>
+          <div class="cause-headline">美国宣布延长停火;石油贸易商估算谈判在供应不可逆转性损害前能达成。</div>
+          <div class="cause-text">今天的延期消除了曾将油价推高至100美元的直接供应冲击。交易员押注双方都有动力将谈判至少再进行3-4周。但这只是一次解围反弹，而非解决反弹。对霍尔木兹海峡的根本封锁依然存在。实际经济损失正在积累（英国通胀率3.3%，航空公司指引削减，欧盟警告能源危机如果谈判失败可能持续数月甚至数年）。市场将此视为暂停。这不是暂停——而是“谈判认真恢复”与“封锁加固”之间的分岔路口。</div>
+          <div class="cause-verdict">如果谈判在两周内朝向实际谈判框架推进，油价在这里（低于95美元）将趋于稳定。如果伊朗在48小时内表示谈判代表团，那就是你的确认。如果停火在没有框架的情况下再次延长，市场将重新评估封锁为结构性封锁，而非临时封锁。</div>
         </div>
         <div class="cause-card secondary">
-          <div class="cause-title">OIL FEEDS THE SQUEEZE</div>
-          <div class="cause-headline">Middle East escalation is landing directly on mortgage payments.</div>
-          <div class="cause-text">Mortgage rates hit their highest since June 2025 as new attacks pushed oil prices higher — a direct line from the Iran conflict into US household borrowing costs, echoed today by Germany&#x27;s own energy-driven inflation acceleration. This is signal, not noise: the same transmission channel — energy prices into financing costs — has now shown up on two continents in one day.</div>
-          <div class="cause-verdict">Watch oil prices and Strait of Hormuz shipping volumes over the next several sessions; if oil keeps climbing, mortgage rates very likely keep climbing with it.</div>
+          <div class="cause-title">沃什确认信号</div>
+          <div class="cause-headline">沃什作证时未承诺降息，也未遭遇阻挠反对;尽管面临特朗普压力，他的确认之路看起来很明确。</div>
+          <div class="cause-text">市场对此解读为“沃什不会成为特朗普在利率上的傀儡”——因此纳斯达克表现优于股市，而科技股则基于短期货币政策不变的假设反弹。但这误解了真正的信号：沃什的确认而不强制鲍威尔立即下台，本身就是投降的临界点。等沃什被确认时，他将被提名为压力下的美联储主席继任者。市场将领导层更替视为正常。但这在背景下并不正常：这是在激烈地缘政治危机期间，政治压力迫使的继任，而此时美联储的信誉最为关键。</div>
+          <div class="cause-verdict">关注鲍威尔在接下来的10天内是否公开声明，承认特朗普的五月时间表或暗示辞职。如果鲍威尔保持沉默，沃什通过委员会，市场就接受了制度性俘获。如果鲍威尔反驳，那就是你对接班存在争议的信号。</div>
         </div>
       </div>
     </div>
 
-    
-    <div class="section">
-      <div class="section-label">The Core Dynamic</div>
-      <h2 class="section-headline">The market&#x27;s last clean hope for cheap money just took a hit.</h2>
-      <p class="section-body">The bet was simple: a new, politically-favored Fed chair would eventually deliver the rate cuts the old guard was resisting. Warsh just showed that bet isn&#x27;t safe — he&#x27;s <strong>sounding as inflation-wary as the officials he was supposed to outflank</strong>, and that&#x27;s a harder market to be long risk in than one where the Fed disagreement is just noise from the regional ranks.</p>
-    </div>
     
 
     
 
     <div class="signal-box">
-      <div class="signal-box-label">Directional Read</div>
-      <p class="signal-text">The variable that matters most this week is whether Warsh&#x27;s hawkish tone reflects where the Fed is actually heading or just today&#x27;s talking points ahead of more data. If it&#x27;s the former, the assumption that a friendlier Fed would eventually rescue risk assets is dead, not paused — and that&#x27;s a genuine repricing, not a pullback to buy. September also carries a reputation as the market&#x27;s roughest month, and protection against further declines is unusually cheap right now, which tells you some large investors are already hedging rather than waiting to find out. Hold this thought all week: the market can&#x27;t get both a hawkish Fed chair and cheap financing at the same time, and right now it&#x27;s getting neither.</p>
-      <div class="signal-kicker">
-        Scenario A — Oil Retreats, Hawks Soften: If Hormuz shipping keeps flowing and oil prices ease, the energy-driven inflation story fades and gives Warsh room to sound less hawkish within weeks.<br>
-        Scenario B — Hawkish Chair, Sticky Oil: If oil keeps climbing on renewed escalation while Warsh keeps validating the hawks, the market has to price out rate cuts almost entirely — a real repricing, not a pause.
-      </div>
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text"><strong>核心变量是美联储能否在地缘政治危机期间，其领导层在政治压力下被重写，从而保持信誉。</strong> 如果伊朗谈判得以维持，美联储独立性看似完整，股市可能会上涨——双重危机得以管理。如果伊朗升级（封锁加深），或鲍威尔在沃什确认前被迫下台（使这看起来像政变），市场将将制度性风险从“受控”重新评估为“系统性”。关注石油和美联储的信息。如果油价再次收盘超过100美元，而沃什则走向确认投票，这就是两种危机同时走向错误方向的信号——市场将无处可藏。</p>
+      <div class="signal-kicker">情景A——双重决议：伊朗谈判在14天内达成实际框架（宣布代表团+意向声明），沃什在未立即迫使鲍威尔下台的情况下清除委员会，石油价格稳定在90美元以下——股市重新测试高点。<br>情景B——双重危机纠缠：伊朗再次延长停火，未提出谈判框架（保持悬而未决），鲍威尔在沃什确认前被迫下台（使继任看起来像是被迫的），石油再次突破100美元——美联储信誉下调，股市下跌5-8%，随着机构衰退被定价。      </div>
     </div>
 
   </div>
 
   <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-label">US Close</div>
+      <div class="sidebar-label" translate="no">美股收盘</div>
       <div class="index-grid">
         
         <div class="index-tile">
-          <span class="index-name">S&amp;P 500</span>
+          <span class="index-name" translate="no">S&P 500</span>
           <div>
-            <span class="index-price">7,686.14</span>
-            <span class="index-pct down">
-              ▼ 0.58%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Nasdaq</span>
-          <div>
-            <span class="index-price">26,371</span>
-            <span class="index-pct down">
-              ▼ 0.64%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Dow</span>
-          <div>
-            <span class="index-price">53,186</span>
-            <span class="index-pct down">
-              ▼ 0.72%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Russell 2000</span>
-          <div>
-            <span class="index-price">2,956.45</span>
-            <span class="index-pct down">
-              ▼ 1.92%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">VIX</span>
-          <div>
-            <span class="index-price">14.92</span>
+            <span class="index-price">7,137.90</span>
             <span class="index-pct up">
-              ▲ 2.83%
+              ▲ 1.05%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Nasdaq</span>
+          <div>
+            <span class="index-price">24,658</span>
+            <span class="index-pct up">
+              ▲ 1.64%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Dow</span>
+          <div>
+            <span class="index-price">49,490</span>
+            <span class="index-pct up">
+              ▲ 0.69%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Russell 2000</span>
+          <div>
+            <span class="index-price">2,785.38</span>
+            <span class="index-pct up">
+              ▲ 0.74%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">VIX</span>
+          <div>
+            <span class="index-price">18.92</span>
+            <span class="index-pct down">
+              2.97%
             </span>
           </div>
         </div>
@@ -549,41 +540,63 @@
     </div>
 
     
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">信号更新</div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </div>
     
 
     <div class="sidebar-section">
-      <div class="sidebar-label">Watch Next Week</div>
+      <div class="sidebar-label" translate="no">下周关注</div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Warsh repeats or hardens this hawkish language in a follow-up statement rather than treating it as a one-off remark. — </span>Confirms the &#x27;friendly Fed&#x27; trade is dead, not just paused, and pushes out any near-term cut expectations further.</div>
+        <div><span class="watch-condition">伊朗宣布在48小时内正式派遣谈判代表团，并发布具体名单和授权声明—— </span> 确认谈判正从延长停火转向实际谈判;为3至6周内的解决时间线而非无限期封锁打开大门。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Oil prices and Strait of Hormuz shipping volumes over the next several sessions — do they keep easing or reverse higher. — </span>Determines whether mortgage rates keep climbing toward the recent highs or start to roll over.</div>
+        <div><span class="watch-condition">WTI油价连续两个交易日收盘在100美元以上 </span> ——市场不再相信伊朗谈判会继续进行的信号;封锁持续时间从临时调整为结构性封锁;迫使股权滞胀重新定价。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The next 30-year Treasury auction (the government&#x27;s regular sale of long-term bonds) — strong demand and a lower rate, or another weak print. — </span>A weak auction alongside a hawkish Fed would confirm investors are demanding more compensation to hold US long-term debt, not just reacting to oil.</div>
+        <div><span class="watch-condition">鲍威尔公开声明承认特朗普的五月时间表或暗示辞职—— </span> 确认美联储领导层在危机活跃期间正面临政治压力重写;市场重新定价机构信誉，美联储独立溢价消失。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Nasdaq&#x27;s performance relative to the Dow over the next several sessions, especially on down days for the broader market. — </span>Tells us whether the AI-trade pause can survive sustained risk-off pressure from Fed hawkishness, or was only holding up on calm days.</div>
+        <div><span class="watch-condition">10年期美国国债收益率突破4.2%，而标普500指数持平或下跌—— </span> 市场信号显示，市场正在定价通胀或机构风险溢价（而非增长），表明双重危机正被重新定价为滞胀，而非受控地缘政治冲击。</div>
       </div>
       
     </div>
   </aside>
 </div>
 
-<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-08-27.html" style="color: var(--muted); text-decoration: none;">← Previous brief · August 27, 2026</a><a href="2026-09-01.html" style="color: var(--muted); text-decoration: none; margin-left: auto;">Next brief · September 01, 2026 →</a></nav><!-- brief-nav:end -->
-
 <footer>
-  <div class="footer-left">Morning Intelligence · Personal Edition</div>
-  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
-  <div class="footer-right">August 31, 2026</div>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年4月22日</div>
 </footer>
 
 </body>

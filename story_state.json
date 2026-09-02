@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 138,
-      "summary": "Diplomatic talks over reopening the Strait of Hormuz continue without collapse or resolution, but the conflict's economic bill keeps arriving: German inflation accelerated in August on energy costs tied to the war, a UK analysis pegs a \u00a32,400 hit to household finances by the end of 2027, and US mortgage rates just hit their highest level since June 2025 on renewed Middle East attacks pushing oil higher. The open question remains whether the strait reopens on a verifiable deal or the standoff just grinds on.",
+      "age_days": 139,
+      "summary": "Oil crossed $92 a barrel today on renewed Middle East fighting, and wheat hit its highest price since early 2023 \u2014 the conflict's bill keeps compounding across energy and food markets even as Iran-Oman talks continue without resolution. The open question remains whether the strait reopens on a verifiable deal or the standoff keeps grinding out fresh cost spikes.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
-      "label": "Rotation Paused, Not Reversed",
+      "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 90,
-      "summary": "Nvidia and CrowdStrike were up again today even as the broader market fell \u2014 Nasdaq's -0.64% loss was smaller than the Dow's -0.72% \u2014 meaning the AI-trade outperformance survived its first real risk-off session since the pause began. That's a tougher test than the string of up days that established the pattern, because it shows some investors are still willing to pay up for chip and AI-adjacent names even while pulling back everywhere else.",
+      "age_days": 91,
+      "summary": "The AI-trade outperformance that survived its first real risk-off session broke today: the Nasdaq fell 1.03% versus the Dow's 0.79% decline, meaning chip and AI-adjacent names no longer held up better than the broader market on a down day. One session isn't proof the pattern has reversed for good, but it removes the clean read that AI names are immune to the broader stagflation-pricing selloff.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
-      "label": "No New Data, Same Question",
+      "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 108,
-      "summary": "Mortgage rates rose again to their highest since June 2025, but the move is now cleanly attributable to oil prices rising on Middle East escalation rather than a standalone Treasury demand problem \u2014 no new 30-year auction printed today to test that separately. The core unresolved question \u2014 is this energy pass-through or a lasting confidence problem in US government debt \u2014 still needs a fresh auction result to answer.",
+      "age_days": 109,
+      "summary": "Last month's Treasury debt-management shift, which had briefly pulled 30-year yields down, fully reversed today \u2014 yields are back near pre-announcement levels, and UK 30-year gilt yields hit their highest since 1998 in the same session. That makes this look less like a US-specific debt-supply problem and more like a global repricing of long-term government risk; the next 30-year auction result is still the cleanest test of whether US demand specifically is deteriorating.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
-      "label": "The Chair Went Hawkish Too",
+      "label": "The Hawks Gain A Voice",
       "first_seen": "2026-04-15",
-      "age_days": 138,
-      "summary": "Fed Chairman Warsh said inflation remains too high and that better summer readings haven't convinced him the underlying trend has shifted \u2014 a notable reversal of the assumption that a chair appointed under pressure from a rate-cut-hungry White House would lean dovish. That puts the top of the Fed institutionally aligned with regional hawks Collins and Hammack, at least in tone, while Governor Cook's independence fight with the administration remains a separate, unresolved front.",
+      "age_days": 139,
+      "summary": "Fed Governor Barr said today the central bank should raise rates if inflation doesn't moderate \u2014 notable because Barr isn't previously identified with the hawks the way Warsh, Collins, and Hammack are, suggesting the hawkish read on inflation is broadening beyond the usual voices. Governor Cook's separate independence fight with the administration remains unresolved and distinct from this policy debate.",
       "runs_since_update": 0
     }
   ],
@@ -56,22 +56,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-25-0",
-      "date_added": "2026-08-25",
-      "condition": "Iran-Oman talks produce a formal, verifiable agreement to reopen the Strait of Hormuz, or collapse without one.",
-      "meaning": "A real agreement validates today's oil drop as durable de-escalation; a collapse sends oil, and war-risk pricing, right back up.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-25-2",
-      "date_added": "2026-08-25",
-      "condition": "A third Fed regional president publicly echoes Collins and Hammack's call for hikes over cuts.",
-      "meaning": "Three hawkish voices starts to look like a real internal faction, pushing the bond market to price actual hikes rather than merely delayed cuts.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-25-3",
       "date_added": "2026-08-25",
@@ -105,14 +89,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-08-27-1",
-      "date_added": "2026-08-27",
-      "condition": "The Nasdaq's outperformance over the Dow extends to a fourth or fifth consecutive session.",
-      "meaning": "A longer streak would confirm the growth-stock rotation pause is durable rather than a two-day earnings bounce.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-08-31-0",
       "date_added": "2026-08-31",
       "condition": "Warsh repeats or hardens this hawkish language in a follow-up statement rather than treating it as a one-off remark.",
@@ -133,6 +109,30 @@
       "date_added": "2026-08-31",
       "condition": "Nasdaq's performance relative to the Dow over the next several sessions, especially on down days for the broader market.",
       "meaning": "Tells us whether the AI-trade pause can survive sustained risk-off pressure from Fed hawkishness, or was only holding up on calm days.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-01-1",
+      "date_added": "2026-09-01",
+      "condition": "Brent crude holds above $92 a barrel for multiple sessions rather than retreating.",
+      "meaning": "Sustained oil above $92 keeps feeding both inflation fear and long yields, extending pressure on stocks and mortgage costs.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-01-2",
+      "date_added": "2026-09-01",
+      "condition": "Nasdaq underperforms the Dow again on the next broad down session.",
+      "meaning": "A repeat would confirm today's break in the AI trade's immunity to risk-off selling rather than a one-day fluke.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-01-3",
+      "date_added": "2026-09-01",
+      "condition": "A third Fed voice \u2014 a regional president, not a governor \u2014 publicly backs Barr and Warsh's rate-hike-if-needed language.",
+      "meaning": "That would mark a real shift in the committee's center of gravity toward hikes, not just individual officials talking tough.",
       "status": "open",
       "outcome": ""
     }
