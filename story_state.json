@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 139,
-      "summary": "Oil crossed $92 a barrel today on renewed Middle East fighting, and wheat hit its highest price since early 2023 \u2014 the conflict's bill keeps compounding across energy and food markets even as Iran-Oman talks continue without resolution. The open question remains whether the strait reopens on a verifiable deal or the standoff keeps grinding out fresh cost spikes.",
+      "age_days": 140,
+      "summary": "Oil climbed again today on renewed Middle East fighting before paring some of the move late in the session, keeping the conflict's cost spreading across energy, food, and now bond markets simultaneously. Iran-Oman talks continue without resolution, so every fresh flare-up still shows up first in oil and then in yields \u2014 the strait's reopening on a verifiable deal remains the only clean off-ramp.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 91,
-      "summary": "The AI-trade outperformance that survived its first real risk-off session broke today: the Nasdaq fell 1.03% versus the Dow's 0.79% decline, meaning chip and AI-adjacent names no longer held up better than the broader market on a down day. One session isn't proof the pattern has reversed for good, but it removes the clean read that AI names are immune to the broader stagflation-pricing selloff.",
+      "age_days": 92,
+      "summary": "The Nasdaq lagged the Dow again today (+0.45% vs +0.56%) \u2014 but this time on a day when stocks broadly rose, not fell. That's a meaningfully different signal than prior underperformance on down days: it suggests rising yields, not just fear, are specifically weighing on AI and growth valuations, since those stocks' value depends most on profits far in the future.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 109,
-      "summary": "Last month's Treasury debt-management shift, which had briefly pulled 30-year yields down, fully reversed today \u2014 yields are back near pre-announcement levels, and UK 30-year gilt yields hit their highest since 1998 in the same session. That makes this look less like a US-specific debt-supply problem and more like a global repricing of long-term government risk; the next 30-year auction result is still the cleanest test of whether US demand specifically is deteriorating.",
+      "age_days": 110,
+      "summary": "The global bond sell-off intensified through the session on oil-driven inflation fears before easing somewhat as oil pulled back \u2014 UK Prime Minister Burnham publicly pledged 'fiscal responsibility' ahead of a budget investors are watching closely. Yields remain elevated versus pre-selloff levels on both sides of the Atlantic; the next long-bond auction result is still the cleanest test of whether this is a temporary scare or a lasting repricing.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "The Hawks Gain A Voice",
       "first_seen": "2026-04-15",
-      "age_days": 139,
-      "summary": "Fed Governor Barr said today the central bank should raise rates if inflation doesn't moderate \u2014 notable because Barr isn't previously identified with the hawks the way Warsh, Collins, and Hammack are, suggesting the hawkish read on inflation is broadening beyond the usual voices. Governor Cook's separate independence fight with the administration remains unresolved and distinct from this policy debate.",
+      "age_days": 140,
+      "summary": "No new Fed voice joined Barr and Warsh's hawkish line today, and Governor Cook's separate independence fight remains unresolved. The question of whether the hawkish read is broadening or was a one-day cluster of remarks stays open.",
       "runs_since_update": 0
     }
   ],
@@ -56,22 +56,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-25-3",
-      "date_added": "2026-08-25",
-      "condition": "The next 30-year Treasury auction result \u2014 strong demand and a lower yield, or another weak print.",
-      "meaning": "A second weak auction would confirm the long-end selloff is a lasting loss of confidence, not one bad day.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-26-1",
-      "date_added": "2026-08-26",
-      "condition": "Shipping traffic through the Strait of Hormuz keeps climbing over the next several sessions rather than reversing.",
-      "meaning": "Sustained traffic growth would mean the physical oil market still sees the corridor as safe despite the rhetoric.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-26-2",
       "date_added": "2026-08-26",
@@ -133,6 +117,22 @@
       "date_added": "2026-09-01",
       "condition": "A third Fed voice \u2014 a regional president, not a governor \u2014 publicly backs Barr and Warsh's rate-hike-if-needed language.",
       "meaning": "That would mark a real shift in the committee's center of gravity toward hikes, not just individual officials talking tough.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-02-0",
+      "date_added": "2026-09-02",
+      "condition": "The next long-term Treasury or UK gilt auction shows strong demand and a lower yield, versus another weak print.",
+      "meaning": "A strong auction would say investors still want long-term government debt at these rates; a weak one confirms the sell-off is a demand problem, not just an oil scare.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-02-2",
+      "date_added": "2026-09-02",
+      "condition": "The Nasdaq underperforms the Dow again on the next day markets broadly rise, not just fall.",
+      "meaning": "A second up-day gap would confirm this is a yield-driven repricing of growth stocks, not ordinary risk-off noise.",
       "status": "open",
       "outcome": ""
     }
