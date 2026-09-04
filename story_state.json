@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 140,
-      "summary": "Oil climbed again today on renewed Middle East fighting before paring some of the move late in the session, keeping the conflict's cost spreading across energy, food, and now bond markets simultaneously. Iran-Oman talks continue without resolution, so every fresh flare-up still shows up first in oil and then in yields \u2014 the strait's reopening on a verifiable deal remains the only clean off-ramp.",
+      "age_days": 141,
+      "summary": "Day 141: fresh U.S. strikes on Iran and renewed Israeli threats pushed oil higher intraday and drove diesel to a record, but oil pared its gains late in the session \u2014 giving bond yields room to ease and helping clear the way for today's stock rally. Iran-Oman talks remain unresolved, and a wedding strike investigation showing a likely direct U.S. hit adds to the conflict's political weight without changing the military or oil trajectory.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 92,
-      "summary": "The Nasdaq lagged the Dow again today (+0.45% vs +0.56%) \u2014 but this time on a day when stocks broadly rose, not fell. That's a meaningfully different signal than prior underperformance on down days: it suggests rising yields, not just fear, are specifically weighing on AI and growth valuations, since those stocks' value depends most on profits far in the future.",
+      "age_days": 93,
+      "summary": "Today broke the recent pattern: on a broad up day, the Nasdaq (+1.4%) actually outperformed the Dow (+1.18%), the opposite of the underperformance seen on both down days and the prior up day this week. It's one session, and it lines up with the Fed relief rally, so it's not yet clear whether the yield pressure on growth stocks is genuinely easing or just paused for a day.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 110,
-      "summary": "The global bond sell-off intensified through the session on oil-driven inflation fears before easing somewhat as oil pulled back \u2014 UK Prime Minister Burnham publicly pledged 'fiscal responsibility' ahead of a budget investors are watching closely. Yields remain elevated versus pre-selloff levels on both sides of the Atlantic; the next long-bond auction result is still the cleanest test of whether this is a temporary scare or a lasting repricing.",
+      "age_days": 111,
+      "summary": "Day 111: global bond turmoil eased somewhat late in the session as oil pulled back, but UK swap rates remain near three-year highs and the Bank of England's chief economist is now publicly arguing for a rate rise \u2014 another hawkish global voice layering onto the selloff. The next long-term Treasury or gilt auction remains the cleanest test of whether today's calm is real or temporary.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
-      "label": "The Hawks Gain A Voice",
+      "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 140,
-      "summary": "No new Fed voice joined Barr and Warsh's hawkish line today, and Governor Cook's separate independence fight remains unresolved. The question of whether the hawkish read is broadening or was a one-day cluster of remarks stays open.",
+      "age_days": 141,
+      "summary": "Day 141: for the first time since Barr and Warsh's hawkish line took hold, a Fed governor pushed the other way \u2014 Waller said he'd back holding rates steady if inflation data allows it. Governor Cook's separate independence fight is still unresolved, and the open question is whether Waller represents a genuine split inside the Fed or a lone dovish voice that gets overridden once real inflation data lands.",
       "runs_since_update": 0
     }
   ],
@@ -56,30 +56,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-26-2",
-      "date_added": "2026-08-26",
-      "condition": "The next 30-year Treasury auction, when it happens, shows demand improve or weaken further from the recent soft print.",
-      "meaning": "Separates one-off auction indigestion from a lasting loss of confidence in long-run US fiscal policy.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-27-0",
-      "date_added": "2026-08-27",
-      "condition": "The White House moves from 'considering' semiconductor tariffs to a formal proposal or announcement.",
-      "meaning": "That would directly threaten the input costs of the chipmakers currently leading the market, turning today's rally into a policy liability.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-31-0",
-      "date_added": "2026-08-31",
-      "condition": "Warsh repeats or hardens this hawkish language in a follow-up statement rather than treating it as a one-off remark.",
-      "meaning": "Confirms the 'friendly Fed' trade is dead, not just paused, and pushes out any near-term cut expectations further.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-08-31-1",
       "date_added": "2026-08-31",
@@ -133,6 +109,30 @@
       "date_added": "2026-09-02",
       "condition": "The Nasdaq underperforms the Dow again on the next day markets broadly rise, not just fall.",
       "meaning": "A second up-day gap would confirm this is a yield-driven repricing of growth stocks, not ordinary risk-off noise.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-03-0",
+      "date_added": "2026-09-03",
+      "condition": "Whether another Fed official \u2014 hawk or dove \u2014 publicly echoes Waller's conditional hold language in the coming sessions.",
+      "meaning": "If Waller stays a lone voice, the hawkish Barr/Warsh line remains the Fed's dominant signal and today's rally is more relief than reversal.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-03-1",
+      "date_added": "2026-09-03",
+      "condition": "Nasdaq's performance versus the Dow on the next broad up day for stocks.",
+      "meaning": "A repeat of today's Nasdaq outperformance would suggest the yield-driven pressure on AI and growth valuations is genuinely easing, not just paused for one session.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-03-2",
+      "date_added": "2026-09-03",
+      "condition": "Whether Brent crude holds today's late pullback or reverses back toward its recent highs over the next several sessions.",
+      "meaning": "A sustained retreat lets bond yields keep cooling; a reversal higher puts the inflation-and-rates story right back in the driver's seat.",
       "status": "open",
       "outcome": ""
     }
