@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 141,
-      "summary": "Day 141: fresh U.S. strikes on Iran and renewed Israeli threats pushed oil higher intraday and drove diesel to a record, but oil pared its gains late in the session \u2014 giving bond yields room to ease and helping clear the way for today's stock rally. Iran-Oman talks remain unresolved, and a wedding strike investigation showing a likely direct U.S. hit adds to the conflict's political weight without changing the military or oil trajectory.",
+      "age_days": 142,
+      "summary": "Day 142: diesel hit a fresh record high on the combined effect of the Iran war and Ukraine's strikes on Russian refineries, and Israel struck southern Lebanon after a Hezbollah drone launch \u2014 a fresh escalation on top of an already-elevated conflict. The energy cost pressure this generates is now feeding directly into the Fed's dilemma: it can't cut into an economy with record diesel prices without risking a fresh inflation leg.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 93,
-      "summary": "Today broke the recent pattern: on a broad up day, the Nasdaq (+1.4%) actually outperformed the Dow (+1.18%), the opposite of the underperformance seen on both down days and the prior up day this week. It's one session, and it lines up with the Fed relief rally, so it's not yet clear whether the yield pressure on growth stocks is genuinely easing or just paused for a day.",
+      "age_days": 94,
+      "summary": "Day 94: on today's broad down day, the Nasdaq (-0.29%) again outperformed the Dow (-0.51%) and S&P (-0.38%), extending the pattern break first seen on yesterday's up day. Two consecutive sessions of tech resilience \u2014 one up, one down \u2014 is a real signal worth tracking, but it's not yet proof the yield-sensitivity that hurt growth stocks all summer has genuinely eased.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 111,
-      "summary": "Day 111: global bond turmoil eased somewhat late in the session as oil pulled back, but UK swap rates remain near three-year highs and the Bank of England's chief economist is now publicly arguing for a rate rise \u2014 another hawkish global voice layering onto the selloff. The next long-term Treasury or gilt auction remains the cleanest test of whether today's calm is real or temporary.",
+      "age_days": 112,
+      "summary": "Day 112: the jobs report reversed the late-session calm from the prior day, pushing yields back up as strong labor data undercuts the case for near-term cuts. UK swap rates remain near three-year highs and the Bank of England's chief economist is still pushing a hawkish line, so the global bond-market pressure has not eased \u2014 it just paused for a session.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 141,
-      "summary": "Day 141: for the first time since Barr and Warsh's hawkish line took hold, a Fed governor pushed the other way \u2014 Waller said he'd back holding rates steady if inflation data allows it. Governor Cook's separate independence fight is still unresolved, and the open question is whether Waller represents a genuine split inside the Fed or a lone dovish voice that gets overridden once real inflation data lands.",
+      "age_days": 142,
+      "summary": "Day 142: Trump publicly demanded rate cuts within hours of a stronger-than-expected jobs report, putting direct political pressure on Kevin Warsh precisely when the data argues for holding steady. The Bank of England's own chief flagged the broader pattern \u2014 populist pressure on central bank independence \u2014 showing this isn't isolated to the Fed. The open question remains whether Warsh's actual policy language bends toward the political pressure or holds to the data.",
       "runs_since_update": 0
     }
   ],
@@ -53,33 +53,19 @@
       "year": "2022",
       "context": "In September 2022, UK long-term government bond yields spiked violently after a ",
       "date_used": "2026-08-14"
+    },
+    {
+      "year": "1994",
+      "context": "The Fed's own surprise tightening into unexpectedly strong growth data triggered",
+      "date_used": "2026-09-04"
+    },
+    {
+      "year": "2023",
+      "context": "The February 2023 jobs report showed 517,000 new jobs versus roughly 187,000 exp",
+      "date_used": "2026-09-04"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-08-31-1",
-      "date_added": "2026-08-31",
-      "condition": "Oil prices and Strait of Hormuz shipping volumes over the next several sessions \u2014 do they keep easing or reverse higher.",
-      "meaning": "Determines whether mortgage rates keep climbing toward the recent highs or start to roll over.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-08-31-3",
-      "date_added": "2026-08-31",
-      "condition": "Nasdaq's performance relative to the Dow over the next several sessions, especially on down days for the broader market.",
-      "meaning": "Tells us whether the AI-trade pause can survive sustained risk-off pressure from Fed hawkishness, or was only holding up on calm days.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-01-1",
-      "date_added": "2026-09-01",
-      "condition": "Brent crude holds above $92 a barrel for multiple sessions rather than retreating.",
-      "meaning": "Sustained oil above $92 keeps feeding both inflation fear and long yields, extending pressure on stocks and mortgage costs.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-01-2",
       "date_added": "2026-09-01",
@@ -133,6 +119,30 @@
       "date_added": "2026-09-03",
       "condition": "Whether Brent crude holds today's late pullback or reverses back toward its recent highs over the next several sessions.",
       "meaning": "A sustained retreat lets bond yields keep cooling; a reversal higher puts the inflation-and-rates story right back in the driver's seat.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-04-0",
+      "date_added": "2026-09-04",
+      "condition": "Kevin Warsh's public language this month leans toward Trump's demand for cuts rather than toward the strong jobs data.",
+      "meaning": "Would signal the Fed's independence is bending to political pressure, a much bigger deal than any single rate decision.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-04-1",
+      "date_added": "2026-09-04",
+      "condition": "The 10-year Treasury yield keeps climbing over the next several sessions rather than fading back down.",
+      "meaning": "Confirms today's jobs-driven yield spike is a lasting repricing, not a one-day reaction.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-04-3",
+      "date_added": "2026-09-04",
+      "condition": "Diesel and crude oil prices keep setting fresh records in the coming sessions rather than topping out.",
+      "meaning": "Would tighten the Fed's bind further \u2014 strong jobs plus rising energy costs makes any rate cut look riskier.",
       "status": "open",
       "outcome": ""
     }
