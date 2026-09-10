@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 146,
-      "summary": "Day 146: the conflict widened again as Houthi rebels \u2014 Iran's allies in Yemen \u2014 escalated attacks that pushed crude decisively above $100 a barrel for the first time this cycle, setting a fresh Labor Day record for US gas prices. The open question remains whether this is a contained spike from a new front or the start of a sustained floor under oil that keeps feeding the Fed's inflation dilemma.",
+      "age_days": 147,
+      "summary": "Day 147: tanker traffic through the Strait of Hormuz has dropped to single digits \u2014 actual ships, not just prices \u2014 while a strike on a Jordan air base damaged US military aircraft and Trump warned Iran against further activity at a facility called Pickaxe Mountain. Brent has now held above $100 for a second straight session; the open question is whether Hormuz traffic recovers or this becomes a genuine, sustained supply shock rather than a fear-driven spike.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 98,
-      "summary": "Day 98: on today's broad down day (Dow -1.18%, S&P -0.58%), the Nasdaq again outperformed at just -0.32%, extending a pattern of relative tech resilience across both up and down sessions. That's enough repetition to take seriously, though it still isn't proof tech has genuinely decoupled from the yield-sensitivity that hurt it all summer.",
+      "age_days": 99,
+      "summary": "Day 99: on today's broad down day, Nasdaq (-0.64%) again outperformed the Dow (-0.77%), the second consecutive session where this specific pattern can be confirmed with numbers (yesterday: Dow -1.18%, Nasdaq -0.32%). One more down-day repeat, or a clean test on an up day, would make this a real decoupling story rather than a coincidence.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 116,
-      "summary": "Day 116: the US bond selloff is now being described as creeping toward a symbolic 5% on the 10-year, while the UK's 30-year gilt (a British government bond) yield hit its highest level since 1998, cutting into the UK government's fiscal room to maneuver. The pattern remains global rather than US-specific, and the open question is whether this settles at a new higher plateau or keeps climbing.",
+      "age_days": 117,
+      "summary": "Day 117: the Treasury tried to arrest the bond selloff with a $6 billion buyback of its own debt and the market shrugged it off \u2014 yields rose to their highest point since the 2008 financial crisis anyway. This is the clearest sign yet that the selloff is being driven by something the Treasury can't fix with supply tricks \u2014 most likely the same inflation fear now coming from oil. The question remains whether yields plateau here or keep climbing toward 5%.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 146,
-      "summary": "Day 146: no new public language from Kevin Warsh or other Fed officials surfaced today, leaving the core question \u2014 whether Warsh's actual policy stance bends toward Trump's demand for cuts or holds to the data \u2014 still unresolved. The oil and bond stories developing in parallel raise the stakes on whichever way he eventually leans.",
+      "age_days": 147,
+      "summary": "Day 147: still no public language from Kevin Warsh or other Fed officials, so the core question \u2014 cuts to please Trump, or a hold justified by oil-driven inflation \u2014 remains open. The stakes on that decision just went up: oil turning into a physical supply shock and bond yields hitting a 2008-era high both push toward the hawkish side of his eventual position.",
       "runs_since_update": 0
     }
   ],
@@ -56,22 +56,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-02-0",
-      "date_added": "2026-09-02",
-      "condition": "The next long-term Treasury or UK gilt auction shows strong demand and a lower yield, versus another weak print.",
-      "meaning": "A strong auction would say investors still want long-term government debt at these rates; a weak one confirms the sell-off is a demand problem, not just an oil scare.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-02-2",
-      "date_added": "2026-09-02",
-      "condition": "The Nasdaq underperforms the Dow again on the next day markets broadly rise, not just fall.",
-      "meaning": "A second up-day gap would confirm this is a yield-driven repricing of growth stocks, not ordinary risk-off noise.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-03-0",
       "date_added": "2026-09-03",
@@ -133,6 +117,22 @@
       "date_added": "2026-09-08",
       "condition": "Kevin Warsh or another Fed official publicly addresses oil prices as a factor in the policy outlook.",
       "meaning": "That would signal energy costs have officially entered the Fed's public reasoning, raising the bar for any near-term rate cut.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-09-0",
+      "date_added": "2026-09-09",
+      "condition": "Tanker traffic through the Strait of Hormuz shows any rebound from today's single-digit levels.",
+      "meaning": "If it stays near zero, this is a confirmed physical supply shock, not a fear premium, and oil's floor above $100 becomes much harder to dislodge.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-09-1",
+      "date_added": "2026-09-09",
+      "condition": "Brent crude holds above $100 for a third consecutive session, or instead falls back below $95.",
+      "meaning": "A third day above $100 would confirm a real floor under oil that feeds straight into the Fed's inflation math; a drop below $95 would say the spike is fading.",
       "status": "open",
       "outcome": ""
     }
