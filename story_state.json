@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 147,
-      "summary": "Day 147: tanker traffic through the Strait of Hormuz has dropped to single digits \u2014 actual ships, not just prices \u2014 while a strike on a Jordan air base damaged US military aircraft and Trump warned Iran against further activity at a facility called Pickaxe Mountain. Brent has now held above $100 for a second straight session; the open question is whether Hormuz traffic recovers or this becomes a genuine, sustained supply shock rather than a fear-driven spike.",
+      "age_days": 148,
+      "summary": "Day 148: Brent surged to $107, its highest since before summer, and the ECB became the first major central bank to hike explicitly because of Iran-war-driven inflation \u2014 turning the market's oil fear into an actual policy decision. The open question is unchanged: does Hormuz tanker traffic recover, or does oil keep climbing toward $110+ and pull the Fed into the same corner the ECB just occupied?",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 99,
-      "summary": "Day 99: on today's broad down day, Nasdaq (-0.64%) again outperformed the Dow (-0.77%), the second consecutive session where this specific pattern can be confirmed with numbers (yesterday: Dow -1.18%, Nasdaq -0.32%). One more down-day repeat, or a clean test on an up day, would make this a real decoupling story rather than a coincidence.",
+      "age_days": 100,
+      "summary": "Day 100: the two-day pattern of Nasdaq outperforming the Dow on down days broke today \u2014 Nasdaq fell 0.65% versus the Dow's 0.6%, meaning tech led the decline rather than cushioning it. That's a genuine data point against the decoupling story, and it needs a repeat before we can call the streak dead rather than noisy.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 117,
-      "summary": "Day 117: the Treasury tried to arrest the bond selloff with a $6 billion buyback of its own debt and the market shrugged it off \u2014 yields rose to their highest point since the 2008 financial crisis anyway. This is the clearest sign yet that the selloff is being driven by something the Treasury can't fix with supply tricks \u2014 most likely the same inflation fear now coming from oil. The question remains whether yields plateau here or keep climbing toward 5%.",
+      "age_days": 118,
+      "summary": "Day 118: the global bond sell-off resumed today, with oil's climb past $107 doing the damage the Treasury's buyback couldn't fix \u2014 and Trump's $5,000-check pledge added a second, unrelated worry about future borrowing right on top of it. Yields haven't printed a fresh multi-year high today, but the direction is unmistakably up again.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 147,
-      "summary": "Day 147: still no public language from Kevin Warsh or other Fed officials, so the core question \u2014 cuts to please Trump, or a hold justified by oil-driven inflation \u2014 remains open. The stakes on that decision just went up: oil turning into a physical supply shock and bond yields hitting a 2008-era high both push toward the hawkish side of his eventual position.",
+      "age_days": 148,
+      "summary": "Day 148: still no public words from Kevin Warsh, but the ECB just answered the question he's avoiding \u2014 hike or hold into an oil shock rather than cut. That raises the cost of Fed silence: every day without a US answer now reads against the backdrop of a peer central bank already choosing the hawkish path.",
       "runs_since_update": 0
     }
   ],
@@ -81,22 +81,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-04-1",
-      "date_added": "2026-09-04",
-      "condition": "The 10-year Treasury yield keeps climbing over the next several sessions rather than fading back down.",
-      "meaning": "Confirms today's jobs-driven yield spike is a lasting repricing, not a one-day reaction.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-08-0",
-      "date_added": "2026-09-08",
-      "condition": "Brent crude closes below $95, or instead holds above $100 through the next three sessions.",
-      "meaning": "A sustained hold above $100 confirms this is now a structural inflation risk, not a one-day spike.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-08-1",
       "date_added": "2026-09-08",
       "condition": "The US 10-year Treasury yield actually prints at or above 5% at a session close.",
@@ -129,10 +113,18 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-09-1",
-      "date_added": "2026-09-09",
-      "condition": "Brent crude holds above $100 for a third consecutive session, or instead falls back below $95.",
-      "meaning": "A third day above $100 would confirm a real floor under oil that feeds straight into the Fed's inflation math; a drop below $95 would say the spike is fading.",
+      "id": "w-2026-09-10-1",
+      "date_added": "2026-09-10",
+      "condition": "Kevin Warsh or another Fed official publicly addresses oil-driven inflation the way the ECB just did.",
+      "meaning": "Fed language matching the ECB's would signal the US is leaning toward a hold or hike over a cut, repricing rate-cut bets across markets.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-10-2",
+      "date_added": "2026-09-10",
+      "condition": "Brent crude either falls back below $100 or extends its climb toward $110 over the next several sessions.",
+      "meaning": "A pullback would ease the inflation story industry-wide; a push higher would spread the ECB's hawkish logic to more central banks.",
       "status": "open",
       "outcome": ""
     }
