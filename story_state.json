@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 148,
-      "summary": "Day 148: Brent surged to $107, its highest since before summer, and the ECB became the first major central bank to hike explicitly because of Iran-war-driven inflation \u2014 turning the market's oil fear into an actual policy decision. The open question is unchanged: does Hormuz tanker traffic recover, or does oil keep climbing toward $110+ and pull the Fed into the same corner the ECB just occupied?",
+      "age_days": 149,
+      "summary": "Day 149: the war moved from threatening oil transit to actually cutting it \u2014 Saudi Arabia shut down a major pipeline as Houthi forces tightened their grip on Red Sea shipping lanes, Iraq closed its border crossing with Iran, and an Iraqi military commander was dismissed after drone strikes hit Saudi Arabia. This is the clearest evidence yet of physical supply loss rather than just war-risk pricing, and it's now showing up directly in gasoline prices and the CPI report. The open question is still whether Hormuz tanker traffic recovers or Brent extends its climb past $107 toward $110-plus.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 100,
-      "summary": "Day 100: the two-day pattern of Nasdaq outperforming the Dow on down days broke today \u2014 Nasdaq fell 0.65% versus the Dow's 0.6%, meaning tech led the decline rather than cushioning it. That's a genuine data point against the decoupling story, and it needs a repeat before we can call the streak dead rather than noisy.",
+      "age_days": 101,
+      "summary": "Day 101: on today's broad up day, the Dow (+0.98%) outperformed the Nasdaq (+0.96%) \u2014 the second straight data point showing tech no longer leads either direction, having already failed to cushion the prior down day. The decoupling story that once let AI-linked tech shrug off macro pressure looks genuinely broken rather than noisy at this point, though a clean reversal on the next session would still complicate that read.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 118,
-      "summary": "Day 118: the global bond sell-off resumed today, with oil's climb past $107 doing the damage the Treasury's buyback couldn't fix \u2014 and Trump's $5,000-check pledge added a second, unrelated worry about future borrowing right on top of it. Yields haven't printed a fresh multi-year high today, but the direction is unmistakably up again.",
+      "age_days": 119,
+      "summary": "Day 119: the bond sell-off intensified again, with commentary now framing rising Treasury yields as a direct threat of pushing stocks into correction territory (a drop of 10% or more from a recent high). Stocks and yields both rose today \u2014 a split that held only because the CPI print gave equities a certainty rally; if yields keep climbing toward the 5% level on the 10-year Treasury bond, that split won't survive.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 148,
-      "summary": "Day 148: still no public words from Kevin Warsh, but the ECB just answered the question he's avoiding \u2014 hike or hold into an oil shock rather than cut. That raises the cost of Fed silence: every day without a US answer now reads against the backdrop of a peer central bank already choosing the hawkish path.",
+      "age_days": 149,
+      "summary": "Day 149: still no direct public statement from Kevin Warsh, but the August CPI print's hot gasoline-driven headline number and firm core reading reportedly locked in a Fed rate hike for next week regardless of what Warsh says \u2014 mirroring the ECB's inflation-driven hike from weeks ago. The data itself may now be answering the question leadership commentary has avoided; whether Warsh's public language ends up matching or resisting that data-driven outcome remains open.",
       "runs_since_update": 0
     }
   ],
@@ -53,6 +53,16 @@
       "year": "2023",
       "context": "The February 2023 jobs report showed 517,000 new jobs versus roughly 187,000 exp",
       "date_used": "2026-09-04"
+    },
+    {
+      "year": "1973",
+      "context": "When OPEC's embargo quadrupled oil prices in 1973-74, the Fed under Arthur Burns",
+      "date_used": "2026-09-11"
+    },
+    {
+      "year": "1979",
+      "context": "When the second oil shock hit in 1979, Paul Volcker's Fed did the opposite \u2014 pus",
+      "date_used": "2026-09-11"
     }
   ],
   "open_watchlist": [
@@ -61,14 +71,6 @@
       "date_added": "2026-09-03",
       "condition": "Whether another Fed official \u2014 hawk or dove \u2014 publicly echoes Waller's conditional hold language in the coming sessions.",
       "meaning": "If Waller stays a lone voice, the hawkish Barr/Warsh line remains the Fed's dominant signal and today's rally is more relief than reversal.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-03-1",
-      "date_added": "2026-09-03",
-      "condition": "Nasdaq's performance versus the Dow on the next broad up day for stocks.",
-      "meaning": "A repeat of today's Nasdaq outperformance would suggest the yield-driven pressure on AI and growth valuations is genuinely easing, not just paused for one session.",
       "status": "open",
       "outcome": ""
     },
@@ -125,6 +127,22 @@
       "date_added": "2026-09-10",
       "condition": "Brent crude either falls back below $100 or extends its climb toward $110 over the next several sessions.",
       "meaning": "A pullback would ease the inflation story industry-wide; a push higher would spread the ECB's hawkish logic to more central banks.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-11-0",
+      "date_added": "2026-09-11",
+      "condition": "The Fed's decision next week delivers an actual rate hike rather than a hold.",
+      "meaning": "Confirms the CPI print, not political pressure for cuts, is now driving policy \u2014 the same path the ECB already took.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-11-1",
+      "date_added": "2026-09-11",
+      "condition": "Brent crude either breaks above $110 or falls back under $100 over the next several sessions.",
+      "meaning": "Above $110 means the inflation and Fed-hike story gets worse from here; under $100 means today's calm was justified.",
       "status": "open",
       "outcome": ""
     }
