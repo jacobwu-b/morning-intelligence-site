@@ -4,46 +4,36 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 149,
-      "summary": "Day 149: the war moved from threatening oil transit to actually cutting it \u2014 Saudi Arabia shut down a major pipeline as Houthi forces tightened their grip on Red Sea shipping lanes, Iraq closed its border crossing with Iran, and an Iraqi military commander was dismissed after drone strikes hit Saudi Arabia. This is the clearest evidence yet of physical supply loss rather than just war-risk pricing, and it's now showing up directly in gasoline prices and the CPI report. The open question is still whether Hormuz tanker traffic recovers or Brent extends its climb past $107 toward $110-plus.",
+      "age_days": 152,
+      "summary": "Day 152: Brent crude above $108 a barrel and Hormuz tanker traffic continuing to dwindle confirm the physical supply loss from day 149 hasn't reversed \u2014 it's deepening. The open question is unchanged: does traffic recover, or does Brent keep climbing toward $110, and that answer now directly determines how hard the Fed has to lean against inflation this week.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 101,
-      "summary": "Day 101: on today's broad up day, the Dow (+0.98%) outperformed the Nasdaq (+0.96%) \u2014 the second straight data point showing tech no longer leads either direction, having already failed to cushion the prior down day. The decoupling story that once let AI-linked tech shrug off macro pressure looks genuinely broken rather than noisy at this point, though a clean reversal on the next session would still complicate that read.",
+      "age_days": 104,
+      "summary": "Day 104: the Nasdaq underperformed the Dow again today (-0.56% vs -0.29%), a third straight session of the same pattern, with fresh calls for an AI development slowdown cited as a direct driver of tech's weakness. The decoupling looks structural rather than noise at this point \u2014 AI-linked tech is no longer shielding the market on down days, it's leading them.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 119,
-      "summary": "Day 119: the bond sell-off intensified again, with commentary now framing rising Treasury yields as a direct threat of pushing stocks into correction territory (a drop of 10% or more from a recent high). Stocks and yields both rose today \u2014 a split that held only because the CPI print gave equities a certainty rally; if yields keep climbing toward the 5% level on the 10-year Treasury bond, that split won't survive.",
+      "age_days": 122,
+      "summary": "Day 122: the 10-year yield broke through 5% for the first time since 2023, the level flagged as the line that would break the split between rising yields and rising stocks. That split is now gone \u2014 both oil and yields are moving up together, and stocks are falling in response, which is the textbook stagflation signature this theme has been building toward.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 149,
-      "summary": "Day 149: still no direct public statement from Kevin Warsh, but the August CPI print's hot gasoline-driven headline number and firm core reading reportedly locked in a Fed rate hike for next week regardless of what Warsh says \u2014 mirroring the ECB's inflation-driven hike from weeks ago. The data itself may now be answering the question leadership commentary has avoided; whether Warsh's public language ends up matching or resisting that data-driven outcome remains open.",
+      "age_days": 152,
+      "summary": "Day 152: the market has now moved from expecting a hold to fully pricing a hike this week, driven entirely by oil-driven inflation data rather than anything Warsh has said publicly. Treasury Secretary Bessent's comment that 'the bond market has taken down more governments than howitzers' reads as the administration signaling it will let the Fed hike rather than fight the bond market \u2014 political cover for the opposite of the cut Trump has wanted.",
       "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1987",
-      "context": "In the months before the October 1987 crash, long-term Treasury yields climbed f",
-      "date_used": "2026-08-14"
-    },
-    {
-      "year": "2022",
-      "context": "In September 2022, UK long-term government bond yields spiked violently after a ",
-      "date_used": "2026-08-14"
-    },
     {
       "year": "1994",
       "context": "The Fed's own surprise tightening into unexpectedly strong growth data triggered",
@@ -67,26 +57,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-09-03-0",
-      "date_added": "2026-09-03",
-      "condition": "Whether another Fed official \u2014 hawk or dove \u2014 publicly echoes Waller's conditional hold language in the coming sessions.",
-      "meaning": "If Waller stays a lone voice, the hawkish Barr/Warsh line remains the Fed's dominant signal and today's rally is more relief than reversal.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-04-0",
       "date_added": "2026-09-04",
       "condition": "Kevin Warsh's public language this month leans toward Trump's demand for cuts rather than toward the strong jobs data.",
       "meaning": "Would signal the Fed's independence is bending to political pressure, a much bigger deal than any single rate decision.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-08-1",
-      "date_added": "2026-09-08",
-      "condition": "The US 10-year Treasury yield actually prints at or above 5% at a session close.",
-      "meaning": "Crossing 5% would confirm the global bond selloff has entered a new, more painful phase for borrowers everywhere.",
       "status": "open",
       "outcome": ""
     },
@@ -143,6 +117,22 @@
       "date_added": "2026-09-11",
       "condition": "Brent crude either breaks above $110 or falls back under $100 over the next several sessions.",
       "meaning": "Above $110 means the inflation and Fed-hike story gets worse from here; under $100 means today's calm was justified.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-14-1",
+      "date_added": "2026-09-14",
+      "condition": "The 10-year Treasury yield closes above 5.25% or drops back under 5% in the sessions following the Fed decision.",
+      "meaning": "Tells us whether 5% was a ceiling that holds or a floor the market keeps pushing through.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-14-3",
+      "date_added": "2026-09-14",
+      "condition": "The Dow-Nasdaq performance gap widens or closes over the next several sessions, especially on a day when yields ease.",
+      "meaning": "Shows whether the AI-linked tech decoupling is now a durable rotation away from tech or just tracking the broader yield stress.",
       "status": "open",
       "outcome": ""
     }
