@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 152,
-      "summary": "Day 152: Brent crude above $108 a barrel and Hormuz tanker traffic continuing to dwindle confirm the physical supply loss from day 149 hasn't reversed \u2014 it's deepening. The open question is unchanged: does traffic recover, or does Brent keep climbing toward $110, and that answer now directly determines how hard the Fed has to lean against inflation this week.",
+      "age_days": 153,
+      "summary": "Day 153: Hormuz tanker crossings remain stuck in single digits, and oil-driven pressure is cited directly as a driver of today's equity slide alongside rising yields. The physical supply squeeze shows no sign of easing \u2014 whether traffic rebounds or Brent keeps grinding higher still sets the ceiling on how much further the Fed has to tighten.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 104,
-      "summary": "Day 104: the Nasdaq underperformed the Dow again today (-0.56% vs -0.29%), a third straight session of the same pattern, with fresh calls for an AI development slowdown cited as a direct driver of tech's weakness. The decoupling looks structural rather than noise at this point \u2014 AI-linked tech is no longer shielding the market on down days, it's leading them.",
+      "age_days": 105,
+      "summary": "Day 105: the Nasdaq (-0.78%) again underperformed the Dow (-0.63%), extending the AI-decoupling pattern into a fourth-plus session. Tech is still leading market weakness rather than shielding it, and that pattern hasn't broken even with a Fed decision one day away.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 122,
-      "summary": "Day 122: the 10-year yield broke through 5% for the first time since 2023, the level flagged as the line that would break the split between rising yields and rising stocks. That split is now gone \u2014 both oil and yields are moving up together, and stocks are falling in response, which is the textbook stagflation signature this theme has been building toward.",
+      "age_days": 123,
+      "summary": "Day 123: the 10-year yield closed at 5.041%, a fresh 19-year high, even as the Treasury touted its bond buyback program (buying back its own debt to hold borrowing costs down) as a success. Rising yields and rising oil are still moving together while stocks fall \u2014 the stagflation signature flagged on day 122 is intact and intensifying into the Fed's decision.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 152,
-      "summary": "Day 152: the market has now moved from expecting a hold to fully pricing a hike this week, driven entirely by oil-driven inflation data rather than anything Warsh has said publicly. Treasury Secretary Bessent's comment that 'the bond market has taken down more governments than howitzers' reads as the administration signaling it will let the Fed hike rather than fight the bond market \u2014 political cover for the opposite of the cut Trump has wanted.",
+      "age_days": 153,
+      "summary": "Day 153: with the decision now imminent, the market is fully positioned for a quarter-point hike, and economist Mark Zandi's public warning that hiking here would be a 'serious mistake' underscores the core tension \u2014 a demand-side tool aimed at a supply-side inflation problem. Whether the Fed hikes as priced, and how yields react afterward, is the next real test of this theme.",
       "runs_since_update": 0
     }
   ],
@@ -56,14 +56,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-04-0",
-      "date_added": "2026-09-04",
-      "condition": "Kevin Warsh's public language this month leans toward Trump's demand for cuts rather than toward the strong jobs data.",
-      "meaning": "Would signal the Fed's independence is bending to political pressure, a much bigger deal than any single rate decision.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-08-2",
       "date_added": "2026-09-08",
