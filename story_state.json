@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 153,
-      "summary": "Day 153: Hormuz tanker crossings remain stuck in single digits, and oil-driven pressure is cited directly as a driver of today's equity slide alongside rising yields. The physical supply squeeze shows no sign of easing \u2014 whether traffic rebounds or Brent keeps grinding higher still sets the ceiling on how much further the Fed has to tighten.",
+      "age_days": 154,
+      "summary": "Trump said today he's 'hopefully towards end' of the Iran war \u2014 the first public signal in a while that the conflict driving oil-linked inflation pressure might be nearing resolution. Nothing in tanker traffic or Brent pricing confirms this yet; it's a rhetorical opening, not a fact on the ground. Whether it translates into actual Hormuz traffic or lower oil is the test.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 105,
-      "summary": "Day 105: the Nasdaq (-0.78%) again underperformed the Dow (-0.63%), extending the AI-decoupling pattern into a fourth-plus session. Tech is still leading market weakness rather than shielding it, and that pattern hasn't broken even with a Fed decision one day away.",
+      "age_days": 106,
+      "summary": "After more than four sessions of the Nasdaq underperforming the Dow, today reversed sharply \u2014 Nasdaq flat, Dow down over a point \u2014 the first break in that pattern since it emerged. It's one session, and the cause could be the hike removing uncertainty rather than a genuine change in tech's footing. The next session or two will tell you whether this is real relief or noise.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 123,
-      "summary": "Day 123: the 10-year yield closed at 5.041%, a fresh 19-year high, even as the Treasury touted its bond buyback program (buying back its own debt to hold borrowing costs down) as a success. Rising yields and rising oil are still moving together while stocks fall \u2014 the stagflation signature flagged on day 122 is intact and intensifying into the Fed's decision.",
+      "age_days": 124,
+      "summary": "No new yield print came through today, so the 19-year-high level from day 123 stands as the last known data point. The Fed's hike changes the calculus going forward \u2014 a hike normally pushes short-term rates up while long-term yields can go either way depending on whether the market believes inflation gets tamed or gets worse. The next yield close is now the most important number in this entire brief.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 153,
-      "summary": "Day 153: with the decision now imminent, the market is fully positioned for a quarter-point hike, and economist Mark Zandi's public warning that hiking here would be a 'serious mistake' underscores the core tension \u2014 a demand-side tool aimed at a supply-side inflation problem. Whether the Fed hikes as priced, and how yields react afterward, is the next real test of this theme.",
+      "age_days": 154,
+      "summary": "The anticipated hike arrived today, unanimous, with Kevin Warsh declaring 'inflation is too high and has been for too long' and the Fed signaling a second hike is likely this year. Trump responded by demanding rates fall to '1% or less' and lashing out publicly \u2014 the independence tension this theme has tracked for 154 days is no longer theoretical, it played out in real time today. What's open now: whether the Fed actually delivers that second hike into a supply-driven inflation problem, and whether political pressure escalates beyond rhetoric.",
       "runs_since_update": 0
     }
   ],
@@ -57,22 +57,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-09-08-2",
-      "date_added": "2026-09-08",
-      "condition": "The Dow underperforms the Nasdaq for a third straight session.",
-      "meaning": "That would confirm markets are pricing an oil-driven cost shock specifically hitting old-economy, industrial-heavy stocks rather than a broad risk-off move.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-08-3",
-      "date_added": "2026-09-08",
-      "condition": "Kevin Warsh or another Fed official publicly addresses oil prices as a factor in the policy outlook.",
-      "meaning": "That would signal energy costs have officially entered the Fed's public reasoning, raising the bar for any near-term rate cut.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-09-0",
       "date_added": "2026-09-09",
       "condition": "Tanker traffic through the Strait of Hormuz shows any rebound from today's single-digit levels.",
@@ -97,14 +81,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-11-0",
-      "date_added": "2026-09-11",
-      "condition": "The Fed's decision next week delivers an actual rate hike rather than a hold.",
-      "meaning": "Confirms the CPI print, not political pressure for cuts, is now driving policy \u2014 the same path the ECB already took.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-11-1",
       "date_added": "2026-09-11",
       "condition": "Brent crude either breaks above $110 or falls back under $100 over the next several sessions.",
@@ -125,6 +101,38 @@
       "date_added": "2026-09-14",
       "condition": "The Dow-Nasdaq performance gap widens or closes over the next several sessions, especially on a day when yields ease.",
       "meaning": "Shows whether the AI-linked tech decoupling is now a durable rotation away from tech or just tracking the broader yield stress.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-16-0",
+      "date_added": "2026-09-16",
+      "condition": "The Nasdaq outperforms the Dow again in the next session, following today's reversal of the multi-day pattern.",
+      "meaning": "Would confirm tech is finding genuine relief now that the rate path is known, not just a one-day quirk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-16-1",
+      "date_added": "2026-09-16",
+      "condition": "The 10-year Treasury yield's next close \u2014 whether it holds above 5% or breaks back under it after the hike.",
+      "meaning": "Tells you whether bond investors believe the Fed just tamed inflation or just made the growth outlook worse.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-16-2",
+      "date_added": "2026-09-16",
+      "condition": "Brent crude either breaks above $110 or falls back under $100 in the sessions following today's hike.",
+      "meaning": "This is the number that decides whether the Fed's next move is a pause or a second hike into a supply shock.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-16-3",
+      "date_added": "2026-09-16",
+      "condition": "Any actual shift in Hormuz tanker traffic following Trump's comment that the Iran war is 'towards an end.'",
+      "meaning": "Would be the first real evidence that de-escalation talk is translating into lower physical oil-supply risk, not just rhetoric.",
       "status": "open",
       "outcome": ""
     }
