@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 154,
-      "summary": "Trump said today he's 'hopefully towards end' of the Iran war \u2014 the first public signal in a while that the conflict driving oil-linked inflation pressure might be nearing resolution. Nothing in tanker traffic or Brent pricing confirms this yet; it's a rhetorical opening, not a fact on the ground. Whether it translates into actual Hormuz traffic or lower oil is the test.",
+      "age_days": 155,
+      "summary": "Oil prices fell today alongside the broader rally \u2014 the first data point loosely consistent with Trump's 'towards end' comment on the Iran war from the prior session, but there's still no tanker-traffic confirmation behind it. The de-escalation signal remains rhetorical and price-based only; a confirmed Hormuz traffic shift or a specific Brent close below $100 is what would make it structural.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 106,
-      "summary": "After more than four sessions of the Nasdaq underperforming the Dow, today reversed sharply \u2014 Nasdaq flat, Dow down over a point \u2014 the first break in that pattern since it emerged. It's one session, and the cause could be the hike removing uncertainty rather than a genuine change in tech's footing. The next session or two will tell you whether this is real relief or noise.",
+      "age_days": 107,
+      "summary": "Today reversed yesterday's one-day break in the pattern \u2014 the Nasdaq jumped 1.69% against the Dow's 0.61%, tech resuming clear leadership. That makes yesterday's flip look like hike-relief noise rather than a genuine change in tech's footing; one more session of Nasdaq leadership would confirm it.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 124,
-      "summary": "No new yield print came through today, so the 19-year-high level from day 123 stands as the last known data point. The Fed's hike changes the calculus going forward \u2014 a hike normally pushes short-term rates up while long-term yields can go either way depending on whether the market believes inflation gets tamed or gets worse. The next yield close is now the most important number in this entire brief.",
+      "age_days": 125,
+      "summary": "No specific 10-year Treasury yield print (the interest rate the government pays to borrow for a decade) came through today, but today's coverage describes bonds 'rallying' alongside stocks \u2014 which would mean yields eased after the hike, though it's unconfirmed by an actual close level. The next confirmed yield print is still the single most important number hanging over this story.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 154,
-      "summary": "The anticipated hike arrived today, unanimous, with Kevin Warsh declaring 'inflation is too high and has been for too long' and the Fed signaling a second hike is likely this year. Trump responded by demanding rates fall to '1% or less' and lashing out publicly \u2014 the independence tension this theme has tracked for 154 days is no longer theoretical, it played out in real time today. What's open now: whether the Fed actually delivers that second hike into a supply-driven inflation problem, and whether political pressure escalates beyond rhetoric.",
+      "age_days": 155,
+      "summary": "Trump said today he personally counseled Warsh to vote for the hike because other officials would anyway \u2014 a claim of direct influence over the vote that goes further than his earlier public pressure alone. Independence scrutiny is now explicitly in the headlines even as markets shrugged it off in today's rally; whether Trump's involvement escalates beyond rhetoric is the open question.",
       "runs_since_update": 0
     }
   ],
@@ -57,30 +57,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-09-09-0",
-      "date_added": "2026-09-09",
-      "condition": "Tanker traffic through the Strait of Hormuz shows any rebound from today's single-digit levels.",
-      "meaning": "If it stays near zero, this is a confirmed physical supply shock, not a fear premium, and oil's floor above $100 becomes much harder to dislodge.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-10-1",
-      "date_added": "2026-09-10",
-      "condition": "Kevin Warsh or another Fed official publicly addresses oil-driven inflation the way the ECB just did.",
-      "meaning": "Fed language matching the ECB's would signal the US is leaning toward a hold or hike over a cut, repricing rate-cut bets across markets.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-10-2",
-      "date_added": "2026-09-10",
-      "condition": "Brent crude either falls back below $100 or extends its climb toward $110 over the next several sessions.",
-      "meaning": "A pullback would ease the inflation story industry-wide; a push higher would spread the ECB's hawkish logic to more central banks.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-11-1",
       "date_added": "2026-09-11",
       "condition": "Brent crude either breaks above $110 or falls back under $100 over the next several sessions.",
@@ -105,14 +81,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-16-0",
-      "date_added": "2026-09-16",
-      "condition": "The Nasdaq outperforms the Dow again in the next session, following today's reversal of the multi-day pattern.",
-      "meaning": "Would confirm tech is finding genuine relief now that the rate path is known, not just a one-day quirk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-16-1",
       "date_added": "2026-09-16",
       "condition": "The 10-year Treasury yield's next close \u2014 whether it holds above 5% or breaks back under it after the hike.",
@@ -133,6 +101,38 @@
       "date_added": "2026-09-16",
       "condition": "Any actual shift in Hormuz tanker traffic following Trump's comment that the Iran war is 'towards an end.'",
       "meaning": "Would be the first real evidence that de-escalation talk is translating into lower physical oil-supply risk, not just rhetoric.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-17-0",
+      "date_added": "2026-09-17",
+      "condition": "The next 10-year Treasury yield close \u2014 whether it lands above 5.25% or drops back under 5%.",
+      "meaning": "A drop under 5% confirms today's reported bond rally was real and the inflation-fear premium is genuinely easing; a close above 5.25% says the hike-relief story was a one-day illusion.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-17-1",
+      "date_added": "2026-09-17",
+      "condition": "Whether the Nasdaq outperforms the Dow for a second straight session.",
+      "meaning": "A second day of tech leadership would confirm yesterday's Dow-over-Nasdaq flip was noise, not a real change in the stagflation trade's structure.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-17-2",
+      "date_added": "2026-09-17",
+      "condition": "Brent crude's next print relative to the $100 and $110 levels.",
+      "meaning": "A break under $100 would be the first hard confirmation behind Trump's Iran de-escalation comments; a push toward $110 says the oil-driven inflation story is still very much alive.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-17-3",
+      "date_added": "2026-09-17",
+      "condition": "Whether Trump's comments about the Fed vote move from claims of influence to concrete action against Warsh or other officials.",
+      "meaning": "Concrete action, not just rhetoric, is what would turn today's shrugged-off independence story into a real market risk.",
       "status": "open",
       "outcome": ""
     }
