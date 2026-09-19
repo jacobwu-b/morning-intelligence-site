@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 155,
-      "summary": "Oil prices fell today alongside the broader rally \u2014 the first data point loosely consistent with Trump's 'towards end' comment on the Iran war from the prior session, but there's still no tanker-traffic confirmation behind it. The de-escalation signal remains rhetorical and price-based only; a confirmed Hormuz traffic shift or a specific Brent close below $100 is what would make it structural.",
+      "age_days": 156,
+      "summary": "Smoke was reported near Riyadh's airport today and cleared within hours \u2014 a scare, not an escalation. But the same day Trump signed a new Russia sanctions law granting him sweeping tariff powers, and Turkey revoked the license of Iran's Mellat Bank under US pressure \u2014 sanctions actually tightening even as prior rhetoric pointed toward the war winding down. Actions, not statements, are now the thing worth trusting; tanker traffic and the actual oil price remain unconfirmed.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 107,
-      "summary": "Today reversed yesterday's one-day break in the pattern \u2014 the Nasdaq jumped 1.69% against the Dow's 0.61%, tech resuming clear leadership. That makes yesterday's flip look like hike-relief noise rather than a genuine change in tech's footing; one more session of Nasdaq leadership would confirm it.",
+      "age_days": 108,
+      "summary": "The Nasdaq beat the Dow for a second straight session (today +0.39% vs -0.18%, following yesterday's 1.69% vs 0.61%), confirming tech's leadership survived the hike rather than just bouncing for a day. But renewed public scrutiny of how much the broader market depends on AI is now explicit in the headlines \u2014 a signal worth watching if sentiment ever turns.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 125,
-      "summary": "No specific 10-year Treasury yield print (the interest rate the government pays to borrow for a decade) came through today, but today's coverage describes bonds 'rallying' alongside stocks \u2014 which would mean yields eased after the hike, though it's unconfirmed by an actual close level. The next confirmed yield print is still the single most important number hanging over this story.",
+      "age_days": 126,
+      "summary": "Still no confirmed 10-year Treasury yield print. But Japan just hiked its own benchmark to a 31-year high of 1.25%, meaning the world's cheapest source of borrowed money is now tightening in parallel with the Fed. The missing US yield number matters more now \u2014 global borrowing costs are rising in sync, not just domestically.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 155,
-      "summary": "Trump said today he personally counseled Warsh to vote for the hike because other officials would anyway \u2014 a claim of direct influence over the vote that goes further than his earlier public pressure alone. Independence scrutiny is now explicitly in the headlines even as markets shrugged it off in today's rally; whether Trump's involvement escalates beyond rhetoric is the open question.",
+      "age_days": 156,
+      "summary": "No new headline development today on Trump's pressure over Warsh's vote. Independence concerns remain a live but unconfirmed story \u2014 the question is still whether pressure moves from claims of influence to concrete action.",
       "runs_since_update": 0
     }
   ],
@@ -53,6 +53,16 @@
       "year": "1979",
       "context": "When the second oil shock hit in 1979, Paul Volcker's Fed did the opposite \u2014 pus",
       "date_used": "2026-09-11"
+    },
+    {
+      "year": "2024",
+      "context": "In August 2024, a modest quarter-point BOJ hike (from 0.1% to 0.25%) sent the ye",
+      "date_used": "2026-09-18"
+    },
+    {
+      "year": "1989",
+      "context": "When the Bank of Japan raised rates five times between 1989 and 1990 to fight an",
+      "date_used": "2026-09-18"
     }
   ],
   "open_watchlist": [
@@ -69,14 +79,6 @@
       "date_added": "2026-09-14",
       "condition": "The 10-year Treasury yield closes above 5.25% or drops back under 5% in the sessions following the Fed decision.",
       "meaning": "Tells us whether 5% was a ceiling that holds or a floor the market keeps pushing through.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-14-3",
-      "date_added": "2026-09-14",
-      "condition": "The Dow-Nasdaq performance gap widens or closes over the next several sessions, especially on a day when yields ease.",
-      "meaning": "Shows whether the AI-linked tech decoupling is now a durable rotation away from tech or just tracking the broader yield stress.",
       "status": "open",
       "outcome": ""
     },
@@ -113,14 +115,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-17-1",
-      "date_added": "2026-09-17",
-      "condition": "Whether the Nasdaq outperforms the Dow for a second straight session.",
-      "meaning": "A second day of tech leadership would confirm yesterday's Dow-over-Nasdaq flip was noise, not a real change in the stagflation trade's structure.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-09-17-2",
       "date_added": "2026-09-17",
       "condition": "Brent crude's next print relative to the $100 and $110 levels.",
@@ -133,6 +127,22 @@
       "date_added": "2026-09-17",
       "condition": "Whether Trump's comments about the Fed vote move from claims of influence to concrete action against Warsh or other officials.",
       "meaning": "Concrete action, not just rhetoric, is what would turn today's shrugged-off independence story into a real market risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-18-2",
+      "date_added": "2026-09-18",
+      "condition": "Whether the yen strengthens sharply or the Nikkei sells off in the sessions following the BOJ's hike to 1.25%.",
+      "meaning": "The classic signature of a carry-trade unwind that could spill into the same leveraged US tech trade leading this market.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-18-3",
+      "date_added": "2026-09-18",
+      "condition": "Whether the Nasdaq extends its lead over the Dow to a third straight session.",
+      "meaning": "Confirms tech leadership is a durable trend rather than short-lived hike-relief positioning.",
       "status": "open",
       "outcome": ""
     }
