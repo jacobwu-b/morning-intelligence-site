@@ -4,32 +4,32 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 156,
-      "summary": "Smoke was reported near Riyadh's airport today and cleared within hours \u2014 a scare, not an escalation. But the same day Trump signed a new Russia sanctions law granting him sweeping tariff powers, and Turkey revoked the license of Iran's Mellat Bank under US pressure \u2014 sanctions actually tightening even as prior rhetoric pointed toward the war winding down. Actions, not statements, are now the thing worth trusting; tanker traffic and the actual oil price remain unconfirmed.",
+      "age_days": 168,
+      "summary": "A brief smoke scare near Riyadh's airport cleared within hours and was not an escalation. Sanctions are tightening anyway: a new Russia sanctions law gives Trump broad tariff powers, and Turkey revoked the license of Iran's Mellat Bank. Fuel prices are still elevated (UK diesel is near \u00a32 a litre), but no Brent crude or Hormuz tanker-traffic print is confirmed, so the oil verdict stays open.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 108,
-      "summary": "The Nasdaq beat the Dow for a second straight session (today +0.39% vs -0.18%, following yesterday's 1.69% vs 0.61%), confirming tech's leadership survived the hike rather than just bouncing for a day. But renewed public scrutiny of how much the broader market depends on AI is now explicit in the headlines \u2014 a signal worth watching if sentiment ever turns.",
+      "age_days": 120,
+      "summary": "Tech leadership has survived the Fed hike. The Nasdaq rose 0.24% today while the Dow fell 0.86%. Higher Q2 growth revisions in the US and UK weaken the 'growth is cracking' argument but also keep rate-cut hopes off the table. A new FTC probe into AI safety adds regulatory risk to the sector the market leans on most.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 126,
-      "summary": "Still no confirmed 10-year Treasury yield print. But Japan just hiked its own benchmark to a 31-year high of 1.25%, meaning the world's cheapest source of borrowed money is now tightening in parallel with the Fed. The missing US yield number matters more now \u2014 global borrowing costs are rising in sync, not just domestically.",
+      "age_days": 138,
+      "summary": "There is still no confirmed 10-year Treasury yield print. Japan's hike to 1.25% means the world's cheapest borrowed money is tightening alongside the Fed. Indian stocks have now had their longest weekly losing run in 25 years, which fits the pattern of global tightening pressuring emerging markets. Stronger US growth data gives yields less reason to fall.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leadership-transition",
       "label": "Fed Voices Split",
       "first_seen": "2026-04-15",
-      "age_days": 156,
-      "summary": "No new headline development today on Trump's pressure over Warsh's vote. Independence concerns remain a live but unconfirmed story \u2014 the question is still whether pressure moves from claims of influence to concrete action.",
+      "age_days": 168,
+      "summary": "The Fed's internal watchdog found no criminal wrongdoing in the Powell-era renovation cost overruns. That removes a legal pretext Trump used in his pressure campaign against Powell. There is still no concrete action against Warsh or other officials over the Fed vote. The open question is whether the pressure moves from words to action.",
       "runs_since_update": 0
     }
   ],
@@ -66,30 +66,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-11-1",
-      "date_added": "2026-09-11",
-      "condition": "Brent crude either breaks above $110 or falls back under $100 over the next several sessions.",
-      "meaning": "Above $110 means the inflation and Fed-hike story gets worse from here; under $100 means today's calm was justified.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-14-1",
-      "date_added": "2026-09-14",
-      "condition": "The 10-year Treasury yield closes above 5.25% or drops back under 5% in the sessions following the Fed decision.",
-      "meaning": "Tells us whether 5% was a ceiling that holds or a floor the market keeps pushing through.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-16-1",
-      "date_added": "2026-09-16",
-      "condition": "The 10-year Treasury yield's next close \u2014 whether it holds above 5% or breaks back under it after the hike.",
-      "meaning": "Tells you whether bond investors believe the Fed just tamed inflation or just made the growth outlook worse.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-16-2",
       "date_added": "2026-09-16",
@@ -139,10 +115,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-09-18-3",
-      "date_added": "2026-09-18",
-      "condition": "Whether the Nasdaq extends its lead over the Dow to a third straight session.",
-      "meaning": "Confirms tech leadership is a durable trend rather than short-lived hike-relief positioning.",
+      "id": "w-2026-09-30-0",
+      "date_added": "2026-09-30",
+      "condition": "A session where the Nasdaq falls more than 1% while the Dow holds flat or rises.",
+      "meaning": "Leadership has rotated away from tech, which would remove the prop that has been holding the S&P 500 up.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-30-1",
+      "date_added": "2026-09-30",
+      "condition": "Indian benchmark stocks extend their losing run into another week.",
+      "meaning": "Global tightening is spreading stress into emerging markets, a warning for any investor holding them.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-30-2",
+      "date_added": "2026-09-30",
+      "condition": "UK diesel closes above \u00a32 a litre for the first time.",
+      "meaning": "Energy costs are feeding through to household budgets, which keeps central banks wary of easing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-09-30-3",
+      "date_added": "2026-09-30",
+      "condition": "The FTC's AI safety probe produces formal demands or a named target among the large AI companies.",
+      "meaning": "Regulatory risk is now landing on the sector carrying the market, which raises the cost of a tech slip.",
       "status": "open",
       "outcome": ""
     }
