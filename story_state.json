@@ -4,24 +4,24 @@
       "id": "iran-geopolitical-risk",
       "label": "Talks Over Tankers",
       "first_seen": "2026-04-15",
-      "age_days": 168,
-      "summary": "A brief smoke scare near Riyadh's airport cleared within hours and was not an escalation. Sanctions are tightening anyway: a new Russia sanctions law gives Trump broad tariff powers, and Turkey revoked the license of Iran's Mellat Bank. Fuel prices are still elevated (UK diesel is near \u00a32 a litre), but no Brent crude or Hormuz tanker-traffic print is confirmed, so the oil verdict stays open.",
+      "age_days": 169,
+      "summary": "Oil fell more than 2% on talk of releasing diesel and crude stockpiles, even as new US sanctions hit Iran's auto and rail sectors and the blockade keeps squeezing shipping lanes. The price drop comes from supply-side relief talk, not from any confirmed easing at sea. No Brent level or Hormuz traffic print is confirmed, so the oil verdict stays open.",
       "runs_since_update": 0
     },
     {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 120,
-      "summary": "Tech leadership has survived the Fed hike. The Nasdaq rose 0.24% today while the Dow fell 0.86%. Higher Q2 growth revisions in the US and UK weaken the 'growth is cracking' argument but also keep rate-cut hopes off the table. A new FTC probe into AI safety adds regulatory risk to the sector the market leans on most.",
+      "age_days": 121,
+      "summary": "Stocks held steady even as bond yields climbed, so equities have not yet repriced for more expensive money. Jobless claims sit near 57-year lows and layoffs fell in September, which removes any recession argument for rate cuts. Hiring is not accelerating either.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 138,
-      "summary": "There is still no confirmed 10-year Treasury yield print. Japan's hike to 1.25% means the world's cheapest borrowed money is tightening alongside the Fed. Indian stocks have now had their longest weekly losing run in 25 years, which fits the pattern of global tightening pressuring emerging markets. Stronger US growth data gives yields less reason to fall.",
+      "age_days": 139,
+      "summary": "The bond sell-off has gone global: US government borrowing costs hit their highest since 2002 and the UK 30-year yield briefly topped 6%, a level last seen in 1998. The driver now looks as much about government deficits as about the Fed. No confirmed 10-year Treasury close is in hand, so the 5.25% and 5% thresholds stay open.",
       "runs_since_update": 0
     },
     {
@@ -30,7 +30,7 @@
       "first_seen": "2026-04-15",
       "age_days": 168,
       "summary": "The Fed's internal watchdog found no criminal wrongdoing in the Powell-era renovation cost overruns. That removes a legal pretext Trump used in his pressure campaign against Powell. There is still no concrete action against Warsh or other officials over the Fed vote. The open question is whether the pressure moves from words to action.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -66,38 +66,6 @@
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-16-2",
-      "date_added": "2026-09-16",
-      "condition": "Brent crude either breaks above $110 or falls back under $100 in the sessions following today's hike.",
-      "meaning": "This is the number that decides whether the Fed's next move is a pause or a second hike into a supply shock.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-16-3",
-      "date_added": "2026-09-16",
-      "condition": "Any actual shift in Hormuz tanker traffic following Trump's comment that the Iran war is 'towards an end.'",
-      "meaning": "Would be the first real evidence that de-escalation talk is translating into lower physical oil-supply risk, not just rhetoric.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-17-0",
-      "date_added": "2026-09-17",
-      "condition": "The next 10-year Treasury yield close \u2014 whether it lands above 5.25% or drops back under 5%.",
-      "meaning": "A drop under 5% confirms today's reported bond rally was real and the inflation-fear premium is genuinely easing; a close above 5.25% says the hike-relief story was a one-day illusion.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-17-2",
-      "date_added": "2026-09-17",
-      "condition": "Brent crude's next print relative to the $100 and $110 levels.",
-      "meaning": "A break under $100 would be the first hard confirmation behind Trump's Iran de-escalation comments; a push toward $110 says the oil-driven inflation story is still very much alive.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-17-3",
       "date_added": "2026-09-17",
@@ -143,6 +111,38 @@
       "date_added": "2026-09-30",
       "condition": "The FTC's AI safety probe produces formal demands or a named target among the large AI companies.",
       "meaning": "Regulatory risk is now landing on the sector carrying the market, which raises the cost of a tech slip.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-01-0",
+      "date_added": "2026-10-01",
+      "condition": "The UK 30-year gilt yield (UK government 30-year bond) closes above 6%, rather than only touching it during the day.",
+      "meaning": "A close, not a spike, would show the global bond sell-off has real staying power and that mortgage and borrowing costs will keep rising.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-01-1",
+      "date_added": "2026-10-01",
+      "condition": "The S&P 500 falls 1% or more on a day when US government yields rise.",
+      "meaning": "Stocks would be admitting that the bond move matters, ending the calm that held today.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-01-2",
+      "date_added": "2026-10-01",
+      "condition": "A formal government announcement of a diesel or crude stockpile release.",
+      "meaning": "That would turn today's talk into real supply and give oil a firmer reason to stay lower, easing inflation pressure.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-01-3",
+      "date_added": "2026-10-01",
+      "condition": "The next Nationwide reading shows UK house prices falling for a second straight month.",
+      "meaning": "It would confirm that higher bond yields are feeding through to household budgets, not just to markets.",
       "status": "open",
       "outcome": ""
     }
