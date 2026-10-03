@@ -1,28 +1,28 @@
 {
   "active_themes": [
     {
-      "id": "iran-geopolitical-risk",
-      "label": "Talks Over Tankers",
-      "first_seen": "2026-04-15",
-      "age_days": 169,
-      "summary": "Oil fell more than 2% on talk of releasing diesel and crude stockpiles, even as new US sanctions hit Iran's auto and rail sectors and the blockade keeps squeezing shipping lanes. The price drop comes from supply-side relief talk, not from any confirmed easing at sea. No Brent level or Hormuz traffic print is confirmed, so the oil verdict stays open.",
-      "runs_since_update": 0
-    },
-    {
       "id": "stagflation-pricing",
       "label": "AI Trade Loses Its Shield",
       "first_seen": "2026-06-02",
-      "age_days": 121,
-      "summary": "Stocks held steady even as bond yields climbed, so equities have not yet repriced for more expensive money. Jobless claims sit near 57-year lows and layoffs fell in September, which removes any recession argument for rate cuts. Hiring is not accelerating either.",
+      "age_days": 122,
+      "summary": "Today supplied the missing half of the stagflation picture: weak hiring (29,000 jobs, unemployment up to 4.2%) alongside an inflation surge. Low layoffs and jobless claims near multi-decade lows mean employers are not firing, just not hiring, so this looks like a frozen labor market rather than a collapsing one. The Nasdaq's record close shows the AI trade is shielded again for now, but only because yields fell. Whether that holds depends on whether the Fed's attention stays on inflation or shifts to jobs.",
       "runs_since_update": 0
     },
     {
       "id": "treasury-yield-shock",
       "label": "The Fix Unwound",
       "first_seen": "2026-05-15",
-      "age_days": 139,
-      "summary": "The bond sell-off has gone global: US government borrowing costs hit their highest since 2002 and the UK 30-year yield briefly topped 6%, a level last seen in 1998. The driver now looks as much about government deficits as about the Fed. No confirmed 10-year Treasury close is in hand, so the 5.25% and 5% thresholds stay open.",
+      "age_days": 140,
+      "summary": "US bond yields fell on the jobs miss, giving back a little of the global sell-off that pushed US government borrowing costs to their highest since 2002. A Fed pause only addresses part of that story, because the long-term yield spike has also been about government deficits. No confirmed 10-year close is in hand, so the 5.25% and 5% thresholds stay open.",
       "runs_since_update": 0
+    },
+    {
+      "id": "iran-geopolitical-risk",
+      "label": "Talks Over Tankers",
+      "first_seen": "2026-04-15",
+      "age_days": 169,
+      "summary": "Oil fell more than 2% on talk of releasing diesel and crude stockpiles, even as new US sanctions hit Iran's auto and rail sectors and the blockade keeps squeezing shipping lanes. The price drop comes from supply-side relief talk, not from any confirmed easing at sea. No Brent level or Hormuz traffic print is confirmed, so the oil verdict stays open.",
+      "runs_since_update": 1
     },
     {
       "id": "fed-leadership-transition",
@@ -30,7 +30,7 @@
       "first_seen": "2026-04-15",
       "age_days": 168,
       "summary": "The Fed's internal watchdog found no criminal wrongdoing in the Powell-era renovation cost overruns. That removes a legal pretext Trump used in his pressure campaign against Powell. There is still no concrete action against Warsh or other officials over the Fed vote. The open question is whether the pressure moves from words to action.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
@@ -63,41 +63,19 @@
       "year": "1989",
       "context": "When the Bank of Japan raised rates five times between 1989 and 1990 to fight an",
       "date_used": "2026-09-18"
+    },
+    {
+      "year": "2022",
+      "context": "From mid-June to mid-August 2022, the S&P 500 rallied roughly 17% on hopes that ",
+      "date_used": "2026-10-02"
+    },
+    {
+      "year": "1990",
+      "context": "After Iraq invaded Kuwait in August 1990, oil prices roughly doubled and a US re",
+      "date_used": "2026-10-02"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-17-3",
-      "date_added": "2026-09-17",
-      "condition": "Whether Trump's comments about the Fed vote move from claims of influence to concrete action against Warsh or other officials.",
-      "meaning": "Concrete action, not just rhetoric, is what would turn today's shrugged-off independence story into a real market risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-18-2",
-      "date_added": "2026-09-18",
-      "condition": "Whether the yen strengthens sharply or the Nikkei sells off in the sessions following the BOJ's hike to 1.25%.",
-      "meaning": "The classic signature of a carry-trade unwind that could spill into the same leveraged US tech trade leading this market.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-30-0",
-      "date_added": "2026-09-30",
-      "condition": "A session where the Nasdaq falls more than 1% while the Dow holds flat or rises.",
-      "meaning": "Leadership has rotated away from tech, which would remove the prop that has been holding the S&P 500 up.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-30-1",
-      "date_added": "2026-09-30",
-      "condition": "Indian benchmark stocks extend their losing run into another week.",
-      "meaning": "Global tightening is spreading stress into emerging markets, a warning for any investor holding them.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-09-30-2",
       "date_added": "2026-09-30",
@@ -143,6 +121,38 @@
       "date_added": "2026-10-01",
       "condition": "The next Nationwide reading shows UK house prices falling for a second straight month.",
       "meaning": "It would confirm that higher bond yields are feeding through to household budgets, not just to markets.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-02-0",
+      "date_added": "2026-10-02",
+      "condition": "The Fed raises rates at its meeting this month.",
+      "meaning": "It would mean inflation outweighed the jobs miss, and today's rally priced the wrong outcome.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-02-1",
+      "date_added": "2026-10-02",
+      "condition": "The next unemployment reading comes in at 4.3% or higher.",
+      "meaning": "Two straight upticks would suggest a real softening rather than a one-month wobble, moving the Fed debate toward growth.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-02-2",
+      "date_added": "2026-10-02",
+      "condition": "The next consumer price report shows annual inflation higher than the prior reading.",
+      "meaning": "Weak jobs with accelerating prices is the stagflation squeeze, and the market's bad-news-is-good-news logic would break.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-02-3",
+      "date_added": "2026-10-02",
+      "condition": "Fed officials publicly say the September jobs miss does not change the case for raising rates.",
+      "meaning": "It would show the hike is still live and that today's relief rally rests on a hope the Fed isn't sharing.",
       "status": "open",
       "outcome": ""
     }
