@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fri Oct 02, 2026 | Morning Intelligence</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>2026年9月21日，星期一 |晨间情报</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #0a0a0a;
@@ -20,7 +20,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
     font-weight: 300;
     opacity: 0;
     animation: fadeIn 1.2s ease forwards;
@@ -37,7 +37,7 @@
     align-items: flex-end;
   }
   .publication-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.35em;
@@ -46,7 +46,7 @@
     margin-bottom: 4px;
   }
   .edition-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 1;
@@ -55,7 +55,7 @@
   .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
   .masthead-right { text-align: right; }
   .date {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 0.05em;
@@ -88,20 +88,20 @@
   }
   .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
   .ticker-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     letter-spacing: 0.15em;
     color: #888;
     text-transform: uppercase;
   }
   .ticker-value {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 13px;
     font-weight: 500;
     color: #f5f2eb;
   }
   .ticker-change {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 2px;
@@ -122,7 +122,7 @@
   }
   .sidebar { padding: 48px 0 64px 48px; }
   .lead-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -140,7 +140,7 @@
     opacity: 0.3;
   }
   .section-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -158,7 +158,7 @@
     opacity: 0.3;
   }
   .lead-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
@@ -180,7 +180,7 @@
     border-top: 1px solid var(--rule);
   }
   .section-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
@@ -206,7 +206,7 @@
   }
   .cause-card.secondary { border-top-color: var(--rule); }
   .cause-title {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -214,7 +214,7 @@
     margin-bottom: 8px;
   }
   .cause-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.35;
@@ -240,7 +240,7 @@
     border-left: 3px solid var(--gold);
   }
   .comp-year {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--gold);
@@ -260,14 +260,14 @@
     top: -9px; left: 20px;
     background: var(--ink);
     padding: 0 10px;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--gold);
   }
   .signal-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 15px;
     font-style: italic;
     line-height: 1.7;
@@ -277,7 +277,7 @@
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid #333;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--gold);
     letter-spacing: 0.05em;
@@ -289,7 +289,7 @@
   }
   .sidebar-section:last-child { border-bottom: none; }
   .sidebar-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -305,20 +305,20 @@
     background: var(--cream);
   }
   .index-name {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     letter-spacing: 0.05em;
     color: var(--muted);
   }
   .index-price {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 14px;
     font-weight: 500;
     display: block;
     text-align: right;
   }
   .index-pct {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     margin-top: 2px;
     display: block;
@@ -376,13 +376,13 @@
     align-items: center;
   }
   .footer-left {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     color: var(--muted);
     letter-spacing: 0.05em;
   }
   .disclaimer {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     color: var(--rule);
     letter-spacing: 0.03em;
@@ -391,7 +391,7 @@
     line-height: 1.6;
   }
   .footer-right {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-style: italic;
     color: var(--muted);
@@ -403,12 +403,12 @@
 
 <header class="masthead">
   <a href="../index.html" style="text-decoration: none; color: inherit;">
-    <div class="publication-name">Morning Intelligence</div>
-    <div class="edition-title">Market Brief <em>Daily</em></div>
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
   </a>
   <div class="masthead-right">
-    <div class="date">FRIDAY · October 02, 2026 · U.S. MARKET CLOSE</div>
-    <div class="market-status">RISK-ON SESSION</div>
+    <div class="date">星期一 ·2026年9月21日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">风险偏好交易日</div>
     
   </div>
 </header>
@@ -416,29 +416,29 @@
 <div class="ticker-strip">
   
   <div class="ticker-item">
-    <span class="ticker-label">S&amp;P 500</span>
-    <span class="ticker-value">7,722.72</span>
-    <span class="ticker-change up">
-      ▲ 0.73%
+    <span class="ticker-label" translate="no">S&amp;P 500</span><span class="ticker-value">7,764.70</span><span class="ticker-change up">
+      ▲ 1.49%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Nasdaq</span>
-    <span class="ticker-value">27,191</span>
-    <span class="ticker-change up">
-      ▲ 1.19%
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">27,122</span><span class="ticker-change up">
+      ▲ 2.26%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Dow</span>
-    <span class="ticker-value">51,177</span>
-    <span class="ticker-change up">
-      ▲ 0.49%
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">52,049</span><span class="ticker-change up">
+      ▲ 0.71%
     </span>
+    
+    
   </div>
   
   
@@ -447,56 +447,56 @@
 <div class="main">
   <div class="primary-col">
 
-    <div class="lead-label">Today's Thesis</div>
-    <h1 class="lead-headline">Stocks Cheered a <em>Dismal</em> Jobs Report, Because Bad News Just Bought Them a Fed Pause</h1>
-    <p class="lead-body">The US added just <strong>29,000 jobs</strong> in September against roughly 90,000 expected, and unemployment rose to <strong>4.2%</strong> from 4.1%. Yet the S&amp;P 500 gained 0.73% to 7,722.72 and the Nasdaq jumped 1.19% to <strong>a record 27,191</strong>. Stocks rose because the market&#x27;s biggest fear right now is not a weak economy. It is an inflation surge that could force the Fed to raise interest rates again. A soft jobs number makes a hike this month harder to justify, bond yields dropped, and growth and tech stocks, which suffer most when money is expensive, rallied. This is relief, not good news: the inflation problem is untouched, and the market is now betting that weak hiring will keep the Fed&#x27;s hand still.</p>
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">指数接近历史纪录，但大多数股票并未被邀请</h1>
+    <p class="lead-body">标普500指数上涨 <strong>1.49%，</strong> 至7,764.70点，纳斯达克指数上涨 <strong>2.26%，</strong>约为道琼斯0.71%涨幅的三倍。这一差距表明，这波反弹是由少数大型科技股公司牵头，而非整个市场。总体来看，约 <strong>60%的标普500股票仍较历史高点下跌超过20%，</strong>即使指数接近历史纪录。涨幅是真实存在的，但基价非常狭窄，而黄金下跌，美元则因美联储可能进一步加息而上涨。目前数据中没有明确指出单一的跳升催化剂，因此反弹结构比单一解释更为重要。</p>
 
     <div class="section">
-      <div class="section-label">What's Actually Driving This</div>
-      <h2 class="section-headline">Primary: a jobs miss that eased rate-hike fears. Secondary: a Nasdaq record that depends on falling yields.</h2>
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">主要：由少数巨头推动的反弹。次要：加息预期将推高美元并击中黄金。</h2>
       <div class="cause-grid">
         <div class="cause-card">
-          <div class="cause-title">BAD NEWS, GOOD TAPE</div>
-          <div class="cause-headline">A weak jobs report weakened the case for a Fed rate hike, and the market treated that as a gift.</div>
-          <div class="cause-text">With inflation surging, the Fed has been under pressure to raise rates, and strong hiring would have given it cover to do so. Instead September came in at about a third of what economists expected, with unemployment up a notch. That is the first real crack in the argument for a hike this month. The crack is narrow, though. Layoffs have fallen and jobless claims sit near 57-year lows, so companies are holding staff but not adding any. That is a stall, not a collapse, and a stall does not push the Fed to cut.</div>
-          <div class="cause-verdict">This buys a pause, not a pivot. One soft month makes a hike harder to defend, but with inflation still surging a rate cut is not on the table, so don&#x27;t read today as the start of an easing cycle. If next month&#x27;s hiring rebounds, today&#x27;s relief disappears quickly.</div>
+          <div class="cause-title">窄路拉力赛</div>
+          <div class="cause-headline">少数大型技术型公司正在做整个市场通常的工作。</div>
+          <div class="cause-text">标普500指数按公司规模加权，因此最大公司走势最大。纳斯达克涨幅2.26%，即使大多数个股陷入深坑，指数仍接近历史底线。60%的会员从高点下跌超过20%，这意味着该股票处于熊市，而指数看起来健康。这一缺口是当前市场最重要的事实。</div>
+          <div class="cause-verdict">这一状况可能持续很长时间，但这是一个脆弱的基础：指数现在依赖少数几个股票保持强势。评判新纪录时，应根据加入的股票数量，而非头条数字。</div>
         </div>
         <div class="cause-card secondary">
-          <div class="cause-title">NASDAQ RECORD</div>
-          <div class="cause-headline">Tech hit a record high because falling yields make future profits worth more today, not because anything changed at the companies.</div>
-          <div class="cause-text">Growth stocks are valued on earnings far in the future, and lower bond yields raise what those earnings are worth now. That is why the Nasdaq (+1.19%) outran the Dow (+0.49%) on a day with no corporate news behind it. One detail from the jobs report cuts both ways: data centers and healthcare were bright spots, while white-collar sectors kept struggling. That is the AI buildout creating construction and infrastructure work even as office hiring stays weak. Tesla&#x27;s third-quarter deliveries (486,532, down 2% but well above the roughly 461,000 expected) added a little cheer, but it was a sideshow.</div>
-          <div class="cause-verdict">Treat the record as a yields trade until proven otherwise. If the Nasdaq holds its gains on a day when yields tick back up, that is real strength; if it gives them back the moment yields rise, today was relief, not conviction.</div>
+          <div class="cause-title">加息讨论</div>
+          <div class="cause-headline">投资者正在评估美联储加息的可能性，美元也因此上涨。</div>
+          <div class="cause-text">黄金不支付利息，因此当加息预期上升且美元走强时，黄金吸引力减弱，今天黄金也下跌了。同样的担忧也出现在海外：英国家庭正准备应对更高的利率和失业，导致消费者信心跌至三年来最低点。这看起来更像是信号而非噪音，因为这种现象出现在货币、金属和家庭调查中。这也奇怪地与飙升的纳斯达克指数并列，因为利率上升通常对成长股打击最大。</div>
+          <div class="cause-verdict">如果美元继续上涨，黄金继续下跌，加息预期将趋于严峻，这将是对推动反弹的领导者构成的首个真正威胁。</div>
         </div>
       </div>
     </div>
 
     
     <div class="section">
-      <div class="section-label">The Core Dynamic</div>
-      <h2 class="section-headline">The Fed is treating a fever and a weak pulse at the same time</h2>
-      <p class="section-body">Picture a doctor whose patient has a high fever (inflation) and a faltering pulse (hiring). The fever medicine, higher rates, risks weakening the pulse further, and the pulse medicine, lower rates, risks making the fever worse. <strong>Today the market cheered because the doctor may hold off on the fever medicine, but the fever hasn&#x27;t broken.</strong> This is harder than a normal standoff because the Fed controls only short-term rates. The global bond sell-off that pushed US borrowing costs to their highest since 2002 is partly about government deficits, so even a Fed pause may not bring long-term borrowing costs down much.</p>
+      <div class="section-label" translate="no">核心动态</div>
+      <h2 class="section-headline">纪录的记分牌可以掩盖一支挣扎中的球队</h2>
+      <p class="section-body">想象一支篮球队的得分不断攀升，因为两位明星各得40分，而其他球员却一直未得分。记分牌看起来很不错，直到其中一位明星疲劳或受伤。这就是当今市场：指数 <strong>被几家巨头支撑，而大多数股票已经下跌20%甚至更多</strong>。这个版本比平时更难，因为大家都在谈论加息，而利率上升往往会落在同样以增长为导向的公司手中。</p>
     </div>
     
 
     
     <div class="section">
-      <div class="section-label">Historical Precedent</div>
-      <h2 class="section-headline">Markets have cheered weak data in an inflation fight before. It lasted exactly until the Fed said no.</h2>
+      <div class="section-label" translate="no">历史先例</div>
+      <h2 class="section-headline">狭窄的反弹最终有两种结局：长时间攀升或急转，差额是资金成本。</h2>
       <div class="comp-list">
         
         <div class="comp-item">
-          <div class="comp-year">2022</div>
+          <div class="comp-year">1999-2000</div>
           <div>
-            <div class="comp-text">From mid-June to mid-August 2022, the S&amp;P 500 rallied roughly 17% on hopes that slowing data would make the Fed ease off its rate hikes while inflation was still high. Then Fed Chair Powell&#x27;s short, blunt speech in late August said rates would stay high for as long as needed. The S&amp;P fell more than 3% that day and made new lows by October.</div>
-            <div class="comp-lesson">A market that rallies on bad news is betting on the Fed&#x27;s mercy, and the Fed only has to say no once.</div>
+            <div class="comp-text">纳斯达克在1999年几乎翻了一番，由几家科技股领涨，而美联储则在1999年中至2000年5月间将利率从4.75%提高到6.5%。纳斯达克在2000年3月达到峰值，最终到2002年底下跌了约78%。</div>
+            <div class="comp-lesson">在利率上升的情况下，狭窄的反弹可能会持续一年，但一旦反弹破裂，领头羊跌幅最大。</div>
           </div>
         </div>
         
         <div class="comp-item">
-          <div class="comp-year">1990</div>
+          <div class="comp-year">2023-2024</div>
           <div>
-            <div class="comp-text">After Iraq invaded Kuwait in August 1990, oil prices roughly doubled and a US recession had already begun that summer. Job losses mounted over the following months, and the Fed ultimately cut its policy rate from about 8% to 3% by 1992, setting aside inflation worries as the labor market kept weakening.</div>
-            <div class="comp-lesson">The Fed turns when jobs weaken month after month, not when one report disappoints.</div>
+            <div class="comp-text">少数大型科技公司推动了标普500指数在2023年约24%和2024年23%的大部分涨幅，许多其他股票表现滞后。由于利率不再上升，狭窄的领先地位持续了两年未崩溃。</div>
+            <div class="comp-lesson">仅靠狭隘的领导力并不能终结反弹;它会对领导者的收入或资金成本造成冲击。</div>
           </div>
         </div>
         
@@ -505,67 +505,64 @@
     
 
     <div class="signal-box">
-      <div class="signal-box-label">Directional Read</div>
-      <p class="signal-text">The variable that matters is which worry the Fed weights more: inflation or jobs. If inflation cools while hiring stays soft, the Fed can hold and stocks keep their footing; if inflation stays hot against a weakening job market, the market loses its cushion. Today&#x27;s rally priced the first outcome. Hold this all week: bad news is only good news until inflation says otherwise.</p>
-      <div class="signal-kicker">
-        Scenario A — Inflation cools, Fed holds: The next inflation report shows price growth easing while hiring stays soft, the Fed leaves rates alone, yields keep falling, and the Nasdaq extends its record.<br>
-        Scenario B — Stagflation takes hold: Inflation re-accelerates while hiring stays weak, hike risk comes back, and stocks fall on bad jobs news because it now signals a squeeze rather than a pause.
-      </div>
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text">最重要的变量是加息预期是否持续上升。如果上升，压力将落在支撑指数的少数巨头身上，狭窄市场几乎无可依靠。如果预期下降，领头羊将保持立足点，落后者有机会追赶。少数股票建立的历史高点，其强弱取决于背后的资金成本。</p>
+      <div class="signal-kicker">情景A——展宽：标普500创下新纪录，道琼斯和典型股价开始与纳斯达克持平，显示涨势已超越巨头。<br>情景B——领导者崩溃：加息预期持续稳固，美元持续上涨，纳斯达克回撤了今日涨幅的大部分，而弱势多数指数则无缓冲。      </div>
     </div>
 
   </div>
 
   <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-label">US Close</div>
+      <div class="sidebar-label" translate="no">美股收盘</div>
       <div class="index-grid">
         
         <div class="index-tile">
-          <span class="index-name">S&amp;P 500</span>
+          <span class="index-name" translate="no">S&amp;P 500</span>
           <div>
-            <span class="index-price">7,722.72</span>
+            <span class="index-price">7,764.70</span>
             <span class="index-pct up">
-              ▲ 0.73%
+              ▲ 1.49%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Nasdaq</span>
+          <span class="index-name" translate="no">Nasdaq</span>
           <div>
-            <span class="index-price">27,191</span>
+            <span class="index-price">27,122</span>
             <span class="index-pct up">
-              ▲ 1.19%
+              ▲ 2.26%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Dow</span>
+          <span class="index-name" translate="no">Dow</span>
           <div>
-            <span class="index-price">51,177</span>
+            <span class="index-price">52,049</span>
             <span class="index-pct up">
-              ▲ 0.49%
+              ▲ 0.71%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">Russell 2000</span>
+          <span class="index-name" translate="no">Russell 2000</span>
           <div>
-            <span class="index-price">2,832.90</span>
+            <span class="index-price">2,875.36</span>
             <span class="index-pct up">
-              ▲ 0.94%
+              ▲ 0.52%
             </span>
           </div>
         </div>
         
         <div class="index-tile">
-          <span class="index-name">VIX</span>
+          <span class="index-name" translate="no">VIX</span>
           <div>
-            <span class="index-price">15.31</span>
-            <span class="index-pct down">
-              ▼ 6.59%
+            <span class="index-price">14.87</span>
+            <span class="index-pct up">
+              ▲ 0.41%
             </span>
           </div>
         </div>
@@ -577,38 +574,38 @@
     
 
     <div class="sidebar-section">
-      <div class="sidebar-label">Watch Next Week</div>
+      <div class="sidebar-label" translate="no">值得关注</div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The Fed raises rates at its meeting this month. — </span>It would mean inflation outweighed the jobs miss, and today&#x27;s rally priced the wrong outcome.</div>
+        <div>标普<span class="watch-condition">500指数创下历史新高，而道琼斯指数当天的涨幅明显低于纳斯达克。—— </span> 以同样少数股票为基础的纪录将证明，这股涨势依然狭窄且脆弱。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The next unemployment reading comes in at 4.3% or higher. — </span>Two straight upticks would suggest a real softening rather than a one-month wobble, moving the Fed debate toward growth.</div>
+        <div><span class="watch-condition">纳斯达克指数单日下跌超过2%。—— </span> 持股指数的领导者们表现出压力，大多数股票已下跌20%或更多，几乎没有什么能抵消下跌的因素。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The next consumer price report shows annual inflation higher than the prior reading. — </span>Weak jobs with accelerating prices is the stagflation squeeze, and the market&#x27;s bad-news-is-good-news logic would break.</div>
+        <div><span class="watch-condition">黄金再次下跌，美元走强。—— </span> 加息预期正在加剧而非消退，这增加了高价成长股的风险。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Fed officials publicly say the September jobs miss does not change the case for raising rates. — </span>It would show the hike is still live and that today&#x27;s relief rally rests on a hope the Fed isn&#x27;t sharing.</div>
+        <div><span class="watch-condition">美联储将在下一项政策决策中加息。—— </span> 加息的言论将转为行动，检验纳斯达克领导层是否能承受更高利率的借贷。</div>
       </div>
       
     </div>
   </aside>
 </div>
 
-<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-10-01.html" style="color: var(--muted); text-decoration: none;">← Previous brief · October 01, 2026</a><a href="2026-10-05.html" style="color: var(--muted); text-decoration: none; margin-left: auto;">Next brief · October 05, 2026 →</a></nav><!-- brief-nav:end -->
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-09-18.html" style="color: var(--muted); text-decoration: none;">← 上一篇简报 · 2026年9月18日</a><a href="2026-09-22.html" style="color: var(--muted); text-decoration: none; margin-left: auto;">下一篇简报 · 2026年9月22日 →</a></nav><!-- brief-nav:end -->
 
 <footer>
-  <div class="footer-left">Morning Intelligence · Personal Edition</div>
-  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
-  <div class="footer-right">October 02, 2026</div>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年9月21日</div>
 </footer>
 
 </body>

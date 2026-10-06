@@ -1,49 +1,23 @@
 {
   "active_themes": [
     {
-      "id": "stagflation-pricing",
-      "label": "AI Trade Loses Its Shield",
-      "first_seen": "2026-06-02",
-      "age_days": 122,
-      "summary": "Today supplied the missing half of the stagflation picture: weak hiring (29,000 jobs, unemployment up to 4.2%) alongside an inflation surge. Low layoffs and jobless claims near multi-decade lows mean employers are not firing, just not hiring, so this looks like a frozen labor market rather than a collapsing one. The Nasdaq's record close shows the AI trade is shielded again for now, but only because yields fell. Whether that holds depends on whether the Fed's attention stays on inflation or shifts to jobs.",
+      "id": "ai-rally-vs-high-yields",
+      "label": "AI Versus Rising Yields",
+      "first_seen": "2026-10-05",
+      "age_days": 0,
+      "summary": "Big tech is lifting the indexes while the 10-year Treasury yield sits at 5.31%, above the 5.25% level the reader has been tracking. Small caps are lagging the Nasdaq, so the rally is narrow. The open question is whether AI earnings can keep outrunning borrowing costs, with a Fed still debating a rate increase.",
       "runs_since_update": 0
     },
     {
-      "id": "treasury-yield-shock",
-      "label": "The Fix Unwound",
-      "first_seen": "2026-05-15",
-      "age_days": 140,
-      "summary": "US bond yields fell on the jobs miss, giving back a little of the global sell-off that pushed US government borrowing costs to their highest since 2002. A Fed pause only addresses part of that story, because the long-term yield spike has also been about government deficits. No confirmed 10-year close is in hand, so the 5.25% and 5% thresholds stay open.",
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 0,
+      "summary": "Gulf oil flows averaged 81% of their pre-war rate in September, and Brent fell about 1.9% to $100.32 as supply creeps back. Brent is still at $100, and new US sanctions threatening foreign banks that deal with Iran keep the supply risk alive. The open question is whether flows keep climbing fast enough to pull oil, and inflation, meaningfully lower.",
       "runs_since_update": 0
-    },
-    {
-      "id": "iran-geopolitical-risk",
-      "label": "Talks Over Tankers",
-      "first_seen": "2026-04-15",
-      "age_days": 169,
-      "summary": "Oil fell more than 2% on talk of releasing diesel and crude stockpiles, even as new US sanctions hit Iran's auto and rail sectors and the blockade keeps squeezing shipping lanes. The price drop comes from supply-side relief talk, not from any confirmed easing at sea. No Brent level or Hormuz traffic print is confirmed, so the oil verdict stays open.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "fed-leadership-transition",
-      "label": "Fed Voices Split",
-      "first_seen": "2026-04-15",
-      "age_days": 168,
-      "summary": "The Fed's internal watchdog found no criminal wrongdoing in the Powell-era renovation cost overruns. That removes a legal pretext Trump used in his pressure campaign against Powell. There is still no concrete action against Warsh or other officials over the Fed vote. The open question is whether the pressure moves from words to action.",
-      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1994",
-      "context": "The Fed's own surprise tightening into unexpectedly strong growth data triggered",
-      "date_used": "2026-09-04"
-    },
-    {
-      "year": "2023",
-      "context": "The February 2023 jobs report showed 517,000 new jobs versus roughly 187,000 exp",
-      "date_used": "2026-09-04"
-    },
     {
       "year": "1973",
       "context": "When OPEC's embargo quadrupled oil prices in 1973-74, the Fed under Arthur Burns",
@@ -73,41 +47,19 @@
       "year": "1990",
       "context": "After Iraq invaded Kuwait in August 1990, oil prices roughly doubled and a US re",
       "date_used": "2026-10-02"
+    },
+    {
+      "year": "2000",
+      "context": "The Fed raised rates six times between June 1999 and May 2000, taking its target",
+      "date_used": "2026-10-05"
+    },
+    {
+      "year": "1987",
+      "context": "The 10-year Treasury yield rose from roughly 7% to about 10% through 1987, while",
+      "date_used": "2026-10-05"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-09-30-2",
-      "date_added": "2026-09-30",
-      "condition": "UK diesel closes above \u00a32 a litre for the first time.",
-      "meaning": "Energy costs are feeding through to household budgets, which keeps central banks wary of easing.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-09-30-3",
-      "date_added": "2026-09-30",
-      "condition": "The FTC's AI safety probe produces formal demands or a named target among the large AI companies.",
-      "meaning": "Regulatory risk is now landing on the sector carrying the market, which raises the cost of a tech slip.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-01-0",
-      "date_added": "2026-10-01",
-      "condition": "The UK 30-year gilt yield (UK government 30-year bond) closes above 6%, rather than only touching it during the day.",
-      "meaning": "A close, not a spike, would show the global bond sell-off has real staying power and that mortgage and borrowing costs will keep rising.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-01-1",
-      "date_added": "2026-10-01",
-      "condition": "The S&P 500 falls 1% or more on a day when US government yields rise.",
-      "meaning": "Stocks would be admitting that the bond move matters, ending the calm that held today.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-10-01-2",
       "date_added": "2026-10-01",
@@ -153,6 +105,38 @@
       "date_added": "2026-10-02",
       "condition": "Fed officials publicly say the September jobs miss does not change the case for raising rates.",
       "meaning": "It would show the hike is still live and that today's relief rally rests on a hope the Fed isn't sharing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-05-0",
+      "date_added": "2026-10-05",
+      "condition": "The 10-year Treasury yield closes at 5.50% or higher.",
+      "meaning": "The bond market's rent increase would become too large for a narrow AI-led rally to shrug off, which is the main risk to the thesis in this brief.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-05-1",
+      "date_added": "2026-10-05",
+      "condition": "The Nasdaq falls 2% or more in a single session while the 10-year yield is above 5.25%.",
+      "meaning": "That would show the AI trade has lost its shield against rising yields and the narrow rally is turning into a broader selloff.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-05-2",
+      "date_added": "2026-10-05",
+      "condition": "Brent crude closes below $95 on two consecutive sessions.",
+      "meaning": "Oil relief would be a multi-day pattern, easing inflation pressure and giving the Fed more room to stay on hold.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-05-3",
+      "date_added": "2026-10-05",
+      "condition": "Gulf oil flows for October are reported above 90% of the pre-war rate.",
+      "meaning": "Supply would be close to normal, which would confirm that today's oil drop reflects lasting recovery and not a temporary pause.",
       "status": "open",
       "outcome": ""
     }
