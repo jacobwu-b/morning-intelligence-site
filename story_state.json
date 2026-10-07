@@ -4,16 +4,16 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 0,
-      "summary": "Big tech is lifting the indexes while the 10-year Treasury yield sits at 5.31%, above the 5.25% level the reader has been tracking. Small caps are lagging the Nasdaq, so the rally is narrow. The open question is whether AI earnings can keep outrunning borrowing costs, with a Fed still debating a rate increase.",
+      "age_days": 1,
+      "summary": "The S&P 500 closed at a record 7,818.93 on October 6 on gains in Nvidia and Microsoft, while the 10-year yield eased to 5.27% from 5.31%, still above the 5.25% level being tracked. Small caps fell 0.59% against a rising Nasdaq, so the rally remains narrow. The open question is whether AI earnings can keep outrunning a risk-free yield above 5%, with the Fed still debating a rate increase.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 0,
-      "summary": "Gulf oil flows averaged 81% of their pre-war rate in September, and Brent fell about 1.9% to $100.32 as supply creeps back. Brent is still at $100, and new US sanctions threatening foreign banks that deal with Iran keep the supply risk alive. The open question is whether flows keep climbing fast enough to pull oil, and inflation, meaningfully lower.",
+      "age_days": 1,
+      "summary": "Brent closed at $100.58 (+0.26%) and WTI at $89.44, so the supply recovery has not yet pulled oil decisively below $100. Gulf flows averaged 81% of the pre-war rate in September. The war itself is unresolved: Vice President JD Vance says Iran must cut its uranium enrichment to end it, and fighting continues in Yemen. New US sanctions on foreign banks dealing with Iran add supply risk. The open question is whether October flows climb fast enough to push oil, and inflation, meaningfully lower.",
       "runs_since_update": 0
     }
   ],
@@ -57,41 +57,19 @@
       "year": "1987",
       "context": "The 10-year Treasury yield rose from roughly 7% to about 10% through 1987, while",
       "date_used": "2026-10-05"
+    },
+    {
+      "year": "1994",
+      "context": "The Fed doubled short-term rates over 1994 and the 10-year Treasury yield rose f",
+      "date_used": "2026-10-06"
+    },
+    {
+      "year": "2023",
+      "context": "The 10-year yield pushed up to about 5% in October 2023, and the S&P 500 fell ro",
+      "date_used": "2026-10-06"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-10-01-2",
-      "date_added": "2026-10-01",
-      "condition": "A formal government announcement of a diesel or crude stockpile release.",
-      "meaning": "That would turn today's talk into real supply and give oil a firmer reason to stay lower, easing inflation pressure.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-01-3",
-      "date_added": "2026-10-01",
-      "condition": "The next Nationwide reading shows UK house prices falling for a second straight month.",
-      "meaning": "It would confirm that higher bond yields are feeding through to household budgets, not just to markets.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-02-0",
-      "date_added": "2026-10-02",
-      "condition": "The Fed raises rates at its meeting this month.",
-      "meaning": "It would mean inflation outweighed the jobs miss, and today's rally priced the wrong outcome.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-02-1",
-      "date_added": "2026-10-02",
-      "condition": "The next unemployment reading comes in at 4.3% or higher.",
-      "meaning": "Two straight upticks would suggest a real softening rather than a one-month wobble, moving the Fed debate toward growth.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-10-02-2",
       "date_added": "2026-10-02",
@@ -137,6 +115,38 @@
       "date_added": "2026-10-05",
       "condition": "Gulf oil flows for October are reported above 90% of the pre-war rate.",
       "meaning": "Supply would be close to normal, which would confirm that today's oil drop reflects lasting recovery and not a temporary pause.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-06-0",
+      "date_added": "2026-10-06",
+      "condition": "The 30-year Treasury yield closes at 5.75% or higher.",
+      "meaning": "Long-term borrowing costs would be breaking higher, which would deepen the pressure on richly priced AI stocks and on mortgages.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-06-1",
+      "date_added": "2026-10-06",
+      "condition": "The S&P 500 closes below 7,700.",
+      "meaning": "The record-high rally would be losing its footing, showing that the narrow AI leadership cannot hold the index up against 5%+ yields.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-06-2",
+      "date_added": "2026-10-06",
+      "condition": "The Russell 2000 closes below 2,700.",
+      "meaning": "Smaller companies would be buckling under high borrowing costs, confirming that the rally is narrowing, not broadening.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-06-3",
+      "date_added": "2026-10-06",
+      "condition": "Brent crude closes above $105.",
+      "meaning": "Oil would be re-escalating despite the Gulf supply recovery, making inflation harder to bring down and a Fed rate hike more likely.",
       "status": "open",
       "outcome": ""
     }
