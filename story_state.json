@@ -4,16 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 1,
-      "summary": "The S&P 500 closed at a record 7,818.93 on October 6 on gains in Nvidia and Microsoft, while the 10-year yield eased to 5.27% from 5.31%, still above the 5.25% level being tracked. Small caps fell 0.59% against a rising Nasdaq, so the rally remains narrow. The open question is whether AI earnings can keep outrunning a risk-free yield above 5%, with the Fed still debating a rate increase.",
+      "age_days": 2,
+      "summary": "The S&P 500 set a record close of 7,818.93 on October 6, then slipped to 7,801.77 today while the 10-year yield held at 5.28%. Small caps fell 1.31% against a 0.22% Nasdaq decline, so the rally is still narrow and the high-rate pressure shows up first in the smaller, more indebted companies. The open question is whether AI earnings can keep outrunning a risk-free yield above 5% now that the Fed is signaling more hikes.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 1,
-      "summary": "Brent closed at $100.58 (+0.26%) and WTI at $89.44, so the supply recovery has not yet pulled oil decisively below $100. Gulf flows averaged 81% of the pre-war rate in September. The war itself is unresolved: Vice President JD Vance says Iran must cut its uranium enrichment to end it, and fighting continues in Yemen. New US sanctions on foreign banks dealing with Iran add supply risk. The open question is whether October flows climb fast enough to push oil, and inflation, meaningfully lower.",
+      "age_days": 2,
+      "summary": "Gulf oil flows averaged 81% of the pre-war rate in September, but attacks have pushed Hormuz shipping traffic to its lowest in over two months. Brent closed at $100.20 and WTI at $88.28, so oil is not falling decisively below $100. The Houthis (the Yemen-based armed group) say they hit Riyadh's airport, and the war has no settlement. The question is whether October flows rebuild or the recovery stalls.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 0,
+      "summary": "Minutes from the Fed's September meeting show unanimous agreement that rates needed to go higher, and most officials expect another increase this year. This is a different cause from the AI-versus-yields story: it comes from the central bank's own inflation fight, not from bond-market supply worries. Treasury Secretary Scott Bessent argues inflation and yields will fall after the war, which sets the White House against the Fed's caution.",
       "runs_since_update": 0
     }
   ],
@@ -67,25 +75,19 @@
       "year": "2023",
       "context": "The 10-year yield pushed up to about 5% in October 2023, and the S&P 500 fell ro",
       "date_used": "2026-10-06"
+    },
+    {
+      "year": "2008",
+      "context": "The European Central Bank raised its rate to 4.25% in July 2008 to fight energy-",
+      "date_used": "2026-10-07"
+    },
+    {
+      "year": "2011",
+      "context": "The ECB raised rates in April and July 2011 as Brent held above $100, again citi",
+      "date_used": "2026-10-07"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-10-02-2",
-      "date_added": "2026-10-02",
-      "condition": "The next consumer price report shows annual inflation higher than the prior reading.",
-      "meaning": "Weak jobs with accelerating prices is the stagflation squeeze, and the market's bad-news-is-good-news logic would break.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-02-3",
-      "date_added": "2026-10-02",
-      "condition": "Fed officials publicly say the September jobs miss does not change the case for raising rates.",
-      "meaning": "It would show the hike is still live and that today's relief rally rests on a hope the Fed isn't sharing.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-10-05-0",
       "date_added": "2026-10-05",
@@ -147,6 +149,22 @@
       "date_added": "2026-10-06",
       "condition": "Brent crude closes above $105.",
       "meaning": "Oil would be re-escalating despite the Gulf supply recovery, making inflation harder to bring down and a Fed rate hike more likely.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-07-0",
+      "date_added": "2026-10-07",
+      "condition": "The S&P 500 closes above its record of 7,818.93.",
+      "meaning": "The AI-led rally is outrunning the Fed's hike signal and 5%-plus yields, so the market is not yet treating high rates as a barrier.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-07-1",
+      "date_added": "2026-10-07",
+      "condition": "Gold closes below $4,000 while the 10-year Treasury yield stays above 5.25%.",
+      "meaning": "The hawkish Fed and stronger dollar are dominating gold's usual safe-haven demand, a sign that rate fears are overpowering war fears.",
       "status": "open",
       "outcome": ""
     }
