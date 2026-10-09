@@ -4,16 +4,16 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 2,
-      "summary": "The S&P 500 set a record close of 7,818.93 on October 6, then slipped to 7,801.77 today while the 10-year yield held at 5.28%. Small caps fell 1.31% against a 0.22% Nasdaq decline, so the rally is still narrow and the high-rate pressure shows up first in the smaller, more indebted companies. The open question is whether AI earnings can keep outrunning a risk-free yield above 5% now that the Fed is signaling more hikes.",
+      "age_days": 3,
+      "summary": "The S&P 500 set a record close of 7,818.93 on October 6 and closed at 7,765.36 on October 8, about 0.7% below it. Today the Nasdaq fell 1.25% while the Russell 2000 was flat and the 10-year yield eased to 5.23%, so tech weakness came without a rate trigger. The open question is whether AI earnings can keep outrunning a risk-free yield above 5%, now with oil adding pressure.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 2,
-      "summary": "Gulf oil flows averaged 81% of the pre-war rate in September, but attacks have pushed Hormuz shipping traffic to its lowest in over two months. Brent closed at $100.20 and WTI at $88.28, so oil is not falling decisively below $100. The Houthis (the Yemen-based armed group) say they hit Riyadh's airport, and the war has no settlement. The question is whether October flows rebuild or the recovery stalls.",
+      "age_days": 3,
+      "summary": "Gulf oil flows averaged 81% of the pre-war rate in September, but tanker attacks and a storm threatening US Gulf of Mexico output pushed Brent up 4.07% to $104.28 and WTI to $91.49 on October 8. The war has no settlement, and Washington is sending conflicting signals on Iran, with strike options and talks both in play. The open question is whether October flows rebuild or the recovery stalls.",
       "runs_since_update": 0
     },
     {
@@ -22,7 +22,7 @@
       "first_seen": "2026-10-07",
       "age_days": 0,
       "summary": "Minutes from the Fed's September meeting show unanimous agreement that rates needed to go higher, and most officials expect another increase this year. This is a different cause from the AI-versus-yields story: it comes from the central bank's own inflation fight, not from bond-market supply worries. Treasury Secretary Scott Bessent argues inflation and yields will fall after the war, which sets the White House against the Fed's caution.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -85,17 +85,14 @@
       "year": "2011",
       "context": "The ECB raised rates in April and July 2011 as Brent held above $100, again citi",
       "date_used": "2026-10-07"
+    },
+    {
+      "year": "2019",
+      "context": "In September 2019, drone and missile strikes knocked out roughly half of Saudi A",
+      "date_used": "2026-10-08"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-10-05-0",
-      "date_added": "2026-10-05",
-      "condition": "The 10-year Treasury yield closes at 5.50% or higher.",
-      "meaning": "The bond market's rent increase would become too large for a narrow AI-led rally to shrug off, which is the main risk to the thesis in this brief.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-10-05-1",
       "date_added": "2026-10-05",
@@ -165,6 +162,14 @@
       "date_added": "2026-10-07",
       "condition": "Gold closes below $4,000 while the 10-year Treasury yield stays above 5.25%.",
       "meaning": "The hawkish Fed and stronger dollar are dominating gold's usual safe-haven demand, a sign that rate fears are overpowering war fears.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-08-2",
+      "date_added": "2026-10-08",
+      "condition": "The VIX, the market's fear gauge, closes above 20.",
+      "meaning": "Today's calm reaction to a 4% oil jump has ended and investors are paying up for protection, so the selling is broadening.",
       "status": "open",
       "outcome": ""
     }
