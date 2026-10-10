@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hans">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Thu Oct 08, 2026 | Morning Intelligence</title>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>2026年10月9日，星期五 |晨间情报</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
   :root {
     --ink: #0a0a0a;
@@ -20,7 +20,7 @@
   body {
     background: var(--paper);
     color: var(--ink);
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
     font-weight: 300;
     opacity: 0;
     animation: fadeIn 1.2s ease forwards;
@@ -37,7 +37,7 @@
     align-items: flex-end;
   }
   .publication-name {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-weight: 600;
     letter-spacing: 0.35em;
@@ -46,7 +46,7 @@
     margin-bottom: 4px;
   }
   .edition-title {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 42px;
     font-weight: 700;
     line-height: 1;
@@ -55,7 +55,7 @@
   .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
   .masthead-right { text-align: right; }
   .date {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--muted);
     letter-spacing: 0.05em;
@@ -69,7 +69,7 @@
     font-weight: 500;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: var(--red);
+    color: var(--green);
   }
   .market-status::before {
     content: '';
@@ -88,20 +88,20 @@
   }
   .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
   .ticker-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     letter-spacing: 0.15em;
     color: #888;
     text-transform: uppercase;
   }
   .ticker-value {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 13px;
     font-weight: 500;
     color: #f5f2eb;
   }
   .ticker-change {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     padding: 2px 6px;
     border-radius: 2px;
@@ -122,7 +122,7 @@
   }
   .sidebar { padding: 48px 0 64px 48px; }
   .lead-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -140,7 +140,7 @@
     opacity: 0.3;
   }
   .section-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -158,7 +158,7 @@
     opacity: 0.3;
   }
   .lead-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 32px;
     line-height: 1.2;
     font-weight: 700;
@@ -180,7 +180,7 @@
     border-top: 1px solid var(--rule);
   }
   .section-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 1.3;
@@ -206,7 +206,7 @@
   }
   .cause-card.secondary { border-top-color: var(--rule); }
   .cause-title {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
@@ -214,7 +214,7 @@
     margin-bottom: 8px;
   }
   .cause-headline {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 14px;
     font-weight: 600;
     line-height: 1.35;
@@ -240,7 +240,7 @@
     border-left: 3px solid var(--gold);
   }
   .comp-year {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 18px;
     font-weight: 700;
     color: var(--gold);
@@ -260,14 +260,14 @@
     top: -9px; left: 20px;
     background: var(--ink);
     padding: 0 10px;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
     color: var(--gold);
   }
   .signal-text {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 15px;
     font-style: italic;
     line-height: 1.7;
@@ -277,7 +277,7 @@
     margin-top: 14px;
     padding-top: 14px;
     border-top: 1px solid #333;
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--gold);
     letter-spacing: 0.05em;
@@ -289,7 +289,7 @@
   }
   .sidebar-section:last-child { border-bottom: none; }
   .sidebar-label {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     letter-spacing: 0.3em;
     text-transform: uppercase;
@@ -305,20 +305,20 @@
     background: var(--cream);
   }
   .index-name {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     letter-spacing: 0.05em;
     color: var(--muted);
   }
   .index-price {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 14px;
     font-weight: 500;
     display: block;
     text-align: right;
   }
   .index-pct {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     margin-top: 2px;
     display: block;
@@ -376,13 +376,13 @@
     align-items: center;
   }
   .footer-left {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 10px;
     color: var(--muted);
     letter-spacing: 0.05em;
   }
   .disclaimer {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 9px;
     color: var(--rule);
     letter-spacing: 0.03em;
@@ -391,13 +391,13 @@
     line-height: 1.6;
   }
   .footer-right {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
     font-size: 11px;
     font-style: italic;
     color: var(--muted);
   }
   .backfill-notice {
-    font-family: 'DM Mono', monospace;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
     font-size: 11px;
     color: var(--muted);
     background: var(--cream);
@@ -418,12 +418,12 @@
 
 <header class="masthead">
   <a href="../index.html" style="text-decoration: none; color: inherit;">
-    <div class="publication-name">Morning Intelligence</div>
-    <div class="edition-title">Market Brief <em>Daily</em></div>
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
   </a>
   <div class="masthead-right">
-    <div class="date">THURSDAY · October 08, 2026 · U.S. MARKET CLOSE</div>
-    <div class="market-status">RISK-OFF SESSION</div>
+    <div class="date">星期五 ·2026年10月9日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">风险偏好交易日</div>
     
   </div>
 </header>
@@ -433,29 +433,29 @@
 <div class="ticker-strip">
   
   <div class="ticker-item">
-    <span class="ticker-label">S&amp;P 500</span>
-    <span class="ticker-value">7,765.36</span>
-    <span class="ticker-change down">
-      ▼ 0.47%
+    <span class="ticker-label" translate="no">S&amp;P 500</span><span class="ticker-value">7,811.54</span><span class="ticker-change up">
+      ▲ 0.59%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Nasdaq</span>
-    <span class="ticker-value">27,193</span>
-    <span class="ticker-change down">
-      ▼ 1.25%
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">27,366</span><span class="ticker-change up">
+      ▲ 0.64%
     </span>
+    
+    
   </div>
   <div class="ticker-divider"></div>
   
   <div class="ticker-item">
-    <span class="ticker-label">Dow</span>
-    <span class="ticker-value">51,232</span>
-    <span class="ticker-change up">
-      ▲ 0.1%
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">51,655</span><span class="ticker-change up">
+      ▲ 0.83%
     </span>
+    
+    
   </div>
   
   
@@ -464,56 +464,56 @@
 <div class="main">
   <div class="primary-col">
 
-    <div class="lead-label">Today's Thesis</div>
-    <h1 class="lead-headline">Oil Jumped 4% Again, but the Bond Market Didn&#x27;t Follow It Higher</h1>
-    <p class="lead-body">Brent crude, the global oil benchmark, jumped <strong>4.07% to $104.28</strong> after attacks on tankers in Middle East shipping lanes, a storm threatening US Gulf of Mexico output, and mixed signals from Washington on whether more strikes on Iran are coming. The Nasdaq fell <strong>1.25%</strong> and the S&amp;P 500 fell <strong>0.47%</strong>, while the Dow edged up 0.1% and small caps were flat. The surprise is in the bond market. The 10-year Treasury yield <strong>fell to 5.23%</strong> instead of rising with oil, which means today&#x27;s tech selling was not the high-interest-rate squeeze of recent days. Oil is now doing the damage on its own, and the open question is whether bonds will keep ignoring it.</p>
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">股市对5%的利率、105美元石油以及对美联储的新一轮攻击置之不理</h1>
+    <p class="lead-body">标普500指数上涨 <strong>0.59%，至7,811.54</strong>点，仅比历史收盘价低0.09%，市场恐惧指数VIX跌至 <strong>14.84</strong>。科技股从近期下滑中反弹，尽管10年期国债收益率为 <strong>5.24%，</strong> 布伦特原油为 <strong>104.72美元</strong>，平静度依然保持。当天唯一真正新的风险几乎未引起股市和债券的反应：白宫对美联储理事丽莎·库克展开委员会调查，这是长期罢免她的下一步。黄金上涨 <strong>1.43%，至4,216美元</strong> ，是唯一出现担忧的地方，这使得今天的平静看起来像是一个为好消息买单、几乎没有坏消息保护的市场。</p>
 
     <div class="section">
-      <div class="section-label">What's Actually Driving This</div>
-      <h2 class="section-headline">Primary: a supply scare in oil. Secondary: bonds refusing to follow oil higher</h2>
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">主要：科技股反弹，但忽视了5%的无风险收益率。次要：白宫对美联储行长库克的新一轮打击。</h2>
       <div class="cause-grid">
         <div class="cause-card">
-          <div class="cause-title">OIL SUPPLY SCARE</div>
-          <div class="cause-headline">Three separate threats to supply hit at once, and Brent got within a dollar of $105.</div>
-          <div class="cause-text">Attacks on tankers cut into shipping traffic, a storm approaching the Gulf of Mexico threatened US offshore production, and the White House asking for options on more Iran strikes raised the odds of a wider conflict. The price swung through the day as Trump&#x27;s comments on Iran talks briefly eased worries, then faded. Brent closed at $104.28 and WTI at $91.49, so oil is sitting well above the $95 level that would signal real relief.</div>
-          <div class="cause-verdict">Expect oil to trade on headlines until Gulf flows visibly rebuild. With the war unsettled and storm season in play, the path of least resistance stays at $100 or above, which means energy costs keep leaking into inflation and keep the Fed&#x27;s hand tied.</div>
+          <div class="cause-title">科技反弹</div>
+          <div class="cause-headline">买家在没有利率或石油支持的情况下重新投入科技市场。</div>
+          <div class="cause-text">纳斯达克指数上涨0.64%，罗素2000指数（小型公司）上涨0.46%，因此大型科技股领先，尽管幅度有限。10年期收益率几乎没有波动（+0.01点），布伦特原油上涨0.42%，因此两者均未推动股价。这是在抛售后反弹，芯片空头已大幅对该集团做势，部分提振可能来自这些押注被挤压。</div>
+          <div class="cause-verdict">把它当作反弹，而不是全新的清算：股票价格仍以5.24%的收益率为基础，这对你来说是无动于衷的回报，所以如果即将到来的通胀数据和盈利令人失望，反弹没有缓冲。</div>
         </div>
         <div class="cause-card secondary">
-          <div class="cause-title">BONDS DIDN&#x27;T FOLLOW</div>
-          <div class="cause-headline">Oil rose and Treasury yields fell, which is the opposite of the usual inflation reflex.</div>
-          <div class="cause-text">The 10-year yield slipped 0.05 points to 5.23% and the 30-year to 5.61%. The most likely reading is that bond buyers are treating this oil jump as a threat to growth and a reason to seek safety, not only as an inflation threat. That fits a Nasdaq that fell even as borrowing costs eased, and a fear gauge (the VIX) that edged up to 15.41 but stayed calm.</div>
-          <div class="cause-verdict">If oil stays above $104 and the 10-year climbs back above yesterday&#x27;s 5.28%, the inflation worry is back in charge and stocks have a harder road. If yields keep sliding while oil rises, the market is pricing a slowdown, and that hurts earnings instead.</div>
+          <div class="cause-title">在压力下被喂养</div>
+          <div class="cause-headline">白宫启动了对美联储理事丽莎·库克的委员会调查，进一步升级了关于谁掌控中央银行的争斗。</div>
+          <div class="cause-text">调查聚焦于库克否认的抵押贷款欺诈指控，此前最高法院对她早前被解雇的裁决已作出。市场冷静应对：30年期收益率下跌0.01点至5.60%。黄金上涨1.43%是唯一明显的对冲，尽管石油和伊朗背景可能也在加剧。调查进展缓慢，移除将涉及法律纠纷，因此除非对她有具体进展，否则此案将从录音带中淡出。</div>
+          <div class="cause-verdict">如果30年期收益率升至5.75%（已在观察名单上），或者库克真的离开董事会，这才会成为现实;如果没有这两者，市场选择忽视这些噪音。</div>
         </div>
       </div>
     </div>
 
     
     <div class="section">
-      <div class="section-label">The Core Dynamic</div>
-      <h2 class="section-headline">Oil is a tax on everything, and this time there&#x27;s no central-bank rescue</h2>
-      <p class="section-body">Think of a household whose heating and gas bill suddenly jumps 4% while the mortgage payment is already at its ceiling. <strong>Higher oil takes money out of every consumer and business before they spend a dollar on anything else.</strong> It also lifts the prices the Fed is trying to push down, so the usual relief valve of lower interest rates is unavailable. Normally an oil shock arrives when the central bank can ease the pain; today the Fed is leaning toward another hike, so the squeeze comes with no cushion, and that is what makes this version worse.</p>
+      <div class="section-label" translate="no">核心动态</div>
+      <h2 class="section-headline">裁判在压力下会让长期贷款变得更贵</h2>
+      <p class="section-body">把美联储想象成一场主队老板在场边大声喊叫的裁判。所有借钱给政府30年的人都在赌裁判会继续判通胀违规。 <strong>如果他们怀疑这一点，他们会要求更大的缓冲，即定期溢价（投资者持有多头债券时想要的额外收益），</strong>这也是为什么30年期5.60%的利率远高于10年期5.24%的原因。当经济疲软、白宫希望削减预算时，美联储通常面临压力。这次压力出现在美联储倾向加息之际，因此信誉差距更大，更昂贵的抵押贷款和企业贷款更可能承担成本。</p>
     </div>
     
 
     
     <div class="section">
-      <div class="section-label">Historical Precedent</div>
-      <h2 class="section-headline">Oil shocks matter for as long as the barrels stay missing, not for how loud the first day was</h2>
+      <div class="section-label" translate="no">历史先例</div>
+      <h2 class="section-headline">当政客们依赖中央银行时，通胀就是主张</h2>
       <div class="comp-list">
         
         <div class="comp-item">
-          <div class="comp-year">2019</div>
+          <div class="comp-year">1951</div>
           <div>
-            <div class="comp-text">In September 2019, drone and missile strikes knocked out roughly half of Saudi Arabia&#x27;s oil output. Brent jumped about 15% in a single day, its biggest one-day gain in decades. Saudi Arabia restored production within weeks, the price gave back nearly all of the spike, and the stock market barely noticed.</div>
-            <div class="comp-lesson">A supply shock fades as fast as the missing barrels come back, so the market is really pricing how long they stay missing.</div>
+            <div class="comp-text">二战期间，美联储将长期国债借款成本限制在约2.5%以下，以帮助战争资金。1950-51年朝鲜战争通胀飙升时，杜鲁门政府仍希望维持通胀上限，美联储则有所抵触。1951年3月的财政部-美联储协议取消了债务上限，重新赋予美联储对利率的控制权，随后通胀降温。</div>
+            <div class="comp-lesson">独立性不是对银行家的恩惠;而是让中央银行在通胀是“是”的代价时说“不”的原因。</div>
           </div>
         </div>
         
         <div class="comp-item">
-          <div class="comp-year">2022</div>
+          <div class="comp-year">2021</div>
           <div>
-            <div class="comp-text">After Russia invaded Ukraine, Brent spiked above $120 in March 2022 and, because Russian supply stayed disrupted for months, spent most of the spring and summer above $100. With the Fed raising rates into that inflation, the S&amp;P 500 fell into a bear market (a drop of 20% or more) by June.</div>
-            <div class="comp-lesson">When oil stays high and the central bank is tightening, stocks get squeezed from both sides, and the damage compounds.</div>
+            <div class="comp-text">土耳其总统于2021年3月解雇了中央银行行长纳吉·阿格巴尔，原因是他为抗击通胀而加息。当天里拉下跌了多达15%，随着政策保持松弛，2022年通胀率攀升至80%以上。投资者早已了解到土耳其的利率决策遵循政治意愿，因此停止低价放贷。</div>
+            <div class="comp-lesson">市场不会在中央银行压力刚开始时惩罚它;它们是在所有人最终相信压力有效时才惩罚的。</div>
           </div>
         </div>
         
@@ -522,67 +522,64 @@
     
 
     <div class="signal-box">
-      <div class="signal-box-label">Directional Read</div>
-      <p class="signal-text">The single variable that decides what happens next is whether Treasury yields rejoin oil on the way up. If they do, the inflation-and-Fed channel takes over and today&#x27;s tech weakness becomes the start of something bigger. If yields keep falling while oil rises, the market is pricing a slowdown, which is a gentler path for the bond market but a worse one for company earnings. Watch the bonds, not the oil headline, because the bond market&#x27;s reaction to $105 oil tells you which problem you actually have.</p>
-      <div class="signal-kicker">
-        Scenario A — Supply returns, oil cools: Tanker traffic recovers and Brent closes back below $95 on two straight days, easing the pressure on the Fed and letting the S&amp;P 500 push through its 7,818.93 record.<br>
-        Scenario B — Oil and yields rise together: Brent closes above $110 while the 10-year yield returns above 5.28%, putting inflation and growth worries on the market at once and pushing the S&amp;P 500 toward 7,700.
-      </div>
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text">本周决定10年期收益率的变量是即将公布的通胀数据和财报后10年期收益率的表现。如果收益率保持在5.24%附近，科技股可以继续朝着创纪录努力;如果突破5.30%，14.84的VIX看起来过于宽松。库克调查和伊朗暂停是可能推动收益率向某一方走动的背景风险。市场平静，且无风险利率超过5%，油价105美元，价格趋于完美，因此缓冲很薄。</p>
+      <div class="signal-kicker">情景A——创纪录收盘价：标普500收盘于7818.93点以上，而10年期收益率仍低于5.25%，显示盈利可能超过无风险利率。<br>情景B——收益率突破：火热的通胀数据推动10年期收益率突破5.30%，30年期收益率升至5.75%，迫使芯片空头的押注回报，VIX回升至20以上。      </div>
     </div>
 
   </div>
 
   <aside class="sidebar">
     <div class="sidebar-section">
-      <div class="sidebar-label">US Close</div>
+      <div class="sidebar-label" translate="no">美股收盘</div>
       <div class="index-grid">
         
         <div class="index-tile">
-          <span class="index-name">S&amp;P 500</span>
+          <span class="index-name" translate="no">S&amp;P 500</span>
           <div>
-            <span class="index-price">7,765.36</span>
+            <span class="index-price">7,811.54</span>
+            <span class="index-pct up">
+              ▲ 0.59%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Nasdaq</span>
+          <div>
+            <span class="index-price">27,366</span>
+            <span class="index-pct up">
+              ▲ 0.64%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Dow</span>
+          <div>
+            <span class="index-price">51,655</span>
+            <span class="index-pct up">
+              ▲ 0.83%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Russell 2000</span>
+          <div>
+            <span class="index-price">2,806.98</span>
+            <span class="index-pct up">
+              ▲ 0.46%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">VIX</span>
+          <div>
+            <span class="index-price">14.84</span>
             <span class="index-pct down">
-              ▼ 0.47%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Nasdaq</span>
-          <div>
-            <span class="index-price">27,193</span>
-            <span class="index-pct down">
-              ▼ 1.25%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Dow</span>
-          <div>
-            <span class="index-price">51,232</span>
-            <span class="index-pct up">
-              ▲ 0.1%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">Russell 2000</span>
-          <div>
-            <span class="index-price">2,794.13</span>
-            <span class="index-pct up">
-              ▲ 0.03%
-            </span>
-          </div>
-        </div>
-        
-        <div class="index-tile">
-          <span class="index-name">VIX</span>
-          <div>
-            <span class="index-price">15.41</span>
-            <span class="index-pct up">
-              ▲ 2.19%
+              3.7%
             </span>
           </div>
         </div>
@@ -594,34 +591,39 @@
     
 
     <div class="sidebar-section">
-      <div class="sidebar-label">What to Watch</div>
+      <div class="sidebar-label" translate="no">值得关注</div>
       
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The 10-year Treasury yield closes above 5.28% on a day Brent crude closes above $104. — </span>Bonds are following oil higher again, which means the inflation channel has overtaken the growth-scare reading from today.</div>
+        <div><span class="watch-condition">10年期美国国债收益率收盘价为5.30%或以上。—— </span> 这将打破股市一直容忍的狭窄区间，并证明科技股的反弹已撞上了无风险收益率。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">Brent crude closes above $110. — </span>The oil shock has moved from a headline-driven spike into a regime that forces the Fed&#x27;s hand and threatens consumer spending.</div>
+        <div><span class="watch-condition">丽莎·库克将通过免职或辞职离开美联储理事会。—— </span> 这将使美联储独立之争从头条新闻转变为董事会变革，并可能提升长期收益率和黄金。</div>
       </div>
       
       <div class="watch-item">
         <div class="watch-dot"></div>
-        <div><span class="watch-condition">The VIX, the market&#x27;s fear gauge, closes above 20. — </span>Today&#x27;s calm reaction to a 4% oil jump has ended and investors are paying up for protection, so the selling is broadening.</div>
+        <div><span class="watch-condition">黄金收盘价超过4400美元。 </span> 这将显示对美联储信誉的对冲和战争风险正远超今日1.43%的跳升。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div>布<span class="watch-condition">伦特原油收盘低于100美元。—— </span> 这将显示特朗普的伊朗暂停政策，而中国的燃料出口实际上是在放宽石油压力，这是缓解美联储通胀压力的第一步。</div>
       </div>
       
     </div>
   </aside>
 </div>
 
-<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-10-07.html" style="color: var(--muted); text-decoration: none;">← Previous brief · October 07, 2026</a><a href="2026-10-09.html" style="color: var(--muted); text-decoration: none; margin-left: auto;">Next brief · October 09, 2026 →</a></nav><!-- brief-nav:end -->
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-10-08.html" style="color: var(--muted); text-decoration: none;">← 上一篇简报 · 2026年10月8日</a></nav><!-- brief-nav:end -->
 
 <footer>
-  <div class="footer-left">Morning Intelligence · Personal Edition</div>
-  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
-  <div class="footer-right">October 08, 2026</div>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年10月9日</div>
 </footer>
 
 </body>

@@ -4,25 +4,33 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 3,
-      "summary": "The S&P 500 set a record close of 7,818.93 on October 6 and closed at 7,765.36 on October 8, about 0.7% below it. Today the Nasdaq fell 1.25% while the Russell 2000 was flat and the 10-year yield eased to 5.23%, so tech weakness came without a rate trigger. The open question is whether AI earnings can keep outrunning a risk-free yield above 5%, now with oil adding pressure.",
+      "age_days": 4,
+      "summary": "Tech rebounded on October 9: the Nasdaq rose 0.64% and the S&P 500 closed at 7,811.54, 0.09% under its October 6 record of 7,818.93. The 10-year yield was steady at 5.24% and the VIX dropped to 14.84, so the rally is again running at a risk-free yield above 5%. Bears have been building positions against chip stocks, and the open question is whether AI earnings and the coming inflation data keep supporting prices at this yield.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 3,
-      "summary": "Gulf oil flows averaged 81% of the pre-war rate in September, but tanker attacks and a storm threatening US Gulf of Mexico output pushed Brent up 4.07% to $104.28 and WTI to $91.49 on October 8. The war has no settlement, and Washington is sending conflicting signals on Iran, with strike options and talks both in play. The open question is whether October flows rebuild or the recovery stalls.",
+      "age_days": 4,
+      "summary": "Brent closed at $104.72 and WTI at $91.85 on October 9, barely changed after the prior session's jump. Trump has promised to hold off on attacking Iran before the November midterms and China is restarting fuel exports, yet oil has not given back its gains. The war has no settlement, so the open question is whether October flows rebuild or the recovery stalls.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
+      "age_days": 2,
+      "summary": "September minutes showed unanimous agreement that rates must go higher, and most officials expect another increase this year. Treasury Secretary Scott Bessent argues inflation and yields will fall after the war, which sets the White House against the Fed's caution. The 10-year yield at 5.24% shows the market is taking the Fed at its word.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "cook-probe-fed-independence",
+      "label": "Fed Independence Test",
+      "first_seen": "2026-10-09",
       "age_days": 0,
-      "summary": "Minutes from the Fed's September meeting show unanimous agreement that rates needed to go higher, and most officials expect another increase this year. This is a different cause from the AI-versus-yields story: it comes from the central bank's own inflation fight, not from bond-market supply worries. Treasury Secretary Scott Bessent argues inflation and yields will fall after the war, which sets the White House against the Fed's caution.",
-      "runs_since_update": 1
+      "summary": "On October 9 Trump created a committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations she denies, renewing an effort to remove her after the Supreme Court ruled against her earlier firing. Stocks and bonds barely reacted, but gold rose 1.43%. The open question is whether this becomes a real removal that reshapes the Fed board, or stays a slow-burning headline.",
+      "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
@@ -90,17 +98,19 @@
       "year": "2019",
       "context": "In September 2019, drone and missile strikes knocked out roughly half of Saudi A",
       "date_used": "2026-10-08"
+    },
+    {
+      "year": "1951",
+      "context": "During WWII the Fed held long-term Treasury borrowing costs under a ceiling of a",
+      "date_used": "2026-10-09"
+    },
+    {
+      "year": "2021",
+      "context": "Turkey's president fired central bank chief Naci Agbal in March 2021 after he ra",
+      "date_used": "2026-10-09"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-10-05-1",
-      "date_added": "2026-10-05",
-      "condition": "The Nasdaq falls 2% or more in a single session while the 10-year yield is above 5.25%.",
-      "meaning": "That would show the AI trade has lost its shield against rising yields and the narrow rally is turning into a broader selloff.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-10-05-2",
       "date_added": "2026-10-05",
@@ -170,6 +180,14 @@
       "date_added": "2026-10-08",
       "condition": "The VIX, the market's fear gauge, closes above 20.",
       "meaning": "Today's calm reaction to a 4% oil jump has ended and investors are paying up for protection, so the selling is broadening.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-09-1",
+      "date_added": "2026-10-09",
+      "condition": "Lisa Cook leaves the Fed Board of Governors, by removal or resignation.",
+      "meaning": "It would turn the Fed independence fight from a headline into a changed board, and would likely lift long-term yields and gold.",
       "status": "open",
       "outcome": ""
     }
