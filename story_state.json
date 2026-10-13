@@ -4,24 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 4,
-      "summary": "Tech rebounded on October 9: the Nasdaq rose 0.64% and the S&P 500 closed at 7,811.54, 0.09% under its October 6 record of 7,818.93. The 10-year yield was steady at 5.24% and the VIX dropped to 14.84, so the rally is again running at a risk-free yield above 5%. Bears have been building positions against chip stocks, and the open question is whether AI earnings and the coming inflation data keep supporting prices at this yield.",
+      "age_days": 7,
+      "summary": "The S&P 500 closed at 7,807.24, 0.15% below its October 6 record of 7,818.93, while the Nasdaq fell 0.44% and the Dow rose 0.38%. The 10-year yield held at 5.24% and the VIX edged up to 15.21, still low. The open question is whether AI earnings and this week's inflation data can keep stocks rising against a risk-free yield above 5%.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 4,
-      "summary": "Brent closed at $104.72 and WTI at $91.85 on October 9, barely changed after the prior session's jump. Trump has promised to hold off on attacking Iran before the November midterms and China is restarting fuel exports, yet oil has not given back its gains. The war has no settlement, so the open question is whether October flows rebuild or the recovery stalls.",
+      "age_days": 7,
+      "summary": "Brent closed at $106.65 and WTI at $93.74 on October 12, up about 2% after Gulf airport attacks disrupted air travel in Saudi Arabia. Trump's pledge to hold off on striking Iran before the midterms and China's restart of fuel exports have not pulled oil down. The open question is whether the attacks were a one-day scare or a sign the recovery in Gulf flows is stalling.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 2,
-      "summary": "September minutes showed unanimous agreement that rates must go higher, and most officials expect another increase this year. Treasury Secretary Scott Bessent argues inflation and yields will fall after the war, which sets the White House against the Fed's caution. The 10-year yield at 5.24% shows the market is taking the Fed at its word.",
+      "age_days": 5,
+      "summary": "Fed officials are still warning of more economic pain ahead, and the September minutes showed unanimous agreement that rates must go higher. Oil back above $105 adds to the inflation pressure behind that stance. The 10-year at 5.24% and the 30-year at 5.60% show the market is taking the Fed at its word.",
       "runs_since_update": 0
     },
     {
@@ -30,20 +30,10 @@
       "first_seen": "2026-10-09",
       "age_days": 0,
       "summary": "On October 9 Trump created a committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations she denies, renewing an effort to remove her after the Supreme Court ruled against her earlier firing. Stocks and bonds barely reacted, but gold rose 1.43%. The open question is whether this becomes a real removal that reshapes the Fed board, or stays a slow-burning headline.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1973",
-      "context": "When OPEC's embargo quadrupled oil prices in 1973-74, the Fed under Arthur Burns",
-      "date_used": "2026-09-11"
-    },
-    {
-      "year": "1979",
-      "context": "When the second oil shock hit in 1979, Paul Volcker's Fed did the opposite \u2014 pus",
-      "date_used": "2026-09-11"
-    },
     {
       "year": "2024",
       "context": "In August 2024, a modest quarter-point BOJ hike (from 0.1% to 0.25%) sent the ye",
@@ -112,14 +102,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-05-2",
-      "date_added": "2026-10-05",
-      "condition": "Brent crude closes below $95 on two consecutive sessions.",
-      "meaning": "Oil relief would be a multi-day pattern, easing inflation pressure and giving the Fed more room to stay on hold.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-05-3",
       "date_added": "2026-10-05",
       "condition": "Gulf oil flows for October are reported above 90% of the pre-war rate.",
@@ -152,14 +134,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-06-3",
-      "date_added": "2026-10-06",
-      "condition": "Brent crude closes above $105.",
-      "meaning": "Oil would be re-escalating despite the Gulf supply recovery, making inflation harder to bring down and a Fed rate hike more likely.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-07-0",
       "date_added": "2026-10-07",
       "condition": "The S&P 500 closes above its record of 7,818.93.",
@@ -188,6 +162,22 @@
       "date_added": "2026-10-09",
       "condition": "Lisa Cook leaves the Fed Board of Governors, by removal or resignation.",
       "meaning": "It would turn the Fed independence fight from a headline into a changed board, and would likely lift long-term yields and gold.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-12-2",
+      "date_added": "2026-10-12",
+      "condition": "The 10-year Treasury yield closes at 5.40% or higher.",
+      "meaning": "Borrowing costs would be moving up again, which is the pressure that has made high-priced AI stocks vulnerable.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-12-3",
+      "date_added": "2026-10-12",
+      "condition": "The Nasdaq falls 1% or more in a single session while the 10-year yield stays at or above 5.24%.",
+      "meaning": "The tech slip would be turning into a real selloff driven by yields and not by one quiet day's rotation.",
       "status": "open",
       "outcome": ""
     }
