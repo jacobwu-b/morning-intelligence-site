@@ -4,24 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 7,
-      "summary": "The S&P 500 closed at 7,807.24, 0.15% below its October 6 record of 7,818.93, while the Nasdaq fell 0.44% and the Dow rose 0.38%. The 10-year yield held at 5.24% and the VIX edged up to 15.21, still low. The open question is whether AI earnings and this week's inflation data can keep stocks rising against a risk-free yield above 5%.",
+      "age_days": 8,
+      "summary": "The S&P 500 closed at 7,805.45, about 0.2% below its October 6 record, with the Nasdaq down 0.15% and the 10-year yield easing to 5.22%. A Broadcom executive's 'casino' comment on AI spending and a Samsung drop added the first insider doubt to the rally. The open question is whether that doubt reaches chip earnings and spending plans, or stays a one-day wobble while the risk-free yield sits above 5%.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 7,
-      "summary": "Brent closed at $106.65 and WTI at $93.74 on October 12, up about 2% after Gulf airport attacks disrupted air travel in Saudi Arabia. Trump's pledge to hold off on striking Iran before the midterms and China's restart of fuel exports have not pulled oil down. The open question is whether the attacks were a one-day scare or a sign the recovery in Gulf flows is stalling.",
+      "age_days": 8,
+      "summary": "Brent closed at $105.69 (down 0.9%) and WTI at $94.14 (up 0.43%) on October 13, as Iran's new tactics against tankers keep a floor under crude. The IMF warned that governments' emergency oil stocks are low, so there is little cushion if flows stall. The open question is whether tanker harassment keeps Brent above $105 or fades.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 5,
-      "summary": "Fed officials are still warning of more economic pain ahead, and the September minutes showed unanimous agreement that rates must go higher. Oil back above $105 adds to the inflation pressure behind that stance. The 10-year at 5.24% and the 30-year at 5.60% show the market is taking the Fed at its word.",
+      "age_days": 6,
+      "summary": "JPMorgan's chief executive warned of large government deficits and sticky inflation (price rises that refuse to cool), echoing the Fed's own stance. The 10-year at 5.22% and the 30-year at 5.56% eased slightly but remain high. The market still treats a hike as the default path.",
       "runs_since_update": 0
     },
     {
@@ -30,7 +30,7 @@
       "first_seen": "2026-10-09",
       "age_days": 0,
       "summary": "On October 9 Trump created a committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations she denies, renewing an effort to remove her after the Supreme Court ruled against her earlier firing. Stocks and bonds barely reacted, but gold rose 1.43%. The open question is whether this becomes a real removal that reshapes the Fed board, or stays a slow-burning headline.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
@@ -102,30 +102,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-05-3",
-      "date_added": "2026-10-05",
-      "condition": "Gulf oil flows for October are reported above 90% of the pre-war rate.",
-      "meaning": "Supply would be close to normal, which would confirm that today's oil drop reflects lasting recovery and not a temporary pause.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-06-0",
-      "date_added": "2026-10-06",
-      "condition": "The 30-year Treasury yield closes at 5.75% or higher.",
-      "meaning": "Long-term borrowing costs would be breaking higher, which would deepen the pressure on richly priced AI stocks and on mortgages.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-06-1",
-      "date_added": "2026-10-06",
-      "condition": "The S&P 500 closes below 7,700.",
-      "meaning": "The record-high rally would be losing its footing, showing that the narrow AI leadership cannot hold the index up against 5%+ yields.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-06-2",
       "date_added": "2026-10-06",
       "condition": "The Russell 2000 closes below 2,700.",
@@ -178,6 +154,30 @@
       "date_added": "2026-10-12",
       "condition": "The Nasdaq falls 1% or more in a single session while the 10-year yield stays at or above 5.24%.",
       "meaning": "The tech slip would be turning into a real selloff driven by yields and not by one quiet day's rotation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-13-0",
+      "date_added": "2026-10-13",
+      "condition": "Brent crude closes at $110 or higher.",
+      "meaning": "Tanker threats are pushing oil beyond its recent range, deepening the inflation pressure that keeps the Fed leaning toward a hike.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-13-1",
+      "date_added": "2026-10-13",
+      "condition": "Brent crude closes below $100.",
+      "meaning": "The Gulf supply scare is easing, which would lift pressure off inflation and the Fed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-13-3",
+      "date_added": "2026-10-13",
+      "condition": "The Nasdaq closes below 27,000.",
+      "meaning": "The chip doubt is spreading past a one-day wobble into broader tech selling.",
       "status": "open",
       "outcome": ""
     }
