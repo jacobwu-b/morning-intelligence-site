@@ -4,24 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 8,
-      "summary": "The S&P 500 closed at 7,805.45, about 0.2% below its October 6 record, with the Nasdaq down 0.15% and the 10-year yield easing to 5.22%. A Broadcom executive's 'casino' comment on AI spending and a Samsung drop added the first insider doubt to the rally. The open question is whether that doubt reaches chip earnings and spending plans, or stays a one-day wobble while the risk-free yield sits above 5%.",
+      "age_days": 9,
+      "summary": "The Nasdaq fell 1.88% to 26,693, closing below 27,000, and the S&P 500 slipped to 7,718.94, about 1.3% under its record. The first insider doubts about AI spending now meet a hike threat with the 10-year above 5%. The open question is whether buyers return at these levels or the pullback widens beyond tech.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 8,
-      "summary": "Brent closed at $105.69 (down 0.9%) and WTI at $94.14 (up 0.43%) on October 13, as Iran's new tactics against tankers keep a floor under crude. The IMF warned that governments' emergency oil stocks are low, so there is little cushion if flows stall. The open question is whether tanker harassment keeps Brent above $105 or fades.",
+      "age_days": 9,
+      "summary": "Brent closed at $106.06 (+0.35%) and WTI at $95.09 (+1.01%), holding above the $105 floor set by tanker harassment. Gasoline is now visibly feeding consumer inflation, and Washington is considering easing sanctions on shadow-fleet tankers to cut freight costs. The open question is whether Brent can break below $100 or heads toward $110.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 6,
-      "summary": "JPMorgan's chief executive warned of large government deficits and sticky inflation (price rises that refuse to cool), echoing the Fed's own stance. The 10-year at 5.22% and the 30-year at 5.56% eased slightly but remain high. The market still treats a hike as the default path.",
+      "age_days": 7,
+      "summary": "September inflation re-accelerated to 3.7% from 3.4%, driven by energy, and a Fed hike this month is back on the table. The 10-year eased to 5.19% and the 30-year to 5.53%, so the bond market is not signaling loss of control. The open question is whether long-term yields keep ignoring hike odds or break higher.",
       "runs_since_update": 0
     },
     {
@@ -30,7 +30,7 @@
       "first_seen": "2026-10-09",
       "age_days": 0,
       "summary": "On October 9 Trump created a committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations she denies, renewing an effort to remove her after the Supreme Court ruled against her earlier firing. Stocks and bonds barely reacted, but gold rose 1.43%. The open question is whether this becomes a real removal that reshapes the Fed board, or stays a slow-burning headline.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -102,22 +102,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-06-2",
-      "date_added": "2026-10-06",
-      "condition": "The Russell 2000 closes below 2,700.",
-      "meaning": "Smaller companies would be buckling under high borrowing costs, confirming that the rally is narrowing, not broadening.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-07-0",
-      "date_added": "2026-10-07",
-      "condition": "The S&P 500 closes above its record of 7,818.93.",
-      "meaning": "The AI-led rally is outrunning the Fed's hike signal and 5%-plus yields, so the market is not yet treating high rates as a barrier.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-07-1",
       "date_added": "2026-10-07",
       "condition": "Gold closes below $4,000 while the 10-year Treasury yield stays above 5.25%.",
@@ -174,10 +158,26 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-13-3",
-      "date_added": "2026-10-13",
-      "condition": "The Nasdaq closes below 27,000.",
-      "meaning": "The chip doubt is spreading past a one-day wobble into broader tech selling.",
+      "id": "w-2026-10-14-0",
+      "date_added": "2026-10-14",
+      "condition": "The S&P 500 closes below 7,600.",
+      "meaning": "The pullback would reach roughly 3% below the record, a sign that the hike repricing is spreading beyond tech.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-14-1",
+      "date_added": "2026-10-14",
+      "condition": "The 30-year Treasury yield closes at 5.65% or higher.",
+      "meaning": "The bond market would stop shrugging off hike risk, and stocks would then face a second leg lower.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-14-2",
+      "date_added": "2026-10-14",
+      "condition": "The dollar index closes above 103.",
+      "meaning": "Markets would be leaning harder into Fed tightening, which would also add pressure on gold and risk assets.",
       "status": "open",
       "outcome": ""
     }
