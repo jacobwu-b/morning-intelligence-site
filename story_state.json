@@ -4,24 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 9,
-      "summary": "The Nasdaq fell 1.88% to 26,693, closing below 27,000, and the S&P 500 slipped to 7,718.94, about 1.3% under its record. The first insider doubts about AI spending now meet a hike threat with the 10-year above 5%. The open question is whether buyers return at these levels or the pullback widens beyond tech.",
+      "age_days": 10,
+      "summary": "The Nasdaq edged up 0.08% to 26,713 after a rough overnight tech sell-off in Asia, while the Russell 2000 gained 1.38% and the Dow 1.08%. Money is rotating toward healthcare, consumer names and small caps rather than fleeing stocks. The open question is whether tech stabilizes as yields ease or the AI-spending doubts keep leadership narrow.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 9,
-      "summary": "Brent closed at $106.06 (+0.35%) and WTI at $95.09 (+1.01%), holding above the $105 floor set by tanker harassment. Gasoline is now visibly feeding consumer inflation, and Washington is considering easing sanctions on shadow-fleet tankers to cut freight costs. The open question is whether Brent can break below $100 or heads toward $110.",
+      "age_days": 10,
+      "summary": "Brent was flat at $105.92 while WTI rose 3.03% to $97.97, narrowing the gap between the two benchmarks. Energy is now clearly showing up in wholesale and consumer inflation. The open question is whether Brent breaks below $100 or heads toward $110.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 7,
-      "summary": "September inflation re-accelerated to 3.7% from 3.4%, driven by energy, and a Fed hike this month is back on the table. The 10-year eased to 5.19% and the 30-year to 5.53%, so the bond market is not signaling loss of control. The open question is whether long-term yields keep ignoring hike odds or break higher.",
+      "age_days": 8,
+      "summary": "Producer prices for September rose the most in nearly four years on energy, following consumer inflation that re-accelerated to 3.7%. A hike remains on the table. The 10-year still fell to 5.09% and the 30-year to 5.43%, so long-term lenders are not demanding more compensation for inflation. The open question is whether bonds keep shrugging off energy-driven inflation or turn back up.",
       "runs_since_update": 0
     },
     {
@@ -30,7 +30,7 @@
       "first_seen": "2026-10-09",
       "age_days": 0,
       "summary": "On October 9 Trump created a committee to investigate Fed Governor Lisa Cook over mortgage fraud allegations she denies, renewing an effort to remove her after the Supreme Court ruled against her earlier firing. Stocks and bonds barely reacted, but gold rose 1.43%. The open question is whether this becomes a real removal that reshapes the Fed board, or stays a slow-burning headline.",
-      "runs_since_update": 3
+      "runs_since_update": 4
     }
   ],
   "historical_comps_used": [
@@ -102,30 +102,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-07-1",
-      "date_added": "2026-10-07",
-      "condition": "Gold closes below $4,000 while the 10-year Treasury yield stays above 5.25%.",
-      "meaning": "The hawkish Fed and stronger dollar are dominating gold's usual safe-haven demand, a sign that rate fears are overpowering war fears.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-08-2",
-      "date_added": "2026-10-08",
-      "condition": "The VIX, the market's fear gauge, closes above 20.",
-      "meaning": "Today's calm reaction to a 4% oil jump has ended and investors are paying up for protection, so the selling is broadening.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-09-1",
-      "date_added": "2026-10-09",
-      "condition": "Lisa Cook leaves the Fed Board of Governors, by removal or resignation.",
-      "meaning": "It would turn the Fed independence fight from a headline into a changed board, and would likely lift long-term yields and gold.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-12-2",
       "date_added": "2026-10-12",
       "condition": "The 10-year Treasury yield closes at 5.40% or higher.",
@@ -178,6 +154,30 @@
       "date_added": "2026-10-14",
       "condition": "The dollar index closes above 103.",
       "meaning": "Markets would be leaning harder into Fed tightening, which would also add pressure on gold and risk assets.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-15-1",
+      "date_added": "2026-10-15",
+      "condition": "WTI crude closes at $100 or higher.",
+      "meaning": "It would show the oil rebound is gathering force and feeding the inflation numbers that keep the hike threat alive.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-15-2",
+      "date_added": "2026-10-15",
+      "condition": "The Russell 2000 closes below 2,700.",
+      "meaning": "It would mean today's rotation into small caps was a one-day bounce, not a durable broadening of the rally.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-15-3",
+      "date_added": "2026-10-15",
+      "condition": "The 10-year Treasury yield closes above 5.25% on a day the Russell 2000 falls 1% or more.",
+      "meaning": "It would show the bond-market relief has ended and higher borrowing costs are hitting the stocks that benefited most today.",
       "status": "open",
       "outcome": ""
     }
