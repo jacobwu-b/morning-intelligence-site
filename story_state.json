@@ -4,16 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 11,
-      "summary": "Tech fell sharply again on October 16, but with the 10-year yield flat at 5.10% and the 30-year at 5.44%, high rates did not cause it. The Nasdaq at 26,140 is now below the 26,713 level of the prior brief. The open question is whether leadership stays narrow now that credit worries are driving the decline.",
+      "age_days": 14,
+      "summary": "The Nasdaq rebounded to 26,431 from 26,140 even as the 10-year yield rose to 5.14% and the 30-year to 5.47%, which confirms rates are not the binding constraint right now. Leadership stayed narrow: the Russell 2000 and Dow lagged the Nasdaq. The open question is whether the bounce extends past the prior brief's 26,713 level or fades.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 11,
-      "summary": "Brent rose 3.72% to $109.86 and WTI 3.51% to $101.41, ending the recent narrowing toward $100. Missiles hit Aden airport in Yemen and a missile aimed at the Saudi Red Sea port of Yanbu was intercepted, and Washington is seeking swaps of up to 17 million barrels from its emergency stockpile. The open question is whether Brent clears $110 or the stockpile move caps it.",
+      "age_days": 14,
+      "summary": "Brent slipped 0.28% to $109.55, just short of $110, while WTI rose 2.22% to $103.66, so the gap between the two narrowed to about $5.90 from about $8.45. The war's cost is now visible in corporate earnings, with UK profit warnings at a two-year high. The open question is whether Brent clears $110 or the emergency-stockpile swaps cap it.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-financing-credit-stress",
+      "label": "AI Debt Stress",
+      "first_seen": "2026-10-16",
+      "age_days": 3,
+      "summary": "Friday's sell-off came from lenders, not rates, as bond yields and default-insurance prices on the most indebted AI names surged. Today's Nasdaq rebound of 1.11% recovered roughly half of Friday's drop without any visible easing in the lending worry. The open question is whether the stress stays confined to the most indebted AI names or spreads to the wider group of AI borrowers.",
       "runs_since_update": 0
     },
     {
@@ -22,28 +30,10 @@
       "first_seen": "2026-10-07",
       "age_days": 9,
       "summary": "Fed Chair Kevin Warsh pledged to contain price increases and flagged AI spending as a potential inflation shock, which keeps a hike on the table after consumer inflation re-accelerated to 3.7%. Long-term yields did not rise on the news, with the 10-year at 5.10%. The open question is whether the Fed's stance becomes the thing that stops it from backstopping a stressed AI sector.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-financing-credit-stress",
-      "label": "AI Debt Stress",
-      "first_seen": "2026-10-16",
-      "age_days": 0,
-      "summary": "On October 16 the AI sell-off changed character: the Nasdaq fell 2.15% with the 10-year yield flat at 5.10%, so the pressure came from lenders, not rates. CoreWeave's bond yields and default-insurance prices surged while Fed Chair Kevin Warsh warned AI spending could push up prices. The open question is whether the stress stays with the most heavily indebted AI names or spreads to the wider group of AI borrowers.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2024",
-      "context": "In August 2024, a modest quarter-point BOJ hike (from 0.1% to 0.25%) sent the ye",
-      "date_used": "2026-09-18"
-    },
-    {
-      "year": "1989",
-      "context": "When the Bank of Japan raised rates five times between 1989 and 1990 to fight an",
-      "date_used": "2026-09-18"
-    },
     {
       "year": "2022",
       "context": "From mid-June to mid-August 2022, the S&P 500 rallied roughly 17% on hopes that ",
@@ -112,30 +102,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-13-0",
-      "date_added": "2026-10-13",
-      "condition": "Brent crude closes at $110 or higher.",
-      "meaning": "Tanker threats are pushing oil beyond its recent range, deepening the inflation pressure that keeps the Fed leaning toward a hike.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-13-1",
-      "date_added": "2026-10-13",
-      "condition": "Brent crude closes below $100.",
-      "meaning": "The Gulf supply scare is easing, which would lift pressure off inflation and the Fed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-14-0",
-      "date_added": "2026-10-14",
-      "condition": "The S&P 500 closes below 7,600.",
-      "meaning": "The pullback would reach roughly 3% below the record, a sign that the hike repricing is spreading beyond tech.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-14-1",
       "date_added": "2026-10-14",
       "condition": "The 30-year Treasury yield closes at 5.65% or higher.",
@@ -188,6 +154,30 @@
       "date_added": "2026-10-16",
       "condition": "The 10-year Treasury yield closes below 5.00%.",
       "meaning": "Bonds are finally acting as a safe haven, which would signal growth fears are beating inflation fears and could ease the Fed's hawkish pressure on AI borrowers.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-19-0",
+      "date_added": "2026-10-19",
+      "condition": "The Nasdaq closes above 26,713.",
+      "meaning": "The prior brief's level is recovered in full, and the credit-driven AI sell-off is more likely behind us.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-19-1",
+      "date_added": "2026-10-19",
+      "condition": "WTI crude closes at $106 or higher.",
+      "meaning": "US crude is closing the gap to Brent and oil pressure on earnings and the Fed is building, not stalling.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-19-2",
+      "date_added": "2026-10-19",
+      "condition": "The 10-year Treasury yield closes at 5.20% or higher on a day the Nasdaq falls 1% or more.",
+      "meaning": "Rising rates are joining the AI lending worry, so tech faces two pressures at once.",
       "status": "open",
       "outcome": ""
     }
