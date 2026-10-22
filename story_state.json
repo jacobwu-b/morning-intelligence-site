@@ -4,16 +4,24 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 15,
-      "summary": "Leadership flipped today: the Russell 2000 rose 1.65% and the Dow 1.02% while the Nasdaq closed flat at 26,425, short of the 26,713 level the reader is watching. Yields eased slightly (10-year 5.12%, 30-year 5.43%), so rates are not the binding constraint at the moment. The open question is whether the rotation into smaller companies persists or whether the Nasdaq reclaims leadership by clearing 26,713.",
+      "age_days": 16,
+      "summary": "Leadership swung back to big tech: the Nasdaq rose 1.05% to 26,703, 10 points short of the 26,713 level, while the Russell 2000 gained just 0.27% after leading yesterday. The 10-year yield edged up to 5.15% and stocks shrugged it off. The open question is whether the Nasdaq can clear 26,713 without long-term yields moving higher.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 15,
-      "summary": "Crude closed lower despite Iran's rebuff of diplomatic progress: Brent fell 0.69% to $108.79 and WTI fell 1.8% to $101.79, which widened the gap between them to about $7.00 from about $5.90. The war's cost is still visible in corporate earnings. The open question is whether Brent clears $110 or the emergency-stockpile swaps keep capping it.",
+      "age_days": 16,
+      "summary": "Brent closed flat at $108.82 after touching a five-month high during the session, while WTI fell 4.56% to $97.15, pushing the gap between them to roughly $11.70 from about $7. Global oil is still tight even as the US benchmark eases. The open question is whether Brent clears $110 and whether the gap keeps widening.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "global-bond-strain",
+      "label": "Global Borrowing Costs Climb",
+      "first_seen": "2026-10-21",
+      "age_days": 0,
+      "summary": "Governments abroad are paying more to borrow: UK inflation rose to 3.5% and UK government debt passed \u00a33 trillion for the first time, while French government bond yields hit their highest since 2002 amid street protests. The US 30-year yield sits at 5.44%, part of the same worldwide pressure on long-term borrowing. The open question is whether foreign bond stress spills into US long-term yields.",
       "runs_since_update": 0
     },
     {
@@ -22,7 +30,7 @@
       "first_seen": "2026-10-16",
       "age_days": 3,
       "summary": "Friday's sell-off came from lenders, not rates, as bond yields and default-insurance prices on the most indebted AI names surged. Today's Nasdaq rebound of 1.11% recovered roughly half of Friday's drop without any visible easing in the lending worry. The open question is whether the stress stays confined to the most indebted AI names or spreads to the wider group of AI borrowers.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "fed-leans-toward-hike",
@@ -30,7 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 9,
       "summary": "Fed Chair Kevin Warsh pledged to contain price increases and flagged AI spending as a potential inflation shock, which keeps a hike on the table after consumer inflation re-accelerated to 3.7%. Long-term yields did not rise on the news, with the 10-year at 5.10%. The open question is whether the Fed's stance becomes the thing that stops it from backstopping a stressed AI sector.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -102,14 +110,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-15-2",
-      "date_added": "2026-10-15",
-      "condition": "The Russell 2000 closes below 2,700.",
-      "meaning": "It would mean today's rotation into small caps was a one-day bounce, not a durable broadening of the rally.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-15-3",
       "date_added": "2026-10-15",
       "condition": "The 10-year Treasury yield closes above 5.25% on a day the Russell 2000 falls 1% or more.",
@@ -150,14 +150,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-19-1",
-      "date_added": "2026-10-19",
-      "condition": "WTI crude closes at $106 or higher.",
-      "meaning": "US crude is closing the gap to Brent and oil pressure on earnings and the Fed is building, not stalling.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-19-2",
       "date_added": "2026-10-19",
       "condition": "The 10-year Treasury yield closes at 5.20% or higher on a day the Nasdaq falls 1% or more.",
@@ -178,6 +170,22 @@
       "date_added": "2026-10-20",
       "condition": "The 30-year Treasury yield closes below 5.30%.",
       "meaning": "Long-term borrowing costs are meaningfully easing, which would give the rotation into rate-sensitive companies lasting support.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-21-0",
+      "date_added": "2026-10-21",
+      "condition": "Brent closes more than $12 above WTI.",
+      "meaning": "The global oil squeeze is deepening while US supply eases, meaning the world's fuel bill is rising even as the US benchmark looks calm.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-21-1",
+      "date_added": "2026-10-21",
+      "condition": "The 30-year Treasury yield closes at 5.50% or higher.",
+      "meaning": "Long-term bond stress abroad is reaching the US, which would put the Nasdaq's push toward 26,713 at risk.",
       "status": "open",
       "outcome": ""
     }
