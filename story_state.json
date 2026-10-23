@@ -4,41 +4,41 @@
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 16,
-      "summary": "Leadership swung back to big tech: the Nasdaq rose 1.05% to 26,703, 10 points short of the 26,713 level, while the Russell 2000 gained just 0.27% after leading yesterday. The 10-year yield edged up to 5.15% and stocks shrugged it off. The open question is whether the Nasdaq can clear 26,713 without long-term yields moving higher.",
+      "age_days": 17,
+      "summary": "Today broke the pattern in which stocks shrugged off high yields. The Nasdaq fell 2.6% to 26,009, well short of the 26,713 level, on a day the 10-year yield dropped to 4.95%. High yields were not the trigger; tech is now being marked down for how it is financed. The open question is whether the Nasdaq can reclaim 26,713 or slides toward 25,500.",
       "runs_since_update": 0
     },
     {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 16,
-      "summary": "Brent closed flat at $108.82 after touching a five-month high during the session, while WTI fell 4.56% to $97.15, pushing the gap between them to roughly $11.70 from about $7. Global oil is still tight even as the US benchmark eases. The open question is whether Brent clears $110 and whether the gap keeps widening.",
+      "age_days": 17,
+      "summary": "Brent closed at $113.17 (+4.0%) and WTI at $99.47 (+2.39%), putting Brent $13.70 above WTI. The gap widened because supply is tightest in the global seaborne market, hit by Houthi-Saudi attacks and a UAE oil spill, while the US benchmark is cushioned by domestic supply and a Defense Production Act push to raise output and refining. The open question is whether Brent keeps climbing toward $120.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 0,
-      "summary": "Governments abroad are paying more to borrow: UK inflation rose to 3.5% and UK government debt passed \u00a33 trillion for the first time, while French government bond yields hit their highest since 2002 amid street protests. The US 30-year yield sits at 5.44%, part of the same worldwide pressure on long-term borrowing. The open question is whether foreign bond stress spills into US long-term yields.",
+      "age_days": 1,
+      "summary": "French government bond yields hit another 24-year high, but US Treasuries moved the other way: the 30-year yield fell 0.15 points to 5.29%. For today, US bonds acted as a haven rather than a casualty of foreign stress. The open question is whether that haven bid holds or the 30-year returns above 5.44%.",
       "runs_since_update": 0
     },
     {
       "id": "ai-financing-credit-stress",
       "label": "AI Debt Stress",
       "first_seen": "2026-10-16",
-      "age_days": 3,
-      "summary": "Friday's sell-off came from lenders, not rates, as bond yields and default-insurance prices on the most indebted AI names surged. Today's Nasdaq rebound of 1.11% recovered roughly half of Friday's drop without any visible easing in the lending worry. The open question is whether the stress stays confined to the most indebted AI names or spreads to the wider group of AI borrowers.",
-      "runs_since_update": 2
+      "age_days": 6,
+      "summary": "The lending worry around AI borrowers now has a concrete, visible case: SpaceX is lining up about $40 billion of new borrowing for Nvidia chips while it and Tesla weigh a combination. The Nasdaq fell 2.6% to 26,009 even as Treasury yields dropped, so the sell-off is about lenders' willingness to fund AI spending, not about interest rates. The open question is whether the stress stays inside heavily indebted AI names or reaches small caps and the wider market.",
+      "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 9,
-      "summary": "Fed Chair Kevin Warsh pledged to contain price increases and flagged AI spending as a potential inflation shock, which keeps a hike on the table after consumer inflation re-accelerated to 3.7%. Long-term yields did not rise on the news, with the 10-year at 5.10%. The open question is whether the Fed's stance becomes the thing that stops it from backstopping a stressed AI sector.",
-      "runs_since_update": 3
+      "age_days": 15,
+      "summary": "Fed Chair Kevin Warsh has kept a hike on the table after consumer inflation re-accelerated to 3.7%, and Brent at $113 makes it harder to argue for easing. A stock-market sell-off normally invites a Fed rescue, but oil closes that door. The open question is whether the credit stress becomes severe enough to change the Fed's stance.",
+      "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
@@ -106,6 +106,16 @@
       "year": "1998",
       "context": "Russia's default and the collapse of the hedge fund Long-Term Capital Management",
       "date_used": "2026-10-16"
+    },
+    {
+      "year": "1970",
+      "context": "Penn Central, then the largest US railroad, went bankrupt in June 1970 while owi",
+      "date_used": "2026-10-22"
+    },
+    {
+      "year": "2015",
+      "context": "Energy and mining companies had borrowed heavily at high interest rates, and whe",
+      "date_used": "2026-10-22"
     }
   ],
   "open_watchlist": [
@@ -134,14 +144,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-16-2",
-      "date_added": "2026-10-16",
-      "condition": "The 10-year Treasury yield closes below 5.00%.",
-      "meaning": "Bonds are finally acting as a safe haven, which would signal growth fears are beating inflation fears and could ease the Fed's hawkish pressure on AI borrowers.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-19-0",
       "date_added": "2026-10-19",
       "condition": "The Nasdaq closes above 26,713.",
@@ -158,34 +160,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-20-0",
-      "date_added": "2026-10-20",
-      "condition": "Brent crude closes at $110 or higher.",
-      "meaning": "The emergency-stockpile swaps are no longer capping oil, and the squeeze on smaller companies' costs would be deepening.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-20-2",
-      "date_added": "2026-10-20",
-      "condition": "The 30-year Treasury yield closes below 5.30%.",
-      "meaning": "Long-term borrowing costs are meaningfully easing, which would give the rotation into rate-sensitive companies lasting support.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-21-0",
-      "date_added": "2026-10-21",
-      "condition": "Brent closes more than $12 above WTI.",
-      "meaning": "The global oil squeeze is deepening while US supply eases, meaning the world's fuel bill is rising even as the US benchmark looks calm.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-21-1",
       "date_added": "2026-10-21",
       "condition": "The 30-year Treasury yield closes at 5.50% or higher.",
       "meaning": "Long-term bond stress abroad is reaching the US, which would put the Nasdaq's push toward 26,713 at risk.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-22-0",
+      "date_added": "2026-10-22",
+      "condition": "The S&P 500 closes below 7,500.",
+      "meaning": "The AI-debt worry has grown from a tech-sector problem into a broad market problem.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-22-1",
+      "date_added": "2026-10-22",
+      "condition": "The Russell 2000 closes down 1.5% or more.",
+      "meaning": "Small caps, which held up today, have joined the sell-off, so the funding stress is spreading beyond big tech.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-22-2",
+      "date_added": "2026-10-22",
+      "condition": "Brent closes at $120 or higher.",
+      "meaning": "The oil shock is escalating, which further limits the Fed's ability to ease if credit stress worsens.",
       "status": "open",
       "outcome": ""
     }
