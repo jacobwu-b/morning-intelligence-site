@@ -1,44 +1,52 @@
 {
   "active_themes": [
     {
-      "id": "ai-rally-vs-high-yields",
-      "label": "AI Versus Rising Yields",
-      "first_seen": "2026-10-05",
-      "age_days": 17,
-      "summary": "Today broke the pattern in which stocks shrugged off high yields. The Nasdaq fell 2.6% to 26,009, well short of the 26,713 level, on a day the 10-year yield dropped to 4.95%. High yields were not the trigger; tech is now being marked down for how it is financed. The open question is whether the Nasdaq can reclaim 26,713 or slides toward 25,500.",
-      "runs_since_update": 0
-    },
-    {
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 17,
-      "summary": "Brent closed at $113.17 (+4.0%) and WTI at $99.47 (+2.39%), putting Brent $13.70 above WTI. The gap widened because supply is tightest in the global seaborne market, hit by Houthi-Saudi attacks and a UAE oil spill, while the US benchmark is cushioned by domestic supply and a Defense Production Act push to raise output and refining. The open question is whether Brent keeps climbing toward $120.",
+      "age_days": 18,
+      "summary": "Brent closed at $116.72 (+3.14%) and WTI at $103.27 (+3.82%), leaving Brent $13.45 above WTI, slightly narrower than the prior $13.70. US crude rose faster today, but seaborne supply remains the tightest part of the market. The open question is still whether Brent reaches $120.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 1,
-      "summary": "French government bond yields hit another 24-year high, but US Treasuries moved the other way: the 30-year yield fell 0.15 points to 5.29%. For today, US bonds acted as a haven rather than a casualty of foreign stress. The open question is whether that haven bid holds or the 30-year returns above 5.44%.",
+      "age_days": 2,
+      "summary": "The haven bid in US Treasuries partly reversed: the 30-year yield rose 0.03 points to 5.32% from 5.29%, and the 10-year rose to 4.99%. Moody's left France's rating at Aa3, which gave European bonds some relief. The open question is whether oil pushes the 30-year back above 5.44%.",
       "runs_since_update": 0
     },
     {
       "id": "ai-financing-credit-stress",
       "label": "AI Debt Stress",
       "first_seen": "2026-10-16",
-      "age_days": 6,
-      "summary": "The lending worry around AI borrowers now has a concrete, visible case: SpaceX is lining up about $40 billion of new borrowing for Nvidia chips while it and Tesla weigh a combination. The Nasdaq fell 2.6% to 26,009 even as Treasury yields dropped, so the sell-off is about lenders' willingness to fund AI spending, not about interest rates. The open question is whether the stress stays inside heavily indebted AI names or reaches small caps and the wider market.",
+      "age_days": 7,
+      "summary": "After the Nasdaq's 2.6% drop on the prior day, tech steadied: the Nasdaq fell 0.21% to 25,955 while the Dow fell 1.23%. The Russell 2000 slipped 0.29%, so the stress has not reached small caps. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible test case. The open question is whether one calm session turns into a repair or only a pause.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 15,
-      "summary": "Fed Chair Kevin Warsh has kept a hike on the table after consumer inflation re-accelerated to 3.7%, and Brent at $113 makes it harder to argue for easing. A stock-market sell-off normally invites a Fed rescue, but oil closes that door. The open question is whether the credit stress becomes severe enough to change the Fed's stance.",
+      "age_days": 16,
+      "summary": "Fed Chair Kevin Warsh has kept a hike on the table after inflation re-accelerated to 3.7%, and Brent at $116.72 makes easing harder to defend. Today's rise in yields and the dollar, alongside falling gold, shows markets leaning toward higher-for-longer rates. The open question is whether credit stress gets severe enough to change the Fed's stance.",
       "runs_since_update": 0
+    },
+    {
+      "id": "iran-war-resumption-risk",
+      "label": "Iran War Resumption Risk",
+      "first_seen": "2026-10-23",
+      "age_days": 0,
+      "summary": "Oil is now pricing the chance that fighting with Iran restarts. The US has said it may carry out another military operation, reinforcements are moving to the region, and Iran has detailed plans to hit Gulf undersea cables if war resumes. Brent closed at $116.72 and WTI at $103.27. The open question is whether the standoff ends in strikes (Brent toward and above $120) or fades back toward diplomacy.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-rally-vs-high-yields",
+      "label": "AI Versus Rising Yields",
+      "first_seen": "2026-10-05",
+      "age_days": 17,
+      "summary": "Today broke the pattern in which stocks shrugged off high yields. The Nasdaq fell 2.6% to 26,009, well short of the 26,713 level, on a day the 10-year yield dropped to 4.95%. High yields were not the trigger; tech is now being marked down for how it is financed. The open question is whether the Nasdaq can reclaim 26,713 or slides toward 25,500.",
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -116,6 +124,16 @@
       "year": "2015",
       "context": "Energy and mining companies had borrowed heavily at high interest rates, and whe",
       "date_used": "2026-10-22"
+    },
+    {
+      "year": "1979",
+      "context": "Iran's revolution disrupted oil output in 1979, and crude roughly doubled over t",
+      "date_used": "2026-10-23"
+    },
+    {
+      "year": "1984",
+      "context": "In the Iran-Iraq 'Tanker War' that ran through 1988, the two sides attacked hund",
+      "date_used": "2026-10-23"
     }
   ],
   "open_watchlist": [
@@ -188,6 +206,14 @@
       "date_added": "2026-10-22",
       "condition": "Brent closes at $120 or higher.",
       "meaning": "The oil shock is escalating, which further limits the Fed's ability to ease if credit stress worsens.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-23-0",
+      "date_added": "2026-10-23",
+      "condition": "Brent closes below $110.",
+      "meaning": "The Iran war premium is draining out of oil, which would ease the inflation squeeze on the Fed and on consumers.",
       "status": "open",
       "outcome": ""
     }
