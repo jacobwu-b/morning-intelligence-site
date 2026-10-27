@@ -4,49 +4,49 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 18,
-      "summary": "Brent closed at $116.72 (+3.14%) and WTI at $103.27 (+3.82%), leaving Brent $13.45 above WTI, slightly narrower than the prior $13.70. US crude rose faster today, but seaborne supply remains the tightest part of the market. The open question is still whether Brent reaches $120.",
+      "age_days": 21,
+      "summary": "Brent slipped 0.78% to $115.81 and WTI fell 1.46% to $101.76, widening the Brent premium to about $14.05 from $13.45. US crude fell faster, while seaborne supply stays the tightest part of the market. The open question is whether Brent reaches $120 or sags toward $110.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 2,
-      "summary": "The haven bid in US Treasuries partly reversed: the 30-year yield rose 0.03 points to 5.32% from 5.29%, and the 10-year rose to 4.99%. Moody's left France's rating at Aa3, which gave European bonds some relief. The open question is whether oil pushes the 30-year back above 5.44%.",
+      "age_days": 5,
+      "summary": "Treasury yields went quiet: the 10-year was unchanged at 4.99% and the 30-year slipped 0.01 points to 5.30%. Long-term borrowing costs remain near multi-year highs even without a fresh push higher. The open question is whether oil or Fed signals drive the 30-year back toward 5.44%.",
       "runs_since_update": 0
     },
     {
       "id": "ai-financing-credit-stress",
       "label": "AI Debt Stress",
       "first_seen": "2026-10-16",
-      "age_days": 7,
-      "summary": "After the Nasdaq's 2.6% drop on the prior day, tech steadied: the Nasdaq fell 0.21% to 25,955 while the Dow fell 1.23%. The Russell 2000 slipped 0.29%, so the stress has not reached small caps. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible test case. The open question is whether one calm session turns into a repair or only a pause.",
+      "age_days": 10,
+      "summary": "Tech extended its steadying with the Nasdaq up 0.82% to 26,169 and the Russell 2000 up 0.38%, so the stress still has not reached small caps. Meta's $95 billion fundraising drive built around a share sale and Anthropic's IPO filing show AI funding shifting from debt toward equity, which relieves the debt-repayment worry but adds a large supply of new shares. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible debt test case. The open question is whether buyers keep absorbing new AI stock at high prices.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 16,
-      "summary": "Fed Chair Kevin Warsh has kept a hike on the table after inflation re-accelerated to 3.7%, and Brent at $116.72 makes easing harder to defend. Today's rise in yields and the dollar, alongside falling gold, shows markets leaning toward higher-for-longer rates. The open question is whether credit stress gets severe enough to change the Fed's stance.",
+      "age_days": 19,
+      "summary": "The Fed's decision comes this week, following the September rate hike, the first in three years. Inflation at 3.7% and Brent still above $115 keep another hike on the table. The open question is whether credit stress becomes severe enough to change the Fed's stance.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 0,
-      "summary": "Oil is now pricing the chance that fighting with Iran restarts. The US has said it may carry out another military operation, reinforcements are moving to the region, and Iran has detailed plans to hit Gulf undersea cables if war resumes. Brent closed at $116.72 and WTI at $103.27. The open question is whether the standoff ends in strikes (Brent toward and above $120) or fades back toward diplomacy.",
+      "age_days": 3,
+      "summary": "Diplomacy hopes pulled oil modestly lower, but renewed Houthi missile and drone attacks on Saudi Arabia, intercepted by the Saudi-led coalition, kept a floor under prices. Gold rose 0.76% alongside a firmer dollar, a sign investors are not fully trusting the diplomatic calm. The open question is whether talks hold or the standoff turns into strikes.",
       "runs_since_update": 0
     },
     {
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 17,
-      "summary": "Today broke the pattern in which stocks shrugged off high yields. The Nasdaq fell 2.6% to 26,009, well short of the 26,713 level, on a day the 10-year yield dropped to 4.95%. High yields were not the trigger; tech is now being marked down for how it is financed. The open question is whether the Nasdaq can reclaim 26,713 or slides toward 25,500.",
-      "runs_since_update": 1
+      "age_days": 21,
+      "summary": "The Nasdaq closed at 26,169, recovering part of the recent drop but still short of the 26,713 level that would signal a full repair. The 10-year yield was flat at 4.99%, so high yields are neither easing nor adding pressure. The open question is whether the Nasdaq can reclaim 26,713 or slides back toward 25,500.",
+      "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
@@ -138,30 +138,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-15-3",
-      "date_added": "2026-10-15",
-      "condition": "The 10-year Treasury yield closes above 5.25% on a day the Russell 2000 falls 1% or more.",
-      "meaning": "It would show the bond-market relief has ended and higher borrowing costs are hitting the stocks that benefited most today.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-16-0",
-      "date_added": "2026-10-16",
-      "condition": "The VIX closes at 25 or higher.",
-      "meaning": "The AI-credit worry has turned into broad fear across the market rather than a tech-only sell-off.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-16-1",
-      "date_added": "2026-10-16",
-      "condition": "The Nasdaq closes below 25,500.",
-      "meaning": "The AI-funding sell-off is extending beyond a one-day shock, and a further 2.5% drop from today would confirm that tech leadership is breaking.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-19-0",
       "date_added": "2026-10-19",
       "condition": "The Nasdaq closes above 26,713.",
@@ -214,6 +190,30 @@
       "date_added": "2026-10-23",
       "condition": "Brent closes below $110.",
       "meaning": "The Iran war premium is draining out of oil, which would ease the inflation squeeze on the Fed and on consumers.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-26-0",
+      "date_added": "2026-10-26",
+      "condition": "The Fed announces another rate increase at its decision this week.",
+      "meaning": "A second hike would confirm that inflation at 3.7% outweighs credit worries and make expensive AI financing harder to defend.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-26-2",
+      "date_added": "2026-10-26",
+      "condition": "The VIX closes below 16.",
+      "meaning": "It would show the fear behind last week's tech selloff has largely faded and that equity funding is being welcomed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-26-3",
+      "date_added": "2026-10-26",
+      "condition": "Brent closes at least $15 above WTI.",
+      "meaning": "A wider gap would mean tight seaborne supply is outweighing the diplomacy-driven dip in US crude, keeping the inflation pressure intact.",
       "status": "open",
       "outcome": ""
     }
