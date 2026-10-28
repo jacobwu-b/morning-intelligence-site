@@ -4,16 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 21,
-      "summary": "Brent slipped 0.78% to $115.81 and WTI fell 1.46% to $101.76, widening the Brent premium to about $14.05 from $13.45. US crude fell faster, while seaborne supply stays the tightest part of the market. The open question is whether Brent reaches $120 or sags toward $110.",
+      "age_days": 22,
+      "summary": "Brent fell 1.67% to $113.88 and WTI fell 1.83% to $99.90, narrowing the Brent premium to about $13.98 from $14.05. Seaborne supply is still the tightest part of the market, and an attack on a Saudi refinery is a reminder that dips are fragile. The open question is whether Brent breaks below $110 or rebounds toward $120.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 5,
-      "summary": "Treasury yields went quiet: the 10-year was unchanged at 4.99% and the 30-year slipped 0.01 points to 5.30%. Long-term borrowing costs remain near multi-year highs even without a fresh push higher. The open question is whether oil or Fed signals drive the 30-year back toward 5.44%.",
+      "age_days": 6,
+      "summary": "US yields were quiet, with the 10-year at 4.99% and the 30-year at 5.30%. Britain, however, paid its highest price for five-year borrowing since 2008 ahead of its budget, while UK shop-price inflation is the highest since 2024. Global lenders are still charging more even when US yields stall. The open question is whether the US 30-year heads back toward 5.44% and 5.50%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 20,
+      "summary": "The Fed's decision comes this week, following September's hike, the first in three years. Inflation at 3.7% and Brent above $113 keep a second hike on the table, while a calmer VIX shows markets are not panicking ahead of it. The open question is whether credit stress or the oil slide changes the Fed's stance.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-rally-vs-high-yields",
+      "label": "AI Versus Rising Yields",
+      "first_seen": "2026-10-05",
+      "age_days": 22,
+      "summary": "The Nasdaq rose 1.18% to 26,478, now under 1% from the 26,713 level that would signal a full repair. The 10-year yield sat at 4.99%, just under the 5% line, so high yields did not add pressure. The open question is whether tech can clear 26,713 or whether the 10-year pushes above 5% and drags it back toward 25,500.",
       "runs_since_update": 0
     },
     {
@@ -22,15 +38,7 @@
       "first_seen": "2026-10-16",
       "age_days": 10,
       "summary": "Tech extended its steadying with the Nasdaq up 0.82% to 26,169 and the Russell 2000 up 0.38%, so the stress still has not reached small caps. Meta's $95 billion fundraising drive built around a share sale and Anthropic's IPO filing show AI funding shifting from debt toward equity, which relieves the debt-repayment worry but adds a large supply of new shares. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible debt test case. The open question is whether buyers keep absorbing new AI stock at high prices.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 19,
-      "summary": "The Fed's decision comes this week, following the September rate hike, the first in three years. Inflation at 3.7% and Brent still above $115 keep another hike on the table. The open question is whether credit stress becomes severe enough to change the Fed's stance.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "iran-war-resumption-risk",
@@ -38,15 +46,7 @@
       "first_seen": "2026-10-23",
       "age_days": 3,
       "summary": "Diplomacy hopes pulled oil modestly lower, but renewed Houthi missile and drone attacks on Saudi Arabia, intercepted by the Saudi-led coalition, kept a floor under prices. Gold rose 0.76% alongside a firmer dollar, a sign investors are not fully trusting the diplomatic calm. The open question is whether talks hold or the standoff turns into strikes.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-rally-vs-high-yields",
-      "label": "AI Versus Rising Yields",
-      "first_seen": "2026-10-05",
-      "age_days": 21,
-      "summary": "The Nasdaq closed at 26,169, recovering part of the recent drop but still short of the 26,713 level that would signal a full repair. The 10-year yield was flat at 4.99%, so high yields are neither easing nor adding pressure. The open question is whether the Nasdaq can reclaim 26,713 or slides back toward 25,500.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -138,14 +138,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-19-0",
-      "date_added": "2026-10-19",
-      "condition": "The Nasdaq closes above 26,713.",
-      "meaning": "The prior brief's level is recovered in full, and the credit-driven AI sell-off is more likely behind us.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-19-2",
       "date_added": "2026-10-19",
       "condition": "The 10-year Treasury yield closes at 5.20% or higher on a day the Nasdaq falls 1% or more.",
@@ -214,6 +206,14 @@
       "date_added": "2026-10-26",
       "condition": "Brent closes at least $15 above WTI.",
       "meaning": "A wider gap would mean tight seaborne supply is outweighing the diplomacy-driven dip in US crude, keeping the inflation pressure intact.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-27-1",
+      "date_added": "2026-10-27",
+      "condition": "The Nasdaq closes below 25,500.",
+      "meaning": "Today's bounce would have fully reversed, which means the market is choosing high yields over the AI story.",
       "status": "open",
       "outcome": ""
     }
