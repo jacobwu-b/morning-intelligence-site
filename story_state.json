@@ -4,32 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 23,
-      "summary": "Brent rose 1.26% to $115.32 and WTI rose 2.88% to $102.78, undoing the prior session's dip and narrowing the Brent premium to about $12.54. Seaborne supply is still tight, so dips keep proving fragile. The open question is whether Brent breaks below $110 or rebounds toward $120.",
+      "age_days": 24,
+      "summary": "Brent slipped 0.38% to $114.88 and WTI 0.76% to $102.00, a small dip even after a tanker attack near Hormuz, and a 40-million-barrel loan from the US emergency reserve adds supply at the margin. Seaborne supply is still tight, so dips keep proving shallow. The open question is whether Brent breaks below $110 or rebounds toward $120.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 7,
-      "summary": "The 10-year yield rose 0.05 points to 5.05%, back above 5%, and the 30-year rose to 5.36%, still short of 5.50%. Australia's inflation rate rising to 4.3% adds to the sense that central banks everywhere are tightening into an energy shock. The open question is whether the 10-year holds above 5% or slips back under it.",
+      "age_days": 8,
+      "summary": "The 10-year yield closed at 4.99%, down 0.06 points, and the 30-year at 5.33%, still short of 5.50%. The European Central Bank's president, Christine Lagarde, said the bank is ready to step into markets if needed, a signal that policymakers are watching bond stress. The open question is whether the 10-year stays under 5% or buyers fade again with inflation at 3.7%.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 21,
-      "summary": "The Fed held rates in a split vote after September's hike, and Chair Kevin Warsh denied that the midterms influenced the decision. Markets widely expect a hike in December with inflation at 3.7% and oil above $100. The open question is whether oil or credit stress changes that path before December.",
+      "age_days": 22,
+      "summary": "The Fed held rates Wednesday after September's hike, and Thursday's data showed third-quarter growth of 3.4% with inflation at 3.7%. That leaves little case for the Fed to ease, and a December hike remains the market's base case. The open question is whether oil or credit stress changes that path before December.",
       "runs_since_update": 0
     },
     {
       "id": "ai-rally-vs-high-yields",
       "label": "AI Versus Rising Yields",
       "first_seen": "2026-10-05",
-      "age_days": 23,
-      "summary": "The Nasdaq rose 0.27% to 26,550, about 0.6% below the 26,713 level that would signal a full repair, even as the 10-year yield moved above 5%. Tech is tolerating high yields so far. The open question is whether it clears 26,713 or the yield climbs far enough to drag it back toward 25,500.",
+      "age_days": 24,
+      "summary": "The Nasdaq fell 1.38% to 26,185, about 2% below the 26,713 level that would signal a full repair, after investors split Alphabet (punished) from Microsoft (spared) following earnings. The 10-year yield dipped back under 5%, yet tech still fell, so today's weakness came from company reactions, not from rates. The open question is whether the earnings split stays a one-day sorting or becomes a broader pullback toward 25,500.",
       "runs_since_update": 0
     },
     {
@@ -38,7 +38,7 @@
       "first_seen": "2026-10-16",
       "age_days": 10,
       "summary": "Tech extended its steadying with the Nasdaq up 0.82% to 26,169 and the Russell 2000 up 0.38%, so the stress still has not reached small caps. Meta's $95 billion fundraising drive built around a share sale and Anthropic's IPO filing show AI funding shifting from debt toward equity, which relieves the debt-repayment worry but adds a large supply of new shares. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible debt test case. The open question is whether buyers keep absorbing new AI stock at high prices.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     },
     {
       "id": "iran-war-resumption-risk",
@@ -46,7 +46,7 @@
       "first_seen": "2026-10-23",
       "age_days": 3,
       "summary": "Diplomacy hopes pulled oil modestly lower, but renewed Houthi missile and drone attacks on Saudi Arabia, intercepted by the Saudi-led coalition, kept a floor under prices. Gold rose 0.76% alongside a firmer dollar, a sign investors are not fully trusting the diplomatic calm. The open question is whether talks hold or the standoff turns into strikes.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -138,22 +138,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-22-0",
-      "date_added": "2026-10-22",
-      "condition": "The S&P 500 closes below 7,500.",
-      "meaning": "The AI-debt worry has grown from a tech-sector problem into a broad market problem.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-22-1",
-      "date_added": "2026-10-22",
-      "condition": "The Russell 2000 closes down 1.5% or more.",
-      "meaning": "Small caps, which held up today, have joined the sell-off, so the funding stress is spreading beyond big tech.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-22-2",
       "date_added": "2026-10-22",
       "condition": "Brent closes at $120 or higher.",
@@ -202,18 +186,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-28-1",
-      "date_added": "2026-10-28",
-      "condition": "The 10-year Treasury yield closes below 5.00%.",
-      "meaning": "Today's move above 5% was a false breakout, which would ease the pressure on stocks and borrowers.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-28-3",
       "date_added": "2026-10-28",
       "condition": "WTI closes above $105.",
       "meaning": "The oil rebound is deepening, which strengthens the inflation case behind a December hike.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-29-0",
+      "date_added": "2026-10-29",
+      "condition": "The 10-year Treasury yield closes at or above 5.10%.",
+      "meaning": "Today's dip under 5% was a pause, the global bond strain is resuming, and the pressure on high-priced tech returns.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-29-1",
+      "date_added": "2026-10-29",
+      "condition": "The Nasdaq closes down 2% or more in a single session.",
+      "meaning": "The sorting among AI spenders has turned into broad selling of tech, a harder test than today's rotation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-29-2",
+      "date_added": "2026-10-29",
+      "condition": "The Russell 2000 closes above 2,900.",
+      "meaning": "Small caps are carrying the market's leadership as yields ease, so the rotation out of mega-cap tech is lasting rather than a one-day move.",
       "status": "open",
       "outcome": ""
     }
