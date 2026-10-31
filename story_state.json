@@ -4,16 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 24,
-      "summary": "Brent slipped 0.38% to $114.88 and WTI 0.76% to $102.00, a small dip even after a tanker attack near Hormuz, and a 40-million-barrel loan from the US emergency reserve adds supply at the margin. Seaborne supply is still tight, so dips keep proving shallow. The open question is whether Brent breaks below $110 or rebounds toward $120.",
+      "age_days": 25,
+      "summary": "Four tankers caught fire in the Strait of Hormuz and Brent rose 2.4% to $117.64, WTI 2.08% to $104.12. The gap between them is about $13.50, a sign seaborne oil is still scarcer than oil inside the US. The open question is whether Brent reclaims $120 or the emergency reserve loan and diplomacy pull it back under $110.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 8,
-      "summary": "The 10-year yield closed at 4.99%, down 0.06 points, and the 30-year at 5.33%, still short of 5.50%. The European Central Bank's president, Christine Lagarde, said the bank is ready to step into markets if needed, a signal that policymakers are watching bond stress. The open question is whether the 10-year stays under 5% or buyers fade again with inflation at 3.7%.",
+      "age_days": 9,
+      "summary": "The 10-year Treasury yield fell 0.06 points to 4.93% and the 30-year fell 0.02 points to 5.31% as buyers sought safety from the stock sell-off. That keeps the 10-year under 5%, but with inflation at 3.7% the relief depends on stocks staying weak. The open question is whether the 10-year can stay under 5% if oil keeps climbing.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "iran-war-resumption-risk",
+      "label": "Iran War Resumption Risk",
+      "first_seen": "2026-10-23",
+      "age_days": 7,
+      "summary": "Iran's Revolutionary Guards navy said four tankers caught fire in Hormuz, while a Saudi-led coalition downed another drone over Saudi Arabia's oil-rich Eastern Region. Diplomacy has not stopped attacks on energy infrastructure. The open question is whether these incidents stay isolated or become a sustained campaign against shipping.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-spending-backlash",
+      "label": "AI Spending Backlash",
+      "first_seen": "2026-10-30",
+      "age_days": 0,
+      "summary": "On October 30 the Nasdaq fell 2.86% to 25,437 as results from Amazon, Alphabet and Intel revived fears that AI spending is outrunning AI revenue. Bond yields fell on the day, so the damage came from doubts about returns, not from interest rates. The open question is whether the doubt stays inside big tech (the Russell 2000 fell 1.66%, less than the Nasdaq) or spreads to the wider market.",
       "runs_since_update": 0
     },
     {
@@ -22,7 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 22,
       "summary": "The Fed held rates Wednesday after September's hike, and Thursday's data showed third-quarter growth of 3.4% with inflation at 3.7%. That leaves little case for the Fed to ease, and a December hike remains the market's base case. The open question is whether oil or credit stress changes that path before December.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "ai-rally-vs-high-yields",
@@ -30,23 +46,7 @@
       "first_seen": "2026-10-05",
       "age_days": 24,
       "summary": "The Nasdaq fell 1.38% to 26,185, about 2% below the 26,713 level that would signal a full repair, after investors split Alphabet (punished) from Microsoft (spared) following earnings. The 10-year yield dipped back under 5%, yet tech still fell, so today's weakness came from company reactions, not from rates. The open question is whether the earnings split stays a one-day sorting or becomes a broader pullback toward 25,500.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-financing-credit-stress",
-      "label": "AI Debt Stress",
-      "first_seen": "2026-10-16",
-      "age_days": 10,
-      "summary": "Tech extended its steadying with the Nasdaq up 0.82% to 26,169 and the Russell 2000 up 0.38%, so the stress still has not reached small caps. Meta's $95 billion fundraising drive built around a share sale and Anthropic's IPO filing show AI funding shifting from debt toward equity, which relieves the debt-repayment worry but adds a large supply of new shares. SpaceX's roughly $40 billion borrowing for Nvidia chips remains the visible debt test case. The open question is whether buyers keep absorbing new AI stock at high prices.",
-      "runs_since_update": 3
-    },
-    {
-      "id": "iran-war-resumption-risk",
-      "label": "Iran War Resumption Risk",
-      "first_seen": "2026-10-23",
-      "age_days": 3,
-      "summary": "Diplomacy hopes pulled oil modestly lower, but renewed Houthi missile and drone attacks on Saudi Arabia, intercepted by the Saudi-led coalition, kept a floor under prices. Gold rose 0.76% alongside a firmer dollar, a sign investors are not fully trusting the diplomatic calm. The open question is whether talks hold or the standoff turns into strikes.",
-      "runs_since_update": 3
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
@@ -134,6 +134,16 @@
       "year": "1984",
       "context": "In the Iran-Iraq 'Tanker War' that ran through 1988, the two sides attacked hund",
       "date_used": "2026-10-23"
+    },
+    {
+      "year": "2018",
+      "context": "From late September to Christmas Eve 2018, the S&P 500 fell almost 20% and the N",
+      "date_used": "2026-10-30"
+    },
+    {
+      "year": "1973",
+      "context": "The Nifty Fifty were the era's can't-miss growth giants, bought at very high pri",
+      "date_used": "2026-10-30"
     }
   ],
   "open_watchlist": [
@@ -170,22 +180,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-27-1",
-      "date_added": "2026-10-27",
-      "condition": "The Nasdaq closes below 25,500.",
-      "meaning": "Today's bounce would have fully reversed, which means the market is choosing high yields over the AI story.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-28-0",
-      "date_added": "2026-10-28",
-      "condition": "The Nasdaq closes above 26,713.",
-      "meaning": "Tech has fully repaired its damage despite 5% yields, so markets are shrugging off the December hike risk.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-28-3",
       "date_added": "2026-10-28",
       "condition": "WTI closes above $105.",
@@ -202,18 +196,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-29-1",
-      "date_added": "2026-10-29",
-      "condition": "The Nasdaq closes down 2% or more in a single session.",
-      "meaning": "The sorting among AI spenders has turned into broad selling of tech, a harder test than today's rotation.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-29-2",
       "date_added": "2026-10-29",
       "condition": "The Russell 2000 closes above 2,900.",
       "meaning": "Small caps are carrying the market's leadership as yields ease, so the rotation out of mega-cap tech is lasting rather than a one-day move.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-30-1",
+      "date_added": "2026-10-30",
+      "condition": "The VIX closes above 25.",
+      "meaning": "Fear would be rising from a moderate level to a stress level, a sign that selling has become forced rather than selective.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-30-2",
+      "date_added": "2026-10-30",
+      "condition": "The Russell 2000 closes below 2,750.",
+      "meaning": "Small caps breaking lower would show the damage has moved beyond big tech into the broader economy.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-10-30-3",
+      "date_added": "2026-10-30",
+      "condition": "Gold closes below 3,800.",
+      "meaning": "A further drop would confirm investors are selling their winners to raise cash, a sign of forced selling rather than a calm rotation.",
       "status": "open",
       "outcome": ""
     }
