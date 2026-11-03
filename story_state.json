@@ -4,32 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 25,
-      "summary": "Four tankers caught fire in the Strait of Hormuz and Brent rose 2.4% to $117.64, WTI 2.08% to $104.12. The gap between them is about $13.50, a sign seaborne oil is still scarcer than oil inside the US. The open question is whether Brent reclaims $120 or the emergency reserve loan and diplomacy pull it back under $110.",
+      "age_days": 28,
+      "summary": "Brent fell from $117.64 to $104.77 and WTI from $104.12 to $96.46, which puts Brent below the $110 line the brief had been watching. The gap between the two narrowed from about $13.50 to about $8.30, so seaborne oil looks less scarce in price terms. The drop rests on diplomatic hopes, not on a signed deal, so the open question is whether Brent holds under $110 if talks stall.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 9,
-      "summary": "The 10-year Treasury yield fell 0.06 points to 4.93% and the 30-year fell 0.02 points to 5.31% as buyers sought safety from the stock sell-off. That keeps the 10-year under 5%, but with inflation at 3.7% the relief depends on stocks staying weak. The open question is whether the 10-year can stay under 5% if oil keeps climbing.",
+      "age_days": 12,
+      "summary": "The 10-year Treasury yield fell 0.03 points to 4.89% and the 30-year fell 0.04 points to 5.27%, a small move for an oil drop of this size. With inflation at 3.7%, bond buyers are not yet treating cheaper oil as lasting relief. The open question is whether yields fall meaningfully if oil stays lower.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 7,
-      "summary": "Iran's Revolutionary Guards navy said four tankers caught fire in Hormuz, while a Saudi-led coalition downed another drone over Saudi Arabia's oil-rich Eastern Region. Diplomacy has not stopped attacks on energy infrastructure. The open question is whether these incidents stay isolated or become a sustained campaign against shipping.",
+      "age_days": 10,
+      "summary": "Talks ended without a breakthrough, though Iran says contacts on ending the war continue, and US officials described 'defensive' strikes on Iran's Qeshm Island. Markets looked past the strikes and priced the diplomacy. The open question is whether the talks produce an actual agreement or whether attacks on shipping and energy sites resume.",
       "runs_since_update": 0
     },
     {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 0,
-      "summary": "On October 30 the Nasdaq fell 2.86% to 25,437 as results from Amazon, Alphabet and Intel revived fears that AI spending is outrunning AI revenue. Bond yields fell on the day, so the damage came from doubts about returns, not from interest rates. The open question is whether the doubt stays inside big tech (the Russell 2000 fell 1.66%, less than the Nasdaq) or spreads to the wider market.",
+      "age_days": 3,
+      "summary": "The Nasdaq fell another 1.07% to 25,164, extending the October 30 drop of 2.86%, while the Russell 2000 slipped only 0.21% and the Dow rose 0.41%. The doubt is still concentrated in big tech and has not spread to the wider market. The open question is whether the Russell 2000 holds above 2,750 or the weakness broadens.",
       "runs_since_update": 0
     },
     {
@@ -38,7 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 22,
       "summary": "The Fed held rates Wednesday after September's hike, and Thursday's data showed third-quarter growth of 3.4% with inflation at 3.7%. That leaves little case for the Fed to ease, and a December hike remains the market's base case. The open question is whether oil or credit stress changes that path before December.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "ai-rally-vs-high-yields",
@@ -46,20 +46,10 @@
       "first_seen": "2026-10-05",
       "age_days": 24,
       "summary": "The Nasdaq fell 1.38% to 26,185, about 2% below the 26,713 level that would signal a full repair, after investors split Alphabet (punished) from Microsoft (spared) following earnings. The 10-year yield dipped back under 5%, yet tech still fell, so today's weakness came from company reactions, not from rates. The open question is whether the earnings split stays a one-day sorting or becomes a broader pullback toward 25,500.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2022",
-      "context": "From mid-June to mid-August 2022, the S&P 500 rallied roughly 17% on hopes that ",
-      "date_used": "2026-10-02"
-    },
-    {
-      "year": "1990",
-      "context": "After Iraq invaded Kuwait in August 1990, oil prices roughly doubled and a US re",
-      "date_used": "2026-10-02"
-    },
     {
       "year": "2000",
       "context": "The Fed raised rates six times between June 1999 and May 2000, taking its target",
@@ -148,42 +138,10 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-22-2",
-      "date_added": "2026-10-22",
-      "condition": "Brent closes at $120 or higher.",
-      "meaning": "The oil shock is escalating, which further limits the Fed's ability to ease if credit stress worsens.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-23-0",
-      "date_added": "2026-10-23",
-      "condition": "Brent closes below $110.",
-      "meaning": "The Iran war premium is draining out of oil, which would ease the inflation squeeze on the Fed and on consumers.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-26-2",
       "date_added": "2026-10-26",
       "condition": "The VIX closes below 16.",
       "meaning": "It would show the fear behind last week's tech selloff has largely faded and that equity funding is being welcomed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-26-3",
-      "date_added": "2026-10-26",
-      "condition": "Brent closes at least $15 above WTI.",
-      "meaning": "A wider gap would mean tight seaborne supply is outweighing the diplomacy-driven dip in US crude, keeping the inflation pressure intact.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-28-3",
-      "date_added": "2026-10-28",
-      "condition": "WTI closes above $105.",
-      "meaning": "The oil rebound is deepening, which strengthens the inflation case behind a December hike.",
       "status": "open",
       "outcome": ""
     },
@@ -224,6 +182,38 @@
       "date_added": "2026-10-30",
       "condition": "Gold closes below 3,800.",
       "meaning": "A further drop would confirm investors are selling their winners to raise cash, a sign of forced selling rather than a calm rotation.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-02-0",
+      "date_added": "2026-11-02",
+      "condition": "Brent closes back above $110.",
+      "meaning": "The market has stopped believing in a quick Iran deal, and today's oil drop was only a one-day bet.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-02-1",
+      "date_added": "2026-11-02",
+      "condition": "Brent closes below $100.",
+      "meaning": "Traders are treating a deal as real, which would take real pressure off inflation and the Fed's hiking path.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-02-2",
+      "date_added": "2026-11-02",
+      "condition": "The 10-year Treasury yield closes below 4.75%.",
+      "meaning": "Bond buyers finally believe cheaper oil will last, which would be the first real sign of relief on borrowing costs.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-02-3",
+      "date_added": "2026-11-02",
+      "condition": "The Nasdaq closes below 24,500.",
+      "meaning": "The AI-spending doubt is deepening beyond a two-day reaction and big tech is heading for a larger correction.",
       "status": "open",
       "outcome": ""
     }
