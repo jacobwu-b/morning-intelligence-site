@@ -4,32 +4,40 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 28,
-      "summary": "Brent fell from $117.64 to $104.77 and WTI from $104.12 to $96.46, which puts Brent below the $110 line the brief had been watching. The gap between the two narrowed from about $13.50 to about $8.30, so seaborne oil looks less scarce in price terms. The drop rests on diplomatic hopes, not on a signed deal, so the open question is whether Brent holds under $110 if talks stall.",
+      "age_days": 29,
+      "summary": "Brent slipped 1.12% to $103.60 and WTI 0.38% to $96.09, so Brent is holding well under the $110 line. The gap between the two narrowed to about $7.50. The decline rests on diplomacy, not a signed deal, and reports of tankers hitting mines near Hormuz show the waterway is still dangerous.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 12,
-      "summary": "The 10-year Treasury yield fell 0.03 points to 4.89% and the 30-year fell 0.04 points to 5.27%, a small move for an oil drop of this size. With inflation at 3.7%, bond buyers are not yet treating cheaper oil as lasting relief. The open question is whether yields fall meaningfully if oil stays lower.",
+      "age_days": 13,
+      "summary": "The 10-year yield rose 0.06 points to 4.95% and the 30-year rose 0.05 points to 5.32% on a day oil fell again. Cheaper oil is not pulling yields down while inflation sits at 3.7% and the Fed leans toward hiking. The open question is whether the 10-year breaks above 5.00% even as oil eases.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 10,
-      "summary": "Talks ended without a breakthrough, though Iran says contacts on ending the war continue, and US officials described 'defensive' strikes on Iran's Qeshm Island. Markets looked past the strikes and priced the diplomacy. The open question is whether the talks produce an actual agreement or whether attacks on shipping and energy sites resume.",
+      "age_days": 11,
+      "summary": "Iran's Revolutionary Guard says four tankers caught fire after hitting mines near the Strait of Hormuz, and a ship was attacked near Oman with one Indian crew member killed. Oil still fell, so markets are betting that the diplomatic track outweighs these incidents. The open question is whether incidents like these turn into sustained attacks on shipping.",
       "runs_since_update": 0
     },
     {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 3,
-      "summary": "The Nasdaq fell another 1.07% to 25,164, extending the October 30 drop of 2.86%, while the Russell 2000 slipped only 0.21% and the Dow rose 0.41%. The doubt is still concentrated in big tech and has not spread to the wider market. The open question is whether the Russell 2000 holds above 2,750 or the weakness broadens.",
+      "age_days": 4,
+      "summary": "The Nasdaq bounced 0.83% to 25,372 after a sharp two-session slide, outperforming the Russell 2000's 0.23% gain. The doubt is still concentrated in big tech, and one up day does not repair it. The open question is whether the Nasdaq can recover toward 26,713 or rolls over again.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "midterm-sweep-policy-check",
+      "label": "Democratic Sweep Reaction",
+      "first_seen": "2026-11-03",
+      "age_days": 0,
+      "summary": "Democrats swept the midterms, and the S&P 500 rose only 0.36%, so markets did not treat the result as a shock. Investors, especially in Asia, are hoping a Democratic Congress limits tariffs and the Iran war. The open question is whether the result changes anything the Fed or bond buyers care about, namely inflation and deficits.",
       "runs_since_update": 0
     },
     {
@@ -38,28 +46,10 @@
       "first_seen": "2026-10-07",
       "age_days": 22,
       "summary": "The Fed held rates Wednesday after September's hike, and Thursday's data showed third-quarter growth of 3.4% with inflation at 3.7%. That leaves little case for the Fed to ease, and a December hike remains the market's base case. The open question is whether oil or credit stress changes that path before December.",
-      "runs_since_update": 2
-    },
-    {
-      "id": "ai-rally-vs-high-yields",
-      "label": "AI Versus Rising Yields",
-      "first_seen": "2026-10-05",
-      "age_days": 24,
-      "summary": "The Nasdaq fell 1.38% to 26,185, about 2% below the 26,713 level that would signal a full repair, after investors split Alphabet (punished) from Microsoft (spared) following earnings. The 10-year yield dipped back under 5%, yet tech still fell, so today's weakness came from company reactions, not from rates. The open question is whether the earnings split stays a one-day sorting or becomes a broader pullback toward 25,500.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2000",
-      "context": "The Fed raised rates six times between June 1999 and May 2000, taking its target",
-      "date_used": "2026-10-05"
-    },
-    {
-      "year": "1987",
-      "context": "The 10-year Treasury yield rose from roughly 7% to about 10% through 1987, while",
-      "date_used": "2026-10-05"
-    },
     {
       "year": "1994",
       "context": "The Fed doubled short-term rates over 1994 and the 10-year Treasury yield rose f",
@@ -138,22 +128,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-26-2",
-      "date_added": "2026-10-26",
-      "condition": "The VIX closes below 16.",
-      "meaning": "It would show the fear behind last week's tech selloff has largely faded and that equity funding is being welcomed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-29-0",
-      "date_added": "2026-10-29",
-      "condition": "The 10-year Treasury yield closes at or above 5.10%.",
-      "meaning": "Today's dip under 5% was a pause, the global bond strain is resuming, and the pressure on high-priced tech returns.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-10-29-2",
       "date_added": "2026-10-29",
       "condition": "The Russell 2000 closes above 2,900.",
@@ -214,6 +188,22 @@
       "date_added": "2026-11-02",
       "condition": "The Nasdaq closes below 24,500.",
       "meaning": "The AI-spending doubt is deepening beyond a two-day reaction and big tech is heading for a larger correction.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-03-1",
+      "date_added": "2026-11-03",
+      "condition": "The 30-year Treasury yield closes above 5.40%.",
+      "meaning": "The longest borrowing costs would be pushing meaningfully higher, deepening the strain on mortgages, stocks and company borrowing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-03-2",
+      "date_added": "2026-11-03",
+      "condition": "The Nasdaq closes above 26,713.",
+      "meaning": "That would mark a full repair of the AI selloff and show today's bounce was the start of a recovery, not a pause.",
       "status": "open",
       "outcome": ""
     }
