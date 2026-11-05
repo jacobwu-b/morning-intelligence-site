@@ -4,62 +4,52 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 29,
-      "summary": "Brent slipped 1.12% to $103.60 and WTI 0.38% to $96.09, so Brent is holding well under the $110 line. The gap between the two narrowed to about $7.50. The decline rests on diplomacy, not a signed deal, and reports of tankers hitting mines near Hormuz show the waterway is still dangerous.",
+      "age_days": 30,
+      "summary": "Brent fell 8.67% to $94.62 and WTI 8.29% to $88.12, taking crude well below the $100 line on bets that politics will restrain the war. No deal is signed and ships are still catching fire near Hormuz, so the drop rests on expectations. The open question is whether Brent holds under $100 without physical proof that shipping is safer.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 13,
-      "summary": "The 10-year yield rose 0.06 points to 4.95% and the 30-year rose 0.05 points to 5.32% on a day oil fell again. Cheaper oil is not pulling yields down while inflation sits at 3.7% and the Fed leans toward hiking. The open question is whether the 10-year breaks above 5.00% even as oil eases.",
+      "age_days": 14,
+      "summary": "The 10-year yield fell 0.06 points to 4.89% and the 30-year fell 0.04 points to 5.28%, the first relief in a while, and it came with the oil drop. Both remain close to levels that have strained borrowers, with inflation at 3.7%. The open question is whether the 10-year can fall toward 4.75% or oil's slide fades and yields turn back toward 5.00%.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 11,
-      "summary": "Iran's Revolutionary Guard says four tankers caught fire after hitting mines near the Strait of Hormuz, and a ship was attacked near Oman with one Indian crew member killed. Oil still fell, so markets are betting that the diplomatic track outweighs these incidents. The open question is whether incidents like these turn into sustained attacks on shipping.",
+      "age_days": 12,
+      "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
       "runs_since_update": 0
     },
     {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 4,
-      "summary": "The Nasdaq bounced 0.83% to 25,372 after a sharp two-session slide, outperforming the Russell 2000's 0.23% gain. The doubt is still concentrated in big tech, and one up day does not repair it. The open question is whether the Nasdaq can recover toward 26,713 or rolls over again.",
+      "age_days": 5,
+      "summary": "The Nasdaq rose 1.44% to 25,737, extending its bounce, but it is still short of the 26,713 recovery line. Voters in several places backed candidates who favor data-center moratoriums, adding a political obstacle to AI building. The open question is whether the Nasdaq reclaims 26,713 or whether doubts about AI spending return once the oil relief fades.",
       "runs_since_update": 0
     },
     {
       "id": "midterm-sweep-policy-check",
       "label": "Democratic Sweep Reaction",
       "first_seen": "2026-11-03",
-      "age_days": 0,
-      "summary": "Democrats swept the midterms, and the S&P 500 rose only 0.36%, so markets did not treat the result as a shock. Investors, especially in Asia, are hoping a Democratic Congress limits tariffs and the Iran war. The open question is whether the result changes anything the Fed or bond buyers care about, namely inflation and deficits.",
+      "age_days": 1,
+      "summary": "Democrats swept the midterms, and markets are now reading the result as a brake on tariffs, the war and pressure on the Fed, with the S&P 500 up 1.58%, the dollar down 0.35% and yields lower. A Democratic Senate also has a say over Fed board appointments. The open question is whether the result changes the inflation and deficit picture, which bond buyers care about most.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 22,
-      "summary": "The Fed held rates Wednesday after September's hike, and Thursday's data showed third-quarter growth of 3.4% with inflation at 3.7%. That leaves little case for the Fed to ease, and a December hike remains the market's base case. The open question is whether oil or credit stress changes that path before December.",
-      "runs_since_update": 3
+      "age_days": 28,
+      "summary": "The Fed held rates after September's hike, with third-quarter growth at 3.4% and inflation at 3.7%, leaving little case to ease. An 8% oil drop eases the inflation pressure behind a hike, but one session does not change the trend. The open question is whether oil stays low enough to take a December hike off the table.",
+      "runs_since_update": 0
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1994",
-      "context": "The Fed doubled short-term rates over 1994 and the 10-year Treasury yield rose f",
-      "date_used": "2026-10-06"
-    },
-    {
-      "year": "2023",
-      "context": "The 10-year yield pushed up to about 5% in October 2023, and the S&P 500 fell ro",
-      "date_used": "2026-10-06"
-    },
     {
       "year": "2008",
       "context": "The European Central Bank raised its rate to 4.25% in July 2008 to fight energy-",
@@ -124,6 +114,16 @@
       "year": "1973",
       "context": "The Nifty Fifty were the era's can't-miss growth giants, bought at very high pri",
       "date_used": "2026-10-30"
+    },
+    {
+      "year": "1991",
+      "context": "On January 17, 1991, when the US-led air campaign against Iraq began, crude fell",
+      "date_used": "2026-11-04"
+    },
+    {
+      "year": "2022",
+      "context": "After Russia invaded Ukraine, Brent closed near $128 on March 8, 2022, then fell",
+      "date_used": "2026-11-04"
     }
   ],
   "open_watchlist": [
@@ -148,30 +148,6 @@
       "date_added": "2026-10-30",
       "condition": "The Russell 2000 closes below 2,750.",
       "meaning": "Small caps breaking lower would show the damage has moved beyond big tech into the broader economy.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-30-3",
-      "date_added": "2026-10-30",
-      "condition": "Gold closes below 3,800.",
-      "meaning": "A further drop would confirm investors are selling their winners to raise cash, a sign of forced selling rather than a calm rotation.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-02-0",
-      "date_added": "2026-11-02",
-      "condition": "Brent closes back above $110.",
-      "meaning": "The market has stopped believing in a quick Iran deal, and today's oil drop was only a one-day bet.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-02-1",
-      "date_added": "2026-11-02",
-      "condition": "Brent closes below $100.",
-      "meaning": "Traders are treating a deal as real, which would take real pressure off inflation and the Fed's hiking path.",
       "status": "open",
       "outcome": ""
     },
@@ -204,6 +180,22 @@
       "date_added": "2026-11-03",
       "condition": "The Nasdaq closes above 26,713.",
       "meaning": "That would mark a full repair of the AI selloff and show today's bounce was the start of a recovery, not a pause.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-04-1",
+      "date_added": "2026-11-04",
+      "condition": "The 10-year Treasury yield closes above 5.00%.",
+      "meaning": "Bond buyers are ignoring cheaper oil and today's yield relief has failed.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-04-2",
+      "date_added": "2026-11-04",
+      "condition": "The Dow closes below 52,000.",
+      "meaning": "The market has given back almost all of today's 3% jump, which would say the rally was a one-day reaction to oil and the election.",
       "status": "open",
       "outcome": ""
     }
