@@ -4,16 +4,40 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 30,
-      "summary": "Brent fell 8.67% to $94.62 and WTI 8.29% to $88.12, taking crude well below the $100 line on bets that politics will restrain the war. No deal is signed and ships are still catching fire near Hormuz, so the drop rests on expectations. The open question is whether Brent holds under $100 without physical proof that shipping is safer.",
+      "age_days": 31,
+      "summary": "Brent rose 3.88% to $98.29 and WTI rose 2.72% to $90.52, giving back part of the recent drop while staying under $100. No deal is signed, and the Iran war is still being defended politically. The open question is whether Brent holds under $100 without physical proof that shipping through Hormuz is safer.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 14,
-      "summary": "The 10-year yield fell 0.06 points to 4.89% and the 30-year fell 0.04 points to 5.28%, the first relief in a while, and it came with the oil drop. Both remain close to levels that have strained borrowers, with inflation at 3.7%. The open question is whether the 10-year can fall toward 4.75% or oil's slide fades and yields turn back toward 5.00%.",
+      "age_days": 15,
+      "summary": "The 10-year yield fell 0.06 points to 4.84% and the 30-year fell 0.03 points to 5.25% as some money fled stocks for government bonds. Yields remain high with inflation at 3.7%, so the relief is thin. The open question is whether the 10-year can fall toward 4.75% or oil pushes it back toward 5.00%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-spending-backlash",
+      "label": "AI Spending Backlash",
+      "first_seen": "2026-10-30",
+      "age_days": 6,
+      "summary": "The Nasdaq's bounce was erased in one session: it fell 5.52% to 24,315 and entered correction territory. The most likely cause is a fear that a Democratic Congress and local data-center moratoriums will slow AI building, and retail investors sold more stock in one day than at any point since the Covid sell-off. The open question is whether the Nasdaq can climb back above 25,000 or breaks below 24,000, which would mean investors are repricing AI rather than panicking.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "midterm-sweep-policy-check",
+      "label": "Democratic Sweep Reaction",
+      "first_seen": "2026-11-03",
+      "age_days": 2,
+      "summary": "The first read of the Democratic sweep was relief, as a brake on tariffs, the war and pressure on the Fed. Today's session turned that around: the same result is now being priced as a regulatory threat to the AI industry that leads the market. The open question is whether the political check is a net positive for markets or whether tech's losses outweigh the relief elsewhere.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 29,
+      "summary": "Cleveland Fed President Beth Hammack and Richmond Fed President Thomas Barkin both favor gradual rate hikes because inflation stays high, and the Bank of England raised its rate to 4% from 3.75% with another rise signaled. A 4% stock drop did not change that tone, so there is no sign of a central-bank rescue. The open question is whether oil stays low enough to take a December Fed hike off the table.",
       "runs_since_update": 0
     },
     {
@@ -22,44 +46,10 @@
       "first_seen": "2026-10-23",
       "age_days": 12,
       "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-spending-backlash",
-      "label": "AI Spending Backlash",
-      "first_seen": "2026-10-30",
-      "age_days": 5,
-      "summary": "The Nasdaq rose 1.44% to 25,737, extending its bounce, but it is still short of the 26,713 recovery line. Voters in several places backed candidates who favor data-center moratoriums, adding a political obstacle to AI building. The open question is whether the Nasdaq reclaims 26,713 or whether doubts about AI spending return once the oil relief fades.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "midterm-sweep-policy-check",
-      "label": "Democratic Sweep Reaction",
-      "first_seen": "2026-11-03",
-      "age_days": 1,
-      "summary": "Democrats swept the midterms, and markets are now reading the result as a brake on tariffs, the war and pressure on the Fed, with the S&P 500 up 1.58%, the dollar down 0.35% and yields lower. A Democratic Senate also has a say over Fed board appointments. The open question is whether the result changes the inflation and deficit picture, which bond buyers care about most.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 28,
-      "summary": "The Fed held rates after September's hike, with third-quarter growth at 3.4% and inflation at 3.7%, leaving little case to ease. An 8% oil drop eases the inflation pressure behind a hike, but one session does not change the trend. The open question is whether oil stays low enough to take a December hike off the table.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2008",
-      "context": "The European Central Bank raised its rate to 4.25% in July 2008 to fight energy-",
-      "date_used": "2026-10-07"
-    },
-    {
-      "year": "2011",
-      "context": "The ECB raised rates in April and July 2011 as Brent held above $100, again citi",
-      "date_used": "2026-10-07"
-    },
     {
       "year": "2019",
       "context": "In September 2019, drone and missile strikes knocked out roughly half of Saudi A",
@@ -124,6 +114,16 @@
       "year": "2022",
       "context": "After Russia invaded Ukraine, Brent closed near $128 on March 8, 2022, then fell",
       "date_used": "2026-11-04"
+    },
+    {
+      "year": "2000",
+      "context": "In April 2000, a federal judge ruled that Microsoft had illegally abused its mon",
+      "date_used": "2026-11-05"
+    },
+    {
+      "year": "2024",
+      "context": "On August 5, 2024, the Nasdaq fell about 3.4% and the VIX spiked as a crowded, b",
+      "date_used": "2026-11-05"
     }
   ],
   "open_watchlist": [
@@ -136,34 +136,10 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-10-30-1",
-      "date_added": "2026-10-30",
-      "condition": "The VIX closes above 25.",
-      "meaning": "Fear would be rising from a moderate level to a stress level, a sign that selling has become forced rather than selective.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-10-30-2",
-      "date_added": "2026-10-30",
-      "condition": "The Russell 2000 closes below 2,750.",
-      "meaning": "Small caps breaking lower would show the damage has moved beyond big tech into the broader economy.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-02-2",
       "date_added": "2026-11-02",
       "condition": "The 10-year Treasury yield closes below 4.75%.",
       "meaning": "Bond buyers finally believe cheaper oil will last, which would be the first real sign of relief on borrowing costs.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-02-3",
-      "date_added": "2026-11-02",
-      "condition": "The Nasdaq closes below 24,500.",
-      "meaning": "The AI-spending doubt is deepening beyond a two-day reaction and big tech is heading for a larger correction.",
       "status": "open",
       "outcome": ""
     },
@@ -176,14 +152,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-03-2",
-      "date_added": "2026-11-03",
-      "condition": "The Nasdaq closes above 26,713.",
-      "meaning": "That would mark a full repair of the AI selloff and show today's bounce was the start of a recovery, not a pause.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-04-1",
       "date_added": "2026-11-04",
       "condition": "The 10-year Treasury yield closes above 5.00%.",
@@ -192,10 +160,26 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-04-2",
-      "date_added": "2026-11-04",
-      "condition": "The Dow closes below 52,000.",
-      "meaning": "The market has given back almost all of today's 3% jump, which would say the rally was a one-day reaction to oil and the election.",
+      "id": "w-2026-11-05-1",
+      "date_added": "2026-11-05",
+      "condition": "The Nasdaq closes above 25,000.",
+      "meaning": "Today's sell-off was mostly forced selling, and the AI trade is stabilizing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-05-2",
+      "date_added": "2026-11-05",
+      "condition": "The VIX closes above 35.",
+      "meaning": "Fear has moved from elevated to panic, which tends to mean more forced selling before a bottom.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-05-3",
+      "date_added": "2026-11-05",
+      "condition": "Brent crude closes above $100.",
+      "meaning": "Renewed inflation pressure makes a Fed hike more likely and removes the one cushion stocks could still lean on.",
       "status": "open",
       "outcome": ""
     }
