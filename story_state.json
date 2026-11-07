@@ -4,8 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 31,
-      "summary": "Brent rose 3.88% to $98.29 and WTI rose 2.72% to $90.52, giving back part of the recent drop while staying under $100. No deal is signed, and the Iran war is still being defended politically. The open question is whether Brent holds under $100 without physical proof that shipping through Hormuz is safer.",
+      "age_days": 32,
+      "summary": "Brent closed at $98.32 and WTI at $90.83, both nearly flat, even with reports of missile strikes on an Iranian island and Qatar saying its mediation is holding back escalation. Oil is not reacting to the incidents. The open question is whether Brent stays under $100 without physical proof that Hormuz shipping is safer.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-spending-backlash",
+      "label": "AI Spending Backlash",
+      "first_seen": "2026-10-30",
+      "age_days": 7,
+      "summary": "After Thursday's 5.52% rout, the Nasdaq rebounded 1.09% to 24,579 but remains in correction territory (down 10% or more from its high) and below 25,000. The VIX fell to 25.64 but is still elevated. The open question is whether this is a lasting recovery or a pause before more selling, with 24,000 as the line that would signal repricing rather than panic.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "midterm-sweep-policy-check",
+      "label": "Democratic Sweep Reaction",
+      "first_seen": "2026-11-03",
+      "age_days": 3,
+      "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 30,
+      "summary": "October payrolls of 165,000 against about 65,000 expected, with unemployment edging down, revived December hike bets and pushed the dollar up 0.74%. Fed officials had already leaned toward gradual hikes with inflation at 3.7%. The open question is whether the 10-year yield stays below 5.00% as hike pricing builds, or whether strong data pushes it through.",
       "runs_since_update": 0
     },
     {
@@ -14,31 +38,7 @@
       "first_seen": "2026-10-21",
       "age_days": 15,
       "summary": "The 10-year yield fell 0.06 points to 4.84% and the 30-year fell 0.03 points to 5.25% as some money fled stocks for government bonds. Yields remain high with inflation at 3.7%, so the relief is thin. The open question is whether the 10-year can fall toward 4.75% or oil pushes it back toward 5.00%.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-spending-backlash",
-      "label": "AI Spending Backlash",
-      "first_seen": "2026-10-30",
-      "age_days": 6,
-      "summary": "The Nasdaq's bounce was erased in one session: it fell 5.52% to 24,315 and entered correction territory. The most likely cause is a fear that a Democratic Congress and local data-center moratoriums will slow AI building, and retail investors sold more stock in one day than at any point since the Covid sell-off. The open question is whether the Nasdaq can climb back above 25,000 or breaks below 24,000, which would mean investors are repricing AI rather than panicking.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "midterm-sweep-policy-check",
-      "label": "Democratic Sweep Reaction",
-      "first_seen": "2026-11-03",
-      "age_days": 2,
-      "summary": "The first read of the Democratic sweep was relief, as a brake on tariffs, the war and pressure on the Fed. Today's session turned that around: the same result is now being priced as a regulatory threat to the AI industry that leads the market. The open question is whether the political check is a net positive for markets or whether tech's losses outweigh the relief elsewhere.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 29,
-      "summary": "Cleveland Fed President Beth Hammack and Richmond Fed President Thomas Barkin both favor gradual rate hikes because inflation stays high, and the Bank of England raised its rate to 4% from 3.75% with another rise signaled. A 4% stock drop did not change that tone, so there is no sign of a central-bank rescue. The open question is whether oil stays low enough to take a December Fed hike off the table.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "iran-war-resumption-risk",
@@ -46,15 +46,10 @@
       "first_seen": "2026-10-23",
       "age_days": 12,
       "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2019",
-      "context": "In September 2019, drone and missile strikes knocked out roughly half of Saudi A",
-      "date_used": "2026-10-08"
-    },
     {
       "year": "1951",
       "context": "During WWII the Fed held long-term Treasury borrowing costs under a ceiling of a",
@@ -124,6 +119,16 @@
       "year": "2024",
       "context": "On August 5, 2024, the Nasdaq fell about 3.4% and the VIX spiked as a crowded, b",
       "date_used": "2026-11-05"
+    },
+    {
+      "year": "2013",
+      "context": "In May 2013 the Fed hinted it would slow its bond buying, and the 10-year Treasu",
+      "date_used": "2026-11-06"
+    },
+    {
+      "year": "1994",
+      "context": "The Fed surprised markets by starting to raise rates in February 1994, taking it",
+      "date_used": "2026-11-06"
     }
   ],
   "open_watchlist": [
@@ -180,6 +185,30 @@
       "date_added": "2026-11-05",
       "condition": "Brent crude closes above $100.",
       "meaning": "Renewed inflation pressure makes a Fed hike more likely and removes the one cushion stocks could still lean on.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-06-0",
+      "date_added": "2026-11-06",
+      "condition": "The Nasdaq closes below 24,000.",
+      "meaning": "That would take out Thursday's low area and signal investors are repricing AI stocks rather than just panicking, so today's bounce was a pause.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-06-1",
+      "date_added": "2026-11-06",
+      "condition": "The VIX closes below 20.",
+      "meaning": "That would show the fear from Thursday's rout has largely drained away, supporting the case that the tech snapback has legs.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-06-2",
+      "date_added": "2026-11-06",
+      "condition": "The dollar index closes above 103.50.",
+      "meaning": "That would mean hike pricing is intensifying beyond today's reaction, adding pressure on gold, overseas earnings and risk assets.",
       "status": "open",
       "outcome": ""
     }
