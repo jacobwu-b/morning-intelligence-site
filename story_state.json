@@ -4,16 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 32,
-      "summary": "Brent closed at $98.32 and WTI at $90.83, both nearly flat, even with reports of missile strikes on an Iranian island and Qatar saying its mediation is holding back escalation. Oil is not reacting to the incidents. The open question is whether Brent stays under $100 without physical proof that Hormuz shipping is safer.",
+      "age_days": 35,
+      "summary": "Brent fell 5.85% to $92.57 and WTI fell 4.38% to $86.85, the lowest in this stretch, as tanker traffic through Hormuz improved, with liquefied natural gas shipments there at their highest since the war began. Oil is now trading on the flow of ships rather than on the incidents. The open question is whether Brent holds below $95 if another shipping incident occurs.",
       "runs_since_update": 0
     },
     {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 7,
-      "summary": "After Thursday's 5.52% rout, the Nasdaq rebounded 1.09% to 24,579 but remains in correction territory (down 10% or more from its high) and below 25,000. The VIX fell to 25.64 but is still elevated. The open question is whether this is a lasting recovery or a pause before more selling, with 24,000 as the line that would signal repricing rather than panic.",
+      "age_days": 10,
+      "summary": "The Nasdaq rose 2.74% to 25,253, reclaiming 25,000 after Thursday's 5.52% rout. Two rebound sessions have repaired only part of that loss. The Russell 2000 gained more than the Nasdaq today, so the bounce was driven by oil and rate relief across the market rather than a fresh vote of confidence in AI spending. The open question is whether 25,000 holds on a down day, with 24,000 as the line that would signal repricing.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 33,
+      "summary": "The dollar fell 0.64% to 101.65, giving back most of last week's jump after strong payrolls, as cheaper oil softened the case for a December hike. Inflation at 3.7% still keeps the Fed leaning toward gradual hikes. The next inflation report is the test of whether the hike case is fading or just paused.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "global-bond-strain",
+      "label": "Global Borrowing Costs Climb",
+      "first_seen": "2026-10-21",
+      "age_days": 19,
+      "summary": "The 10-year yield held at 4.86% and the 30-year at 5.26% despite the oil drop and the stock rally. Bonds are not yet pricing the inflation relief that stocks are. The open question is whether the inflation report lets the 10-year slide toward 4.75% or pushes it back toward 5.00%.",
       "runs_since_update": 0
     },
     {
@@ -22,22 +38,6 @@
       "first_seen": "2026-11-03",
       "age_days": 3,
       "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 30,
-      "summary": "October payrolls of 165,000 against about 65,000 expected, with unemployment edging down, revived December hike bets and pushed the dollar up 0.74%. Fed officials had already leaned toward gradual hikes with inflation at 3.7%. The open question is whether the 10-year yield stays below 5.00% as hike pricing builds, or whether strong data pushes it through.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "global-bond-strain",
-      "label": "Global Borrowing Costs Climb",
-      "first_seen": "2026-10-21",
-      "age_days": 15,
-      "summary": "The 10-year yield fell 0.06 points to 4.84% and the 30-year fell 0.03 points to 5.25% as some money fled stocks for government bonds. Yields remain high with inflation at 3.7%, so the relief is thin. The open question is whether the 10-year can fall toward 4.75% or oil pushes it back toward 5.00%.",
       "runs_since_update": 1
     },
     {
@@ -46,20 +46,10 @@
       "first_seen": "2026-10-23",
       "age_days": 12,
       "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1951",
-      "context": "During WWII the Fed held long-term Treasury borrowing costs under a ceiling of a",
-      "date_used": "2026-10-09"
-    },
-    {
-      "year": "2021",
-      "context": "Turkey's president fired central bank chief Naci Agbal in March 2021 after he ra",
-      "date_used": "2026-10-09"
-    },
     {
       "year": "2001",
       "context": "Telecom companies borrowed heavily in the late 1990s to build fiber networks, an",
@@ -165,22 +155,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-05-1",
-      "date_added": "2026-11-05",
-      "condition": "The Nasdaq closes above 25,000.",
-      "meaning": "Today's sell-off was mostly forced selling, and the AI trade is stabilizing.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-05-2",
-      "date_added": "2026-11-05",
-      "condition": "The VIX closes above 35.",
-      "meaning": "Fear has moved from elevated to panic, which tends to mean more forced selling before a bottom.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-05-3",
       "date_added": "2026-11-05",
       "condition": "Brent crude closes above $100.",
@@ -197,18 +171,34 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-06-1",
-      "date_added": "2026-11-06",
-      "condition": "The VIX closes below 20.",
-      "meaning": "That would show the fear from Thursday's rout has largely drained away, supporting the case that the tech snapback has legs.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-06-2",
       "date_added": "2026-11-06",
       "condition": "The dollar index closes above 103.50.",
       "meaning": "That would mean hike pricing is intensifying beyond today's reaction, adding pressure on gold, overseas earnings and risk assets.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-09-0",
+      "date_added": "2026-11-09",
+      "condition": "Brent crude closes below $90.",
+      "meaning": "Oil would be pricing real normalization in Hormuz shipping, which strengthens the case that the inflation threat is fading.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-09-2",
+      "date_added": "2026-11-09",
+      "condition": "The VIX closes above 25.",
+      "meaning": "Today's calm would have been temporary and the fear from the tech rout would be returning.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-09-3",
+      "date_added": "2026-11-09",
+      "condition": "The S&P 500 closes below 7,375, erasing all of today's gain.",
+      "meaning": "Today's rally would be shown to have been a one-day bounce rather than the start of a recovery.",
       "status": "open",
       "outcome": ""
     }
