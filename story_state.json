@@ -4,32 +4,32 @@
       "id": "gulf-oil-flows-recovering",
       "label": "Gulf Oil Slowly Returns",
       "first_seen": "2026-10-05",
-      "age_days": 35,
-      "summary": "Brent fell 5.85% to $92.57 and WTI fell 4.38% to $86.85, the lowest in this stretch, as tanker traffic through Hormuz improved, with liquefied natural gas shipments there at their highest since the war began. Oil is now trading on the flow of ships rather than on the incidents. The open question is whether Brent holds below $95 if another shipping incident occurs.",
+      "age_days": 36,
+      "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
       "runs_since_update": 0
     },
     {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 10,
-      "summary": "The Nasdaq rose 2.74% to 25,253, reclaiming 25,000 after Thursday's 5.52% rout. Two rebound sessions have repaired only part of that loss. The Russell 2000 gained more than the Nasdaq today, so the bounce was driven by oil and rate relief across the market rather than a fresh vote of confidence in AI spending. The open question is whether 25,000 holds on a down day, with 24,000 as the line that would signal repricing.",
+      "age_days": 11,
+      "summary": "The Nasdaq fell 0.74% to 25,066 and held above 25,000 on a down day, though only barely. Higher yields hit tech hardest because its profits sit furthest in the future. The open question is whether 25,000 holds if the 10-year closes above 5%, with 24,000 as the line that would signal repricing.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 33,
-      "summary": "The dollar fell 0.64% to 101.65, giving back most of last week's jump after strong payrolls, as cheaper oil softened the case for a December hike. Inflation at 3.7% still keeps the Fed leaning toward gradual hikes. The next inflation report is the test of whether the hike case is fading or just paused.",
+      "age_days": 34,
+      "summary": "The October inflation report was the test, and it came in hotter than expected: prices rose 0.4% for the month, led by housing and food while energy cooled. The dollar rose 0.57% to 102.23 and comments from Fed officials added to rate worries, so the hike case is no longer fading. The open question is whether housing and food pressure eases enough to take a December hike off the table.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 19,
-      "summary": "The 10-year yield held at 4.86% and the 30-year at 5.26% despite the oil drop and the stock rally. Bonds are not yet pricing the inflation relief that stocks are. The open question is whether the inflation report lets the 10-year slide toward 4.75% or pushes it back toward 5.00%.",
+      "age_days": 20,
+      "summary": "The 10-year yield jumped 0.12 percentage points to 4.98% and the 30-year rose 0.09 to 5.35%, resolving the earlier fork toward 5.00% rather than 4.75%. Bonds are now repricing for stickier inflation while oil keeps falling. The open question is whether the 10-year closes above 5.00% and the 30-year above 5.40%.",
       "runs_since_update": 0
     },
     {
@@ -38,7 +38,7 @@
       "first_seen": "2026-11-03",
       "age_days": 3,
       "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "iran-war-resumption-risk",
@@ -46,7 +46,7 @@
       "first_seen": "2026-10-23",
       "age_days": 12,
       "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
-      "runs_since_update": 3
+      "runs_since_update": 4
     }
   ],
   "historical_comps_used": [
@@ -127,14 +127,6 @@
       "date_added": "2026-10-29",
       "condition": "The Russell 2000 closes above 2,900.",
       "meaning": "Small caps are carrying the market's leadership as yields ease, so the rotation out of mega-cap tech is lasting rather than a one-day move.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-02-2",
-      "date_added": "2026-11-02",
-      "condition": "The 10-year Treasury yield closes below 4.75%.",
-      "meaning": "Bond buyers finally believe cheaper oil will last, which would be the first real sign of relief on borrowing costs.",
       "status": "open",
       "outcome": ""
     },
