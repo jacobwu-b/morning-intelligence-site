@@ -1,28 +1,36 @@
 {
   "active_themes": [
     {
-      "id": "gulf-oil-flows-recovering",
-      "label": "Gulf Oil Slowly Returns",
-      "first_seen": "2026-10-05",
-      "age_days": 36,
-      "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
-      "runs_since_update": 0
-    },
-    {
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 11,
-      "summary": "The Nasdaq fell 0.74% to 25,066 and held above 25,000 on a down day, though only barely. Higher yields hit tech hardest because its profits sit furthest in the future. The open question is whether 25,000 holds if the 10-year closes above 5%, with 24,000 as the line that would signal repricing.",
+      "age_days": 12,
+      "summary": "The Nasdaq bounced 1.6% to 25,466 after CoreWeave's strong earnings eased fears that AI infrastructure spending is not paying off, putting it well above the 25,000 line. One earnings report shows the spending is still flowing, not that it pays back. Nvidia's leadership trouble (a law firm hired to probe spying claims, a Republican senator calling for CEO Jensen Huang to resign) is the fresh threat to the relief. The open question is whether 25,000 holds if the 10-year closes above 5%.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 34,
-      "summary": "The October inflation report was the test, and it came in hotter than expected: prices rose 0.4% for the month, led by housing and food while energy cooled. The dollar rose 0.57% to 102.23 and comments from Fed officials added to rate worries, so the hike case is no longer fading. The open question is whether housing and food pressure eases enough to take a December hike off the table.",
+      "age_days": 35,
+      "summary": "After the hot October inflation report, Fed officials struck a hawkish tone and the dollar index jumped 0.67% to 102.91 while gold fell 0.74%. Wall Street's worry is shifting from too little tightening to too much of it going into 2027. The open question is whether the dollar reaches 103.50, which would show markets adding to hike bets.",
       "runs_since_update": 0
+    },
+    {
+      "id": "iran-war-resumption-risk",
+      "label": "Iran War Resumption Risk",
+      "first_seen": "2026-10-23",
+      "age_days": 19,
+      "summary": "Brent rebounded 1.39% to $92.76 and WTI rose 0.57% to $86.53 after missile debris fell in Saudi Arabia's Mecca region and geopolitical worries offset rising crude output. Brent is still below $95, so this is a bounce, not a break. The open question is whether the shipping and missile incidents become a sustained pattern that pushes Brent through $95.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 36,
+      "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
+      "runs_since_update": 1
     },
     {
       "id": "global-bond-strain",
@@ -30,7 +38,7 @@
       "first_seen": "2026-10-21",
       "age_days": 20,
       "summary": "The 10-year yield jumped 0.12 percentage points to 4.98% and the 30-year rose 0.09 to 5.35%, resolving the earlier fork toward 5.00% rather than 4.75%. Bonds are now repricing for stickier inflation while oil keeps falling. The open question is whether the 10-year closes above 5.00% and the 30-year above 5.40%.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "midterm-sweep-policy-check",
@@ -38,15 +46,7 @@
       "first_seen": "2026-11-03",
       "age_days": 3,
       "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
-      "runs_since_update": 2
-    },
-    {
-      "id": "iran-war-resumption-risk",
-      "label": "Iran War Resumption Risk",
-      "first_seen": "2026-10-23",
-      "age_days": 12,
-      "summary": "Iran's Revolutionary Guard says two tankers and a tugboat caught fire in the Strait of Hormuz, and oil still fell sharply. Markets are treating the diplomatic and political track as stronger than the incidents. The open question is whether these fires become a pattern of sustained attacks on shipping, which would erase today's oil drop.",
-      "runs_since_update": 4
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -123,14 +123,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-10-29-2",
-      "date_added": "2026-10-29",
-      "condition": "The Russell 2000 closes above 2,900.",
-      "meaning": "Small caps are carrying the market's leadership as yields ease, so the rotation out of mega-cap tech is lasting rather than a one-day move.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-03-1",
       "date_added": "2026-11-03",
       "condition": "The 30-year Treasury yield closes above 5.40%.",
@@ -191,6 +183,22 @@
       "date_added": "2026-11-09",
       "condition": "The S&P 500 closes below 7,375, erasing all of today's gain.",
       "meaning": "Today's rally would be shown to have been a one-day bounce rather than the start of a recovery.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-11-1",
+      "date_added": "2026-11-11",
+      "condition": "Nvidia announces that CEO Jensen Huang is leaving or has been removed.",
+      "meaning": "The AI trade's leading company would be in a leadership crisis, adding a company-specific shock to an already fragile tech rally.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-11-3",
+      "date_added": "2026-11-11",
+      "condition": "The VIX closes above 20.",
+      "meaning": "The calm that followed today's rally is fading, and investors are paying up again for protection against a sell-off.",
       "status": "open",
       "outcome": ""
     }
