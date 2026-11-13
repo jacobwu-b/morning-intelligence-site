@@ -4,24 +4,32 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 12,
-      "summary": "The Nasdaq bounced 1.6% to 25,466 after CoreWeave's strong earnings eased fears that AI infrastructure spending is not paying off, putting it well above the 25,000 line. One earnings report shows the spending is still flowing, not that it pays back. Nvidia's leadership trouble (a law firm hired to probe spying claims, a Republican senator calling for CEO Jensen Huang to resign) is the fresh threat to the relief. The open question is whether 25,000 holds if the 10-year closes above 5%.",
+      "age_days": 13,
+      "summary": "The Nasdaq fell 0.39% to 25,366 but held above the 25,000 line even as the 10-year closed above 5%. That is a better test result than feared, though small caps took the damage instead. The open question is whether 25,000 survives if yields keep climbing and Nvidia's leadership questions stay unresolved.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 35,
-      "summary": "After the hot October inflation report, Fed officials struck a hawkish tone and the dollar index jumped 0.67% to 102.91 while gold fell 0.74%. Wall Street's worry is shifting from too little tightening to too much of it going into 2027. The open question is whether the dollar reaches 103.50, which would show markets adding to hike bets.",
+      "age_days": 36,
+      "summary": "The dollar index rose 0.25% to 103.17, near a 19-month high, as hike bets grew, while gold fell 2.88%. Higher oil and higher yields are reinforcing each other. The open question is whether the dollar reaches 103.50, which would show markets adding further to hike bets.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 19,
-      "summary": "Brent rebounded 1.39% to $92.76 and WTI rose 0.57% to $86.53 after missile debris fell in Saudi Arabia's Mecca region and geopolitical worries offset rising crude output. Brent is still below $95, so this is a bounce, not a break. The open question is whether the shipping and missile incidents become a sustained pattern that pushes Brent through $95.",
+      "age_days": 20,
+      "summary": "Brent jumped 3.3% to $95.82 after Iran's Guards said they targeted a US early-warning radar in Bahrain, so the bounce has now crossed $95. Oil is still on track for a second weekly decline, so one close above $95 is not yet a pattern. The open question is whether Brent closes above $95 again and whether more strikes follow.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "global-bond-strain",
+      "label": "Global Borrowing Costs Climb",
+      "first_seen": "2026-10-21",
+      "age_days": 22,
+      "summary": "The 10-year Treasury yield closed at 5.10% (up 0.11 points) and the 30-year at 5.43% (up 0.08), clearing both lines the market was watching. Yields are being pushed by Fed hike bets and a rebound in oil at the same time. The open question is whether 10-year yields keep climbing toward 5.25% or slip back under 5.00%.",
       "runs_since_update": 0
     },
     {
@@ -30,15 +38,7 @@
       "first_seen": "2026-10-05",
       "age_days": 36,
       "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "global-bond-strain",
-      "label": "Global Borrowing Costs Climb",
-      "first_seen": "2026-10-21",
-      "age_days": 20,
-      "summary": "The 10-year yield jumped 0.12 percentage points to 4.98% and the 30-year rose 0.09 to 5.35%, resolving the earlier fork toward 5.00% rather than 4.75%. Bonds are now repricing for stickier inflation while oil keeps falling. The open question is whether the 10-year closes above 5.00% and the 30-year above 5.40%.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "midterm-sweep-policy-check",
@@ -46,7 +46,7 @@
       "first_seen": "2026-11-03",
       "age_days": 3,
       "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
-      "runs_since_update": 3
+      "runs_since_update": 4
     }
   ],
   "historical_comps_used": [
@@ -123,22 +123,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-11-03-1",
-      "date_added": "2026-11-03",
-      "condition": "The 30-year Treasury yield closes above 5.40%.",
-      "meaning": "The longest borrowing costs would be pushing meaningfully higher, deepening the strain on mortgages, stocks and company borrowing.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-04-1",
-      "date_added": "2026-11-04",
-      "condition": "The 10-year Treasury yield closes above 5.00%.",
-      "meaning": "Bond buyers are ignoring cheaper oil and today's yield relief has failed.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-05-3",
       "date_added": "2026-11-05",
       "condition": "Brent crude closes above $100.",
@@ -199,6 +183,14 @@
       "date_added": "2026-11-11",
       "condition": "The VIX closes above 20.",
       "meaning": "The calm that followed today's rally is fading, and investors are paying up again for protection against a sell-off.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-12-2",
+      "date_added": "2026-11-12",
+      "condition": "The Russell 2000 closes below 2,700.",
+      "meaning": "Would show the pain from high borrowing costs is deepening in smaller companies, which are the first place higher rates bite.",
       "status": "open",
       "outcome": ""
     }
