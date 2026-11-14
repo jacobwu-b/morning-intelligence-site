@@ -4,32 +4,40 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 13,
-      "summary": "The Nasdaq fell 0.39% to 25,366 but held above the 25,000 line even as the 10-year closed above 5%. That is a better test result than feared, though small caps took the damage instead. The open question is whether 25,000 survives if yields keep climbing and Nvidia's leadership questions stay unresolved.",
+      "age_days": 14,
+      "summary": "The Nasdaq fell 0.91% to 25,136, still above the 25,000 line but with little cushion, while the Russell 2000 fell a smaller 0.31%, so big tech lagged today. The open question is whether 25,000 holds if yields keep rising and Nvidia's leadership questions stay unresolved.",
       "runs_since_update": 0
     },
     {
       "id": "fed-leans-toward-hike",
       "label": "Fed Eyes Another Hike",
       "first_seen": "2026-10-07",
-      "age_days": 36,
-      "summary": "The dollar index rose 0.25% to 103.17, near a 19-month high, as hike bets grew, while gold fell 2.88%. Higher oil and higher yields are reinforcing each other. The open question is whether the dollar reaches 103.50, which would show markets adding further to hike bets.",
+      "age_days": 37,
+      "summary": "Treasury Secretary Scott Bessent is publicly arguing against a hike during the energy shock, yet rate-futures odds still point to a December increase. The dollar index rose 0.23% to 103.41, just under the 103.50 line, as hike bets held. The open question is whether the Fed sides with Treasury's supply-shock argument or with the fear that inflation is seeping deeper into the economy.",
       "runs_since_update": 0
     },
     {
       "id": "iran-war-resumption-risk",
       "label": "Iran War Resumption Risk",
       "first_seen": "2026-10-23",
-      "age_days": 20,
-      "summary": "Brent jumped 3.3% to $95.82 after Iran's Guards said they targeted a US early-warning radar in Bahrain, so the bounce has now crossed $95. Oil is still on track for a second weekly decline, so one close above $95 is not yet a pattern. The open question is whether Brent closes above $95 again and whether more strikes follow.",
+      "age_days": 21,
+      "summary": "Brent closed at $95.84, barely changed after $95.82 the day before, so it has held above $95 for two sessions, while WTI slipped to $88.56. A federal shipping-law waiver was extended another 90 days to let oil and other commodities move more freely, which shows supply is still tight. The open question is whether more strikes follow and Brent pushes toward $100.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 22,
-      "summary": "The 10-year Treasury yield closed at 5.10% (up 0.11 points) and the 30-year at 5.43% (up 0.08), clearing both lines the market was watching. Yields are being pushed by Fed hike bets and a rebound in oil at the same time. The open question is whether 10-year yields keep climbing toward 5.25% or slip back under 5.00%.",
+      "age_days": 23,
+      "summary": "The 10-year Treasury yield rose 0.05 points to 5.15% and the 30-year rose 0.05 to 5.48%, extending a climb driven by hike bets and firm oil. The open question is whether the 10-year reaches 5.25% or falls back under 5.00%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "housing-rate-freeze",
+      "label": "Housing Rate Freeze",
+      "first_seen": "2026-11-13",
+      "age_days": 0,
+      "summary": "Home sales fell to 3.75 million in October, a 16-year low and 8.8% below a year earlier, with mortgage rates near a three-year high. High long-term yields are now visibly damaging a rate-sensitive part of the real economy. The open question is whether that damage changes the Fed's hike calculus before December.",
       "runs_since_update": 0
     },
     {
@@ -38,15 +46,7 @@
       "first_seen": "2026-10-05",
       "age_days": 36,
       "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
-      "runs_since_update": 2
-    },
-    {
-      "id": "midterm-sweep-policy-check",
-      "label": "Democratic Sweep Reaction",
-      "first_seen": "2026-11-03",
-      "age_days": 3,
-      "summary": "The Democratic sweep first read as relief, then as a regulatory threat to AI. Today's tech bounce suggests part of that fear was overdone, but nothing in policy has changed. The open question is whether tech's losses outweigh the relief elsewhere, and a Senate Banking Committee led by Elizabeth Warren from January adds a new regulatory pressure point for financial firms.",
-      "runs_since_update": 4
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -119,17 +119,19 @@
       "year": "1994",
       "context": "The Fed surprised markets by starting to raise rates in February 1994, taking it",
       "date_used": "2026-11-06"
+    },
+    {
+      "year": "2008",
+      "context": "In July 2008 the European Central Bank raised its key rate to 4.25% to fight inf",
+      "date_used": "2026-11-13"
+    },
+    {
+      "year": "1990",
+      "context": "After Iraq invaded Kuwait in August 1990, oil roughly doubled to about $40 a bar",
+      "date_used": "2026-11-13"
     }
   ],
   "open_watchlist": [
-    {
-      "id": "w-2026-11-05-3",
-      "date_added": "2026-11-05",
-      "condition": "Brent crude closes above $100.",
-      "meaning": "Renewed inflation pressure makes a Fed hike more likely and removes the one cushion stocks could still lean on.",
-      "status": "open",
-      "outcome": ""
-    },
     {
       "id": "w-2026-11-06-0",
       "date_added": "2026-11-06",
@@ -163,14 +165,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-09-3",
-      "date_added": "2026-11-09",
-      "condition": "The S&P 500 closes below 7,375, erasing all of today's gain.",
-      "meaning": "Today's rally would be shown to have been a one-day bounce rather than the start of a recovery.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-11-1",
       "date_added": "2026-11-11",
       "condition": "Nvidia announces that CEO Jensen Huang is leaving or has been removed.",
@@ -191,6 +185,30 @@
       "date_added": "2026-11-12",
       "condition": "The Russell 2000 closes below 2,700.",
       "meaning": "Would show the pain from high borrowing costs is deepening in smaller companies, which are the first place higher rates bite.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-13-0",
+      "date_added": "2026-11-13",
+      "condition": "The 10-year Treasury yield closes above 5.25%.",
+      "meaning": "Hike bets are still being added to, confirming that higher borrowing costs are the dominant market force and that growth stocks face more pressure.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-13-1",
+      "date_added": "2026-11-13",
+      "condition": "The 10-year Treasury yield closes below 5.00%.",
+      "meaning": "The hike case is weakening and the squeeze on growth stocks and housing is easing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-13-3",
+      "date_added": "2026-11-13",
+      "condition": "The 30-year Treasury yield closes above 5.50%.",
+      "meaning": "Long-term borrowing costs are still climbing, which deepens the housing freeze and strengthens Treasury's argument that the Fed should not hike.",
       "status": "open",
       "outcome": ""
     }
