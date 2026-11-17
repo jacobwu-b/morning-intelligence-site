@@ -4,8 +4,24 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 14,
-      "summary": "The Nasdaq fell 0.91% to 25,136, still above the 25,000 line but with little cushion, while the Russell 2000 fell a smaller 0.31%, so big tech lagged today. The open question is whether 25,000 holds if yields keep rising and Nvidia's leadership questions stay unresolved.",
+      "age_days": 17,
+      "summary": "Nvidia CEO Jensen Huang's resignation, ahead of the company's earnings report, pushed the Nasdaq down 2.49% to 24,510, about 2% above the 24,000 line. Big tech lagged small caps, and the VIX rose to 22.91. The open question is whether Nvidia's earnings and leadership plan restore confidence or confirm that the AI spending story is cracking.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "global-bond-strain",
+      "label": "Global Borrowing Costs Climb",
+      "first_seen": "2026-10-21",
+      "age_days": 26,
+      "summary": "The 10-year Treasury yield slipped 0.03 points to 5.12% and the 30-year 0.01 to 5.47%, a tiny dip on a day stocks fell almost 2%. Bonds did not act as a safe haven, so hike bets are still setting the floor under yields. The open question is whether the 10-year reaches 5.25% or falls under 5.00%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 42,
+      "summary": "Brent fell 3.55% to $92.44 and WTI 3.21% to $85.72 as Gulf exports pick up, even with tanker attacks still in the news. Cheaper oil should ease inflation pressure, but bond yields barely responded. The open question is whether Brent holds below $95 if another shipping incident hits.",
       "runs_since_update": 0
     },
     {
@@ -14,7 +30,7 @@
       "first_seen": "2026-10-07",
       "age_days": 37,
       "summary": "Treasury Secretary Scott Bessent is publicly arguing against a hike during the energy shock, yet rate-futures odds still point to a December increase. The dollar index rose 0.23% to 103.41, just under the 103.50 line, as hike bets held. The open question is whether the Fed sides with Treasury's supply-shock argument or with the fear that inflation is seeping deeper into the economy.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "iran-war-resumption-risk",
@@ -22,15 +38,7 @@
       "first_seen": "2026-10-23",
       "age_days": 21,
       "summary": "Brent closed at $95.84, barely changed after $95.82 the day before, so it has held above $95 for two sessions, while WTI slipped to $88.56. A federal shipping-law waiver was extended another 90 days to let oil and other commodities move more freely, which shows supply is still tight. The open question is whether more strikes follow and Brent pushes toward $100.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "global-bond-strain",
-      "label": "Global Borrowing Costs Climb",
-      "first_seen": "2026-10-21",
-      "age_days": 23,
-      "summary": "The 10-year Treasury yield rose 0.05 points to 5.15% and the 30-year rose 0.05 to 5.48%, extending a climb driven by hike bets and firm oil. The open question is whether the 10-year reaches 5.25% or falls back under 5.00%.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "housing-rate-freeze",
@@ -38,28 +46,10 @@
       "first_seen": "2026-11-13",
       "age_days": 0,
       "summary": "Home sales fell to 3.75 million in October, a 16-year low and 8.8% below a year earlier, with mortgage rates near a three-year high. High long-term yields are now visibly damaging a rate-sensitive part of the real economy. The open question is whether that damage changes the Fed's hike calculus before December.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "gulf-oil-flows-recovering",
-      "label": "Gulf Oil Slowly Returns",
-      "first_seen": "2026-10-05",
-      "age_days": 36,
-      "summary": "Brent slipped 1.17% to $91.49 and WTI 0.93% to $86.04, extending oil's slide to its lowest levels since August as shipping through Hormuz normalizes. Cheaper oil is now cushioning the inflation print rather than fixing it. The open question is whether Brent stays under $95 if another shipping incident hits.",
-      "runs_since_update": 3
+      "runs_since_update": 1
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "2001",
-      "context": "Telecom companies borrowed heavily in the late 1990s to build fiber networks, an",
-      "date_used": "2026-10-16"
-    },
-    {
-      "year": "1998",
-      "context": "Russia's default and the collapse of the hedge fund Long-Term Capital Management",
-      "date_used": "2026-10-16"
-    },
     {
       "year": "1970",
       "context": "Penn Central, then the largest US railroad, went bankrupt in June 1970 while owi",
@@ -141,14 +131,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-06-2",
-      "date_added": "2026-11-06",
-      "condition": "The dollar index closes above 103.50.",
-      "meaning": "That would mean hike pricing is intensifying beyond today's reaction, adding pressure on gold, overseas earnings and risk assets.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-09-0",
       "date_added": "2026-11-09",
       "condition": "Brent crude closes below $90.",
@@ -161,22 +143,6 @@
       "date_added": "2026-11-09",
       "condition": "The VIX closes above 25.",
       "meaning": "Today's calm would have been temporary and the fear from the tech rout would be returning.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-11-1",
-      "date_added": "2026-11-11",
-      "condition": "Nvidia announces that CEO Jensen Huang is leaving or has been removed.",
-      "meaning": "The AI trade's leading company would be in a leadership crisis, adding a company-specific shock to an already fragile tech rally.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-11-3",
-      "date_added": "2026-11-11",
-      "condition": "The VIX closes above 20.",
-      "meaning": "The calm that followed today's rally is fading, and investors are paying up again for protection against a sell-off.",
       "status": "open",
       "outcome": ""
     },
@@ -209,6 +175,30 @@
       "date_added": "2026-11-13",
       "condition": "The 30-year Treasury yield closes above 5.50%.",
       "meaning": "Long-term borrowing costs are still climbing, which deepens the housing freeze and strengthens Treasury's argument that the Fed should not hike.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-16-1",
+      "date_added": "2026-11-16",
+      "condition": "The S&P 500 closes below 7,300.",
+      "meaning": "That would be roughly another 1.6% drop and show the tech sell-off is spreading into the wider market.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-16-2",
+      "date_added": "2026-11-16",
+      "condition": "Brent crude closes above $95.",
+      "meaning": "That would erase today's oil relief and revive the inflation worry that keeps Fed hike bets and bond yields high.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-16-3",
+      "date_added": "2026-11-16",
+      "condition": "The VIX closes above 30.",
+      "meaning": "That would mark a shift from nervous caution to genuine panic, the kind of regime where forced selling feeds on itself.",
       "status": "open",
       "outcome": ""
     }
