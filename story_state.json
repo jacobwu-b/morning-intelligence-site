@@ -4,16 +4,24 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 17,
-      "summary": "Nvidia CEO Jensen Huang's resignation, ahead of the company's earnings report, pushed the Nasdaq down 2.49% to 24,510, about 2% above the 24,000 line. Big tech lagged small caps, and the VIX rose to 22.91. The open question is whether Nvidia's earnings and leadership plan restore confidence or confirm that the AI spending story is cracking.",
+      "age_days": 18,
+      "summary": "Nvidia's CEO has resigned and says he would be honored to return, leaving leadership unresolved heading into the company's earnings. The Nasdaq fell 0.74% to 24,328, about 1.4% above the 24,000 line, and the VIX closed above 25. The open question is whether Nvidia's results and leadership plan restore confidence or confirm that the AI spending story is cracking.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 26,
-      "summary": "The 10-year Treasury yield slipped 0.03 points to 5.12% and the 30-year 0.01 to 5.47%, a tiny dip on a day stocks fell almost 2%. Bonds did not act as a safe haven, so hike bets are still setting the floor under yields. The open question is whether the 10-year reaches 5.25% or falls under 5.00%.",
+      "age_days": 27,
+      "summary": "The 10-year yield slipped 0.02 points to 5.10% and the 30-year 0.01 to 5.46% on a day stocks fell about 1%. Bonds again failed to act as a safe haven because hike bets keep a floor under long-term yields. The open question is whether the 10-year reaches 5.25% or falls below 5.00%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "iran-war-resumption-risk",
+      "label": "Iran War Resumption Risk",
+      "first_seen": "2026-10-23",
+      "age_days": 25,
+      "summary": "Iran fired at Kuwait after a US strike on an Iranian island, a fresh escalation. Brent rose only 0.76% to $93.14, below the $95 line, so the market is not yet pricing a real loss of supply. The open question is whether further strikes push Brent back above $95 and toward $100.",
       "runs_since_update": 0
     },
     {
@@ -22,7 +30,7 @@
       "first_seen": "2026-10-05",
       "age_days": 42,
       "summary": "Brent fell 3.55% to $92.44 and WTI 3.21% to $85.72 as Gulf exports pick up, even with tanker attacks still in the news. Cheaper oil should ease inflation pressure, but bond yields barely responded. The open question is whether Brent holds below $95 if another shipping incident hits.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "fed-leans-toward-hike",
@@ -30,15 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 37,
       "summary": "Treasury Secretary Scott Bessent is publicly arguing against a hike during the energy shock, yet rate-futures odds still point to a December increase. The dollar index rose 0.23% to 103.41, just under the 103.50 line, as hike bets held. The open question is whether the Fed sides with Treasury's supply-shock argument or with the fear that inflation is seeping deeper into the economy.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "iran-war-resumption-risk",
-      "label": "Iran War Resumption Risk",
-      "first_seen": "2026-10-23",
-      "age_days": 21,
-      "summary": "Brent closed at $95.84, barely changed after $95.82 the day before, so it has held above $95 for two sessions, while WTI slipped to $88.56. A federal shipping-law waiver was extended another 90 days to let oil and other commodities move more freely, which shows supply is still tight. The open question is whether more strikes follow and Brent pushes toward $100.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     },
     {
       "id": "housing-rate-freeze",
@@ -46,7 +46,7 @@
       "first_seen": "2026-11-13",
       "age_days": 0,
       "summary": "Home sales fell to 3.75 million in October, a 16-year low and 8.8% below a year earlier, with mortgage rates near a three-year high. High long-term yields are now visibly damaging a rate-sensitive part of the real economy. The open question is whether that damage changes the Fed's hike calculus before December.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
@@ -123,30 +123,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-11-06-0",
-      "date_added": "2026-11-06",
-      "condition": "The Nasdaq closes below 24,000.",
-      "meaning": "That would take out Thursday's low area and signal investors are repricing AI stocks rather than just panicking, so today's bounce was a pause.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-09-0",
-      "date_added": "2026-11-09",
-      "condition": "Brent crude closes below $90.",
-      "meaning": "Oil would be pricing real normalization in Hormuz shipping, which strengthens the case that the inflation threat is fading.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-09-2",
-      "date_added": "2026-11-09",
-      "condition": "The VIX closes above 25.",
-      "meaning": "Today's calm would have been temporary and the fear from the tech rout would be returning.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-12-2",
       "date_added": "2026-11-12",
       "condition": "The Russell 2000 closes below 2,700.",
@@ -199,6 +175,30 @@
       "date_added": "2026-11-16",
       "condition": "The VIX closes above 30.",
       "meaning": "That would mark a shift from nervous caution to genuine panic, the kind of regime where forced selling feeds on itself.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-17-0",
+      "date_added": "2026-11-17",
+      "condition": "The Nasdaq closes above 25,000.",
+      "meaning": "It would show the AI-leadership scare has been absorbed and the pre-earnings fear was an overreaction.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-17-1",
+      "date_added": "2026-11-17",
+      "condition": "The Dow closes below 50,000.",
+      "meaning": "It would confirm the selling is broad rather than tech-specific, with the Dow's 1.64% drop today turning into a trend.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-17-3",
+      "date_added": "2026-11-17",
+      "condition": "The VIX closes below 22.",
+      "meaning": "It would show the fear premium has drained out, a sign the Nvidia event risk has passed without lasting damage.",
       "status": "open",
       "outcome": ""
     }
