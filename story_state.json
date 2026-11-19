@@ -4,16 +4,32 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 18,
-      "summary": "Nvidia's CEO has resigned and says he would be honored to return, leaving leadership unresolved heading into the company's earnings. The Nasdaq fell 0.74% to 24,328, about 1.4% above the 24,000 line, and the VIX closed above 25. The open question is whether Nvidia's results and leadership plan restore confidence or confirm that the AI spending story is cracking.",
+      "age_days": 19,
+      "summary": "Nvidia's earnings and outlook brought relief, and the Nasdaq rose 0.42% to 24,430 while the VIX slipped to 24.56. The CEO's resignation still leaves leadership unresolved, and the Anthropic listing puts a trillion-dollar AI company in front of investors. The open question is whether the relief lasts or whether the 25,000 Nasdaq line stays out of reach.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 27,
-      "summary": "The 10-year yield slipped 0.02 points to 5.10% and the 30-year 0.01 to 5.46% on a day stocks fell about 1%. Bonds again failed to act as a safe haven because hike bets keep a floor under long-term yields. The open question is whether the 10-year reaches 5.25% or falls below 5.00%.",
+      "age_days": 28,
+      "summary": "The 10-year yield slipped 0.04 points to 5.07% and the 30-year 0.05 to 5.41%, even on a day of hawkish Fed talk. Long-term yields have stayed high but are no longer rising on every hike signal. The open question is whether the 10-year breaks below 5.00% or climbs back toward 5.25%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 44,
+      "summary": "Brent fell 1.28% to $91.95 and WTI 3.2% to $83.26, even after a Houthi strike on a Saudi wealth-fund tower in Riyadh. Oil is shrugging off attacks that do not cut actual supply. The open question is whether Brent stays under $95 if a strike hits shipping or output.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 42,
+      "summary": "Fed Governor Christopher Waller floated an outsized half-point hike, and the dollar index rose 0.36% to 103.86, above the 103.50 line. UK inflation climbing to 3.6% on record fuel prices shows the energy shock is feeding through to consumer prices abroad, which strengthens the hawks' case. The open question is whether the Fed sides with Treasury's supply-shock argument or acts on the fear that inflation is seeping deeper.",
       "runs_since_update": 0
     },
     {
@@ -22,23 +38,7 @@
       "first_seen": "2026-10-23",
       "age_days": 25,
       "summary": "Iran fired at Kuwait after a US strike on an Iranian island, a fresh escalation. Brent rose only 0.76% to $93.14, below the $95 line, so the market is not yet pricing a real loss of supply. The open question is whether further strikes push Brent back above $95 and toward $100.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "gulf-oil-flows-recovering",
-      "label": "Gulf Oil Slowly Returns",
-      "first_seen": "2026-10-05",
-      "age_days": 42,
-      "summary": "Brent fell 3.55% to $92.44 and WTI 3.21% to $85.72 as Gulf exports pick up, even with tanker attacks still in the news. Cheaper oil should ease inflation pressure, but bond yields barely responded. The open question is whether Brent holds below $95 if another shipping incident hits.",
       "runs_since_update": 1
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 37,
-      "summary": "Treasury Secretary Scott Bessent is publicly arguing against a hike during the energy shock, yet rate-futures odds still point to a December increase. The dollar index rose 0.23% to 103.41, just under the 103.50 line, as hike bets held. The open question is whether the Fed sides with Treasury's supply-shock argument or with the fear that inflation is seeping deeper into the economy.",
-      "runs_since_update": 2
     },
     {
       "id": "housing-rate-freeze",
@@ -46,7 +46,7 @@
       "first_seen": "2026-11-13",
       "age_days": 0,
       "summary": "Home sales fell to 3.75 million in October, a 16-year low and 8.8% below a year earlier, with mortgage rates near a three-year high. High long-term yields are now visibly damaging a rate-sensitive part of the real economy. The open question is whether that damage changes the Fed's hike calculus before December.",
-      "runs_since_update": 2
+      "runs_since_update": 3
     }
   ],
   "historical_comps_used": [
@@ -123,38 +123,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-11-12-2",
-      "date_added": "2026-11-12",
-      "condition": "The Russell 2000 closes below 2,700.",
-      "meaning": "Would show the pain from high borrowing costs is deepening in smaller companies, which are the first place higher rates bite.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-13-0",
-      "date_added": "2026-11-13",
-      "condition": "The 10-year Treasury yield closes above 5.25%.",
-      "meaning": "Hike bets are still being added to, confirming that higher borrowing costs are the dominant market force and that growth stocks face more pressure.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-13-1",
-      "date_added": "2026-11-13",
-      "condition": "The 10-year Treasury yield closes below 5.00%.",
-      "meaning": "The hike case is weakening and the squeeze on growth stocks and housing is easing.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-13-3",
-      "date_added": "2026-11-13",
-      "condition": "The 30-year Treasury yield closes above 5.50%.",
-      "meaning": "Long-term borrowing costs are still climbing, which deepens the housing freeze and strengthens Treasury's argument that the Fed should not hike.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-16-1",
       "date_added": "2026-11-16",
       "condition": "The S&P 500 closes below 7,300.",
@@ -199,6 +167,38 @@
       "date_added": "2026-11-17",
       "condition": "The VIX closes below 22.",
       "meaning": "It would show the fear premium has drained out, a sign the Nvidia event risk has passed without lasting damage.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-18-0",
+      "date_added": "2026-11-18",
+      "condition": "The dollar index closes above 104.50.",
+      "meaning": "Hike expectations are still building and gold and stocks face more pressure from a stronger dollar.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-18-1",
+      "date_added": "2026-11-18",
+      "condition": "Gold closes back above $3,850.",
+      "meaning": "The hawkish shock is fading and the hedging trade is stabilizing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-18-2",
+      "date_added": "2026-11-18",
+      "condition": "A Fed policymaker other than Waller publicly says a half-point hike is warranted.",
+      "meaning": "The outsized hike is a committee idea and not one governor's trial balloon, so December hike risk rises sharply.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-18-3",
+      "date_added": "2026-11-18",
+      "condition": "WTI crude closes below $80.",
+      "meaning": "Cheaper fuel is starting to take pressure off inflation, which weakens the case for a big hike.",
       "status": "open",
       "outcome": ""
     }
