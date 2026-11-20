@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thu Nov 19, 2026 | Morning Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--red);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .backfill-notice {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    background: var(--cream);
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 64px;
+    line-height: 1.5;
+  }
+  .watch-note {
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+</style>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="masthead">
+  <a href="../index.html" style="text-decoration: none; color: inherit;">
+    <div class="publication-name">Morning Intelligence</div>
+    <div class="edition-title">Market Brief <em>Daily</em></div>
+  </a>
+  <div class="masthead-right">
+    <div class="date">THURSDAY · November 19, 2026 · U.S. MARKET CLOSE</div>
+    <div class="market-status">RISK-OFF SESSION</div>
+    <div class="delta-badge">DELTA BRIEF</div>
+  </div>
+</header>
+
+
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label">S&amp;P 500</span>
+    <span class="ticker-value">7,175.83</span>
+    <span class="ticker-change down">
+      ▼ 2.02%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Nasdaq</span>
+    <span class="ticker-value">23,879</span>
+    <span class="ticker-change down">
+      ▼ 2.25%
+    </span>
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label">Dow</span>
+    <span class="ticker-value">49,097</span>
+    <span class="ticker-change down">
+      ▼ 2.19%
+    </span>
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label">Today's Thesis</div>
+    <h1 class="lead-headline">The AI Boom Just Got Blamed for Inflation, and Stocks Took the Hit</h1>
+    <p class="lead-body">The S&amp;P 500 fell <strong>2.02%</strong>, the Nasdaq <strong>2.25%</strong> and the Dow <strong>2.19%</strong>, and the VIX (the market&#x27;s fear gauge) jumped <strong>15.8%</strong> to 28.44. The selling had nothing to do with oil or bond yields, which barely moved. It came from AI itself. Two senior officials, Chicago Fed President Austan Goolsbee and IMF head Kristalina Georgieva, argued in public that the AI build-out is pushing up prices and interest rates. On the same day, Anthropic, the maker of the Claude AI assistant, finished its first trading session at <strong>$97</strong> after a record-breaking IPO. That put a huge new AI stock on the market just as the case for owning AI got harder. Stocks priced for cheap money and AI payoffs are the ones that suffer if AI itself keeps money expensive.</p>
+
+    <div class="section">
+      <div class="section-label">What's Actually Driving This</div>
+      <h2 class="section-headline">Primary: AI is now an inflation story. Secondary: a record AI listing lands into a falling market.</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">AI INFLATION FEAR</div>
+          <div class="cause-headline">The AI boom is no longer a hope for lower prices; two senior officials are now calling it a source of higher rates.</div>
+          <div class="cause-text">Chicago Fed President Austan Goolsbee tied &#x27;disturbingly high&#x27; inflation to the data-center building spree, and IMF head Kristalina Georgieva warned that AI demand will lift interest rates around the world. This lands on a Fed already leaning toward another hike, with Governor Christopher Waller floating a half-point move. Bond yields barely moved, with the 10-year at 5.05%, so the damage showed up in share prices rather than in bonds. Stocks valued on AI&#x27;s future profits are the most exposed when money stays expensive.</div>
+          <div class="cause-verdict">This is a re-pricing of how much AI is worth in a 5% interest-rate world, not a one-day scare. It fades only if the 10-year stays near 5.05% and no other Fed official backs Waller&#x27;s half-point idea; a 10-year push toward 5.25% would mean it is getting worse.</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">IPO SUPPLY</div>
+          <div class="cause-headline">A record AI listing arrived just as buyers were already losing their nerve.</div>
+          <div class="cause-text">Anthropic, valued near a trillion dollars, closed its first day at $97 as the market fell sharply. A listing that size forces investors to sell other holdings to make room, which likely amplified the drop. Gold&#x27;s 1.51% fall on a day of flat dollar and flat yields fits the same picture of investors selling whatever they can to raise cash, though that is an inference, not something the market has confirmed.</div>
+          <div class="cause-verdict">If Anthropic holds near $97 while the broader market steadies, the IPO was a side effect; a close below $90 would show that appetite for AI stock itself is cracking.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label">The Core Dynamic</div>
+      <h2 class="section-headline">AI Is Competing for the Same Money It Needs Cheap</h2>
+      <p class="section-body">The AI build-out is now bidding against everyone else for money, electricity, concrete and workers, so it is lifting the very prices and <strong>interest rates that AI stocks need to stay low</strong>. What makes this episode different is the direction: AI was supposed to be the force that eased inflation, and it is now being cast as a cause of it.</p>
+    </div>
+    
+
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label">Directional Read</div>
+      <p class="signal-text">The deciding variable is the 10-year Treasury yield, which sits at 5.05%. If it holds there while stocks fall, this is a valuation reset that can burn itself out; if it climbs toward 5.25%, the selloff has a bond-market engine behind it and the S&amp;P 500&#x27;s next stop is lower. Don&#x27;t buy a bounce until yields confirm the pressure has stopped.</p>
+      <div class="signal-kicker">
+        Scenario A — Digestion: The 10-year stays near 5.05%, Anthropic holds near $97, and the VIX slides back toward 25, which would mean today was forced selling rather than a change in outlook.<br>
+        Scenario B — Re-pricing: Another Fed official backs a half-point hike and the 10-year pushes toward 5.25%, driving the S&amp;P 500 under 7,000 and the VIX through 30.
+      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">US Close</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,175.83</span>
+            <span class="index-pct down">
+              ▼ 2.02%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Nasdaq</span>
+          <div>
+            <span class="index-price">23,879</span>
+            <span class="index-pct down">
+              ▼ 2.25%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Dow</span>
+          <div>
+            <span class="index-price">49,097</span>
+            <span class="index-pct down">
+              ▼ 2.19%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">Russell 2000</span>
+          <div>
+            <span class="index-price">2,655.11</span>
+            <span class="index-pct down">
+              ▼ 2.18%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name">VIX</span>
+          <div>
+            <span class="index-price">28.44</span>
+            <span class="index-pct up">
+              ▲ 15.8%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label">Signal Updates</div>
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">The S&amp;P 500 closes below 7,300. </span>
+          <span>The S&amp;P 500 closed at 7,175.83, below 7,300, so the pullback has gone past the line the reader was told to watch and is now a real drawdown rather than a wobble.</span>
+        </div>
+      </div>
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">The Nasdaq closes above 25,000. </span>
+          <span>Retired — the post-Nvidia relief rally has fully reversed and the Nasdaq closed at 23,879, about 4.7% below 25,000, so the question has stopped being whether tech can reach that line and become whether it holds today&#x27;s level.</span>
+        </div>
+      </div>
+      
+      <div class="resolution-item triggered">
+        <div class="resolution-icon">✓</div>
+        <div>
+          <span class="resolution-condition">The Dow closes below 50,000. </span>
+          <span>The Dow closed at 49,097, below 50,000, which shows the selling reached the old-economy blue chips and was not confined to AI names.</span>
+        </div>
+      </div>
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">The VIX closes below 22. </span>
+          <span>Retired — with the VIX at 28.44, the calm this threshold was meant to confirm is far off, and the live question is now whether fear keeps climbing, which the 30 line already tracks.</span>
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">What to Watch</div>
+      
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The S&amp;P 500 closes below 7,000. — </span>The drawdown would be deepening past a round-number floor, confirming a re-pricing rather than digestion.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">The 10-year Treasury yield closes above 5.25%. — </span>The AI-drives-rates argument would have bond-market confirmation, which is the sharpest pressure on high-priced tech shares.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Anthropic shares close below $90. — </span>Demand for AI stock itself would be fading, so the IPO stops being a side effect and becomes a signal.</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">Gold closes below $3,600. — </span>Investors would still be liquidating even safe-haven assets to raise cash, which points to forced selling that has not run its course.</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-11-18.html" style="color: var(--muted); text-decoration: none;">← Previous brief · November 18, 2026</a></nav><!-- brief-nav:end -->
+
+<footer>
+  <div class="footer-left">Morning Intelligence · Personal Edition</div>
+  <div class="disclaimer">Contextual and directional analysis for personal use only. Not investment advice.</div>
+  <div class="footer-right">November 19, 2026</div>
+</footer>
+
+</body>
+</html>

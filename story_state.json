@@ -4,16 +4,32 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 19,
-      "summary": "Nvidia's earnings and outlook brought relief, and the Nasdaq rose 0.42% to 24,430 while the VIX slipped to 24.56. The CEO's resignation still leaves leadership unresolved, and the Anthropic listing puts a trillion-dollar AI company in front of investors. The open question is whether the relief lasts or whether the 25,000 Nasdaq line stays out of reach.",
+      "age_days": 20,
+      "summary": "The relief that followed Nvidia's earnings has been erased. The Nasdaq fell 2.25% to 23,879 and the VIX rose to 28.44. Anthropic's record IPO closed its first day at $97, and the new supply of AI stock is a likely extra source of selling pressure. The open question is whether the market treats this as digestion or as a re-pricing of AI valuations.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 28,
-      "summary": "The 10-year yield slipped 0.04 points to 5.07% and the 30-year 0.05 to 5.41%, even on a day of hawkish Fed talk. Long-term yields have stayed high but are no longer rising on every hike signal. The open question is whether the 10-year breaks below 5.00% or climbs back toward 5.25%.",
+      "age_days": 29,
+      "summary": "The 10-year yield edged down 0.01 points to 5.05% and the 30-year to 5.40% even as stocks sold off hard. Long-term yields are high but holding rather than climbing. The open question is whether the 10-year breaks below 5.00% or climbs toward 5.25%.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 43,
+      "summary": "Fed Governor Christopher Waller's half-point hike idea remains unechoed by any other policymaker. Goolsbee's inflation warning adds a second voice on the hawkish side of the inflation argument, though he did not call for a specific move. The open question is whether another official endorses a half-point hike before December.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-inflation-rate-link",
+      "label": "AI Drives Inflation",
+      "first_seen": "2026-11-19",
+      "age_days": 0,
+      "summary": "Chicago Fed President Austan Goolsbee called AI-linked inflation 'disturbingly high', pointing to the data-center construction boom. IMF head Kristalina Georgieva warned AI demand will push interest rates up worldwide. This breaks the older hope that AI would be a disinflationary productivity story. The open question is whether bond yields start to confirm it, with the 10-year at 5.05% today.",
       "runs_since_update": 0
     },
     {
@@ -22,15 +38,7 @@
       "first_seen": "2026-10-05",
       "age_days": 44,
       "summary": "Brent fell 1.28% to $91.95 and WTI 3.2% to $83.26, even after a Houthi strike on a Saudi wealth-fund tower in Riyadh. Oil is shrugging off attacks that do not cut actual supply. The open question is whether Brent stays under $95 if a strike hits shipping or output.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 42,
-      "summary": "Fed Governor Christopher Waller floated an outsized half-point hike, and the dollar index rose 0.36% to 103.86, above the 103.50 line. UK inflation climbing to 3.6% on record fuel prices shows the energy shock is feeding through to consumer prices abroad, which strengthens the hawks' case. The open question is whether the Fed sides with Treasury's supply-shock argument or acts on the fear that inflation is seeping deeper.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "iran-war-resumption-risk",
@@ -38,15 +46,7 @@
       "first_seen": "2026-10-23",
       "age_days": 25,
       "summary": "Iran fired at Kuwait after a US strike on an Iranian island, a fresh escalation. Brent rose only 0.76% to $93.14, below the $95 line, so the market is not yet pricing a real loss of supply. The open question is whether further strikes push Brent back above $95 and toward $100.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "housing-rate-freeze",
-      "label": "Housing Rate Freeze",
-      "first_seen": "2026-11-13",
-      "age_days": 0,
-      "summary": "Home sales fell to 3.75 million in October, a 16-year low and 8.8% below a year earlier, with mortgage rates near a three-year high. High long-term yields are now visibly damaging a rate-sensitive part of the real economy. The open question is whether that damage changes the Fed's hike calculus before December.",
-      "runs_since_update": 3
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
@@ -123,14 +123,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-11-16-1",
-      "date_added": "2026-11-16",
-      "condition": "The S&P 500 closes below 7,300.",
-      "meaning": "That would be roughly another 1.6% drop and show the tech sell-off is spreading into the wider market.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-16-2",
       "date_added": "2026-11-16",
       "condition": "Brent crude closes above $95.",
@@ -143,30 +135,6 @@
       "date_added": "2026-11-16",
       "condition": "The VIX closes above 30.",
       "meaning": "That would mark a shift from nervous caution to genuine panic, the kind of regime where forced selling feeds on itself.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-17-0",
-      "date_added": "2026-11-17",
-      "condition": "The Nasdaq closes above 25,000.",
-      "meaning": "It would show the AI-leadership scare has been absorbed and the pre-earnings fear was an overreaction.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-17-1",
-      "date_added": "2026-11-17",
-      "condition": "The Dow closes below 50,000.",
-      "meaning": "It would confirm the selling is broad rather than tech-specific, with the Dow's 1.64% drop today turning into a trend.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-17-3",
-      "date_added": "2026-11-17",
-      "condition": "The VIX closes below 22.",
-      "meaning": "It would show the fear premium has drained out, a sign the Nvidia event risk has passed without lasting damage.",
       "status": "open",
       "outcome": ""
     },
@@ -199,6 +167,30 @@
       "date_added": "2026-11-18",
       "condition": "WTI crude closes below $80.",
       "meaning": "Cheaper fuel is starting to take pressure off inflation, which weakens the case for a big hike.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-19-1",
+      "date_added": "2026-11-19",
+      "condition": "The 10-year Treasury yield closes above 5.25%.",
+      "meaning": "The AI-drives-rates argument would have bond-market confirmation, which is the sharpest pressure on high-priced tech shares.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-19-2",
+      "date_added": "2026-11-19",
+      "condition": "Anthropic shares close below $90.",
+      "meaning": "Demand for AI stock itself would be fading, so the IPO stops being a side effect and becomes a signal.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-19-3",
+      "date_added": "2026-11-19",
+      "condition": "Gold closes below $3,600.",
+      "meaning": "Investors would still be liquidating even safe-haven assets to raise cash, which points to forced selling that has not run its course.",
       "status": "open",
       "outcome": ""
     }
