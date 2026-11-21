@@ -4,16 +4,32 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 20,
-      "summary": "The relief that followed Nvidia's earnings has been erased. The Nasdaq fell 2.25% to 23,879 and the VIX rose to 28.44. Anthropic's record IPO closed its first day at $97, and the new supply of AI stock is a likely extra source of selling pressure. The open question is whether the market treats this as digestion or as a re-pricing of AI valuations.",
+      "age_days": 21,
+      "summary": "The sell-off that began 2026-10-30 escalated into a rout. The Nasdaq fell 5.28% to 22,618, wiping out its 2026 gain, and the VIX closed at 35.89. Anthropic's IPO failed to calm nerves, and a securities-regulator probe into Nvidia's accounting added a trust problem to the valuation problem. The open question is whether new money keeps funding AI builders, with Anthropic's shares and the Nasdaq as the live tests.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 29,
-      "summary": "The 10-year yield edged down 0.01 points to 5.05% and the 30-year to 5.40% even as stocks sold off hard. Long-term yields are high but holding rather than climbing. The open question is whether the 10-year breaks below 5.00% or climbs toward 5.25%.",
+      "age_days": 30,
+      "summary": "The question of whether the 10-year yield would break below 5.00% was answered on the downside: it closed at 4.91% and the 30-year at 5.30%. The drop came from safety buying during a stock crash, not from easing inflation worries. The open question is whether yields keep falling on growth fear or snap back toward 5.25% once the panic fades.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "ai-inflation-rate-link",
+      "label": "AI Drives Inflation",
+      "first_seen": "2026-11-19",
+      "age_days": 1,
+      "summary": "Goolsbee's (Chicago Fed president) and Georgieva's (IMF head) warnings that AI demand pushes up prices and rates, which began 2026-11-19, did not get bond-market confirmation today, because falling yields reflected fear rather than inflation expectations. The thesis is intact but is being overrun by the growth scare. The open question is whether yields rise again once stocks stabilize.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "cross-asset-liquidation",
+      "label": "Forced Selling Everywhere",
+      "first_seen": "2026-11-20",
+      "age_days": 0,
+      "summary": "On 2026-11-20 gold fell 4.62% to $3,515.40 while Treasuries rallied and the dollar barely moved, the pattern of investors selling liquid winners to raise cash rather than hiding in havens. The open question is whether gold stabilizes when stocks do, which would mark the end of the cash-raising phase.",
       "runs_since_update": 0
     },
     {
@@ -22,15 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 43,
       "summary": "Fed Governor Christopher Waller's half-point hike idea remains unechoed by any other policymaker. Goolsbee's inflation warning adds a second voice on the hawkish side of the inflation argument, though he did not call for a specific move. The open question is whether another official endorses a half-point hike before December.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "ai-inflation-rate-link",
-      "label": "AI Drives Inflation",
-      "first_seen": "2026-11-19",
-      "age_days": 0,
-      "summary": "Chicago Fed President Austan Goolsbee called AI-linked inflation 'disturbingly high', pointing to the data-center construction boom. IMF head Kristalina Georgieva warned AI demand will push interest rates up worldwide. This breaks the older hope that AI would be a disinflationary productivity story. The open question is whether bond yields start to confirm it, with the 10-year at 5.05% today.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "gulf-oil-flows-recovering",
@@ -38,28 +46,10 @@
       "first_seen": "2026-10-05",
       "age_days": 44,
       "summary": "Brent fell 1.28% to $91.95 and WTI 3.2% to $83.26, even after a Houthi strike on a Saudi wealth-fund tower in Riyadh. Oil is shrugging off attacks that do not cut actual supply. The open question is whether Brent stays under $95 if a strike hits shipping or output.",
-      "runs_since_update": 1
-    },
-    {
-      "id": "iran-war-resumption-risk",
-      "label": "Iran War Resumption Risk",
-      "first_seen": "2026-10-23",
-      "age_days": 25,
-      "summary": "Iran fired at Kuwait after a US strike on an Iranian island, a fresh escalation. Brent rose only 0.76% to $93.14, below the $95 line, so the market is not yet pricing a real loss of supply. The open question is whether further strikes push Brent back above $95 and toward $100.",
       "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1970",
-      "context": "Penn Central, then the largest US railroad, went bankrupt in June 1970 while owi",
-      "date_used": "2026-10-22"
-    },
-    {
-      "year": "2015",
-      "context": "Energy and mining companies had borrowed heavily at high interest rates, and whe",
-      "date_used": "2026-10-22"
-    },
     {
       "year": "1979",
       "context": "Iran's revolution disrupted oil output in 1979, and crude roughly doubled over t",
@@ -119,6 +109,16 @@
       "year": "1990",
       "context": "After Iraq invaded Kuwait in August 1990, oil roughly doubled to about $40 a bar",
       "date_used": "2026-11-13"
+    },
+    {
+      "year": "2001",
+      "context": "Telecom companies borrowed heavily to lay fiber-optic cable for internet traffic",
+      "date_used": "2026-11-20"
+    },
+    {
+      "year": "2020",
+      "context": "Between March 9 and March 19, 2020, gold fell roughly 12% alongside stocks as in",
+      "date_used": "2026-11-20"
     }
   ],
   "open_watchlist": [
@@ -131,26 +131,10 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-16-3",
-      "date_added": "2026-11-16",
-      "condition": "The VIX closes above 30.",
-      "meaning": "That would mark a shift from nervous caution to genuine panic, the kind of regime where forced selling feeds on itself.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-18-0",
       "date_added": "2026-11-18",
       "condition": "The dollar index closes above 104.50.",
       "meaning": "Hike expectations are still building and gold and stocks face more pressure from a stronger dollar.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-18-1",
-      "date_added": "2026-11-18",
-      "condition": "Gold closes back above $3,850.",
-      "meaning": "The hawkish shock is fading and the hedging trade is stabilizing.",
       "status": "open",
       "outcome": ""
     },
@@ -187,10 +171,26 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-19-3",
-      "date_added": "2026-11-19",
-      "condition": "Gold closes below $3,600.",
-      "meaning": "Investors would still be liquidating even safe-haven assets to raise cash, which points to forced selling that has not run its course.",
+      "id": "w-2026-11-20-0",
+      "date_added": "2026-11-20",
+      "condition": "The VIX closes above 40.",
+      "meaning": "The market has moved from heavy fear to outright panic, which would confirm the funding squeeze and the forced-selling story rather than a one-day flush.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-20-1",
+      "date_added": "2026-11-20",
+      "condition": "The Nasdaq closes below 22,000.",
+      "meaning": "The AI sell-off is extending past Friday's drop, which would mean the funding doubt is deepening and not stabilizing.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-20-2",
+      "date_added": "2026-11-20",
+      "condition": "The 10-year Treasury yield closes below 4.75%.",
+      "meaning": "Fear of economic damage is overpowering the inflation worry, which would make a Fed hike harder to justify and mean the market expects pain from the AI unwind.",
       "status": "open",
       "outcome": ""
     }
