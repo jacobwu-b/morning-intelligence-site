@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026年11月23日星期一 |早晨情报</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f2eb;
+    --cream: #ede9df;
+    --gold: #b8973a;
+    --red: #8b1a1a;
+    --green: #1a4d2e;
+    --muted: #6b6456;
+    --rule: #d4cfc4;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'DM Sans', 'Noto Sans SC', sans-serif;
+    font-weight: 300;
+    opacity: 0;
+    animation: fadeIn 1.2s ease forwards;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding: 32px 64px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .publication-name {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 4px;
+  }
+  .edition-title {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .edition-title em { font-style: italic; font-weight: 400; color: var(--muted); }
+  .masthead-right { text-align: right; }
+  .date {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .market-status {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--green);
+  }
+  .market-status::before {
+    content: '';
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: currentColor;
+    animation: pulse 2s infinite;
+  }
+  @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
+  .ticker-strip {
+    background: var(--ink);
+    padding: 10px 64px;
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+  }
+  .ticker-item { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+  .ticker-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 10px;
+    letter-spacing: 0.15em;
+    color: #888;
+    text-transform: uppercase;
+  }
+  .ticker-value {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 13px;
+    font-weight: 500;
+    color: #f5f2eb;
+  }
+  .ticker-change {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    padding: 2px 6px;
+    border-radius: 2px;
+  }
+  .ticker-change.down { color: #ff6b6b; background: rgba(139,26,26,0.3); }
+  .ticker-change.up   { color: #6bffaa; background: rgba(26,77,46,0.3); }
+  .ticker-divider { width: 1px; height: 20px; background: #333; align-self: center; }
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 64px;
+  }
+  .primary-col {
+    padding: 48px 56px 64px 0;
+    border-right: 1px solid var(--rule);
+  }
+  .sidebar { padding: 48px 0 64px 48px; }
+  .lead-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .lead-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gold);
+    opacity: 0.3;
+  }
+  .section-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--muted);
+    opacity: 0.3;
+  }
+  .lead-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 20px;
+  }
+  .lead-headline em { font-style: italic; color: var(--red); }
+  .lead-body {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #2a2520;
+    margin-bottom: 32px;
+    font-weight: 300;
+  }
+  .lead-body strong { font-weight: 500; color: var(--ink); }
+  .section {
+    margin-top: 40px;
+    padding-top: 40px;
+    border-top: 1px solid var(--rule);
+  }
+  .section-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 14px;
+  }
+  .section-body {
+    font-size: 14px;
+    line-height: 1.85;
+    color: #3a3530;
+    font-weight: 300;
+  }
+  .section-body strong { font-weight: 500; color: var(--ink); }
+  .cause-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .cause-card {
+    padding: 18px 20px;
+    background: var(--cream);
+    border-top: 3px solid var(--ink);
+  }
+  .cause-card.secondary { border-top-color: var(--rule); }
+  .cause-title {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .cause-headline {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 8px;
+  }
+  .cause-text { font-size: 12px; line-height: 1.7; color: #4a4540; }
+  .cause-verdict {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 1px solid var(--rule);
+    font-size: 11px;
+    font-weight: 500;
+    font-style: italic;
+  }
+  .comp-list { margin-top: 16px; display: flex; flex-direction: column; gap: 12px; }
+  .comp-item {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    align-items: start;
+    padding: 14px 16px;
+    background: var(--cream);
+    border-left: 3px solid var(--gold);
+  }
+  .comp-year {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--gold);
+    line-height: 1;
+    padding-top: 2px;
+  }
+  .comp-text { font-size: 13px; line-height: 1.65; color: #3a3530; }
+  .comp-lesson { margin-top: 6px; font-size: 12px; font-weight: 500; font-style: italic; }
+  .signal-box {
+    margin-top: 40px;
+    padding: 24px 28px;
+    position: relative;
+    background: var(--ink);
+  }
+  .signal-box-label {
+    position: absolute;
+    top: -9px; left: 20px;
+    background: var(--ink);
+    padding: 0 10px;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: var(--gold);
+  }
+  .signal-text {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    color: var(--paper);
+  }
+  .signal-kicker {
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #333;
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    color: var(--gold);
+    letter-spacing: 0.05em;
+  }
+  .sidebar-section {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid var(--rule);
+  }
+  .sidebar-section:last-child { border-bottom: none; }
+  .sidebar-label {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin-bottom: 16px;
+  }
+  .index-grid { display: flex; flex-direction: column; gap: 8px; }
+  .index-tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: var(--cream);
+  }
+  .index-name {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+  }
+  .index-price {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    text-align: right;
+  }
+  .index-pct {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    margin-top: 2px;
+    display: block;
+    text-align: right;
+  }
+  .index-pct.down { color: var(--red); }
+  .index-pct.up   { color: var(--green); }
+  .watch-item {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .watch-item:last-child { margin-bottom: 0; }
+  .watch-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
+    margin-top: 7px;
+    flex-shrink: 0;
+  }
+  .watch-condition { font-weight: 500; color: var(--ink); }
+  .resolution-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.6;
+    color: #3a3530;
+  }
+  .resolution-item:last-child { margin-bottom: 0; }
+  .resolution-icon { flex-shrink: 0; width: 14px; font-size: 11px; margin-top: 1px; }
+  .resolution-condition { font-weight: 500; }
+  .resolution-item.triggered .resolution-condition { color: var(--green); }
+  .resolution-item.retired   .resolution-condition { color: var(--muted); }
+  .delta-badge {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 6px;
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    border: 1px solid var(--rule);
+    padding: 2px 8px;
+  }
+  footer {
+    border-top: 2px solid var(--ink);
+    padding: 20px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .footer-left {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 10px;
+    color: var(--muted);
+    letter-spacing: 0.05em;
+  }
+  .disclaimer {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 9px;
+    color: var(--rule);
+    letter-spacing: 0.03em;
+    max-width: 500px;
+    text-align: center;
+    line-height: 1.6;
+  }
+  .footer-right {
+    font-family: 'Playfair Display', 'Noto Serif SC', serif;
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+  }
+  .backfill-notice {
+    font-family: 'DM Mono', 'Noto Sans SC', monospace;
+    font-size: 11px;
+    color: var(--muted);
+    background: var(--cream);
+    border-bottom: 1px solid var(--rule);
+    padding: 8px 64px;
+    line-height: 1.5;
+  }
+  .watch-note {
+    font-size: 11px;
+    font-style: italic;
+    color: var(--muted);
+    margin-bottom: 12px;
+  }
+</style>
+<script defer src="/_vercel/insights/script.js"></script>
+</head>
+<body>
+
+<header class="masthead">
+  <a href="../index.html" style="text-decoration: none; color: inherit;">
+    <div class="publication-name" translate="no">Morning Intelligence</div>
+    <div class="edition-title" translate="no">市场简报 <em>日刊</em></div>
+  </a>
+  <div class="masthead-right">
+    <div class="date">星期一 ·2026年11月23日 ·美国市场收盘</div>
+    <div class="market-status" translate="no">风险偏好交易日</div>
+    <div class="delta-badge" translate="no">增量简报</div>
+  </div>
+</header>
+
+
+
+<div class="ticker-strip">
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">S&amp;P 500</span><span class="ticker-value">7,237.17</span><span class="ticker-change up">
+      ▲ 4.73%
+    </span>
+    
+    
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">Nasdaq</span><span class="ticker-value">24,090</span><span class="ticker-change up">
+      ▲ 6.51%
+    </span>
+    
+    
+  </div>
+  <div class="ticker-divider"></div>
+  
+  <div class="ticker-item">
+    <span class="ticker-label" translate="no">Dow</span><span class="ticker-value">49,595</span><span class="ticker-change up">
+      ▲ 3.01%
+    </span>
+    
+    
+  </div>
+  
+  
+</div>
+
+<div class="main">
+  <div class="primary-col">
+
+    <div class="lead-label" translate="no">今日主题</div>
+    <h1 class="lead-headline">一位CEO的回归引发了纳斯达克6.5%的回弹，却没有解决真正的问题</h1>
+    <p class="lead-body">纳斯达克指数上涨 <strong>6.51%，</strong> 标普500上涨 <strong>4.73%，</strong>远远抹去了前一盘的暴跌。导火索是英伟达首席执行官黄振的意外回归，单日为这家芯片制造商市值增加了约 <strong>9500亿美元</strong> （股价收于165.05美元）。由于主要指数按公司规模加权，一只股票近万亿美元的上涨会拖累所有股价，市场恐惧指数VIX下跌 <strong>25.8%，</strong> 至26.62。这一举动更像是松了一口气，而非新信息。英伟达仍比事件前的水平低约五万亿美元，长期美国国债收益率几乎没有波动，而预测者现在正谈论美联储将连续三次加息。所以，今天应当是恐慌逐渐松动，而不是彻底清醒的信号。</p>
+
+    <div class="section">
+      <div class="section-label" translate="no">真正的驱动因素</div>
+      <h2 class="section-headline">主要原因：英伟达CEO回报助推了缓解压力。次要因素：美联储加息押注股市忽视加息。</h2>
+      <div class="cause-grid">
+        <div class="cause-card">
+          <div class="cause-title">英伟达缓解反弹</div>
+          <div class="cause-headline">一只股票9500亿美元的回升将恐慌转变为纳斯达克6.5%的反弹。</div>
+          <div class="cause-text">英伟达的股价足够大，其一日的跳升推高了所有持有它的指数，情绪波动很可能迫使原本押注做亏的投资者重新买入。这波反弹也波及了小型公司，罗素2000指数上涨3.4%，尽管它落后于纳斯达克的6.51%，因为大型科技公司领先。白宫公开宣称黄氏的回报归功于此，这带来了新风险：市场最重要的人工智能公司如今正卷入其领导层的政治参与。</div>
+          <div class="cause-verdict">如此剧烈的反弹显示了恐惧有多严重，而非原因已消失。英伟达仍比原有价值少了五万亿美元，会计调查尚未解决，因此只有在英伟达保持涨幅且没有新好消息的情况下，反弹才会持续。</div>
+        </div>
+        <div class="cause-card secondary">
+          <div class="cause-title">徒步投注被忽视</div>
+          <div class="cause-headline">股市在预测者预测美联储将连续三次加息的当天大幅上涨。</div>
+          <div class="cause-text">美元在这一预期上上涨了0.49%，但10年期收益率为4.92%，30年期收益率则下滑至5.29%。这一组合最符合债券买家预期加息将放缓增长而非推高长期借贷成本的预期。石油下跌（西德州中质原油下跌4.54%，至80.17美元）缓解了部分通胀压力，但只有美联储下一次价格指标数据才能判断这是否足以改变12月的前景。</div>
+          <div class="cause-verdict">这次反弹并未预示加息周期的到来，因此美联储偏好的指数（投资者正关注的PCE指数）若出现高通胀，今天的反弹将变成陷阱;如果加息冷淡，则12月加息将成为值得押注的对象。</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="section">
+      <div class="section-label" translate="no">核心动态</div>
+      <h2 class="section-headline">强制抛售会在恐惧发生之前停止</h2>
+      <p class="section-body">一根被拉长的橡皮筋一释放就会猛然弹回，今天正是这样：那股在下跌时压制股票和黄金的强制现金上涨在上涨过程中逆转，黄金与股票一同上涨了 <strong>3.87%。</strong> 与正常复苏不同的是，根本没有任何改善，美联储、人工智能估值和英伟达的会计调查都仍在进行中，所以这次反弹比其规模所显示的要脆弱得多。</p>
+    </div>
+    
+
+    
+
+    <div class="signal-box">
+      <div class="signal-box-label" translate="no">方向研判</div>
+      <p class="signal-text">决定性变量是纳斯达克在接下来几个交易日内是否能守住之前收盘的22,618点，且没有英伟达再次出现亮点。如果能做到，且黄金保持反弹，强制抛售阶段很可能结束，争论将回到通胀和美联储。如果失败，今天只是一只股票的挤压，低点将被重新测试。不要把6.5%的一天误认为结论：如此大的反弹表明恐慌是真实存在的，但它无法告诉你问题已经解决。</p>
+      <div class="signal-kicker">情景A——缓解转为修复：纳斯达克指数守在22,618点以上，英伟达连续数个交易日持在165美元附近，而10年期收益率仍低于5.00%，显示买方正依靠基本面而非挤压。<br>情景B——单股反弹减弱：英伟达大幅回撤，纳斯达克回落至22,618点以下，下一通胀数据支持12月加息押注，10年期收益率向5.25%逼近。      </div>
+    </div>
+
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">美股收盘</div>
+      <div class="index-grid">
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">S&amp;P 500</span>
+          <div>
+            <span class="index-price">7,237.17</span>
+            <span class="index-pct up">
+              ▲ 4.73%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Nasdaq</span>
+          <div>
+            <span class="index-price">24,090</span>
+            <span class="index-pct up">
+              ▲ 6.51%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Dow</span>
+          <div>
+            <span class="index-price">49,595</span>
+            <span class="index-pct up">
+              ▲ 3.01%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">Russell 2000</span>
+          <div>
+            <span class="index-price">2,669.66</span>
+            <span class="index-pct up">
+              ▲ 3.4%
+            </span>
+          </div>
+        </div>
+        
+        <div class="index-tile">
+          <span class="index-name" translate="no">VIX</span>
+          <div>
+            <span class="index-price">26.62</span>
+            <span class="index-pct down">
+              ▼ 25.83%
+            </span>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+
+    
+    
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">信号更新</div>
+      
+      <div class="resolution-item retired">
+        <div class="resolution-icon">—</div>
+        <div>
+          <span class="resolution-condition">VIX收于40以上。 </span>
+          <span>已退役：恐惧指数在一个交易日内从35.89跌至26.62，因此40现在需要新的冲击，而非旧冲击的延续，而下方的22,618纳斯达克水平更能检验恐慌是否会卷土重来。</span>
+        </div>
+      </div>
+      
+    </div>
+    
+
+    <div class="sidebar-section">
+      <div class="sidebar-label" translate="no">值得关注</div>
+      
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div>纳<span class="watch-condition">斯达克收于22,618点以下，即其之前的收盘价。— </span> 反弹将完全消失，显示今天的反弹是挤压而非真正的买盘，从而让下22,000点线重新成为竞争焦点。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">英伟达股价收于150美元以下。—— </span> 若自今日165.05美元收盘下跌约9%，将表明CEO回报带来的缓解缓解正在消退，而会计调查仍悬而未决。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">黄金收于3,500美元以下。—— </span> 这将使黄金跌破前一盘被迫抛售的低点，表明现金融资阶段正在恢复而非结束。</div>
+      </div>
+      
+      <div class="watch-item">
+        <div class="watch-dot"></div>
+        <div><span class="watch-condition">10年期国债收益率收盘在5.00%或以上。— </span> 尽管引发衰退担忧，收益率仍会上升，显示加息和通胀担忧正战胜安全买价，并加剧了对股市的压力。</div>
+      </div>
+      
+    </div>
+  </aside>
+</div>
+
+<!-- brief-nav:start --><nav class="brief-nav" style="border-top: 2px solid var(--ink); padding: 20px 64px; display: flex; justify-content: space-between; align-items: center; gap: 24px; font-family: 'DM Mono', monospace; font-size: 11px; letter-spacing: 0.05em;"><a href="2026-11-20.html" style="color: var(--muted); text-decoration: none;">← 上一篇简报 · 2026年11月20日</a></nav><!-- brief-nav:end -->
+
+<footer>
+  <div class="footer-left" translate="no">Morning Intelligence · 个人版</div>
+  <div class="disclaimer" translate="no">内容仅为个人使用的背景与方向性分析，不构成投资建议。</div>
+  <div class="footer-right">2026年11月23日</div>
+</footer>
+
+</body>
+</html>

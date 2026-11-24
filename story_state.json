@@ -4,16 +4,40 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 21,
-      "summary": "The sell-off that began 2026-10-30 escalated into a rout. The Nasdaq fell 5.28% to 22,618, wiping out its 2026 gain, and the VIX closed at 35.89. Anthropic's IPO failed to calm nerves, and a securities-regulator probe into Nvidia's accounting added a trust problem to the valuation problem. The open question is whether new money keeps funding AI builders, with Anthropic's shares and the Nasdaq as the live tests.",
+      "age_days": 24,
+      "summary": "The sell-off that began 2026-10-30 hit its worst point at the prior close, with the Nasdaq at 22,618. Today the Nasdaq jumped 6.51% to 24,090 and the VIX fell to 26.62, driven largely by Nvidia's $950bn one-day recovery after its CEO's surprise return. Nvidia remains about half a trillion dollars below its pre-episode value, and the regulator probe into its accounting is unresolved. The open question is whether the rebound survives without more Nvidia-specific good news.",
       "runs_since_update": 0
     },
     {
       "id": "global-bond-strain",
       "label": "Global Borrowing Costs Climb",
       "first_seen": "2026-10-21",
-      "age_days": 30,
-      "summary": "The question of whether the 10-year yield would break below 5.00% was answered on the downside: it closed at 4.91% and the 30-year at 5.30%. The drop came from safety buying during a stock crash, not from easing inflation worries. The open question is whether yields keep falling on growth fear or snap back toward 5.25% once the panic fades.",
+      "age_days": 33,
+      "summary": "The 10-year yield closed at 4.92% (up 0.01 pts) and the 30-year at 5.29% (down 0.01 pts), essentially flat on a day stocks surged 5%. The bond market did not unwind its safety buying, and it did not add a growth-scare move either. The open question is whether yields drift back toward 5.25% as the panic fades or stay pinned by recession worries.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "cross-asset-liquidation",
+      "label": "Forced Selling Everywhere",
+      "first_seen": "2026-11-20",
+      "age_days": 3,
+      "summary": "After gold fell 4.62% to $3,515.40 on 2026-11-20 in a cash-raising scramble, it bounced 3.87% to $3,651.40 today as stocks rebounded. Gold and stocks rising together is consistent with forced selling easing, though one session does not make it a pattern. The open question is whether gold holds its bounce if stocks stall.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "fed-leans-toward-hike",
+      "label": "Fed Eyes Another Hike",
+      "first_seen": "2026-10-07",
+      "age_days": 47,
+      "summary": "Waller's half-point hike idea remains unechoed by any other policymaker. Some forecasters now expect three consecutive hikes beginning next month, and the dollar rose 0.49% to 104.32 as hike bets built. Equities ignored this today. The open question is whether the next inflation reading forces stocks to price the hikes.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 49,
+      "summary": "WTI fell 4.54% to $80.17 and Brent 3.46% to $89.37 today. Oil touched three-month lows before recovering part of the drop on Hormuz threats and suspected Iranian cyberattacks on ships. The market keeps pricing recovering supply over threats that have not yet cut barrels. The open question is whether a strike on shipping or output reverses that.",
       "runs_since_update": 0
     },
     {
@@ -22,44 +46,10 @@
       "first_seen": "2026-11-19",
       "age_days": 1,
       "summary": "Goolsbee's (Chicago Fed president) and Georgieva's (IMF head) warnings that AI demand pushes up prices and rates, which began 2026-11-19, did not get bond-market confirmation today, because falling yields reflected fear rather than inflation expectations. The thesis is intact but is being overrun by the growth scare. The open question is whether yields rise again once stocks stabilize.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "cross-asset-liquidation",
-      "label": "Forced Selling Everywhere",
-      "first_seen": "2026-11-20",
-      "age_days": 0,
-      "summary": "On 2026-11-20 gold fell 4.62% to $3,515.40 while Treasuries rallied and the dollar barely moved, the pattern of investors selling liquid winners to raise cash rather than hiding in havens. The open question is whether gold stabilizes when stocks do, which would mark the end of the cash-raising phase.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "fed-leans-toward-hike",
-      "label": "Fed Eyes Another Hike",
-      "first_seen": "2026-10-07",
-      "age_days": 43,
-      "summary": "Fed Governor Christopher Waller's half-point hike idea remains unechoed by any other policymaker. Goolsbee's inflation warning adds a second voice on the hawkish side of the inflation argument, though he did not call for a specific move. The open question is whether another official endorses a half-point hike before December.",
       "runs_since_update": 1
-    },
-    {
-      "id": "gulf-oil-flows-recovering",
-      "label": "Gulf Oil Slowly Returns",
-      "first_seen": "2026-10-05",
-      "age_days": 44,
-      "summary": "Brent fell 1.28% to $91.95 and WTI 3.2% to $83.26, even after a Houthi strike on a Saudi wealth-fund tower in Riyadh. Oil is shrugging off attacks that do not cut actual supply. The open question is whether Brent stays under $95 if a strike hits shipping or output.",
-      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
-    {
-      "year": "1979",
-      "context": "Iran's revolution disrupted oil output in 1979, and crude roughly doubled over t",
-      "date_used": "2026-10-23"
-    },
-    {
-      "year": "1984",
-      "context": "In the Iran-Iraq 'Tanker War' that ran through 1988, the two sides attacked hund",
-      "date_used": "2026-10-23"
-    },
     {
       "year": "2018",
       "context": "From late September to Christmas Eve 2018, the S&P 500 fell almost 20% and the N",
@@ -171,14 +161,6 @@
       "outcome": ""
     },
     {
-      "id": "w-2026-11-20-0",
-      "date_added": "2026-11-20",
-      "condition": "The VIX closes above 40.",
-      "meaning": "The market has moved from heavy fear to outright panic, which would confirm the funding squeeze and the forced-selling story rather than a one-day flush.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-20-1",
       "date_added": "2026-11-20",
       "condition": "The Nasdaq closes below 22,000.",
@@ -191,6 +173,22 @@
       "date_added": "2026-11-20",
       "condition": "The 10-year Treasury yield closes below 4.75%.",
       "meaning": "Fear of economic damage is overpowering the inflation worry, which would make a Fed hike harder to justify and mean the market expects pain from the AI unwind.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-23-1",
+      "date_added": "2026-11-23",
+      "condition": "Nvidia shares close below $150.",
+      "meaning": "A drop of about 9% from today's $165.05 close would show the CEO-return relief is fading while the accounting probe still hangs over the stock.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-23-2",
+      "date_added": "2026-11-23",
+      "condition": "Gold closes below $3,500.",
+      "meaning": "That would take gold under its prior session's forced-selling low and show the cash-raising phase is resuming rather than ending.",
       "status": "open",
       "outcome": ""
     }
