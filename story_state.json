@@ -4,8 +4,24 @@
       "id": "ai-spending-backlash",
       "label": "AI Spending Backlash",
       "first_seen": "2026-10-30",
-      "age_days": 24,
-      "summary": "The sell-off that began 2026-10-30 hit its worst point at the prior close, with the Nasdaq at 22,618. Today the Nasdaq jumped 6.51% to 24,090 and the VIX fell to 26.62, driven largely by Nvidia's $950bn one-day recovery after its CEO's surprise return. Nvidia remains about half a trillion dollars below its pre-episode value, and the regulator probe into its accounting is unresolved. The open question is whether the rebound survives without more Nvidia-specific good news.",
+      "age_days": 25,
+      "summary": "The sell-off that began 2026-10-30 hit bottom at a Nasdaq close of 22,618, then bounced 6.51% to 24,090 on Monday on Nvidia's one-day recovery. Today the Nasdaq fell back to 23,734 as Nvidia dropped 5% and Anthropic slid below its IPO price, while the Dow and small caps rose. Nvidia is still far below its pre-episode value, the accounting probe is unresolved, and bipartisan objections to Huang's return add a new overhang. The open question is whether the Nasdaq holds well above 22,618 without fresh Nvidia-specific good news.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "cross-asset-liquidation",
+      "label": "Forced Selling Everywhere",
+      "first_seen": "2026-11-20",
+      "age_days": 4,
+      "summary": "Gold fell 2.45% to $3,561.90 today, giving back about two-thirds of Monday's bounce from the $3,515.40 low of 2026-11-20. It fell on a day the dollar slipped and yields were flat, so neither explains it, and the likeliest reading is continued cash-raising by investors hurt in tech. Gold and the Nasdaq falling together again keeps the liquidation story alive. A close under the $3,515.40 low would erase the bounce entirely.",
+      "runs_since_update": 0
+    },
+    {
+      "id": "gulf-oil-flows-recovering",
+      "label": "Gulf Oil Slowly Returns",
+      "first_seen": "2026-10-05",
+      "age_days": 50,
+      "summary": "Oil bounced today, with WTI up 2.35% to $82.05 and Brent up 2.27% to $91.40, after Houthi threats against Saudi Red Sea ports including Jeddah and an alleged attack on a Saudi refinery. That is the first test of whether threats to output, not just shipping, can reverse the recovering-supply story. Brent is still well under $95, so the market is treating this as a risk premium, not lost barrels. The open question is whether a confirmed outage pushes prices decisively higher.",
       "runs_since_update": 0
     },
     {
@@ -14,15 +30,7 @@
       "first_seen": "2026-10-21",
       "age_days": 33,
       "summary": "The 10-year yield closed at 4.92% (up 0.01 pts) and the 30-year at 5.29% (down 0.01 pts), essentially flat on a day stocks surged 5%. The bond market did not unwind its safety buying, and it did not add a growth-scare move either. The open question is whether yields drift back toward 5.25% as the panic fades or stay pinned by recession worries.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "cross-asset-liquidation",
-      "label": "Forced Selling Everywhere",
-      "first_seen": "2026-11-20",
-      "age_days": 3,
-      "summary": "After gold fell 4.62% to $3,515.40 on 2026-11-20 in a cash-raising scramble, it bounced 3.87% to $3,651.40 today as stocks rebounded. Gold and stocks rising together is consistent with forced selling easing, though one session does not make it a pattern. The open question is whether gold holds its bounce if stocks stall.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "fed-leans-toward-hike",
@@ -30,15 +38,7 @@
       "first_seen": "2026-10-07",
       "age_days": 47,
       "summary": "Waller's half-point hike idea remains unechoed by any other policymaker. Some forecasters now expect three consecutive hikes beginning next month, and the dollar rose 0.49% to 104.32 as hike bets built. Equities ignored this today. The open question is whether the next inflation reading forces stocks to price the hikes.",
-      "runs_since_update": 0
-    },
-    {
-      "id": "gulf-oil-flows-recovering",
-      "label": "Gulf Oil Slowly Returns",
-      "first_seen": "2026-10-05",
-      "age_days": 49,
-      "summary": "WTI fell 4.54% to $80.17 and Brent 3.46% to $89.37 today. Oil touched three-month lows before recovering part of the drop on Hormuz threats and suspected Iranian cyberattacks on ships. The market keeps pricing recovering supply over threats that have not yet cut barrels. The open question is whether a strike on shipping or output reverses that.",
-      "runs_since_update": 0
+      "runs_since_update": 1
     },
     {
       "id": "ai-inflation-rate-link",
@@ -46,7 +46,7 @@
       "first_seen": "2026-11-19",
       "age_days": 1,
       "summary": "Goolsbee's (Chicago Fed president) and Georgieva's (IMF head) warnings that AI demand pushes up prices and rates, which began 2026-11-19, did not get bond-market confirmation today, because falling yields reflected fear rather than inflation expectations. The thesis is intact but is being overrun by the growth scare. The open question is whether yields rise again once stocks stabilize.",
-      "runs_since_update": 1
+      "runs_since_update": 2
     }
   ],
   "historical_comps_used": [
@@ -113,22 +113,6 @@
   ],
   "open_watchlist": [
     {
-      "id": "w-2026-11-16-2",
-      "date_added": "2026-11-16",
-      "condition": "Brent crude closes above $95.",
-      "meaning": "That would erase today's oil relief and revive the inflation worry that keeps Fed hike bets and bond yields high.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
-      "id": "w-2026-11-18-0",
-      "date_added": "2026-11-18",
-      "condition": "The dollar index closes above 104.50.",
-      "meaning": "Hike expectations are still building and gold and stocks face more pressure from a stronger dollar.",
-      "status": "open",
-      "outcome": ""
-    },
-    {
       "id": "w-2026-11-18-2",
       "date_added": "2026-11-18",
       "condition": "A Fed policymaker other than Waller publicly says a half-point hike is warranted.",
@@ -189,6 +173,22 @@
       "date_added": "2026-11-23",
       "condition": "Gold closes below $3,500.",
       "meaning": "That would take gold under its prior session's forced-selling low and show the cash-raising phase is resuming rather than ending.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-24-1",
+      "date_added": "2026-11-24",
+      "condition": "WTI crude closes above $85.",
+      "meaning": "Oil is pricing actual supply loss from the Houthi threats, not just a risk premium, which adds to inflation pressure ahead of Fed decisions.",
+      "status": "open",
+      "outcome": ""
+    },
+    {
+      "id": "w-2026-11-24-2",
+      "date_added": "2026-11-24",
+      "condition": "The VIX closes above 30.",
+      "meaning": "The quiet rotation has turned into a renewed panic, which would bring back forced selling across assets.",
       "status": "open",
       "outcome": ""
     }
